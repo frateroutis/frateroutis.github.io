@@ -1,0 +1,44 @@
+name: Frater Outis
+markdown: kramdown
+disqus:
+    shortname: frater-outis
+
+# Social Media
+social:
+  github: frateroutis
+  instagram: frateroutis
+
+# # API Configuration
+# api:
+#   liber777:
+#     name: "Liber 777 API"
+#     description: "Tabela de Correspondências do Liber 777"
+#     version: "1.0.0"
+#     base_url: "/apis/777"
+#     endpoints:
+#       - path: "/all/"
+#         description: "Todos os dados"
+#         method: "GET"
+#       - path: "/column/{id}/"
+#         description: "Coluna específica"
+#         method: "GET"
+
+# Performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+
+
+# SEO
+seo:
+  title: "Frater Outis"
+  description: "Escrita & Tecnologia"
+  keywords: "escrita, tecnologia, poesia, ficção, software"
+  author: "Frater Outis"
+  image: "/assets/images/og-image.png"  
