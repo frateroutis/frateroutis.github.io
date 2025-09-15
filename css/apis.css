@@ -1,0 +1,508 @@
+.api-777-header-card {
+    background: #181818;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px #000a;
+    padding: 2em 2em 1.5em 2em;
+    margin: 1em auto 2em auto;
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.api-777-header-card h1 {
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #eab308;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.usage-main-card .usage-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.usage-main-card .usage-card {
+    background: #222;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #0007;
+    padding: 1.5em 1.5em 1em 1.5em;
+    min-width: 260px;
+    max-width: 340px;
+    flex: 1 1 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+.usage-main-card .usage-card h3 {
+    color: #eab308;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.usage-main-card {
+    background: #181818;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #000a;
+    padding: 2em 2em 1.5em 2em;
+    max-width: 700px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.usage-main-card h2 {
+    color: #eab308;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.search-input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    width: 100%;
+    padding-right: 2.2em;
+}
+.clear-search {
+    position: absolute;
+    right: 0.5em;
+    top: 30%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #eab308;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.clear-search:hover {
+    opacity: 1;
+}
+.search-title {
+    text-align: center;
+    color: #eab308;
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.search-card {
+    background: #222;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #0007;
+    padding: 2em 2em 1.5em 2em;
+    max-width: 500px;
+    margin: 2em auto 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 0.7em 1em;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    background: #181818;
+    color: #fff;
+}
+.search-results {
+    width: 100%;
+    text-align: left;
+}
+.columns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2em;
+    margin-top: 1.5em;
+}
+.column-card {
+    background: #222;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #0007;
+    padding: 1.5em 1.2em 1em 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+}
+.column-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+
+.api-777-header-card h1 {
+    font-size: 2.2em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #eab308;
+    margin-bottom: 0.3em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.column-description {
+    color: #ccc;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+.column-stats {
+    color: #eab308;
+    font-size: 0.95em;
+    margin-bottom: 0.7em;
+}
+.column-actions {
+    margin-top: 0.5em;
+}
+.btn-secondary {
+    background: #38bdf8;
+    color: #181818;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+.usage-card h3,
+.column-header h3 {
+    color: #eab308;
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+.about-card {
+    background: #181818;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #000a;
+    padding: 2em 2em 1.5em 2em;
+    max-width: 700px;
+    margin: 2em auto;
+}
+.about-card-content p, .about-card-content ul {
+    color: #ccc;
+    font-size: 1.1em;
+    margin-bottom: 0.7em;
+}
+.about-card-content ul {
+    padding-left: 1.2em;
+}
+/* Liber 777 API - Estilo especial */
+.api-777-header h1 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #eab308;
+    margin-bottom: 0.5em;
+}
+.api-777-header h1 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #eab308;
+    margin-bottom: 0.5em;
+}
+.api-777-header p {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.api-info {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1.5em;
+    flex-wrap: wrap;
+}
+.info-item {
+    background: #222;
+    border-radius: 8px;
+    padding: 0.7em 1.2em;
+    color: #fff;
+    font-size: 1em;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-label {
+    font-weight: bold;
+    color: #eab308;
+    margin-bottom: 0.2em;
+}
+.info-value {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.api-777-content {
+    max-width: 900px;
+    margin: 0 auto 3em auto;
+}
+.api-section h2 {
+    color: #eab308;
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+.usage-card h3,
+.column-header h3 {
+    color: #eab308;
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+.usage-card h3 {
+    color: #eab308;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+.usage-card p {
+    color: #ccc;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+.url-list {
+    color: #fff;
+    font-size: 0.95em;
+    margin: 0.5em 0 0 0;
+    padding-left: 1em;
+}
+.url-list li {
+    margin-bottom: 0.3em;
+}
+.api-section h2 {
+    color: #eab308;
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+    text-align: center;
+}
+.example-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.example-card {
+    background: #222;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #0007;
+    padding: 1.2em 1.2em 1em 1.2em;
+    min-width: 220px;
+    max-width: 340px;
+    flex: 1 1 220px;
+    margin-bottom: 1em;
+    color: #fff;
+    font-size: 0.95em;
+}
+.example-card code {
+    background: #181818;
+    color: #eab308;
+    padding: 0.2em 0.5em;
+    border-radius: 6px;
+    font-size: 0.95em;
+}
+
+.api-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+/* Card para APIs */
+.api-card {
+    background: #181818;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #000a;
+    padding: 2em 2em 1.5em 2em;
+    min-width: 280px;
+    max-width: 340px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 2em;
+}
+.api-card[data-api="777"] {
+    border-left: 8px solid #eab308;
+}
+.api-card.coming-soon {
+    border-left: 8px solid #38bdf8;
+}
+.api-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+.api-card-header h3 {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0;
+}
+.api-status {
+    background: #222;
+    color: #eab308;
+    border-radius: 6px;
+    padding: 0.2em 0.7em;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+.api-card.coming-soon .api-status {
+    color: #38bdf8;
+}
+.api-stats {
+    display: flex;
+    gap: 2em;
+    margin: 1em 0;
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat-number {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #eab308;
+}
+.stat-label {
+    font-size: 0.9em;
+    color: #ccc;
+}
+.api-actions {
+    margin-top: 1em;
+}
+.btn {
+    padding: 0.7em 1.5em;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background: #eab308;
+    color: #181818;
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    background: #fff;
+    color: #eab308;
+}
+.btn-disabled {
+    background: #888;
+    color: #222;
+    cursor: not-allowed;
+}
+.api-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px #000c;
+}
+.api-777 {
+    border-left: 8px solid #eab308;
+}
+.api-futuro {
+    border-left: 8px solid #38bdf8;
+}
+.api-card h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+.api-link {
+    margin-top: 1em;
+    color: #eab308;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+.api-link:hover {
+    color: #fff;
+}
+.api-link.disabled {
+    color: #888;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+/* Estilo para página de APIs */
+.apis-page {
+    margin-top: 6em;
+    margin-bottom: 4em;
+    padding: 2em 3vw;
+    background: #111;
+    border-radius: 12px;
+    box-shadow: 0 0 24px #000a;
+}
+
+.apis-page h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.apis-list {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0;
+}
+
+.apis-list li {
+    background: #181818;
+    color: #fff;
+    margin-bottom: 1em;
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0006;
+    font-size: 1.2em;
+}
+
+.apis-list a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.apis-description {
+    color: #ccc;
+    font-size: 1em;
+    margin-bottom: 2em;
+}

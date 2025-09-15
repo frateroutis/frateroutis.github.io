@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    
+    <!-- SEO Meta Tags -->
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Frater Outis</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Jornal digital em negativo, reflexões, notícias e textos com visual clássico invertido.{% endif %}">
+    <meta name="keywords" content="Frater Outis, Jornal, Reflexões, Notícias, Substack, Medium, Música, Cultura, Filosofia">
+    <meta name="author" content="Frater Outis">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Portfólio pessoal de Lucas Rafaldini - Engenheiro de Software especializado em Cibersegurança.{% endif %}">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Portfólio pessoal de Lucas Rafaldini - Engenheiro de Software especializado em Cibersegurança.{% endif %}">
+    <meta property="twitter:image" content="{{ site.url }}/assets/images/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/apis.css">
+    
+    <!-- SiteProtect: secret used to sign cookies (client-side deterrent only).
+        If protect_secret is set in _config.yml, use it; otherwise fallback to build timestamp. -->
+    <meta name="site-protect-secret" content="{% if site.protect_secret %}{{ site.protect_secret }}{% else %}{{ site.time | date: '%Y%m%d%H%M%S' }}{% endif %}">
+    
+        <!-- Critical: hide content while SiteProtect locks page -->
+        <style id="sp-critical">
+            html.sp-prehide body > * { visibility: hidden !important; }
+            html.sp-prehide .sp-overlay { visibility: visible !important; }
+        </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Frater Outis",
+        "description": "Jornal digital em negativo, reflexões, notícias e textos com visual clássico invertido.",
+        "url": "{{ site.url }}",
+        "sameAs": [
+            "https://medium.com/@frateroutis",
+            "https://frateroutis.substack.com",
+            "https://instagram.com/frateroutis",
+            "https://open.spotify.com/user/frateroutis",
+            "https://music.apple.com/profile/frateroutis",
+            "https://youtube.com/@frateroutis"
+        ],
+        "email": "frateroutis@icloud.com"
+    }
+    </script>
+    
+    <!-- Analytics -->
+    {% include analytics.html %}
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="header-navigation">
+        <nav>
+            <span>[</span>
+            <a href="/" aria-label="Página inicial">Início</a>
+            <span> ∴ </span>
+            <a href="/apis" aria-label="APIs">APIs</a>
+            <span> ∴ </span>
+            <a href="/arvore-da-vida" aria-label="Árvore da Vida">Árvore da Vida</a>
+            <span>]</span>
+        </nav>
+    </div>
+    <!-- Main Content -->
+    <main>
+        {{ content }}
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <span>[</span>
+            <a href="https://medium.com/@frateroutis" target="_blank" rel="noopener">Medium</a>
+            <span> ∴ </span>
+            <a href="https://frateroutis.substack.com" target="_blank" rel="noopener">Substack</a>
+            <span> ∴ </span>
+            <a href="https://instagram.com/frateroutis" target="_blank" rel="noopener">Instagram</a>
+            <span> ∴ </span>
+            <a href="https://open.spotify.com/intl-pt/artist/5ryzwJMrEgM9GcF2b61VIY?si=Gm6o_cH-RrSaRIgP53V9Kw" target="_blank" rel="noopener">Spotify</a>
+            <span> ∴ </span>
+            <a href="https://music.apple.com/br/artist/frater-outis/1800792539?l=en-GB" target="_blank" rel="noopener">Apple Music</a>
+            <span> ∴ </span>
+            <a href="https://youtube.com/@frateroutis" target="_blank" rel="noopener">YouTube</a>
+            <span> ∴ </span>
+            <a href="mailto:frateroutis@icloud.com">Email</a>
+            <span>]</span>
+        </nav>
+    </footer>
+    
+
+    
+    <!-- JavaScript -->
+    <script>window.SITE_BASEURL = '{{ site.baseurl | default: "" }}';</script>
+    <script src="{{ site.baseurl | default: '' }}/js/protect.js" defer></script>
+    <script src="{{ site.baseurl | default: '' }}/js/protect-config.js" defer></script>
+    <script src="/js/app.js" defer></script>
+    
+    <!-- Service worker registration removed -->
+</body>
+</html>

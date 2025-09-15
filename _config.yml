@@ -9,19 +9,19 @@ social:
   instagram: frateroutis
 
 # # API Configuration
-# api:
-#   liber777:
-#     name: "Liber 777 API"
-#     description: "Tabela de Correspondências do Liber 777"
-#     version: "1.0.0"
-#     base_url: "/apis/777"
-#     endpoints:
-#       - path: "/all/"
-#         description: "Todos os dados"
-#         method: "GET"
-#       - path: "/column/{id}/"
-#         description: "Coluna específica"
-#         method: "GET"
+api:
+  liber777:
+    name: "Liber 777 API"
+    description: "Tabela de Correspondências do Liber 777"
+    version: "1.0.0"
+    base_url: "/apis/777"
+    endpoints:
+      - path: "/all/"
+        description: "Todos os dados"
+        method: "GET"
+      - path: "/column/{id}/"
+        description: "Coluna específica"
+        method: "GET"
 
 # Performance
 compress_html:
