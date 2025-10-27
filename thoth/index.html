@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot de Thoth • Tiragem de Cartas</title>
+    <meta name="description" content="Ferramenta interativa de tiragem de cartas do Tarot de Thoth de Aleister Crowley">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="tarot-main.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="home-button">
+            ← Voltar ao Início
+        </a>
+        
+        <header>
+            <h1>🜏 Tarot de Thoth 🜏</h1>
+            <p class="subtitle">Ferramenta de Tiragem</p>
+        </header>
+
+        <div class="controls">
+            <div class="spread-selector">
+                <label>Escolha o tipo de tiragem:</label>
+                <div class="spread-buttons">
+                    <button class="spread-btn active" data-spread="one">Uma Carta</button>
+                    <button class="spread-btn" data-spread="three">Três Cartas</button>
+                    <button class="spread-btn" data-spread="cross">Cruz Celta (5)</button>
+                    <button class="spread-btn" data-spread="horseshoe">Ferradura (7)</button>
+                    <button class="spread-btn" data-spread="celtic">Cruz Maior (10)</button>
+                </div>
+            </div>
+            <button class="draw-btn" onclick="drawCards()">✨ Tirar Cartas ✨</button>
+        </div>
+
+        <div id="spread-info" class="spread-info" style="display: none;"></div>
+        <div id="cards-container" class="cards-display"></div>
+        <button id="reset-btn" class="reset-btn" style="display: none;" onclick="resetReading()">🔄 Nova Tiragem</button>
+
+        <footer>
+            <p>© 2025 </p>
+        </footer>
+    </div>
+
+    <script src="tarot.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
-# Os Amantes — Thoth Tarot
+# Os Amantes
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -28,31 +28,31 @@ Convocado por um grande mago (representado por Eros, com arco e flecha) e corpor
 
 ### 1. Motivos centrais
 
-#### a. Casal real
+**a.** Casal real
 
 Os Amantes são imagem do aspecto que busca conectar-se ao entorno. A unidade original foi cindida em dois polos pela criação: daí em diante encontraram‑se como opostos — Yin e Yang, masculino e feminino. Por carregarem naturezas conflitantes, atraem‑se; e por isso carregam a capacidade de reunir essas oposições dentro de si.
 
-#### b. Forma e expressão
+**b.** Forma e expressão
 
 Na carta, os Amantes olham um para o outro, mas não necessariamente se *veem*. Focalizam apenas a imagem (postura e gesto são idênticos) que projetam no outro. Desse modo, não percebem que contemplam suas próprias máscaras, espelhando aquilo que lhes falta. É possível que não amem o outro tanto quanto amam seu conceito de perfeição — a imagem do parceiro ideal, e não sua natureza real.
 
 ### 2. Plano de fundo (Elementos arquetípicos)
 
-#### a. O Eremita
+**a.** O Eremita
 
 A figura do Eremita no centro da carta está completamente oculta por seu manto, como se assinalasse que a causa subjacente das coisas habita um campo além da expressão e da sabedoria comum (Crowley). Por meio de seu braço abençoador, ele confere ao amor dos dois significados divinos. Isso também se reflete no plano da criação: o pergaminho desdobrado às mãos do mago — o projeto da natureza que governa seus processos, trazendo materialização ao espírito e preservação da espécie, promovendo plenamente o esforço instintivo de integração.
 
-#### b. Eros
+**b.** Eros
 
 Esse esforço instintivo é personificado por Eros, que desperta impulsos instintivos — a manifestação física do desejo, a magia que toda criatura carrega dentro de si. Ele paira sobre o capuz do sábio.
 
-#### c. Eva e Lilith
+**c.** Eva e Lilith
 
 Eva e Lilith, simbolizando luz e sombra, posicionam‑se de cada lado do Amor (Eros), e precisam ser unidas pelos indivíduos através do poder do amor. Segundo a crença, Lilith foi a primeira esposa de Adão, originada da Primeira História da Criação. A mitologia conta que Lilith recusou estar sempre por baixo de Adão no ato sexual. Ela disse a Adão que era igual a ele, pois ambos foram criados ao mesmo tempo. Quando Adão mostrou desinteresse, ela se enfureceu e o deixou. Desde então, foi vista como demônio sombrio nas crenças judaicas — ameaça a recém‑nascidos e causa dos sonhos eróticos masculinos. Segundo crenças patriarcais, Lilith foi atribuída ao lado sombrio da mulher, em oposição a Eva, criada da costela de Adão na Segunda História da Criação.
 
 ### 3. Primeiro plano (Forma espiral)
 
-#### a. Gêmeos (nota de Crowley)
+**a.** Gêmeos (nota de Crowley)
 
 Os Amantes são a primeira carta a descrever gêmeos, motivo que reaparecerá várias vezes. Em sua forma original, contém a História da Criação. Crowley escreve:
 
@@ -60,17 +60,17 @@ Os Amantes são a primeira carta a descrever gêmeos, motivo que reaparecerá v�
 
 Na base da carta está o resultado do Casamento em forma mímica e primitiva: o Ovo Órfico alado. O ovo representa a essência de toda vida na forma masculina e feminina. Traz o símbolo da Serpente bordado no manto do Rei, e da Abelha decorando o manto da Rainha.
 
-#### b. Homem e Mulher
+**b.** Homem e Mulher
 
 O casal dos Amantes simboliza o esforço de superar a separação de gênero, a ruptura da dualidade ou o colapso magnético da unidade original — e reconquistar o paraíso perdido. Segundo certas crenças, homem e mulher foram criados como unidade e separados apenas depois. Platão escreve:
 
 > "Depois que as duas partes do ser humano foram separadas, cada lado ansiava pela outra metade, queria juntar‑se, estender as mãos, envolver‑se num abraço, desejando ser um. Assim, o antigo valor é o desejo mútuo profundamente gravado em nós, reunindo nossa natureza primitiva, criando a palavra 'dois', e curando o estado humano." (*O Banquete*)
 
-#### c. Bebê branco e bebê negro (Ovo Órfico)
+**c.** Bebê branco e bebê negro (Ovo Órfico)
 
 O ovo alado no meio da imagem, com serpente enroscada, oculta o segredo da vida; duas crianças cavalgam suas asas. A criança negra, empunhando a lança do pai (símbolo fálico), simboliza o instinto masculino que motiva a multiplicação. Tal como o leão vermelho, é símbolo da vontade criativa (sol, fogo, ácido). O desejo unificador expressa o anseio mais profundo de restaurar a unidade perdida. A criança branca, carregando o Cálice da mãe, mostra a dedicação aos recursos infinitos da profundidade materna. Como a águia branca, é símbolo lunar (água, alcalino) que nos conecta ao retrato feminino interior, à mãe e à imagem da Eterna Dama.
 
-#### d. Espiral criativa (pais — filhos — anciãos)
+**d.** Espiral criativa (pais — filhos — anciãos)
 
 Os pais representam o desejo mútuo, o esforço um pelo outro. Essa dualidade, expressa na atração dos opostos, é fonte de toda criação. Os filhos representam a vida nova que emerge da união. Os anciãos (representados no Eremita oculto) representam a sabedoria e a experiência que vêm com a idade. Os Amantes nos lembram que a vida é ciclo contínuo de criação, crescimento e transformação.
 
@@ -123,4 +123,4 @@ Na saúde, pode representar escolha ou decisão relacionada à sua saúde. Suger
 
 ---
 
-*Fonte: TarotX*
+

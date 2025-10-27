@@ -1,6 +1,6 @@
-# O Sol — Thoth Tarot
+# O Sol
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -24,15 +24,15 @@ No Thoth, O Sol é a irradiação da consciência que dissipa os temores da Lua.
 
 ### 1. Motivos centrais (dança solar)
 
-#### a. As duas crianças
+**a.** As duas crianças
 
 Gêmeos radiantes dançam nus sob a luz, inocentes e livres. Representam masculino/feminino reconciliados, espontaneidade criativa e o novo ciclo após as provas.
 
-#### b. Asas de borboleta; Rosacruz aos pés
+**b.** Asas de borboleta; Rosacruz aos pés
 
 Asas: leveza e transmutação (da cinza ao voo). Aos pés, signos de Rosa‑Cruz: a cruz que se expande no Sol — matéria atravessada pela luz.
 
-#### c. Centro (sol‑rosa) e zodíaco
+**c.** Centro (sol‑rosa) e zodíaco
 
 Do centro nasce a rosa; o círculo zodiacal indica ordem e plenitude dos ciclos (estações/equinócios/solstícios). Doze raios curvos sugerem rotação da força vital.
 
@@ -95,4 +95,4 @@ Vitalidade alta, boa recuperação com luz/rotina. Invertida: exaustão por exce
 
 ---
 
-*Fonte: TarotX*
+

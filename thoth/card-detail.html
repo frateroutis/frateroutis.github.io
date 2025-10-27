@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta do Tarot de Thoth</title>
+    <meta name="description" content="Descrição detalhada da carta do Tarot de Thoth">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="card-detail.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">
+            ← Voltar para Tiragem
+        </a>
+
+        <div id="loading" class="loading">
+            Carregando carta
+        </div>
+
+        <div id="card-display" style="display: none;">
+            <div class="card-header fade-in">
+                <div class="card-image-section">
+                    <div class="card-image-container">
+                        <img id="card-image" class="card-image" alt="Carta do Tarot">
+                    </div>
+                </div>
+                <div class="card-content-section">
+                    <div id="card-info" class="content-body">
+                        <!-- Conteúdo será inserido aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="error-display" style="display: none;">
+            <div class="error-message fade-in">
+                <h2>⚠️ Carta não encontrada</h2>
+                <p>Não foi possível carregar a descrição desta carta.</p>
+                <p>Por favor, tente novamente ou volte para a tiragem.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025</p>
+        </footer>
+    </div>
+
+    <script src="card-renderer.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
-# O Hierofante — Thoth Tarot
+# O Hierofante
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -30,35 +30,35 @@ Ao redor do sacerdote, vemos um panorama simbólico (vaca, elefante e os emblema
 
 ### 1. Forma e Estrutura
 
-#### a. Pentagrama
+**a.** Pentagrama
 
 O Hierofante representa o mundo da fé e a convicção que sustenta a vida. Buscar sentidos ocultos é sua motivação essencial; a certeza de pertencer a uma ordem superior nasce do conhecimento. Isso se expressa na estrela de cinco pontas voltada para cima (símbolo do humano). Dentro do pentágono, outro pentagrama repete a forma. Essa figura pode expandir ou contrair infinitamente sem perder estrutura e equilíbrio — lei de correlação “macro = micro” e integração harmoniosa do ser humano no cosmos.
 
 O maior pentágono é ocupado pelo Hierofante: ele apreende o quinto elemento através do maior prisma possível.
 
-#### b. O bastão do sacerdote (três épocas)
+**b.** O bastão do sacerdote (três épocas)
 
 Os três círculos na extremidade do bastão‑chave combinam passado, presente e futuro em harmonia. O Hierofante sintetiza três eras, como descreve Crowley:
 
 — A pequena forma da deusa verde representa a era de Ísis; o Hierofante encarna a era de Osíris (os últimos ~2000 anos, em ocaso); a criança Hórus no centro anuncia a nova era prestes a nascer. O anseio por renovação aparece no rosto do Hierofante — austero e impessoal — enquanto quatro querubins voam ao redor. Eles representam crenças antigas cristalizadas; o poder do novo brilha no pentagrama oculto da criança.
 
-#### c. Gestos do Hierofante (advocatus diaboli)
+**c.** Gestos do Hierofante (advocatus diaboli)
 
 A mão esquerda sela aspectos da doutrina: os dois dedos erguidos (os “chifres”) admoestam os não‑iniciados. O gesto protege contra exposições prematuras — quando a força para receber não está madura. Daí o papel de “advocatus diaboli”: testar, provocar e filtrar, para que símbolos e mitos não virem objetos mortos de museu sob a análise reducionista do “não passa de…”.
 
 ### 2. Aura e símbolos na cabeça
 
-#### a. Serpente
+**a.** Serpente
 
 As janelas, a serpente e a pomba ao redor da cabeça do Hierofante aludem à Queda do Homem. A serpente, culpada por Eva e temida no deserto, mata e cura: como a serpente erguida por Moisés, aqui ela se prende a nove pregos (número lunar da sabedoria, princípio feminino).
 
-#### b. Pomba
+**b.** Pomba
 
 A pomba é emblema da Alma Divina e, em hebraico, conserva matiz feminino. É a força que atravessa as águas e guarda o potencial criador. Em tradições vizinhas, a pomba remete a deusas como Aruru, Ishtar, Astarte e Afrodite — faces de Vênus e arquétipos da “mãe dos vivos”. O ramo no bico anuncia o renovo: a promessa de libertação do pecado.
 
 ### 3. A janela (pentagramas entrelaçados)
 
-#### a. Pentagrama e Maçã de Vênus
+**a.** Pentagrama e Maçã de Vênus
 
 Ao lado da serpente e da pomba, a maçã proibida (Vênus) paira por trás da janela. Cortada na horizontal, revela um pentagrama no seu centro. A cada oito anos, Vênus traça no zodíaco um ciclo de cinco conjunções Terra‑Sol, desenhando um pentagrama celeste.
 
@@ -116,4 +116,4 @@ Nas finanças, pede prudência, princípios testados, conselhos qualificados e v
 Na saúde, sugere aderência a orientações profissionais, rotina consistente e prevenção. Invertida: busca por alternativas sem critério ou resistência a cuidados necessários.
 
 ---
-*Fonte: TarotX*
+

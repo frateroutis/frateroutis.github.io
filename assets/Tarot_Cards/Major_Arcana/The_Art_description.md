@@ -1,6 +1,6 @@
-# A Arte — Thoth Tarot
+# A Arte
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,33 +26,33 @@ O personagem andrógino verte Fogo em Água e Água em Fogo, gerando vapor iride
 
 ### 1. Motivos centrais (união de opostos)
 
-#### a. Figura andrógina
+**a.** Figura andrógina
 
 Personifica a consumação do casamento alquímico. A troca de atributos (cabeças/coros, mãos que vertem) indica circulação e compensação: o fogo transforma a água em vapor; a água tempera o fogo.
 
-#### b. Leão branco e águia vermelha
+**b.** Leão branco e águia vermelha
 
 Em alquimia, enxofre (fogo) e mercúrio (água/volátil) são pares que, corretamente combinados, conduzem ao ouro. No Thoth, o leão torna-se branco e a águia vermelha — inversões cromáticas que apontam a presença do oposto em cada polo. A obra requer incorporar a polaridade contrária em si.
 
-#### c. Anima/animus e plasticidade
+**c.** Anima/animus e plasticidade
 
 No plano psíquico, amor e individuação pedem integração do feminino no masculino e vice‑versa (anima/animus). A Arte é a capacidade de transmutar afetos extremos em centro estável.
 
 ### 2. A Obra (opus)
 
-#### a. Processo alquímico
+**a.** Processo alquímico
 
 Refinar a matéria por separação e reunião: solve (dissolve), coagula (coagula). Enxofre (inflamável) e mercúrio (fluido) geram, em proporções certas, os “metais interiores”. Lida literal de receitas produz só “sulfeto de mercúrio”; o segredo é operacional e interno.
 
-#### b. Caldeirão e crânio (Caput Mortuum)
+**b.** Caldeirão e crânio (Caput Mortuum)
 
 O cozimento dos contrários ocorre no vaso selado. O crânio e o corvo sobre ele lembram que a vida nova surge da morte do antigo padrão; a putrefação prepara o terreno para a tintura.
 
-#### c. Sal (cinza)
+**c.** Sal (cinza)
 
 Além de mercúrio e enxofre, surge o sal (corpo/estrutura), a cinza remanescente que fixa a obra. Os três princípios filosóficos espelham os quatro elementos clássicos em outra chave.
 
-#### d. Raios e seta
+**d.** Raios e seta
 
 O vapor — alma luminosa — ergue-se em faixas multicoloridas ao redor da figura. A seta que sobe pelo centro indica direção e intenção unificadas: foco que retifica e integra.
 
@@ -102,4 +102,4 @@ Protocolos de equilíbrio: sono, alimentação, atividade. Terapias integrativas
 
 ---
 
-*Fonte: TarotX*
+

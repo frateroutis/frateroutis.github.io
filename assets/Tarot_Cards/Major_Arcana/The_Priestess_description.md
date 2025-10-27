@@ -1,6 +1,6 @@
-# A Sacerdotisa — Thoth Tarot
+# A Sacerdotisa
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,43 +26,43 @@ A coroa em sua cabeça simboliza as três fases da lua: a lua no meio, a lua che
 
 ### 1. Personagem (pessoa misteriosa)
 
-#### a. A Sacerdotisa
+**a.** A Sacerdotisa
 
 Na forma da Sacerdotisa, encontramos tudo além do pensamento, que está nas profundezas do subconsciente e persiste através das mensagens de nossos sonhos e ilusões. Sais foi adorada como uma "grande tecelã", um véu finamente tecido que escondia seus segredos, rejeitando até mesmo um olhar de todos aqueles que não merecem esta cerimônia de abertura. Enquanto o Mago representa a capacidade de fazer toda a diferença no mundo exterior, o véu da Sacerdotisa esconde a unidade sagrada que está por trás dele.
 
-#### b. A parte coberta (flecha)
+**b.** A parte coberta (flecha)
 
 A parte inferior do corpo escondida atrás do véu mostra que Neith (Ísis) não revelou o segredo de sua virgindade eterna. Toda tentativa de revelar seu segredo através de conexão física ou integração emocional levanta o véu. No entanto, ao mesmo tempo, isso a protege de todos os horrores do oculto, por uma razão: a flecha para o observador está pronta para repousar nos joelhos da Deusa.
 
-#### c. A parte revelada
+**c.** A parte revelada
 
 Na parte superior da carta, a Sacerdotisa rasga o véu ao meio como um hímen. Este não é um momento inócuo. Seu segredo só pode ser aberto para aqueles que cresceram através do pensamento profundo ou outras práticas. Qualquer um que entre sem permissão é transformado em animais (o Actaeon ou o asno de Apuleio). A Sacerdotisa é a conexão com Deus e a mediadora que o Mago precisa.
 
 ### 2. Fundo (coisas misteriosas)
 
-#### a. O véu
+**a.** O véu
 
 Se os raios dourados do Mago simbolizam o padrão de pensamentos através dos quais o ego mede a eternidade, o véu prateado de Ísis representa o design mais sutil de sentimentos tecidos na textura áspera do pensamento. O véu esconde padrões femininos, grandes mistérios, e está para sempre fechado ao senso de descoberta, penetração e consciência (masculinidade). Além disso, sua verdade só pode ser revelada através da expressão de tolerância.
 
-#### b. O véu que é exposto
+**b.** O véu que é exposto
 
 Nesta carta, a deusa levantou o véu e, assim, revelou parte de seu segredo. Se alguém considera a parte como um todo e acredita que entendeu todos os seus segredos, essa pessoa cometeu um erro como Édipo. Embora tenha resolvido o enigma dado pela Esfinge, Édipo ainda não entendeu o mistério que a própria Esfinge representava – a feminilidade misteriosa.
 
-#### c. A Lemniscata
+**c.** A Lemniscata
 
 O símbolo do infinito na frente da Sacerdotisa é um símbolo do mundo interior que apenas o "terceiro olho" pode ver. Assim, com olhos nus, noites irreconhecíveis de sono no escuro aparecem claramente através dos "óculos do infinito". Fragmentos de sonhos e outras evidências de coincidência nos ajudaram a entender que há muitas outras coisas escondidas por trás do trabalho humano, não apenas intenções pessoais. Não apenas isso, mas a consciência mais profunda também nos ensinou: tudo é parte do grande arranjo do Universo.
 
-#### d. A lua crescente
+**d.** A lua crescente
 
 Os sete fragmentos da lua crescente subiram à auto-renovação – correspondendo aos sete planetas – representando os sete níveis da alquimia; e o ápice é a integração bem-sucedida do oposto (bissexual), como expresso pela coroa na qual o sol se funde com a lua. Assim, a Sacerdotisa mostra que ela é uma guia, que está constantemente procurando as almas apropriadas para entender e iniciar. Portanto, não pode ser uma intrusão curiosa e astuta no desconhecido, mas a redescoberta dos grandes mistérios que há muito tempo foram vistos.
 
-#### e. Círculos (imagem elipsoide)
+**e.** Círculos (imagem elipsoide)
 
 Se a linha da lemniscata e as esferas torcidas (na frente da Sacerdotisa) representam o nível ao qual o mistério do ser humano é descrito, então a lua e a elipse atrás de Ísis simbolizam a chave para entender ou o Deus invisível. Elipses verticais representam uma verdade indizível – porque a verdade está bem na frente de Ísis, e portanto também no horizonte da consciência humana, que nunca é a realidade eterna, mas o reflexo da verdade que não pode ser compreendida.
 
 ### 3. Primeiro Plano (Forma espiral)
 
-#### Flores, frutas, cristais, camelos
+### Flores, frutas, cristais, camelos
 
 A Sacerdotisa representa o lado espiritual de Ísis, a capacidade da forma ou eternidade por trás do véu. Ela é a encarnação do que foi recebido, imbuído com a magia do Mago e concebido. Os ícones que convergem na borda abaixo da imagem estão na frente do véu de Ísis e, assim, fizeram sua aparição. Formas que estão no processo (redemoinhos, cristais, sementes, feijões) parecem representar material que foi fertilizado e se refere à próxima carta.
 
@@ -119,4 +119,4 @@ Em um spread de saúde, a carta A Sacerdotisa pode representar a necessidade de 
 
 ---
 
-*Fonte: TarotX*
+

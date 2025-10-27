@@ -1,6 +1,6 @@
-# O Mago – Thoth Tarot
+# O Mago
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -30,43 +30,43 @@ Uma rede de raios dourados preenche a carta e desaparece no fundo. Apenas atrás
 
 ### 1. Tema central (Magus Mercurius)
 
-#### 1. O Magus Thoth
+### 1. O Magus Thoth
 
 O Louco incorpora a semente do aparecer, ainda flutuando em algum lugar nas nuvens. O Mago representa algo que se formou ou, psicologicamente, é um ego. É por isso que Cristal aqui se agrada como um pequeno deus, compreendendo a origem da criação e agitando as esferas ao redor com um rosto radiante e travesso. De acordo com o gesto elegante, ele conjura imagens de seu mundo estranho, no qual as energias coalescem em objetos e o eterno se manifesta no tempo e no espaço.
 
-#### 2. Postura/Equilíbrio
+### 2. Postura/Equilíbrio
 
 Se O Louco está suspenso no nada, O Mago equilibra-se habilmente no topo do subconsciente, formando sua própria vontade. Sua postura era como uma cegonha parada imóvel em uma perna e, assim, tornou-se o símbolo da mais alta concentração e o animal simbólico de Thoth, o Deus Egípcio da Sabedoria.
 
 Os gregos o chamavam de Hermes e o retratavam com sapatos alados, como vemos aqui com a imagem do Magus. Eles simbolizam o primeiro passo do ego para trazer a alma que foi tecida de acordo com o karma, do fundo profundo da eternidade para o novo ciclo na terra com o fim da esperança de expiação eterna. O subconsciente em que ele está é o equivalente da parte superior. Pode ser visto através das listras azuis e amarelas repetidas acima da cabeça. Podemos ver que o cajado dual aparece do fundo profundo, e também mostra que o Magus é uma conexão desperta significativa entre poços profundos e picos.
 
-#### 3. O Disco Solar Alado
+### 3. O Disco Solar Alado
 
 No topo do cajado, vemos Ur-uatschi, um disco solar alado egípcio, possuindo ambas as serpentes Uracus. A da direita representa a deusa exploradora Nekhebet do Alto Egito; A da esquerda é Buto gêmea, a deusa protetora do Baixo Egito. Na forma mais comum, este símbolo é frequentemente visto na carta do Diabo, que representa a parte mais sombria do poder criativo do "Magus Mercurius". Segundo a lenda, o deus sol Hórus do Egito assumiu a forma do disco solar alado para vencer Seth, Deus do Mal. Então Thoth, o deus intelectual, ordenou que todos os templos exibissem este sinal como forma de proteção contra o mal. As duas serpentes Uracus são os poderes de proteção solar, também considerados amuletos guardiões em muitas testas de Faraós.
 
-#### 4. Bastão da Serpente Empoderada
+### 4. Bastão da Serpente Empoderada
 
 As serpentes Uracus protegem o sol aqui, tornando-se um par de cobras que compõem o símbolo do caduceu (o sinal de duas cobras enroladas na medicina) (o cetro de Hermes): a serpente (masculina) da vida e a serpente (feminina) da morte. A história do homem exilado apenas conta a cobra perversa da morte, enquanto os estudantes de medicina de Asclépio lutam pelo símbolo de seu campo - a serpente da vida. No entanto, elas se fundem e formam uma linha lemniscata vertical (símbolo do infinito) no centro, expressando a troca infinita entre este mundo e a vida após a morte.
 
 ### 2. Fundo (existências)
 
-#### 1. Raios Geométricos
+### 1. Raios Geométricos
 
-#### **4\. Empowered Serpent Stick**
+### **4. Empowered Serpent Stick**
 
 The Uracus snakes protect the sun here, becoming a pair of snakes that make up the caduceus symbol (the sign of two snakes wrapped in medicine) (the scepter of Hermes): the snake(male) of the life and the snake (female) of death. The story of the exiled man only tells the wicked snake of death, whereas the medical students of Asclepius fight for the symbol of their field-the snake of lives. However, they merge together and form a vertical lemniscate line (infinity symbol) in the center, expressing the endless exchange between this world and the afterlife.
 
 ### 2. Fundo (existências)
 
-#### 1. Raios Geométricos
+### 1. Raios Geométricos
 
 Os raios dourados representam nossa rede de pensamento ou dualidade. Em conceitos ou pensamentos bipolares, nosso ego tenta compreender o infinito (esfera verde). O layout geométrico desses raios representa uma estrutura através da qual o ego tenta definir a eternidade.
 
-#### 2. Espaço Triangular
+### 2. Espaço Triangular
 
 Localizado no ambiente circundante, esta carta é a incarnação e afirmação do ego, e o início da formação da consciência. O ego passa por um buraco no tempo e espaço (espaço triangular atrás do personagem) e está começando a criar uma imagem de si mesmo agora.
 
-#### 3. Forma de Leque
+### 3. Forma de Leque
 
 Enquanto O Louco está em sua loucura para ver através da obscuridade das coisas, o Magus possui um forte poder de adensar a névoa da eternidade através de suas ações. Isso é mostrado na carta através da forma de leque azul ao redor da cabeça (acima do triângulo roxo claro). Eles criam a realidade através de nossas ações, e os resultados de nossas ações criarão a identidade de cada um de nós no momento.
 
@@ -74,25 +74,25 @@ Enquanto O Louco está em sua loucura para ver através da obscuridade das coisa
 
 A intenção de criar o mundo do Magus baseado em sua vontade permite que ele penetre as esferas representadas nos símbolos ao seu redor. Gestos mágicos ao fazer malabarismos com esferas mostram que uma crença interior não pode ser quebrada.
 
-#### 1. Moeda, fogo, cálice, espada
+### 1. Moeda, fogo, cálice, espada
 
 **Esferas básicas (fundo azul)**
 
 São símbolos coloridos do Tarô localizados na mesa da bruxa no antigo baralho de Tarô. Eles correspondem a atos (discos), vontades (bastões), emoções (cálices) e pensamento (espadas). Por outro lado, eles representam as quatro armas básicas da bruxa equivalentes aos quatro elementos (fogo, água, ar e terra). Tempo e espaço para a bruxa hermética integrar todos os espectros triangulares nestes símbolos: o poder da vontade e compreensão, coração e corpo.
 
-#### 2. Flechas, pergaminho
+### 2. Flechas, pergaminho
 
 **Nível de força de vontade (fundo azul)**
 
 A flecha (acima da mão direita) representa o desejo de consciência ou energia em direção ao novo horizonte. Para o xamã, a flecha disparada no ar tem o significado de súplica: era uma mensagem e um convite para Deus participar da cerimônia. Em contraste, o pergaminho contém conhecimento que foi formado, experimentado e documentado.
 
-#### 3. Cetro, ovo alado
+### 3. Cetro, ovo alado
 
 **O nível de existência e aparência (fundo roxo claro)**
 
 Nas pontas dos dedos de sua mão direita, o rapaz travesso segurava um cetro de Uas, um antigo símbolo egípcio de crença e poder. Enquanto isso, um ovo alado flutuava acima de sua mão esquerda, é um símbolo do poder milagroso do céu claro, o quinto elemento, a qualidade quintessencial.
 
-#### 4. Macaco Humano
+### 4. Macaco Humano
 
 **O grau de escuridão (parcialmente obscurecido pela esfera de Mercúrio)**
 
@@ -151,4 +151,4 @@ Em um spread de saúde, a carta O Mago Thoth pode representar cura, vitalidade e
 
 ---
 
-*Fonte: TarotX*
+

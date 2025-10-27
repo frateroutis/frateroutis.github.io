@@ -1,6 +1,6 @@
-# A Estrela — Thoth Tarot
+# A Estrela
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,39 +26,39 @@ Nut/Ísis personifica o eterno feminino, a inspiração cósmica que desce à ma
 
 ### 1. Motivos centrais (a dama das estrelas)
 
-#### a. Nut, senhora das estrelas
+**a.** Nut, senhora das estrelas
 
 A nudez de Nut não é só beleza, mas o indizível: a melancolia do inexorável. O desejo primeiro — seio materno, fusão com o universo — não se realiza na vida, mas brilha na imagem da estrela.
 
-#### b. Cabelos
+**b.** Cabelos
 
 Ligam universo e matéria. Mostram sonho de vida ainda não vivida, aspiração latente, mas também ponte entre os mundos.
 
-#### c. Silhueta e cálices
+**c.** Silhueta e cálices
 
 Os dois cálices (seios, fontes de vida) vertem água sobre a cabeça e sobre a terra. Sinalizam renovação contínua e abundância de energia criativa.
 
-#### d. Água da vida (microcosmo)
+**d.** Água da vida (microcosmo)
 
 A água cristaliza desejos e sensações obscuras em formas. A deusa se renova; nós nos renovamos nela. A estrela pequena (azul) é reflexo da grande.
 
 ### 2. Plano de fundo (universo)
 
-#### a. Estrela (macrocosmo)
+**a.** Estrela (macrocosmo)
 
 A grande estrela é amor divino invisível, princípio de renovação que rege o sistema universal. A pequena é amor humano tangível. Ambas se espelham.
 
-#### b. Globo terrestre
+**b.** Globo terrestre
 
 Ao fundo, a Terra se renova continuamente. Olhar de longe (da estrela) revela possibilidades infinitas — e também ilusões, pois todo conceito vira realidade no sonho.
 
 ### 3. Primeiro plano (matéria)
 
-#### a. Cálices e cristais
+**a.** Cálices e cristais
 
 Cálice dourado: integridade do universo, esperança pós-Torre. Cálice prateado: ressurreição da matéria. Cristais: esperança útil, organização da energia criativa.
 
-#### b. Rosas e borboletas
+**b.** Rosas e borboletas
 
 Renovação, transformação, beleza emergente. A esperança não é só interior, mas se materializa em formas vivas.
 
@@ -108,4 +108,4 @@ Regeneração, cura gradual, esperança fundamentada. Invertida: negar sintomas,
 
 ---
 
-*Fonte: TarotX*
+

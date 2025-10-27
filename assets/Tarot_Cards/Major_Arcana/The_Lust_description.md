@@ -1,6 +1,6 @@
-# A Luxúria — Thoth Tarot
+# A Luxúria
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -28,41 +28,41 @@ A Luxúria retrata-a como uma mulher tentada por desejos sensoriais, montando em
 
 ### 1. Motivo (o animal sendo contido)
 
-#### a. A mulher
+**a.** A mulher
 
 O personagem embriagado na carta A Luxúria expressa a satisfação instintiva do desejo de ter uma experiência depravada (Ap. 13.6: "E vejo a mulher, embriagada no sangue dos Santos e no sangue dos mártires de Jesus"). A alma de Dionísio é invocada aqui, que busca satisfação física no abismo profundo da imoralidade sexual, e ao mesmo tempo, o potencial sexual se espalha na experiência do Universo com todo amor ou uma supernova celebrando quando o animal interior "explode" e transforma a energia criativa interior.
 
-#### b. O leão
+**b.** O leão
 
 O leão é um símbolo dos instintos animais. O leão domado mostra a harmonia de uma pessoa cultivada com a natureza do animal dentro dele. Em um estado contido, mas não domado, o leão incorpora — frequentemente por trás da máscara devota turva — o que é chamado de anseio por força, violência, destruição inconsciente e pode se desenvolver no crescimento excessivo de desordem psicótica que causa guerra. Pelo contrário, quando domado, representa o desejo, a paixão e a alegria de viver, e assim, representa uma constituição essencial da verdadeira vitalidade.
 
-#### c. Sete cabeças (cabeça de leão)
+**c.** Sete cabeças (cabeça de leão)
 
 A carta A Luxúria faz justiça a esses casos, nos quais, em vez de ser uma besta selvagem, nos mostra que um animal é meio domesticado com cinco cabeças humanas e duas faces animais, um símbolo para instintos controlados, bem como — pelo contrário — uma imagem de uma pessoa que ainda é "selvagem" em seus instintos animais apesar de todas as adaptações. Segundo Crowley, veremos a cabeça de um Santo, um anjo, um homem corajoso, uma mulher adulta, um poeta, um Deus da floresta e finalmente, uma serpente-leão.
 
-#### d. Rédeas
+**d.** Rédeas
 
 Na verdade, a mente é incapaz de transformar as tendências e instintos; pelo contrário, é a paixão e o anseio da mulher que contiveram os instintos animais e os esconderam sob a máscara do fluxo ajustável. A mulher está se equilibrando com seus instintos, não apenas porque tenta controlar o inconsciente, mas também reconhece as máscaras draconianas da consciência ("dominá-las") e aceita o rosto real por trás delas.
 
-#### e. A serpente (cauda de leão)
+**e.** A serpente (cauda de leão)
 
 A cauda frequentemente representa contenção, bloqueio ou escuridão. No entanto, neste caso, como a primeira parte representa as máscaras, enfrentamos a verdade na cauda — na imagem da serpente-leão. Ela conecta a lua, a serpente e a antiga feminilidade ao sol, o leão e a masculinidade original: a cabeça do leão é cercada pela associação da lua e do sol. Isso mostra a harmonia entre o sexo e a verdadeira consagração e é um sinal das mulheres. Sua coragem está elevando limites pessoais, trazendo-a ao mais alto sentido de abnegação: "Sua arte está esgotada na satisfação sensual da inspiração; o final é mais doce que a morte, mais rápido e mais divertido do que as carícias do verme do seu próprio Inferno" (Crowley).
 
 ### 2. Os arredores (o ícone)
 
-#### a. Cálice sagrado (vaso de fogo)
+**a.** Cálice sagrado (vaso de fogo)
 
 A fonte de luz ardente, que representa um prazer extremo quando vista em termos de energia e representa a conexão entre água e fogo. Em sua forma, lembra o útero onde o líquido amniótico da vida flui através (as listras amarelas na borda inferior), vemos o fogo ardente queimando a água no vapor de laranja ardente. Principalmente, encontramos esta regra na alquimia, onde a água representa a preguiça suave inflamada pelo fogo semelhante ao útero, assim, transformada em um nível melhor, onde os instintos físicos são evaporados no fascínio do prazer encantador.
 
 No entanto, esta forma em A Luxúria também sugere um vaso de fogo — um símbolo adicional do útero — onde cair na morte ocorrerá como um pré-requisito para o renascimento. No terceiro nível, este vaso incorpora o cálice que Ishtar, Deusa do Amor da Babilônia, segura em sua mão direita. Quando Ciro conquistou a Babilônia, ele se tornou o dono de um cálice pesando 15 talentos. Está cheio de vinho de tâmaras e outros ingredientes intoxicantes. Apenas aqueles que foram iniciados, ou que estão prontos para serem iniciados, têm permissão para beber dele.
 
-#### b. Chama e Serpente (chifre de leão)
+**b.** Chama e Serpente (chifre de leão)
 
 A chama masculina dentro do vaso feminino agrupou um calor que irradiava para cima e se derramava como um fluxo de lava fervente, simbolizando o sexo e girando a roda da vida. A escuridão irradiou dentro da luz porque amor e morte são um. Novas gerações estão constantemente se revelando e nascendo após sua sombra (morte), a humanidade prolifera, e através dos instintos (serpentes incorporam "dez chifres da besta", distribuídos por todo o mundo para destruir o mundo e recriá-lo), novas fontes de energia cairão no espaço e no tempo. Crowley escreve:
 
 > "Não pense em encontrar os mistérios da vida na floresta ou nas montanhas; procure na cama púrpura, acariciada pelos animais maravilhosos da mulher com seus grandes pés, o fogo e a luz brilhante em seus olhos, e eles têm uma crina ardente: Você os encontrará lá. Você os verá na lei, em exércitos vitoriosos, em todas as alegrias; e dentro deles, há um milhão de vezes alegria como esta. Tenha cuidado para não deixar esta força a outra, não pode haver dois reis coexistindo por um tempo! Ame um homem com um coração ardente, com pessoas inferiores pisoteando no desejo intenso de seu orgulho, no dia de sua ira."
 
-#### c. Estrelas e Santos
+**c.** Estrelas e Santos
 
 Atrás da besta e sua noiva, há 10 círculos brilhantes. São estrelas que caem do céu (segundo Crowley, referindo-se à nova era, são Sephiroth na Árvore da Vida, mas ainda não revisadas), como a Bíblia diz: "Sua cauda é estilhaçada um terço das estrelas no céu e as joga na terra" (Ap. 12.4). Abaixo dessas estrelas, vemos as figuras dos Santos humildemente olhando para si mesmos porque a besta está caminhando sobre suas cabeças. Eles representam a energia masculina de ordem convencional, um tanto cinza e doente, sendo esmagada pelo poder da vida desenfreada.
 
@@ -117,4 +117,4 @@ Na saúde, A Luxúria pode representar vitalidade, energia e força física. Sug
 
 ---
 
-*Fonte: TarotX*
+

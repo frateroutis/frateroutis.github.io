@@ -1,6 +1,6 @@
-# O Carro — Thoth Tarot
+# O Carro
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -28,45 +28,45 @@ O herói, que abriu seus olhos interiormente, segurava o Cálice em direção ao
 
 ### 1. Motivo central (o carro)
 
-#### a. Ophiuchus (o Serpentário)
+**a.** Ophiuchus (o Serpentário)
 
 O guerreiro sagrado — *Ophiuchus*, o Serpentário, aquele que domina a serpente — está concentrando-se e meditando dentro de sua maciça armadura dourada que incorpora a imagem de um guerreiro sagrado (samurai), manifestado através do poder de concentração (Chi) em vez de força muscular. No entanto, o carro permanece imóvel. O Serpentário senta-se quieto em seu carro e foca no núcleo interior, retratado pelo Santo Graal. Crowley escreve:
 
 > "O Ophiuchus veste uma armadura cor de âmbar adequada ao símbolo. A máscara do elmo foi abaixada para que ninguém pudesse ver seu rosto. Pela mesma razão, nenhuma de suas partes do corpo foi revelada. Ele permanece imóvel no carro em vez de dirigi-lo porque todo o sistema operacional está em perfeito equilíbrio. Seu único papel é guardar o Santo Graal."
 
-#### b. Quatro pilares (teto)
+**b.** Quatro pilares (teto)
 
 Segundo Crowley, o teto "carrega o azul do céu noturno de Binah", denotando a vestimenta da Deusa da Noite Escura, como Maria (também usando esta vestimenta) ou a Suma Sacerdotisa, que também é um lado da Grande Deusa. O Zodíaco de Câncer conecta O Carro à Suma Sacerdotisa através da Lua, "preso à sua armadura estão as 10 Estrelas de Assiah, as gotas de orvalho do céu que ele herda de sua mãe" (Crowley).
 
 O filho da Grande Deusa sempre foi aquele que salvou a raça humana. Os quatro pilares do paraíso — os antigos quatro anjos — que guardam as quatro extremidades do mundo, mostram sua profunda influência no mundo. Ele é um inovador, que traz uma mensagem de salvação, como Buda disse: "A vida é sofrimento", e então enfatiza que "mas há um caminho para se livrar do sofrimento!".
 
-#### c. Roda
+**c.** Roda
 
 O propósito da roda é rolar. No nível simbólico, isso corresponde ao ciclo do Universo, à rotação das estrelas, ou à transformação da Roda da Fortuna (número X): a rotação eterna é a confirmação eterna, e a confirmação eterna é existência!
 
 ### 2. Centro e plano de fundo (cálice)
 
-#### a. Plano de fundo (círculos)
+**a.** Plano de fundo (círculos)
 
 Infinitude — fluxo contínuo sem começo nem fim, não nos mostra um fluxo harmonioso de profundidade sem fim, mas uma expansão gradual de círculos concêntricos representando a dinâmica da eternidade. Não é uma "fora do espaço" pairando, mas a sensação de ser empurrado para frente pelas ondas do tempo no estreito da imaginação metafórica. O Carro frequentemente nos dá a sensação de ser puxado pela força do Universo porque O Carro refere-se a ações que vão adiante, mesmo quando ainda está parado.
 
-#### b. Eixo espacial (alvo)
+**b.** Eixo espacial (alvo)
 
 Este fluxo de poder é descrito por um eixo horizontal-direto (o alvo no meio é o centro do círculo no fundo). Este efeito é alcançado por uma forma consciente de prestar atenção ao Cálice que o Cavaleiro (Ophiuchus) segura para frente. O item no disco que ele segurava em sua mão era o Cálice, profundamente dentro dele, o coração da cena girava como um sol vermelho.
 
-#### c. Centro (cálice sagrado)
+**c.** Centro (cálice sagrado)
 
 Em resposta à sua pergunta definitiva, "A quem serve o cálice?", Parcival recebeu a resposta: "O cálice serve ao Senhor!" (Rei de Gail). Então, é um símbolo da força eterna fluindo dentro de nós, e a busca pelo cálice é a imagem da busca pelo Eu Superior. O eixo da imaginação, correndo do centro do cálice através do ponto médio do corpo do guerreiro (Ophiuchus) até o ponto médio do círculo cósmico, representa a pessoa que encontrou harmonia com o Eu Superior em seu centro.
 
 ### 3. Primeiro plano (quatro Esfinges)
 
-#### a. A profecia das Esfinges negras
+**a.** A profecia das Esfinges negras
 
 As Esfinges negras representam o lado melancólico do espírito porque viraram as costas para a vida e bloquearam o caminho. Seu olhar estava direcionado para coisas utópicas, e sua linguagem além da borda deste mundo. Sua profecia é:
 
 > "Somos imagens que representam apenas uma imagem, e nenhum conceito pode expressar o conceito de coisas utópicas. Nenhum conceito pode capturar mais do que uma parte daquela realidade, que é o conceito de si mesmo. Então, nenhum conceito é capaz de provar aquela parte prática porque não reflete o conceito. Um pensamento captura apenas aquela parte da realidade, que está dentro de sua própria percepção. Tudo o que você percebe como a verdade é apenas o auto-reflexo na percepção."
 
-#### b. A profecia das Esfinges brancas
+**b.** A profecia das Esfinges brancas
 
 As Esfinges brancas manifestam-se para o lado brilhante, voltadas para a vida (elas olham diretamente nos olhos do observador). No entanto, mesmo que sua luz seja igual à escuridão das outras duas, elas pertencem uma à outra e são inseparáveis porque a harmonia de ambas as partes é necessária para determinar o caminho do herói. Sua profecia é:
 
@@ -125,4 +125,4 @@ Na saúde, O Carro pode representar uma abordagem triunfante e determinada à sa
 
 ---
 
-*Fonte: TarotX*
+

@@ -1,6 +1,6 @@
-# O Diabo — Thoth Tarot
+# O Diabo
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,27 +26,27 @@ Historicamente, sociedades projetaram na figura do Diabo a própria sombra colet
 
 ### 1. Motivos centrais (o bode)
 
-#### a. Duplo e projeção da sombra
+**a.** Duplo e projeção da sombra
 
 Quando o divino é pensado apenas como “luz boa”, o “resto” é expulso e reaparece como Diabo. A carta revela essa projeção e chama a recolher a sombra como parte do todo.
 
-#### b. Bode expiatório (sublimação)
+**b.** Bode expiatório (sublimação)
 
 Rituais antigos não suprimiam a agressividade; davam‑lhe canal e sentido. A sublimação transforma violência cega em criatividade, prazer e vínculo.
 
-#### c. Sombra coletiva e alquimia
+**c.** Sombra coletiva e alquimia
 
 Alquimistas e místicos lidaram objetivamente com o escuro: “trago luz, mas a escuridão pertence à minha natureza”. O Diabo do Thoth ri porque sabe que lutamos contra o que nós mesmos criamos.
 
-#### d. Terceiro olho (iniciação)
+**d.** Terceiro olho (iniciação)
 
 O olho na testa aponta autoconsciência crua: ver os próprios impulsos, nomeá‑los e escolher o que fazer com eles. Sem isso, viram compulsão.
 
-#### e. Chifres e pentagrama
+**e.** Chifres e pentagrama
 
 Os chifres ecoam o pentagrama invertido (matéria sobre espírito) quando a vida é vivida só “de baixo”. Integrado, o mesmo símbolo vira potência encarnada consciente.
 
-#### f. Coroa de lótus
+**f.** Coroa de lótus
 
 Lótus que nasce do lodo: luz que emerge da matéria. Confirma que “o mal” é parte do bem quando integrado e colocado a serviço da vida.
 
@@ -104,4 +104,4 @@ Vitalidade elevada; atenção a excessos (substâncias, sexo, stress). Invertida
 
 ---
 
-*Fonte: TarotX*
+

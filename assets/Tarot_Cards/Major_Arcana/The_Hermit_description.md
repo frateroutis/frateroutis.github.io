@@ -1,6 +1,6 @@
-# O Eremita — Thoth Tarot
+# O Eremita
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -34,41 +34,41 @@ O velho sábio é o aspecto chave de Thoth — o Deus intelectual do Egito. Muit
 
 ### 1. Forma (o homem sábio)
 
-#### a. O Eremita
+**a.** O Eremita
 
 O Eremita corresponde ao arquétipo ou "servo não-egoísta do verdadeiro eu" (em oposição ao Hierofante representando uma "imagem divina do eu") que busca a verdade na alma de um ser humano. Podemos compará-lo a Diógenes, que caminhava por Atenas sob os raios de sol com luz iluminadora, e ele respondeu à pergunta de por que fazia isso: "Estou procurando uma pessoa honesta!".
 
-#### b. Mão (lanterna)
+**b.** Mão (lanterna)
 
 O homem está segurando um diamante no centro da carta, sua parte interna é iluminada por um sol com 16 raios solares. Ele ilumina a área escura abaixo, mas também ilumina o céu acima. Apenas a luz do cristal cria uma linha reta. Todo o resto está oculto e parece um instantâneo de um movimento natural que flui infinitamente. Dentro deste fluxo eterno, O Eremita foi capaz de ver o "Ovo Órfico" e assim, pôde ver os mistérios e recursos primitivos da vida, através de uma abertura que também se fecha imediatamente de volta. Durante sua busca, ele não parou nem mesmo quando estava diante da porta do inferno, isso pode ser visto na imagem do domado Caçador do Inferno de três cabeças, Cérbero, a seus pés.
 
 O símbolo associado a esta carta é o antigo caractere hebraico *Yod*, que contém todos os outros 21 caracteres. Este caractere corresponde à mão no meio da imagem, segurando o cristal iluminando a luz na escuridão. Um conceito que está sendo ocultado aqui, do qual todas as outras ideias se destacarão.
 
-#### c. Figura humana
+**c.** Figura humana
 
 Há um ponto faustiano no Eremita que é inconfundível. Sua figura curvada não pretende descrever a velhice, mas sim uma figura de resistência. Este movimento flexível não é o eu que se reflete da percepção, mas o foco e a necessidade de recuar antes de dar outros passos.
 
 ### 2. Os arredores (o ícone)
 
-#### a. Ovo Órfico (ovo do mundo)
+**a.** Ovo Órfico (ovo do mundo)
 
 O "Ovo Órfico" representa a origem de todas as coisas. O fato de que O Eremita percebe a natureza da vida em um momento no meio do movimento — tem um campo de trigo ao fundo — mostra a profundidade do homem mais velho; ele pode ver o mistério da criação ou os recursos primitivos dos seres sencientes. O mito pelásgico da criação nos conta que este ovo é sobre Eurínome, a mãe de todas as coisas.
 
 No início, ela emergiu nua do caos, e porque não conseguia encontrar um lugar para apoiar seus pés, separou o céu da água. Então, começou a dançar. Ela dançou em uma onda indo para o sul e de repente viu alguém. Era o vento norte Bóreas que ela libertou através de seus movimentos. Ela o pegou e o moldou em suas mãos até que ele se transformasse em uma grande serpente *Ophion*, enrolada ao redor de seu corpo e acasalou com ela. Eurínome então ficou grávida do vento norte e deu à luz o ovo do mundo. *Ophion* rolou ao redor do ovo sete vezes até que ele chocasse. O ovo eclodiu no sol, lua e terra com todas as criaturas vivas.
 
-#### b. Esperma
+**b.** Esperma
 
 Enquanto o ovo representa a vivacidade do velho e seu poder mental-fantasioso, o esperma no canto inferior da carta corresponde ao impulso reprodutivo do qual tudo é formado, desde que encontre solo fértil. Crowley escreve:
 
 > "Há uma luz escondida dentro de Mercúrio que se espalha uniformemente para todas as partes do Universo; um de seus títulos é *Psychopompos* — o guia da alma através do inferno. Esses símbolos são indicados por seu cetro de Serpente, que está emergindo do Abismo, é um esperma que se desenvolve como um veneno, e representa o feto. Seguindo-o estava Cérbero, seu domado Caçador do Inferno de três cabeças. O Eremita mostra todo o mistério da Vida em sua operação mais secreta."
 
-#### c. Cérbero (inferno)
+**c.** Cérbero (inferno)
 
 Devido à parte da cena em que o ovo é tocado por uma luz, da metade inferior da cena, há um cachorro de três cabeças e um ser humano adulto (uma imagem simbólica do velho) que pode mergulhar no fluxo sem fundo da Deusa da Lua (Senhora Hulda) no qual seu portão uma vez se fechou quando ele estava buscando seus sentidos.
 
 O abismo inconsciente (as quatro raízes dos raios de luz estão sob a luz horizontal) representa o útero da Grande Mãe que cria toda a vida. Aqueles que investigam sem medo de caminhar no caminho que leva de volta às raízes receberão grande inspiração aberta do subterrâneo secreto na escuridão, levando às criações únicas que conhecemos através das obras de Virgílio e Dante. O inferno existe dentro de nós. É o lugar onde os personagens subconscientes esticam suas correntes, onde Plutão confina Perséfone por um terço do ano, ou onde Orfeu encontra e mais uma vez perde sua Eurídice.
 
-#### d. Pirâmide de luz (Céu)
+**d.** Pirâmide de luz (Céu)
 
 Na parte superior da carta, uma pirâmide de luz se eleva da escuridão, simbolizando a ascensão à consciência superior e à iluminação espiritual. Esta pirâmide representa a sabedoria divina que guia O Eremita em sua jornada. Também significa a conexão entre os reinos terrestre e celestial, e o potencial dos seres humanos de alcançar a transcendência espiritual. O Eremita nos lembra que o caminho para a iluminação é frequentemente solitário, exigindo introspecção, autodisciplina e disposição para confrontar nossos demônios interiores.
 
@@ -123,4 +123,4 @@ Na saúde, O Eremita pode representar necessidade de introspecção e autorrefle
 
 ---
 
-*Fonte: TarotX*
+

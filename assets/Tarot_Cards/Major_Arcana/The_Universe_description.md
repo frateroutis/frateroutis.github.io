@@ -1,6 +1,6 @@
-# O Universo — Thoth Tarot
+# O Universo
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,15 +26,15 @@ Os quatro querubins nos cantos carregam a vulva aberta do universo — ou o Olho
 
 ### 1. A dançarina cósmica
 
-#### a. A virgem-deusa
+**a.** A virgem-deusa
 
 No centro da carta vemos um tema erótico e sagrado: a deusa virginal reconciliando-se com a serpente em dança extática. O caminho desde O Louco está completo; a questão do significado dissolve-se, pois o significado reside na libertação do significado — o caminho é a meta. Este é o paradoxo de todos os começos: a virgem que une a si mesma e o universo em dança nupcial. Quando reconhecemos o olho no topo (a regra do universo), vemos a serpente rastejando dele como visão aberta. Eva liberta-se do pecado original ao reconciliar-se com a serpente.
 
-#### b. A serpente
+**b.** A serpente
 
 Símbolo da vida e da morte, a serpente celestial aqui não é compreendida apenas em seu lado escuro. Crowley a interpretou como filha de Nut e Hadit, reconhecendo a natureza dual desta criatura. A serpente não é o oposto de Deus, mas a parte escura do divino que separamos para manter Deus apenas "bom". O problema está em reprimir o mal, buscando apenas motivação para o bem, recusando-se a aceitar que mais luz cria mais sombra. Somente quando soubermos que cada lado brilhante representa a verdadeira unidade apenas em seu oposto polar escuro, compreenderemos a mensagem de O Universo.
 
-#### c. A dança da união
+**c.** A dança da união
 
 Deusa e serpente representam os opostos da experiência humana. Através de sua dança, interrompem a separação entre luz e escuridão, dando à luz uma nova alma espiritual, retornando ao céu. O retorno ao começo aconteceu; a meta final está alcançada: "Você e o Pai são um". Crowley escreveu que a dançarina segura o controle da força luminosa, tanto ativa quanto passiva, cada uma contendo sua bipolaridade. Seu parceiro é Heru-Ra-Ha de Atu XI.
 
@@ -119,4 +119,4 @@ Evitar o trabalho de integração necessário para alcançar totalidade. Pode es
 
 ---
 
-*Fonte: TarotX*
+

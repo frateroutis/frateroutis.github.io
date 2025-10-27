@@ -1,6 +1,6 @@
-# A Morte — Thoth Tarot
+# A Morte
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,43 +26,43 @@ Os ossos e a foice são símbolos de Saturno (estrutura e limite). Sobre a cabe�
 
 ### 1. Motivos centrais (a dança)
 
-#### a. Princípio de morte
+**a.** Princípio de morte
 
 Aqui, “morte” não é aniquilação, mas transformação incessante. A figura esquelética dança com a foice: cortar ligações obsoletas devolve matéria e energia ao fluxo da vida.
 
-#### b. Esqueleto e foice
+**b.** Esqueleto e foice
 
 Identificada na Idade Média ao ceifador Saturno, a Morte parecia pura destruição. No Thoth, a foice nas próprias mãos do “morto” revela o ciclo de morrer-renascer. A foice, como quarto lunar, ecoa Hécate, mistérios, magia e limiares.
 
-#### c. Atef de Osíris
+**c.** Atef de Osíris
 
 O elmo com a coroa Atef remete a Osíris: esfacelado por Seth, reunido por Anúbis e reerguido por Ísis. Após a “morte simbólica”, sempre vem a recomposição em novo corpo — imagem de iniciação.
 
 ### 2. Circulação (crescimento e declínio)
 
-#### a. Dança da Morte
+**a.** Dança da Morte
 
 O ciclo de crescimento e declínio costura as formas criativas. O medo do fim nasce de vermos partes sem os fios que as ligam. A paz interior vem ao aceitar: tudo termina para que algo comece.
 
-#### b. Renascimento
+**b.** Renascimento
 
 No outro polo, as bolhas com figuras dançantes mostram o nascer do novo. Toda novidade cresce sobre a transitoriedade do velho. Resistir a isso congestiona o fluxo criativo.
 
-#### c. Visão psicológica
+**c.** Visão psicológica
 
 O inconsciente lida menos com “o fim” e mais com o “como” findamos: atitude de entrega harmoniza a passagem; apego e medo a tornam árdua.
 
 ### 3. Três níveis de desenvolvimento
 
-#### a. Território inferior (escorpião; flores do pântano)
+**a.** Território inferior (escorpião; flores do pântano)
 
 No lodo, o escorpião representa putrefação e energia estagnada que precisa fermentar. A fermentação aquece o princípio “morrer e nascer” e produz solo fértil. Thanatos não é desejo de morrer, mas reação à vida bloqueada que busca saída destrutiva quando contida.
 
-#### b. Território médio (serpente; peixe)
+**b.** Território médio (serpente; peixe)
 
 Serpente e peixe (água dupla) simbolizam inconsciente, morte/vida, dissolução e preservação. São forças de transmutação e continuidade no fluxo aquoso de Mem.
 
-#### c. Território superior (águia)
+**c.** Território superior (águia)
 
 A águia, forma elevada do escorpião, sinaliza sublimação: do pesado ao volátil, do apego à visão — renascimento de perspectiva.
 
@@ -112,4 +112,4 @@ Fase de limpeza, detox, abandono de hábitos nocivos. Invertida: dificuldade de 
 
 ---
 
-*Fonte: TarotX*
+

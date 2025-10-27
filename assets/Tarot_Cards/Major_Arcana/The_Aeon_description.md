@@ -1,6 +1,6 @@
-# O Aeon — Thoth Tarot
+# O Aeon
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -24,15 +24,15 @@ No Thoth, O Aeon substitui o Julgamento tradicional. Crowley o lê como anúncio
 
 ### 1. Motivos centrais (o ovo celestial)
 
-#### a. Nut/Ísis
+**a.** Nut/Ísis
 
 Deusa do céu azul‑esverdeado, curvada em arco sobre o ovo. Dá à luz e recolhe os deuses; engole o Sol ao oeste e o pare ao leste. Representa possibilidades infinitas e tempo cíclico.
 
-#### b. Hadit
+**b.** Hadit
 
 Ovo dourado alado (sol alado invertido): ponto infinitesimal de consciência e foco. Conceito que fecunda possibilidade (Nut). União gera Hórus.
 
-#### c. Hórus duplo
+**c.** Hórus duplo
 
 - **Hoor-paar-kraat** (Harpócrates): criança nua com dedo na boca (silêncio). Potencial puro, inocência, futuro latente.
 - **Ra-Hoor-Khuit**: guerreiro solar ao fundo, força ativa, autoridade, passado que impulsiona o presente.
@@ -94,4 +94,4 @@ Cura profunda, renascimento físico/psíquico. Invertida: negação de limites; 
 
 ---
 
-*Fonte: TarotX*
+

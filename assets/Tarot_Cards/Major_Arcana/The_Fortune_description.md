@@ -1,6 +1,6 @@
-# A Fortuna — Thoth Tarot
+# A Fortuna
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -30,37 +30,37 @@ Hermanúbis, a criatura com cabeça de macaco, Tifão, o Deus com cabeça de cro
 
 ### 1. Motivo (três formas de energia)
 
-#### a. A Roda
+**a.** A Roda
 
 Nascimento e morte não estão relacionados um ao outro como dois lados da moeda. Em vez disso, estão no mesmo lado, mas separados pelo tempo ou pela roda, porque a roda é o símbolo fundamental da integridade, ela se move continuamente, mas sua mente permanece inalterada. Tudo o que emerge, se desenvolve e depois desaparece não existe mais porque o círculo giratório da roda da vida traz tudo para a dança da fortuna.
 
 Se você olhar em outra direção, nada é formado ou desaparece porque o eixo da roda está sempre lá e fixo no centro. É a roda do céu que girou constantemente ao redor da terra por milhões de anos. O poder por trás da roda é o Eterno para fazer a roda se mover; os raios são padrões espirituais que conectam a eternidade com elementos de tempo e espaço; os símbolos no contorno da roda (Esfinge, Hermanúbis e Tifão) são catalisadores que transformam o padrão subconsciente da eternidade em destino pessoal; e a maneira como a roda está rolando representa o impacto de nossas ações.
 
-#### b. Tifão (*Typhon*)
+**b.** Tifão (*Typhon*)
 
 Em A Fortuna, podemos ver que Tifão (*Tarnas*) está à direita e se deixa cair, dando sua primeira roda dinâmica. No entanto, não cairá porque sempre voltará à roda com suas duas pernas e sua cauda sólida (a cauda está envolvida na roda formando um loop infinito). Tifão é filho de Gaia, Mãe Terra, e Tártaro: o próprio Tifão é o pai do Cão do Inferno de três cabeças. Com o objetivo de destruir a criatividade, ele lutou contra os deuses do Olimpo, mas foi eventualmente morto pelo raio de Zeus e enterrado sob a rocha que agora é chamada Sicília. Toda vez que o Etna se agita, ouviremos sua voz ecoar do inferno.
 
 Na mitologia egípcia, Tifão corresponde a Seth, a personificação do sol do deserto queimando tudo. Ele é visto como o Deus da destruição, o destruidor e o inimigo de seu irmão mais velho Osíris, correspondendo à umidade — o elemento que traz vida e é amado por todos. Os egípcios consideravam o rio Nilo "o símbolo do pênis de Osíris", cada ano ele sobe e flui pelas áridas terras negras, correspondendo ao seu corpo. Enquanto o fluxo fértil do Nilo ainda não apareceu, é claro que o poder seco de Seth será dominante. Em A Fortuna, podemos vê-lo segurando o símbolo da vida — a Cruz Ankh — em sua mão direita e o cajado Heka — o sinal de Osíris e o símbolo de seu poder mágico — em sua mão esquerda.
 
-#### c. (Herm) Anúbis
+**c.** (Herm) Anúbis
 
 Esta queda ao inferno é o oposto completo de Hermanúbis (*Rajas*). Anúbis representa o poder de recuperação que, segundo a mitologia egípcia, coletou as partes do corpo de Osíris (ele foi cortado por Seth/Tifão em 22 pedaços). Crowley chama este personagem de Hermanúbis, referindo-se ao nome do Deus egípcio, Heru-em-Apun — que é a unidade do Deus do céu Hórus e do deus do inferno Anúbis e governa tanto os mundos superior quanto inferior em nova forma. Hermanúbis foi posteriormente considerado a conexão e o formato do guia da alma egípcia, Anúbis, e do guia da alma grega, Hermes. Esta forma combinada enfatiza bons aspectos morais e elimina as dúvidas que os gregos frequentemente atribuem a Hermes.
 
-#### d. A Esfinge
+**d.** A Esfinge
 
 No ponto mais alto da roda, a Esfinge com o lenço Nemes dos reis e a serpente Uraeus na testa simboliza o poder unificador dos quatro elementos que governam a roda. Na Esfinge, as pessoas enfrentarão coisas inacreditáveis por trás da roda, evocando nelas a questão da origem de todas as coisas. A humanidade representará esta busca porque não há conceito que possa fornecer evidência para a parte real sem refletir sobre o desejo humano. No entanto, as pessoas apenas aceitam o que podem controlar, e exatamente, a Esfinge destruirá nossas ilusões de controlar tudo; devemos entender que a Esfinge é um desafio para sermos humildes e evitar o destino de Édipo, que se tornou vítima de sua própria sabedoria.
 
 ### 2. Espaço e Tempo (roda da fortuna)
 
-#### a. Duas rodas
+**a.** Duas rodas
 
 Um antigo método chinês de adivinhação é girar duas rodas (ou Mandala) juntas. Uma roda será fixa e refletirá a eternidade, a antiga ordem celestial, e Ho-ton, enquanto a outra roda girará acima simbolizando um espelho do período de recirculação, a nova ordem celestial, e Lo Shon. A combinação das duas rodas fará previsões. Este conceito também criou a base para o I Ching, com 64 variáveis combinadas em dois Baguas, correspondendo a superior e inferior.
 
-#### b. Roda do terrestre
+**b.** Roda do terrestre
 
 A roda terrestre (vertical) no meio de A Fortuna simboliza o mundo circulante de desenvolvimento e declínio sem fim, em oposição à imagem da tradição ocidental do mundo, reconhecendo apenas um começo (momento da criação) e um fim (fim do mundo). O conceito de morte e renascimento está ligado a uma pintura periódica que domina culturas matriarcais e ainda é prevalente na Ásia hoje. No entanto, isso não é um fator reconfortante porque é recém-revisado em nossa cultura — "não há nada que não esteja mudando, nada que não esteja se movendo, nada que não esteja se transformando, nada que não esteja se tornando algo mais."
 
-#### c. Roda do celestial
+**c.** Roda do celestial
 
 A roda do celestial (horizontal) é a roda do céu que girou constantemente ao redor da terra por milhões de anos. É a roda do universo, a roda do destino e a roda do karma. Representa o ciclo eterno de criação, preservação e destruição. A Fortuna nos lembra que tudo na vida está constantemente mudando, e que devemos aprender a nos adaptar a essas mudanças se quisermos alcançar nossos objetivos. Também nos lembra que todos fazemos parte de uma dança cósmica maior, e que nossos destinos individuais estão entrelaçados com o destino do universo.
 
@@ -115,4 +115,4 @@ Na saúde, A Fortuna pode representar mudanças inesperadas e pontos de virada e
 
 ---
 
-*Fonte: TarotX*
+

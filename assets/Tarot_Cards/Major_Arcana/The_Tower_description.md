@@ -1,6 +1,6 @@
-# A Torre — Thoth Tarot
+# A Torre
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -24,33 +24,33 @@ A Torre no Thoth representa a rigidez da alma e da mente, e o poder explosivo qu
 
 ### 1. Motivos centrais (destruição e ruptura)
 
-#### a. A torre
+**a.** A torre
 
 Símbolo da busca por segurança rígida, que aprisiona e impede o crescimento. Romper a estrutura é necessário para libertar o potencial oculto.
 
-#### b. As chamas
+**b.** As chamas
 
 O fogo criativo destrói o antigo Aeon, abrindo espaço para o novo. A boca flamejante representa o dinamismo que consome o que não serve mais.
 
-#### c. Muros em colapso
+**c.** Muros em colapso
 
 O colapso dos muros marca o fim de apegos e crenças limitantes. A explosão é cumprimento da lei natural de mudança.
 
-#### d. Figuras caindo
+**d.** Figuras caindo
 
 Mostram o impacto da separação e do isolamento. O desastre pode ser libertação, se aceito como renovação.
 
 ### 2. O Olho de Deus e símbolos
 
-#### a. Olho de Hórus/Shiva
+**a.** Olho de Hórus/Shiva
 
 Representa consciência que observa e dissolve padrões. É o “olho que tudo vê”, fonte de renovação.
 
-#### b. Pomba
+**b.** Pomba
 
 Ligada à deusa do amor e à paz, mas também à renovação e ao nascimento. O ramo de oliveira é símbolo de esperança e novo ciclo.
 
-#### c. Leão-serpente (Abraxas/Khnoumis)
+**c.** Leão-serpente (Abraxas/Khnoumis)
 
 Símbolo gnóstico que une luz e sombra, sol e lua, integrando opostos. Abraxas é fonte de energia criativa e renovadora.
 
@@ -100,4 +100,4 @@ Crise, necessidade de intervenção radical, renovação de hábitos. Invertida:
 
 ---
 
-*Fonte: TarotX*
+

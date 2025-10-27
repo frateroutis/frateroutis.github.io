@@ -1,0 +1,328 @@
+:root {
+    --primary: #000000;
+    --secondary: #000000;
+    --accent: #e94560;
+    --gold: #d4af37;
+    --light: #f1f1f1;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--light);
+    min-height: 100vh;
+    padding: 2rem;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+    padding: 4rem 2rem;
+    font-size: 1.5rem;
+    color: var(--gold);
+}
+
+.loading::after {
+    content: '...';
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgba(212, 175, 55, 0.1);
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.back-button:hover {
+    background: var(--gold);
+    color: var(--primary);
+    transform: translateX(-5px);
+}
+
+.card-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-image-section {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-image-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px var(--shadow);
+    border: 3px solid var(--gold);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.card-content-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.content-body {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 2.5rem;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+/* Estilos do Markdown */
+.content-body h1 {
+    color: var(--gold);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px var(--shadow);
+    border-bottom: 3px solid var(--gold);
+    padding-bottom: 0.5rem;
+}
+
+.content-body h2 {
+    color: var(--gold);
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid var(--accent);
+}
+
+.content-body h3 {
+    color: #f39c12;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.content-body h4 {
+    color: #e67e22;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-body p {
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    color: var(--light);
+}
+
+.content-body strong,
+.content-body b {
+    color: var(--gold);
+    font-weight: bold;
+}
+
+.content-body em,
+.content-body i {
+    color: #f39c12;
+    font-style: italic;
+}
+
+.content-body ul,
+.content-body ol {
+    margin-left: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.content-body li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.content-body ul li::marker {
+    color: var(--gold);
+}
+
+.content-body ol li::marker {
+    color: var(--gold);
+    font-weight: bold;
+}
+
+.content-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.content-body th {
+    background: rgba(212, 175, 55, 0.2);
+    color: var(--gold);
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid var(--gold);
+}
+
+.content-body td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.content-body tr:hover {
+    background: rgba(212, 175, 55, 0.05);
+}
+
+.content-body hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    margin: 2rem 0;
+}
+
+.content-body blockquote {
+    border-left: 4px solid var(--accent);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: rgba(241, 241, 241, 0.9);
+    background: rgba(233, 69, 96, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.content-body code {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #3498db;
+}
+
+.content-body a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.content-body a:hover {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+}
+
+/* Fonte especial no final */
+.content-body p:last-child {
+    text-align: center;
+    font-style: italic;
+    color: var(--gold);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.error-message {
+    background: rgba(233, 69, 96, 0.2);
+    border: 2px solid var(--accent);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    color: var(--light);
+}
+
+.error-message h2 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--gold);
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .card-header {
+        flex-direction: column;
+    }
+
+    .card-image-section {
+        max-width: 100%;
+    }
+
+    .card-image-container {
+        height: 500px;
+    }
+
+    .content-body {
+        padding: 1.5rem;
+    }
+
+    .content-body h1 {
+        font-size: 2rem;
+    }
+
+    .content-body h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animação de entrada */
+.fade-in {
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

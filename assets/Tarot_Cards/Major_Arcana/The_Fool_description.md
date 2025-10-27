@@ -1,6 +1,6 @@
-# O Louco — Thoth Tarot
+# O Louco
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -40,49 +40,49 @@ Ele não apenas aparece no início, mas também no final de um velho ciclo de cr
 
 ### 1. Personagem (homem louco)
 
-#### a. Louco
+**a.** Louco
 
 O Louco, o personagem que ocupa todo o espaço, não está de pé no chão, mas pendurado no ar, é um símbolo da perda de objetivo ou falta de direção. Coincidentemente, um caminho está sempre disponível aos seus pés, e o objetivo é a direção do movimento não intencional. O Louco representa o não intencional sem uma postura firme. Então, ele não ficou de pé no chão, mas a sola do sapato se virou para o observador como se dissesse: nada é o objetivo!
 
-#### b. O olhar
+**b.** O olhar
 
 Seu olhar que desliza através de tudo é uma expressão de um estado de não olhar. Na maldição desse olhar, o Fool está experimentando a si mesmo além de todas as formas de espaço e tempo de pensamento. Ele se acostuma com sua existência interior profunda, que não pode ser entendida por palavras e carregando dentro de si as possibilidades que ainda não foram formadas.
 
-#### c. A cabeça
+**c.** A cabeça
 
 Ele tem chifres em sua cabeça e uma pirâmide de cristal de luz no meio dos chifres. Os chifres simbolizam o desejo por uma vida sem iluminação. É também o desejo de encontrar uma conexão com o universo que se expressa na forma da pirâmide de cristal de luz. No entanto, o Fool só poderia expressar esse desejo através do ego e só poderia obter o maná do céu em lugar nenhum ou em um estado suspenso. O território dos Deuses, que vai além de todas as visualizações e conceitos, sobe dentro da pirâmide atrás dele.
 
-#### d. A mão
+**d.** A mão
 
 O cálice invertido (água) em sua mão direita e o fogo em sua mão esquerda são símbolos da alquimia. O objetivo mais alto do alquimista é transformar o básico em algo mais avançado através da conexão de coisas que parecem completamente opostas.
 
 ### 2. Fundo (Elementos)
 
-#### a. Fogo
+**a.** Fogo
 
 A cena é montada (incompleta) pela colisão entre água e fogo. O fogo ao redor do personagem verde (o Fool) é maior que a vida quando emerge do espaço. Eles se concentram em um sol radiante no centro sexual da Deusa de Abril.
 
-#### b. Água
+**b.** Água
 
 A água que flui de cima desce no limite inferior formando a Água da Vida (o rio Nilo com os lótus), da qual os instintos protótipos originais estão rastejando (crocodilo). Somente quando a mente se funde com a alma (o nível mais alto do Fool) as pessoas não precisarão mais de parceiros físicos. Agora, ele ou ela participou diretamente da fonte original com toda a sua vida, encontrada no gesto do amor imortal. A rosa brilhante do nível mais profundo (no crocodilo) simboliza isso.
 
 ### 3. Primeiro Plano (Formas Espirais)
 
-#### a. A primeira espiral (cacho de uvas)
+**a.** A primeira espiral (cacho de uvas)
 
 O primeiro círculo em forma de coração mostra o desejo de inclusão e de quebrar todos os limites. O caule do cacho de uvas alcança esse círculo (ao redor do pescoço do Fool). Isso corresponde ao êxtase (a uva simbolizando embriaguez) fluindo para a eternidade, e o desejo fluindo para os ciclos de desenvolvimento e decadência no contexto da imortalidade.
 
-#### b. A segunda espiral (pomba, borboleta, duas cobras enroladas)
+**b.** A segunda espiral (pomba, borboleta, duas cobras enroladas)
 
 O segundo círculo representa um nível no qual nosso pensamento lógico não é mais válido. Esta área representa o ciclo de vida e morte. De maneira antiquada, uma pomba incorpora o espírito da fertilidade e um abutre é uma virgem acasalando com o vento leste. Borboletas mostram a necessidade de desenvolvimento (de pupas a borboletas). Simboliza a alma imortal que deixa o corpo e depois reencarna. O bastão em forma de cobra, chamado caduceu, representa o poder de subir, recuar ou aparecer e depois desaparecer: as cobras da vida e morte na eternidade. O símbolo do sol egípcio espreita nas asas no topo do bastão.
 
-#### c. A terceira espiral (bebês, flores, sol)
+**c.** A terceira espiral (bebês, flores, sol)
 
 Neste nível, podemos ver dois bebês enrolados um no outro criando uma ponte física no redemoinho da eternidade. Isso equivale a expressar eternidade no tempo e no espaço. Acima deles (entre as pernas do Fool), há uma flor exótica com 3 maças, simbolizando a transferência de energia da existência (bebês) para o reino criativo da emergência (o sol no meio da carta representando o órgão genital do Fool).
 
 A sequência de bebês/flores/sol deve corresponder ao que o esotérico chamou de desejo de ter a luz do universo ou o divino. Físicos chamam isso de região de vibração eletromagnética, enquanto a psicanálise considera sexualidade. Este trio mostra o desejo de integrar com a eternidade, que corresponde ao Cupido ou energia kundalini no Yoga, levando à concepção da natureza.
 
-#### d. A quarta espiral (crocodilo, tigre)
+**d.** A quarta espiral (crocodilo, tigre)
 
 Este círculo representa a luz brilhante no limite da aparência, onde as imagens coletivas do passado sonham com seu futuro antes de entrar na nova era. Corresponde à vontade criativa que até então não foi pretendida.
 
@@ -132,5 +132,3 @@ Em um spread financeiro, O Louco pode significar um novo começo financeiro ou d
 Em um spread de saúde, O Louco pode representar uma nova abordagem ao seu bem-estar ou disposição para experimentar métodos de cura não convencionais. Sugere que você está aberto a explorar novas dietas, rotinas de exercícios ou terapias alternativas. Esta carta encoraja você a ouvir seu corpo e confiar em sua intuição quando se trata de sua saúde. Se a carta estiver invertida, pode indicar falta de autocuidado ou impulsividade em suas escolhas de saúde, levando a desequilíbrios ou problemas de saúde. Lembra você a ser mais consciente do seu bem-estar e buscar orientação profissional se necessário.
 
 ---
-
-*Fonte: TarotX • Última atualização: 20 de dezembro de 2023*

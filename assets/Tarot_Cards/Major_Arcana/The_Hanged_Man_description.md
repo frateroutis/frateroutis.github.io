@@ -1,6 +1,6 @@
-# O Enforcado — Thoth Tarot
+# O Enforcado
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -26,37 +26,37 @@ Ao mesmo tempo, o círculo ao qual ele se prende tem valor de absoluto e divinda
 
 ### 1. Motivo central (o pendurado)
 
-#### a. O Enforcado
+**a.** O Enforcado
 
 Pendurado com a cabeça voltada para a terra, ele expressa o estado de quem está preso nas consequências de seus próprios atos e ideias, no ponto de absoluta impossibilidade de agir. A saída está precisamente nessa impotência: nada resta senão esperar e aceitar a situação. Nesse abandono, vontade pessoal e desígnio maior tornam-se um: “Pai, não se faça a minha, mas a Tua vontade”.
 
-#### b. Posição
+**b.** Posição
 
 Crowley — ao contrário de Waite — escolhe a forma tradicional e o suspende pelo pé esquerdo. Sugere, assim, que muitas vezes entramos nesses processos de aprendizagem não por busca consciente, mas por influxo do inconsciente. Forçado a abandonar velhos hábitos, o Enforcado é lançado na incerteza, num estado suspenso em que tudo lhe é retirado, restando esperar no escuro para ver como as coisas prosseguem. Crowley resume: as pernas cruzadas e os braços abertos compõem o Triângulo sobre a Cruz — projeção de luz nas trevas para redimi-las; no espírito, é um ato de entrega incondicional ao processo misterioso que reconduz à Fonte.
 
-#### c. Corpo exposto
+**c.** Corpo exposto
 
 No plano material, a postura implica exposição total — queda das máscaras. Só pagando esse preço o buscador encontra o Eu Divino que o sustenta quando todos os apoios externos falham. Essa impotência é aspecto fundamental do humano: a desproteção do recém-nascido que, pelas provas da vida, aprende humildade.
 
-#### d. Cabeça e rosto
+**d.** Cabeça e rosto
 
 A cabeça raspada e o corpo liso indicam prontidão para “nascer de novo” num nível mais alto de consciência. Ao abrir mão da persona, perde-se também o “rosto” perante as circunstâncias. As expressões e o apego à gravidade são máscaras atrás das quais o eu oculta seus medos. Quando se reconhece que tais medos brotam do desejo de controle, torna-se possível acolher o destino sem vacilar e confiar numa guia maior.
 
 ### 2. Plano de fundo e símbolos
 
-#### a. Ankh e a serpente da vida
+**a.** Ankh e a serpente da vida
 
 O horizonte esverdeado é trespassado por raios brancos de Kether (a Coroa) — sinal do fluxo ilimitado. A cruz em primeiro plano simboliza o que se torna visível; a serpente enroscada ao pé liga-o ao Ankh, imagem do poder criativo transformador que o une à vitalidade.
 
-#### b. Grade azul
+**b.** Grade azul
 
 As pequenas casas sugerem os “modelos básicos” sociais que nos aliviam da responsabilidade pessoal com caixas prontas e rótulos. O Enforcado confronta tais moldes: pelo auto-sacrifício e pela aceitação da própria impotência, liberta-se da necessidade de se distinguir, relaxa obrigações sociais e abre-se à correlação real da vida. Sua situação o força a abrir-se — queira ou não.
 
-#### c. Placas verdes (fixações)
+**c.** Placas verdes (fixações)
 
 Como essa fusão interna exige fraqueza e desamparo, poucos se dispõem voluntariamente ao limiar da crise. As placas que o “pregam” à cerca indicam a tensão entre padrões coletivos e desprendimento: preso, mas já separado pela espessura das placas.
 
-#### d. Serpente negra
+**d.** Serpente negra
 
 Sua postura reconecta às fontes arcaicas (a serpente inferior) — figura que assusta como morte, mas também remete à força que o mantém (a serpente superior). A serpente negra é meia-verdade; ele reconhece que é a serpente da vida que o sustém. Unindo alto e baixo, encontra o centro interior e já não precisa fugir da realidade. Pode, enfim, render-se — e, na renúncia, tomar posse de si: entrega o medo e, ao entregá-lo, fica livre.
 
@@ -107,4 +107,4 @@ Convite ao repouso, terapias de água, escuta do corpo. Invertida: exaustão por
 
 ---
 
-*Fonte: TarotX*
+

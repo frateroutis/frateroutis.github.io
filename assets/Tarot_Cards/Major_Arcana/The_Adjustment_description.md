@@ -1,6 +1,6 @@
-# O Ajuste — Thoth Tarot
+# O Ajuste
 
-**Carta do Major Arcana • Aleister Crowley**
+**Arcano Maior**
 
 ---
 
@@ -30,33 +30,33 @@ O Ajuste, posicionado dentro da moldura de losango, reflete a imagem do Lambdoma
 
 ### 1. Forma (*Justitia*)
 
-#### a. Ajuste
+**a.** Ajuste
 
 A imagem de um personagem auto-equilibrado é uma mistura de três cartas. Na carta O Ajuste, podemos ver a mente pura do Louco mergulhando na estrutura da régua, explicando o arranjo simétrico da carta. No entanto, como a carta não pode ser explicada apenas pela perspectiva da justiça social da régua — ela corresponde à regra feminina que está em harmonia com a masculinidade — ela representa o equilíbrio das coisas. São as emoções criativas internas que surgem das profundezas, retratando a expressão gentil da enigmática sabedoria feminina expressa no símbolo pristino da Suma Sacerdotisa.
 
-#### b. Coroa (vertical)
+**b.** Coroa (vertical)
 
 A balança estava pendurada de sua coroa nas correntes, chamadas por Crowley de Corrente da origem. No meio está a coroa usada na cabeça da Deusa. Crowley disse que "ela é tão sensível, que até mesmo um sopro do menor pensamento pode perturbá-la." E ele levantou a noção de que todas as ações, mesmo as mais discretas, evocam um eco de que as regras divinas são responsáveis, estando constantemente conscientes de ter que manter o equilíbrio da melhor maneira. Se esse não for o caso — como um pesquisador do caos confirmou, o bater das asas de uma borboleta em Pequim causará tempestades na Costa Oeste dos Estados Unidos.
 
-#### c. Balança (horizontal)
+**c.** Balança (horizontal)
 
 A balança é um símbolo de equilibrar forças internas e externas. Quando O Ajuste descreve as emoções internas que estão buscando a clareza interna de suas expressões externas, então as duas balanças representam a largura do espaço e do tempo ou o começo e o fim; no qual o eixo do tempo está no eixo sobre o qual a esfera "se move" no eixo do tempo.
 
-#### d. Máscara (sobre os olhos)
+**d.** Máscara (sobre os olhos)
 
 A máscara de *Justitia* enfatizava que ela praticava a justiça sem nem mesmo olhar para seu status, aparência ou qualquer outro elemento tangível. Ela fez isso a um nível mais avançado através da atenção direta para dentro e reagiu instintivamente a cada impulso, então ela manteve uma ordem harmoniosa.
 
 ### 2. Centro e plano de fundo
 
-#### a. Losango
+**a.** Losango
 
 Quando consideramos a mulher mascarada se expressando na diagonal do losango — o símbolo da harmonia do Universo — então podemos vê-la como tranquilidade mental (ponta da espada) que ajuda a "equilibrar" a si mesma através de seu próprio equilíbrio. Toda matéria é energia. Considerando essa luz, O Ajuste é um símbolo de grande interação entre opostos, girando ao redor de si mesmos e assim, criando espaço e tempo.
 
-#### b. A ponta da espada
+**b.** A ponta da espada
 
 Podemos ver uma espada aqui — simbólica de ação e força, com a ponta da espada fincada no chão (Nas antigas cartas de Tarô, a espada é direcionada para o céu, carregando características da razão masculina que tende a separar tudo, enquanto as emoções femininas tentam conectar extremos). Isso indica um equilíbrio no elemento feminino (o "*linga*" da espada é plantado no "*yoni*" do chão), e não apenas alcança um equilíbrio harmonioso em atos sábios, através dos quais também descobriu as camadas mais profundas do subconsciente.
 
-#### c. Quatro e oito círculos (trono)
+**c.** Quatro e oito círculos (trono)
 
 No fundo, podemos ver que o trono é composto de esferas e pirâmides (há quatro, denotando Lei e Limites). Eles retêm a igualdade que O Ajuste está expressando, através de um reino não-pessoal e em uma estrutura onde toda atividade ocorre. Então, Crowley quis revelar a natureza de que a Esfinge existe dentro da carta, onde estruturas apenas alcançam existência ao apoiar uma estrutura na qual se apoiam. Fora dela, no canto da carta, há esferas equilibradas de luz e escuridão, e os raios que são constantemente equilibrados daquelas esferas formam uma cortina. A influência mútua desses recursos é sintetizada e calibrada por ela.
 
@@ -115,4 +115,4 @@ Na saúde, O Ajuste pode representar necessidade de equilíbrio e justiça em su
 
 ---
 
-*Fonte: TarotX*
+
