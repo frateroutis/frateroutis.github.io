@@ -30,6 +30,10 @@
     // { id: 'private-api', pathPrefix: '/private/', password: 'outra', rememberDays:7 }
   ];
 
-  // initialize on DOMContentLoaded
-  document.addEventListener('DOMContentLoaded', function () { window.SiteProtect.init(cfg); });
+  // initialize once on DOMContentLoaded (guard against double-includes)
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.__SP_INITED) return;
+    window.__SP_INITED = true;
+    window.SiteProtect.init(cfg);
+  }, { once: true });
 })();

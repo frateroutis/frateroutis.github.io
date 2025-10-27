@@ -175,16 +175,16 @@
     btn.className = 'sp-btn sp-btn-primary';
     btn.textContent = 'Entrar';
 
-  var btnHome = document.createElement('button');
-  btnHome.className = 'sp-btn sp-btn-secondary';
-  btnHome.textContent = 'Voltar para Home';
+    var btnHome = document.createElement('button');
+    btnHome.className = 'sp-btn sp-btn-secondary';
+    btnHome.textContent = 'Voltar para Home';
 
     var btnClear = document.createElement('button');
     btnClear.className = 'sp-btn sp-btn-link';
     btnClear.textContent = 'Limpar senha salva';
 
     row.appendChild(btn);
-  row.appendChild(btnHome);
+    row.appendChild(btnHome);
     row.appendChild(btnClear);
 
     modal.appendChild(title);
@@ -195,43 +195,37 @@
 
     overlay.appendChild(modal);
 
-    // styles
-  var style = document.createElement('style');
-  style.textContent = `
-.sp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:999999}
-.sp-modal{background:#fff;color:#111;max-width:420px;width:92%;padding:20px;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6);font-family:inherit;text-align:center}
-body.dark-mode .sp-modal{background:#111;color:#eee}
-.sp-title{margin:0 0 8px;font-size:1.25rem}
-.sp-message{margin:0 0 12px;color:#444;font-size:0.95rem}
-.sp-input{width:100%;padding:12px;border-radius:8px;border:1px solid #ddd;margin-bottom:10px;font-size:1rem}
-body.dark-mode .sp-input{background:#222;border-color:#333;color:#fff}
-.sp-error{color:#d9534f;min-height:20px;margin-bottom:6px}
-.sp-row{display:flex;gap:8px;justify-content:center}
-.sp-btn{padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
-.sp-btn-primary{background:#2b6cb0;color:#fff}
-.sp-btn-secondary{background:#e2e8f0;color:#111}
-.sp-btn-link{background:transparent;color:#2b6cb0;border:1px solid transparent}
-`;
+    // styles via external stylesheet
+    var styleLink = document.querySelector('link[data-sp-style="1"]');
+    if (!styleLink) {
+      styleLink = document.createElement('link');
+      styleLink.rel = 'stylesheet';
+      var base = (window.SITE_BASEURL || '').trim();
+      styleLink.href = (base && base !== '/' ? base : '') + '/css/protect.css';
+      styleLink.setAttribute('data-sp-style', '1');
+    }
 
-  return { overlay: overlay, modal: modal, input: input, error: error, btn: btn, btnHome: btnHome, btnClear: btnClear, style: style };
+    return { overlay: overlay, modal: modal, input: input, error: error, btn: btn, btnHome: btnHome, btnClear: btnClear, style: styleLink };
   }
 
   function showModal(matcher, cb) {
     var doc = document;
     var nodes = createModal(matcher);
-    document.head.appendChild(nodes.style);
+    if (nodes.style && !document.head.contains(nodes.style)) {
+      document.head.appendChild(nodes.style);
+    }
     document.body.appendChild(nodes.overlay);
     // focus
     nodes.input.focus();
 
     function clean() {
-      try { nodes.overlay.remove(); nodes.style.remove(); } catch (e) {}
+      try { nodes.overlay.remove(); } catch (e) {}
     }
 
-  nodes.btn.addEventListener('click', async function () {
+    nodes.btn.addEventListener('click', async function () {
       var val = nodes.input.value || '';
       if (val === matcher.password) {
-    await setAuthenticated(matcher.id, matcher.rememberDays);
+        await setAuthenticated(matcher.id, matcher.rememberDays);
         clean();
         revealPage();
         cb(true);

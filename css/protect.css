@@ -1,0 +1,15 @@
+/* Protect modal styles (scoped with .sp- prefix) */
+.sp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:999999}
+.sp-modal{background:#fff;color:#111;max-width:560px;width:94%;padding:24px;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6);font-family:inherit;text-align:center;overflow:hidden}
+body.dark-mode .sp-modal{background:#111;color:#eee}
+.sp-title{margin:0 0 10px;font-size:1.35rem}
+.sp-message{margin:0 auto 14px;color:#444;font-size:1rem;text-align:center;max-width:520px}
+.sp-input{width:100%;max-width:520px;box-sizing:border-box;padding:14px 16px;border-radius:10px;border:1px solid #ddd;margin:0 auto 12px;font-size:1.05rem}
+.sp-input:focus{outline:none;box-shadow:0 0 0 3px rgba(59,130,246,.35);border-color:#4c9ffe}
+body.dark-mode .sp-input{background:#222;border-color:#333;color:#fff}
+.sp-error{color:#d9534f;min-height:20px;margin-bottom:8px}
+.sp-row{display:flex;gap:10px;justify-content:center}
+.sp-btn{padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.sp-btn-primary{background:#2b6cb0;color:#fff}
+.sp-btn-secondary{background:#e2e8f0;color:#111}
+.sp-btn-link{background:transparent;color:#2b6cb0;border:1px solid transparent}
