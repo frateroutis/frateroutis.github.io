@@ -2,6 +2,7 @@
     --primary: #000000;
     --secondary: #000000;
     --accent: #e94560;
+    --success: #2ecc71;
     --gold: #d4af37;
     --light: #f1f1f1;
     --shadow: rgba(0, 0, 0, 0.3);
@@ -247,6 +248,39 @@ body {
 .content-body a:hover {
     color: var(--gold);
     border-bottom-color: var(--gold);
+}
+
+/* Banner de status (Vertical/Invertida) */
+.status-banner {
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.status-banner.reversed {
+    background: rgba(233, 69, 96, 0.15);
+    border-color: var(--accent);
+}
+
+.status-banner.upright {
+    background: rgba(46, 204, 113, 0.15);
+    border-color: var(--success);
+}
+
+.status-banner .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.status-banner.reversed .title {
+    color: var(--accent);
+}
+
+.status-banner.upright .title {
+    color: var(--success);
 }
 
 /* Fonte especial no final */

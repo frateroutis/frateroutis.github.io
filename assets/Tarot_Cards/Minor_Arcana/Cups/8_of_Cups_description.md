@@ -63,7 +63,7 @@ Pântano sufocante de emoções falsas/falsificadas que viraram maliciosas. Rela
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Muitos explicam como "doar demais de si sem limites até exaustão", mas isso não é indolência nem o que Crowley pretendeu
 - Estagnação sem interesse por amigos/projetos; afeta emocionalmente/mentalmente
@@ -71,7 +71,7 @@ Pântano sufocante de emoções falsas/falsificadas que viraram maliciosas. Rela
 - Falta de esforço (questões pessoais passadas; não ver sentido na vida)
 - Reação a sentir vazio; pode ser resposta a depressão (como o 7 é sobre imoralidade)
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Depressão; problemas emocionais prolongados; pensamentos suicidas
 

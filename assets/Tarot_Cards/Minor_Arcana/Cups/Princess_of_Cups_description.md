@@ -67,12 +67,12 @@ Em um relacionamento, a Princesa anuncia algo iminente no plano afetivo: a prime
 
 ## **IV. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Romântica, doce, gentil, amável e profunda (na imagem, está no oceano profundo), porém tende a se perder no romance e mostrar indiferença ao entorno
 - Pode ser sonhadora e pouco participativa; depende de outros, mas oferece muito em troca
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Insolente, excessos e luxos; superficialidade; incapacidade de mostrar profundidade
 

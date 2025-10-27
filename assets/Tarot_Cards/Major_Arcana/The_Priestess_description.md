@@ -91,7 +91,7 @@ Como todos esses padrões implícitos imbuídos da tradição dos velhos homens 
 
 A carta A Sacerdotisa representa intuição, mistério e a mente subconsciente. Significa uma conexão com o divino feminino e o mundo interior de sonhos e símbolos. A Sacerdotisa é uma guardiã do conhecimento oculto e uma guia para os reinos mais profundos da consciência. Esta carta nos encoraja a confiar em nossa intuição, ouvir nossa voz interior e explorar os mistérios de nossa própria psique. Também nos lembra que há mais na realidade do que o que os olhos veem.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Quando a carta A Sacerdotisa aparece em posição normal, significa intuição, sabedoria e uma conexão com a mente subconsciente. Sugere que você está em sintonia com sua orientação interior e que tem acesso ao conhecimento oculto. Esta carta encoraja você a confiar em seus instintos, prestar atenção aos seus sonhos e explorar os aspectos mais profundos do seu ser. Também representa um tempo de contemplação silenciosa e introspecção. Você pode estar buscando solidão para se conectar com seu eu interior e obter clareza sobre seu caminho. A Sacerdotisa lembra você de que as respostas que procura estão dentro de você.
 
@@ -103,19 +103,43 @@ Quando a carta A Sacerdotisa aparece em posição invertida, pode indicar uma de
 
 ### 1. Spread de Amor
 
-Em um spread de amor, a carta A Sacerdotisa pode significar uma conexão profunda e intuitiva entre parceiros. Sugere que você e seu parceiro compartilham um vínculo espiritual forte e que são capazes de se comunicar em um nível não-verbal. Esta carta encoraja você a confiar em sua intuição em assuntos do coração e ouvir sua voz interior. Se você é solteiro, a Sacerdotisa pode indicar que está prestes a conhecer alguém que despertará seu lado espiritual. No entanto, se a carta estiver invertida, pode sugerir falta de intimidade emocional ou tendência a guardar segredos em um relacionamento.
+**Posição Vertical:**
+
+Em um spread de amor, a carta A Sacerdotisa pode significar uma conexão profunda e intuitiva entre parceiros. Sugere que você e seu parceiro compartilham um vínculo espiritual forte e que são capazes de se comunicar em um nível não-verbal. Esta carta encoraja você a confiar em sua intuição em assuntos do coração e ouvir sua voz interior. Se você é solteiro, a Sacerdotisa pode indicar que está prestes a conhecer alguém que despertará seu lado espiritual.
+
+**Posição Invertida:**
+
+Falta de intimidade emocional ou tendência a guardar segredos em um relacionamento. Desconexão da intuição sobre o parceiro; dificuldade em confiar nos próprios sentimentos. Pode indicar relacionamento superficial ou necessidade de maior profundidade emocional.
 
 ### 2. Spread de Carreira
 
-Em um spread de carreira, a carta A Sacerdotisa pode representar uma carreira alinhada com seu caminho espiritual ou que envolve intuição e criatividade. Sugere que você é atraído por profissões que permitem usar sua sabedoria interior e ajudar os outros. Esta carta encoraja você a confiar em seus instintos em suas escolhas de carreira e seguir sua paixão. Se a carta estiver invertida, pode sugerir falta de clareza ou sentimento de não estar realizado em sua carreira.
+**Posição Vertical:**
+
+Em um spread de carreira, a carta A Sacerdotisa pode representar uma carreira alinhada com seu caminho espiritual ou que envolve intuição e criatividade. Sugere que você é atraído por profissões que permitem usar sua sabedoria interior e ajudar os outros. Esta carta encoraja você a confiar em seus instintos em suas escolhas de carreira e seguir sua paixão.
+
+**Posição Invertida:**
+
+Falta de clareza ou sentimento de não estar realizado em sua carreira. Ignorar intuição sobre decisões profissionais; trabalho que não ressoa com valores internos. Pode indicar necessidade de reconectar-se com vocação verdadeira.
 
 ### 3. Spread Financeiro
 
-Em um spread financeiro, a carta A Sacerdotisa pode significar a necessidade de confiar em sua intuição quando se trata de assuntos financeiros. Sugere que você deve ouvir sua voz interior e ser consciente de seus hábitos de gastos. Esta carta encoraja você a ser discreto com suas finanças e evitar decisões impulsivas. Se a carta estiver invertida, pode sugerir falta de clareza financeira ou tendência a fazer escolhas financeiras ruins.
+**Posição Vertical:**
+
+Em um spread financeiro, a carta A Sacerdotisa pode significar a necessidade de confiar em sua intuição quando se trata de assuntos financeiros. Sugere que você deve ouvir sua voz interior e ser consciente de seus hábitos de gastos. Esta carta encoraja você a ser discreto com suas finanças e evitar decisões impulsivas.
+
+**Posição Invertida:**
+
+Falta de clareza financeira ou tendência a fazer escolhas financeiras ruins. Ignorar sinais internos sobre investimentos ou gastos; decisões baseadas em emoção ao invés de intuição clara. Pode indicar necessidade de maior discernimento financeiro.
 
 ### 4. Spread de Saúde
 
-Em um spread de saúde, a carta A Sacerdotisa pode representar a necessidade de ouvir seu corpo e confiar em sua intuição quando se trata de sua saúde. Sugere que você deve prestar atenção aos seus sonhos e a quaisquer sintomas físicos que possam surgir. Esta carta encoraja você a explorar métodos de cura alternativos e se conectar com seu corpo em um nível mais profundo. Se a carta estiver invertida, pode sugerir uma desconexão de seu corpo ou tendência a ignorar suas necessidades de saúde física e buscar orientação profissional se necessário.
+**Posição Vertical:**
+
+Em um spread de saúde, a carta A Sacerdotisa pode representar a necessidade de ouvir seu corpo e confiar em sua intuição quando se trata de sua saúde. Sugere que você deve prestar atenção aos seus sonhos e a quaisquer sintomas físicos que possam surgir. Esta carta encoraja você a explorar métodos de cura alternativos e se conectar com seu corpo em um nível mais profundo.
+
+**Posição Invertida:**
+
+Desconexão de seu corpo ou tendência a ignorar suas necessidades de saúde física. Negligência de sinais do corpo; recusa em buscar orientação profissional quando necessário. Pode indicar necessidade de maior atenção à saúde e bem-estar.
 
 ---
 

@@ -245,16 +245,21 @@ async function loadCard(cardPath, cardName, isReversed = false) {
             cardImage.style.transform = 'rotate(180deg)';
         }
         
-        // Adiciona indicador de invertida se necessário
-        let contentHtml = htmlContent;
-        if (isReversed) {
-            contentHtml = `
-                <div style="background: rgba(233, 69, 96, 0.15); border: 2px solid var(--accent); border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; text-align: center;">
-                    <strong style="color: var(--accent); font-size: 1.2rem;">🔄 Carta Invertida</strong>
+        // Adiciona banner de status (Vertical/Invertida)
+        const statusBanner = isReversed
+            ? `
+                <div class="status-banner reversed">
+                    <span class="title">🔄 Carta Invertida</span>
                     <p style="margin-top: 0.5rem; margin-bottom: 0;">Esta carta foi sorteada em posição invertida. Considere os aspectos de sombra, bloqueios ou energias diminuídas em sua interpretação.</p>
                 </div>
-            ` + contentHtml;
-        }
+            `
+            : `
+                <div class="status-banner upright">
+                    <span class="title">✓ Carta em Posição Vertical</span>
+                    <p style="margin-top: 0.5rem; margin-bottom: 0;">Esta carta está em sua orientação natural. Considere os significados diretos e a energia plena da carta.</p>
+                </div>
+            `;
+        let contentHtml = statusBanner + htmlContent;
         
         document.getElementById('card-info').innerHTML = contentHtml;
         

@@ -55,13 +55,13 @@ Pessimismo e temor de abandono. Relações podem virar campo de dor mútua. A ca
 
 ## Nos Spreads
 
-Carta na posição vertical:
+**Posição Vertical:**
 
 - Culpa e remorso voltados contra si; hipercrítica
 - Diferente do 6 (visão lógica), aqui o medo domina; dar um passo atrás ajuda
 - Nomear o medo e pedir ajuda quebra o ciclo
 
-Carta na posição invertida:
+**Posição Invertida:**
 
 - Risco de autoagressão emocional; verificar gatilhos e redes de apoio
 - Cuidar para não ferir outros a partir da dor; possível sabotagem à distância

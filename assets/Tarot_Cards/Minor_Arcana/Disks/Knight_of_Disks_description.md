@@ -75,7 +75,7 @@ Em um relacionamento cooperativo, esta carta quer nos mostrar o entusiasmo filis
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Instintivo, trabalhando com a natureza.
 
@@ -83,7 +83,7 @@ Confiabilidade, ética de trabalho duro que obterá resultados a longo prazo.
 
 Há uma conexão profunda com a Mãe Terra.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Sua vida pode ser bastante chata e previsível, nem é o mais inteligente porque não há carta de ar que ele governasse. Em vez disso, ele confiou em uma ética forte para completar o trabalho. Ele pode estar preocupado com coisas materiais.
 

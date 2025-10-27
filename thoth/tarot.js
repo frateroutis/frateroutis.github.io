@@ -438,11 +438,13 @@ function createCardElement(card, position, index) {
     
     // Adiciona classe e estilo de rotação se invertida
     const imageStyle = card.reversed ? 'transform: rotate(180deg);' : '';
-    const reversedIndicator = card.reversed ? '<div class="reversed-indicator">🔄 Invertida</div>' : '';
+    const positionIndicator = card.reversed
+        ? '<div class="reversed-indicator">🔄 Invertida</div>'
+        : '<div class="upright-indicator">✓ Vertical</div>';
     
     cardDiv.innerHTML = `
         <div class="card-position">${position}</div>
-        ${reversedIndicator}
+        ${positionIndicator}
         <div class="card-image-container">
             <img src="${imagePath}" alt="${card.name}" class="card-image" style="${imageStyle}"
                  onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\\'display:flex;align-items:center;justify-content:center;height:100%;color:var(--gold);font-size:1.2rem;text-align:center;padding:1rem;\\'>Imagem não disponível</div>'">

@@ -66,7 +66,7 @@ Esta carta mostra que temos um tempo estável pela frente, durante o qual os des
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Refere-se à recompensa pelo seu trabalho duro e dedicação. Suas habilidades e conhecimento o levarão adiante de sua posição atual.
 
@@ -76,7 +76,7 @@ Também mostra a necessidade de seguir coisas que respondam ao seu corpo, mente 
 
 Você está colhendo recompensas pelo que deseja fazer na realidade e viver uma vida equilibrada.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Problemas no ambiente de trabalho.
 

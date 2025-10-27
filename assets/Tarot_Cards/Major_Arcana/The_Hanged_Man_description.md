@@ -91,19 +91,43 @@ Invertida, aponta para teimosia, martírio inútil, paralisia por controle ou vi
 
 ### 1. Spread de Amor
 
-Indica pausa para refletir dinâmica e expectativas. Pede empatia e inversão de perspectiva para enxergar o outro. Invertida: padrões de auto-sacrifício, relações desequilibradas.
+**Posição Vertical:**
+
+Indica pausa para refletir dinâmica e expectativas. Pede empatia e inversão de perspectiva para enxergar o outro. Suspensão de julgamentos permite nova compreensão do relacionamento.
+
+**Posição Invertida:**
+
+Padrões de auto-sacrifício, relações desequilibradas. Martírio sem propósito; vitimização. Pode indicar necessidade de estabelecer limites saudáveis e repensar dinâmica de sacrifício.
 
 ### 2. Spread de Carreira
 
-Sugere suspensão estratégica, revisão de propósito e aprendizagem. Evite pressa; negocie prazos. Invertida: estagnação por controle, medo de mudar.
+**Posição Vertical:**
+
+Sugere suspensão estratégica, revisão de propósito e aprendizagem. Evite pressa; negocie prazos. Momento de ganhar nova perspectiva antes de agir.
+
+**Posição Invertida:**
+
+Estagnação por controle, medo de mudar. Paralisia disfarçada de reflexão; resistência a soltar controle. Pode indicar necessidade de aceitar que não pode controlar tudo.
 
 ### 3. Spread Financeiro
 
-Momento de prudência e reavaliação. Aguardar clareza pode poupar perdas. Invertida: travas por apego; repensar crenças de escassez.
+**Posição Vertical:**
+
+Momento de prudência e reavaliação. Aguardar clareza pode poupar perdas. Suspensão de decisões financeiras até ter melhor perspectiva.
+
+**Posição Invertida:**
+
+Travas por apego; repensar crenças de escassez. Paralisia financeira por medo; apego a recursos sem uso produtivo. Pode indicar necessidade de liberar fluxo financeiro.
 
 ### 4. Spread de Saúde
 
-Convite ao repouso, terapias de água, escuta do corpo. Invertida: exaustão por excesso de controle; acolha ritmos de recuperação.
+**Posição Vertical:**
+
+Convite ao repouso, terapias de água, escuta do corpo. Rendição à necessidade de pausa e recuperação. Sabedoria de aceitar limitações temporárias.
+
+**Posição Invertida:**
+
+Exaustão por excesso de controle; acolha ritmos de recuperação. Resistência a descansar; tentativa de forçar cura. Pode indicar necessidade de aceitar processo natural de recuperação.
 
 ---
 

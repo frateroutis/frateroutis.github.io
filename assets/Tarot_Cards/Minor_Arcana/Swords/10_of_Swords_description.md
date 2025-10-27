@@ -62,13 +62,13 @@ Principalmente "separação". Fim doloroso de relação valiosa ou término de e
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Medo de insanidade; sabedoria pela dor e perda
 - Poder destrutivo do pensamento negativo rompendo harmonia e equilíbrio do coração
 - Pode indicar perda de bens e ruína financeira
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Examinar onde reside o medo da vida e mudar a forma de lidar
 

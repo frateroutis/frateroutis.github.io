@@ -88,19 +88,43 @@ Compulsões, vícios, manipulação, cativeiro. Vergonha/repressão que exacerba
 
 ### 1. Spread de Amor
 
-Química forte, erotismo, honestidade sobre desejos. Invertida: jogos de poder, ciúmes, dependência; acordos, terapia de casal e limites saudáveis ajudam.
+**Posição Vertical:**
+
+Química forte, erotismo, honestidade sobre desejos. Atração intensa e magnetismo. Exploração saudável de aspectos sombrios e tabus com consentimento.
+
+**Posição Invertida:**
+
+Jogos de poder, ciúmes, dependência; acordos, terapia de casal e limites saudáveis ajudam. Obsessão; dinâmica tóxica ou codependente. Pode indicar necessidade de estabelecer limites e buscar apoio.
 
 ### 2. Spread de Carreira
 
-Ambição e poder de realização; negociação firme; magnetismo em liderança/vendas. Invertida: workaholism, ambiente tóxico, manipulação; rever ética e fronteiras.
+**Posição Vertical:**
+
+Ambição e poder de realização; negociação firme; magnetismo em liderança/vendas. Capacidade de materializar objetivos com determinação. Uso estratégico de recursos e influência.
+
+**Posição Invertida:**
+
+Workaholism, ambiente tóxico, manipulação; rever ética e fronteiras. Ambição sem limites; exploração ou ser explorado. Pode indicar necessidade de reexaminar valores e práticas profissionais.
 
 ### 3. Spread Financeiro
 
-Materialização e ganhos por magnetismo e estratégia. Invertida: gastos compulsivos, dívidas, apostas; plano e disciplina são cruciais.
+**Posição Vertical:**
+
+Materialização e ganhos por magnetismo e estratégia. Sucesso financeiro através de foco intenso e determinação. Capacidade de atrair abundância material.
+
+**Posição Invertida:**
+
+Gastos compulsivos, dívidas, apostas; plano e disciplina são cruciais. Vício em consumo; escravidão a dívidas. Pode indicar necessidade de romper ciclos destrutivos e buscar ajuda.
 
 ### 4. Spread de Saúde
 
-Vitalidade elevada; atenção a excessos (substâncias, sexo, stress). Invertida: vícios e autoengano; pedir suporte e criar rotinas que canalizem energia.
+**Posição Vertical:**
+
+Vitalidade elevada; atenção a excessos (substâncias, sexo, stress). Energia física forte; consciência de tendências excessivas. Capacidade de canalizar impulsos de forma saudável.
+
+**Posição Invertida:**
+
+Vícios e autoengano; pedir suporte e criar rotinas que canalizem energia. Dependências; comportamentos compulsivos prejudicando saúde. Pode indicar necessidade urgente de intervenção e apoio profissional.
 
 ---
 

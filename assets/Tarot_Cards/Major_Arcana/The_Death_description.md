@@ -84,7 +84,7 @@ A Morte fala de cortar, encerrar, limpar — para transformar. Não é pressági
 
 Convida a aceitar o inevitável, permitir que o que cumpriu seu ciclo se vá, e abrir espaço para o novo. Quanto menos resistência, mais fluida a passagem; quanto mais apego, mais dolorosa.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Indica encerramentos naturais, cortes necessários, transição para nova fase. Excelente para desintoxicação, desapego e redefinições.
 
@@ -96,19 +96,43 @@ Sinaliza medo de mudar, apego a situações exauridas, estagnação. Pede corage
 
 ### 1. Spread de Amor
 
-Pode marcar o fim de um ciclo na relação e um recomeço mais autêntico. Invertida: medo de terminar ou de transformar a dinâmica.
+**Posição Vertical:**
+
+Pode marcar o fim de um ciclo na relação e um recomeço mais autêntico. Transformação profunda que permite relacionamento renascer em nova forma. Liberação de padrões antigos para dar espaço ao novo.
+
+**Posição Invertida:**
+
+Medo de terminar ou de transformar a dinâmica. Apego a relacionamento que já cumpriu seu ciclo; resistência a mudanças necessárias. Pode indicar estagnação por medo do desconhecido.
 
 ### 2. Spread de Carreira
 
-Encerramento de projetos/cargos; reestruturação. Invertida: apego a funções caducas, adiando o inevitável.
+**Posição Vertical:**
+
+Encerramento de projetos/cargos; reestruturação. Fim de fase profissional abrindo caminho para nova etapa. Transformação que, embora desafiadora, é necessária para crescimento.
+
+**Posição Invertida:**
+
+Apego a funções caducas, adiando o inevitável. Resistência a mudanças profissionais óbvias; medo de deixar segurança conhecida. Pode indicar necessidade de aceitar que ciclo terminou.
 
 ### 3. Spread Financeiro
 
-Hora de cortar gastos, encerrar dívidas, replanejar. Invertida: resistência a ajustes necessários.
+**Posição Vertical:**
+
+Hora de cortar gastos, encerrar dívidas, replanejar. Eliminação de despesas desnecessárias; reestruturação financeira. Transformação que traz maior saúde fiscal a longo prazo.
+
+**Posição Invertida:**
+
+Resistência a ajustes necessários. Apego a padrões de gastos insustentáveis; medo de fazer cortes. Pode indicar necessidade de enfrentar realidade financeira com coragem.
 
 ### 4. Spread de Saúde
 
-Fase de limpeza, detox, abandono de hábitos nocivos. Invertida: dificuldade de largar vícios; buscar apoio.
+**Posição Vertical:**
+
+Fase de limpeza, detox, abandono de hábitos nocivos. Transformação do estilo de vida para maior bem-estar. Liberação de toxinas físicas e emocionais.
+
+**Posição Invertida:**
+
+Dificuldade de largar vícios; buscar apoio. Resistência a mudanças de hábitos prejudiciais; negação de problemas de saúde. Pode indicar necessidade de ajuda profissional para transformação.
 
 ---
 

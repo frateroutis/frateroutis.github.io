@@ -76,7 +76,7 @@ Esta carta mostra a oportunidade de ter experiências e relacionamentos valiosos
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Um novo emprego, aventura de negócios ou encontrar novos recursos financeiros. Não necessariamente algo específico neste momento, mas pode haver uma oportunidade potencial para um novo começo positivo nesta área de sua vida.
 
@@ -88,7 +88,7 @@ Crowley faz questão de apontar que esta carta também fala sobre nosso relacion
 
 Não ficar preso à riqueza ou ao materialismo, mas sim, usá-lo para nosso desenvolvimento interno e externo de maneira construtiva. Por exemplo, usar o trabalho como suporte para nossos estudos espirituais ao invés do fim em si mesmo ou considerar como pode servir aos outros.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Uma oportunidade financeira esperada (aumento de salário, novo emprego) pode não se materializar.
 

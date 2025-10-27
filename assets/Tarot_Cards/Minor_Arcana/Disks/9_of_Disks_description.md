@@ -73,7 +73,7 @@ Representa “fisgar um grande lote” — no pessoal: “bom parceiro”, alma 
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Período geral de melhora em todos os aspectos da vida.
 
@@ -83,7 +83,7 @@ Boa sorte e boa gestão nas finanças.
 
 Segurança financeira após trabalho árduo e planejamento.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Ganhos às custas de outros.
 

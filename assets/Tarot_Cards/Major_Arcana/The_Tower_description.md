@@ -84,19 +84,43 @@ Resistência à mudança, trauma não elaborado, caos improdutivo. Recomenda bus
 
 ### 1. Spread de Amor
 
-Ruptura de relação, fim de ciclo, revelação de verdades. Invertida: trauma, resistência ao término, necessidade de cura.
+**Posição Vertical:**
+
+Ruptura de relação, fim de ciclo, revelação de verdades. Colapso de estrutura relacional insustentável. Liberação dolorosa mas necessária que abre espaço para reconstrução autêntica.
+
+**Posição Invertida:**
+
+Trauma, resistência ao término, necessidade de cura. Apego a relacionamento tóxico por medo do vazio; negação de sinais claros. Pode indicar necessidade de processar trauma antes de seguir em frente.
 
 ### 2. Spread de Carreira
 
-Mudança abrupta de emprego, fim de projeto, crise que abre espaço para inovação. Invertida: medo de perder, estagnação.
+**Posição Vertical:**
+
+Mudança abrupta de emprego, fim de projeto, crise que abre espaço para inovação. Colapso de estrutura profissional revelando novas possibilidades. Destruição criativa que força reinvenção.
+
+**Posição Invertida:**
+
+Medo de perder, estagnação. Resistência a mudanças óbvias por apego à segurança; adiamento do inevitável. Pode indicar necessidade de enfrentar realidade e aceitar transformação.
 
 ### 3. Spread Financeiro
 
-Perda, quebra, necessidade de recomeçar. Invertida: dificuldade de aceitar prejuízo, apego ao passado.
+**Posição Vertical:**
+
+Perda, quebra, necessidade de recomeçar. Colapso financeiro que força reestruturação. Oportunidade de reconstruir sobre base mais sólida e realista.
+
+**Posição Invertida:**
+
+Dificuldade de aceitar prejuízo, apego ao passado. Negação de perdas; investimento contínuo em situações falidas. Pode indicar necessidade de cortar perdas e começar de novo.
 
 ### 4. Spread de Saúde
 
-Crise, necessidade de intervenção radical, renovação de hábitos. Invertida: trauma não tratado, resistência à mudança.
+**Posição Vertical:**
+
+Crise, necessidade de intervenção radical, renovação de hábitos. Colapso de saúde que força mudança. Oportunidade de reconstruir bem-estar de forma mais sustentável.
+
+**Posição Invertida:**
+
+Trauma não tratado, resistência à mudança. Negação de problemas sérios de saúde; recusa de tratamento necessário. Pode indicar necessidade urgente de intervenção e apoio profissional.
 
 ---
 

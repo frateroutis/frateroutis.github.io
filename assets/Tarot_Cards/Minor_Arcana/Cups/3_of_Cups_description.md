@@ -63,13 +63,13 @@ Promessa de felicidade: dedicação a um vínculo amoroso e harmonioso; chegada 
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Compartilhar sucesso e alegria; comunicar sentimentos aos importantes
 - Nascimento de filho, ideia ou meta
 - Nutrir e motivar em conjunto; apreciar sem se perder no excesso
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Excesso e extravagância; comunicação que não nutre
 - Rever o que bloqueia a abundância saudável

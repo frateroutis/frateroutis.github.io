@@ -66,7 +66,7 @@ A carta desta crise é uma expressão de uma fundação instável sobre a qual o
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Crowley apontou que isso está acontecendo há algum tempo e essa pessoa não lidou com essa situação.
 
@@ -80,7 +80,7 @@ Algo representa uma ameaça à sua segurança geral (Touro). Isso pode ser um cu
 
 A ansiedade nesta situação só piorará as coisas, e então devemos tentar aceitar que a vida acabará por encontrar um caminho para superarmos isso.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Às vezes, isso pode envolver preocupação com eventos passados ou futuros que nos impedem de viver no presente, então a maneira de aliviar a ansiedade é viver no presente o máximo possível e resolver tudo quando aparecerem.
 

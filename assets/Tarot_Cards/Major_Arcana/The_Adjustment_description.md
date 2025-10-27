@@ -87,7 +87,7 @@ O Ajuste representa equilíbrio, justiça e harmonia. Significa a necessidade de
 
 O Ajuste contém diferentes tópicos. Representa percepção objetiva e clara, consciência, julgamentos judiciosos, imortalidade, equilíbrio e imparcialidade. Também mostra que receberemos o que merecemos. No nível diário, nos diz que estamos enfrentando resultados de nossas próprias ações, tanto boas quanto ruins. Em um nível superior, significa que este é o momento em que devemos virar as costas para fora e focar em nosso equilíbrio interior. É um tempo para autorreflexão e introspecção, onde podemos obter uma compreensão mais profunda de nós mesmos e de nosso lugar no universo.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Quando O Ajuste aparece em posição normal, significa equilíbrio, justiça e harmonia. Sugere que você está em um período de equilíbrio e que é capaz de tomar decisões justas e objetivas. Esta carta encoraja você a assumir responsabilidade por suas ações, buscar equilíbrio em sua vida e lutar por justiça e integridade em todas as suas interações. Também representa um tempo de clareza e autoconsciência. Você é capaz de ver as coisas como realmente são e fazer escolhas alinhadas com seu bem maior. O Ajuste lembra que a verdadeira justiça vem de dentro.
 
@@ -99,19 +99,43 @@ Quando O Ajuste aparece em posição invertida, pode indicar desequilíbrio, inj
 
 ### 1. Spread de Amor
 
-No amor, O Ajuste pode significar necessidade de equilíbrio e justiça em um relacionamento. Sugere que você e seu parceiro precisam abordar quaisquer desequilíbrios ou injustiças que possam estar presentes. Esta carta encoraja você a se comunicar aberta e honestamente com seu parceiro, e lutar por igualdade e respeito mútuo. Se você é solteiro, O Ajuste pode indicar que você precisa encontrar equilíbrio dentro de si mesmo antes de entrar em um novo relacionamento. Invertida: desequilíbrio, injustiça ou falta de harmonia em um relacionamento.
+**Posição Vertical:**
+
+No amor, O Ajuste pode significar necessidade de equilíbrio e justiça em um relacionamento. Sugere que você e seu parceiro precisam abordar quaisquer desequilíbrios ou injustiças que possam estar presentes. Esta carta encoraja você a se comunicar aberta e honestamente com seu parceiro, e lutar por igualdade e respeito mútuo. Se você é solteiro, O Ajuste pode indicar que você precisa encontrar equilíbrio dentro de si mesmo antes de entrar em um novo relacionamento.
+
+**Posição Invertida:**
+
+Desequilíbrio, injustiça ou falta de harmonia em um relacionamento. Desigualdade de esforços; falta de reciprocidade. Pode indicar necessidade de restaurar equilíbrio e abordar questões pendentes com honestidade.
 
 ### 2. Spread de Carreira
 
-Na carreira, O Ajuste pode representar necessidade de equilíbrio e justiça em sua carreira. Sugere que você precisa abordar quaisquer desequilíbrios ou injustiças que possam estar presentes em seu local de trabalho. Esta carta encoraja você a lutar por justiça e integridade em suas interações profissionais, e assumir responsabilidade por suas ações. Invertida: desequilíbrio, injustiça ou falta de harmonia em sua carreira.
+**Posição Vertical:**
+
+Na carreira, O Ajuste pode representar necessidade de equilíbrio e justiça em sua carreira. Sugere que você precisa abordar quaisquer desequilíbrios ou injustiças que possam estar presentes em seu local de trabalho. Esta carta encoraja você a lutar por justiça e integridade em suas interações profissionais, e assumir responsabilidade por suas ações.
+
+**Posição Invertida:**
+
+Desequilíbrio, injustiça ou falta de harmonia em sua carreira. Tratamento injusto; falta de reconhecimento. Pode indicar necessidade de defender-se e buscar ambientes mais equilibrados.
 
 ### 3. Spread Financeiro
 
-Nas finanças, O Ajuste pode significar necessidade de equilíbrio e justiça em seus assuntos financeiros. Sugere que você precisa abordar quaisquer desequilíbrios ou injustiças que possam estar presentes em sua situação financeira. Esta carta encoraja você a lutar por justiça e integridade em seus negócios financeiros, e assumir responsabilidade por suas ações. Invertida: desequilíbrio, injustiça ou falta de harmonia em seus assuntos financeiros.
+**Posição Vertical:**
+
+Nas finanças, O Ajuste pode significar necessidade de equilíbrio e justiça em seus assuntos financeiros. Sugere que você precisa abordar quaisquer desequilíbrios ou injustiças que possam estar presentes em sua situação financeira. Esta carta encoraja você a lutar por justiça e integridade em seus negócios financeiros, e assumir responsabilidade por suas ações.
+
+**Posição Invertida:**
+
+Desequilíbrio, injustiça ou falta de harmonia em seus assuntos financeiros. Dívidas desproporcionais; acordos injustos. Pode indicar necessidade de renegociar termos e restaurar equilíbrio fiscal.
 
 ### 4. Spread de Saúde
 
-Na saúde, O Ajuste pode representar necessidade de equilíbrio e justiça em sua saúde. Sugere que você precisa abordar quaisquer desequilíbrios ou injustiças que possam estar presentes em seu bem-estar físico e emocional. Esta carta encoraja você a lutar por equilíbrio e integridade em suas escolhas de saúde, e assumir responsabilidade por suas ações. Invertida: desequilíbrio, injustiça ou falta de harmonia em seus assuntos de saúde.
+**Posição Vertical:**
+
+Na saúde, O Ajuste pode representar necessidade de equilíbrio e justiça em sua saúde. Sugere que você precisa abordar quaisquer desequilíbrios ou injustiças que possam estar presentes em seu bem-estar físico e emocional. Esta carta encoraja você a lutar por equilíbrio e integridade em suas escolhas de saúde, e assumir responsabilidade por suas ações.
+
+**Posição Invertida:**
+
+Desequilíbrio, injustiça ou falta de harmonia em seus assuntos de saúde. Negligência de uma área do bem-estar em favor de outra. Pode indicar necessidade de abordagem holística e equilibrada.
 
 ---
 

@@ -54,4 +54,3 @@ Relação carregada por deveres, expectativas rígidas ou papéis pesados. Volte
 **Posição Vertical:** Limite atingido. Reduzir, delegar, encerrar etapas. Se continuar igual, a chama apaga.
 
 **Posição Invertida:** Negar cansaço; autoexigência punitiva; carregar o que não é seu. Libertar‑se do fardo e reescrever acordos.
-*** End Patch

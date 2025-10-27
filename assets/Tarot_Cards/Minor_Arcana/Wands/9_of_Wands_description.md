@@ -54,4 +54,3 @@ Preservar o vínculo sem endurecer. Regras combinadas, horários e acordos evita
 **Posição Vertical:** Quase lá. Persistir, finalizar, proteger energia. Tenha paciência estratégica.
 
 **Posição Invertida:** Cansaço e paranoia; ver inimigos em todo lugar. Peça ajuda, descanse e flexibilize.
-*** End Patch

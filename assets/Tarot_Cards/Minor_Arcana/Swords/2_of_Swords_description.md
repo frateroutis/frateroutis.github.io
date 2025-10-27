@@ -55,12 +55,12 @@ Diferenças e contradições encontram um ponto neutro. Modelo de relação flex
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Dificuldade moderada de decidir; impasse sereno, oscilando prós e contras (Lua)
 - Buscar informações faltantes antes de agir; decisões devem aumentar a paz e a harmonia
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Pressa rompe o equilíbrio: desarmonia e tensão
 - Prolonga‑se o impasse por falta de clareza; sobrecarga de informação gera confusão

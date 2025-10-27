@@ -99,19 +99,43 @@ Quando A Fortuna aparece em posição invertida, pode indicar má sorte, infort�
 
 ### 1. Spread de Amor
 
-No amor, A Fortuna pode significar mudanças inesperadas e pontos de virada em um relacionamento. Sugere que você está experimentando o fluxo e refluxo da fortuna em sua vida amorosa. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão. Se você é solteiro, A Fortuna pode indicar que está prestes a experimentar um ponto de virada significativo em sua vida amorosa. Invertida: má sorte, infortúnio ou sensação de estar preso em um relacionamento.
+**Posição Vertical:**
+
+No amor, A Fortuna pode significar mudanças inesperadas e pontos de virada em um relacionamento. Sugere que você está experimentando o fluxo e refluxo da fortuna em sua vida amorosa. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão. Se você é solteiro, A Fortuna pode indicar que está prestes a experimentar um ponto de virada significativo em sua vida amorosa.
+
+**Posição Invertida:**
+
+Má sorte, infortúnio ou sensação de estar preso em um relacionamento. Resistência a mudanças necessárias; apego a padrões que não funcionam mais. Pode indicar necessidade de aceitar ciclos naturais e liberar controle excessivo.
 
 ### 2. Spread de Carreira
 
-Na carreira, A Fortuna pode representar mudanças inesperadas e pontos de virada em sua carreira. Sugere que você está experimentando o fluxo e refluxo da fortuna em sua vida profissional. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão. Invertida: má sorte, infortúnio ou sensação de estar preso em sua carreira.
+**Posição Vertical:**
+
+Na carreira, A Fortuna pode representar mudanças inesperadas e pontos de virada em sua carreira. Sugere que você está experimentando o fluxo e refluxo da fortuna em sua vida profissional. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão.
+
+**Posição Invertida:**
+
+Má sorte, infortúnio ou sensação de estar preso em sua carreira. Contratempos profissionais; resistência a mudanças inevitáveis. Pode indicar necessidade de adaptar-se e encontrar oportunidades nas transições.
 
 ### 3. Spread Financeiro
 
-Nas finanças, A Fortuna pode significar mudanças inesperadas e pontos de virada em seus assuntos financeiros. Sugere que você está experimentando o fluxo e refluxo da fortuna em sua vida financeira. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão. Invertida: má sorte, infortúnio ou sensação de estar preso em seus assuntos financeiros.
+**Posição Vertical:**
+
+Nas finanças, A Fortuna pode significar mudanças inesperadas e pontos de virada em seus assuntos financeiros. Sugere que você está experimentando o fluxo e refluxo da fortuna em sua vida financeira. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão.
+
+**Posição Invertida:**
+
+Má sorte, infortúnio ou sensação de estar preso em seus assuntos financeiros. Perdas inesperadas; ciclos financeiros negativos. Pode indicar necessidade de preparar-se para altos e baixos e criar reservas.
 
 ### 4. Spread de Saúde
 
-Na saúde, A Fortuna pode representar mudanças inesperadas e pontos de virada em sua saúde. Sugere que você está experimentando o fluxo e refluxo da fortuna em seu bem-estar físico e emocional. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão. Invertida: má sorte, infortúnio ou sensação de estar preso em seus assuntos de saúde.
+**Posição Vertical:**
+
+Na saúde, A Fortuna pode representar mudanças inesperadas e pontos de virada em sua saúde. Sugere que você está experimentando o fluxo e refluxo da fortuna em seu bem-estar físico e emocional. Esta carta encoraja você a abraçar a mudança, confiar no processo da vida e reconhecer que tudo acontece por uma razão.
+
+**Posição Invertida:**
+
+Má sorte, infortúnio ou sensação de estar preso em seus assuntos de saúde. Contratempos na recuperação; resistência a mudanças no estilo de vida. Pode indicar necessidade de aceitar ciclos do corpo e adaptar-se.
 
 ---
 

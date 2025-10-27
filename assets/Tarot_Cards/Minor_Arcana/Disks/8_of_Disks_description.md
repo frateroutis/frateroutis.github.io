@@ -64,7 +64,7 @@ Mostra que estamos nos adaptando com cuidado a novos passos. Talvez tenhamos nos
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Você precisa de tempo e paciência para desenvolver algo. Não tenha pressa — é de longo prazo; esteja preparado para esperar seu tempo e torná-lo realidade.
 
@@ -74,7 +74,7 @@ Pode ser necessário treinamento adicional para alcançar onde deseja em projeto
 
 Necessidade de gerenciar adequadamente sua energia entre diferentes aspectos da vida.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Pressa excessiva no que está tentando alcançar — esqueceu que requer tempo e paciência.
 

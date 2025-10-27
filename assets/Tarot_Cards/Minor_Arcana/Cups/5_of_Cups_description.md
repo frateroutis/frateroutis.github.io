@@ -61,14 +61,14 @@ Frustração, tristeza e desespero; feridas antigas se reabrem, dores ressurgem.
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Resultado incompleto ou malsucedido. Frustração ante situação indesejada; imersão em autopiedade/arrependimento em vez de virar a página
 - Desilusão crescente com a vida/futuro
 - Rever expectativas: foram altas demais?
 - Alerta: emoções podem inibir riscos/aventuras futuras
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - O anterior, porém prolongado; intensidade de Marte/Escorpião agrava sensação de insatisfação e estilo de vida insatisfatório
 

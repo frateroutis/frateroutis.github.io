@@ -59,12 +59,12 @@ Razão afiada para resolver padrões enraizados. Separa céu/terra, espírito/ma
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Momento de clareza e avanço; ideias novas, visão inicial e propósito nítido
 - Justiça e causa: agir por princípios; comunicar com precisão
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Falta de clareza; dispersão mental ou defesa agressiva das próprias ideias
 - Dificuldade de implementar o que se compreende; racionalização fria

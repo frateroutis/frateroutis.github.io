@@ -65,13 +65,13 @@ Prontidão para o amor verdadeiro: do encanto imediato à felicidade madura, com
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Oportunidade para novos vínculos/relacionamentos ricos em afeto
 - Início de projeto nutrido por amor; possível nascimento (com Princesa de Discos/Imperatriz)
 - Amor incondicional: dar e perdoar que traz paz interior
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Exposição emocional excessiva; vulnerabilidade
 - Emoções reprimidas e desgaste após feridas

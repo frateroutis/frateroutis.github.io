@@ -75,7 +75,7 @@ Com O Universo, o mundo está pronto para ser experimentado em sua totalidade. O
 
 Momento de profunda realização, quando todas as peças se encaixam e você compreende o quadro completo. Um ciclo importante fecha-se com satisfação e sabedoria. Você está em harmonia com o universo e seu propósito mais profundo.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Completude e integração plenas. Um ciclo importante se fecha, trazendo satisfação profunda de ter completado uma jornada significativa. Este é momento de celebração, reconhecimento de tudo o que você alcançou e integração de todas as lições aprendidas. Você está em harmonia com o universo e com seu propósito mais profundo.
 
@@ -83,7 +83,7 @@ As partes fragmentadas da vida se unem em todo coerente. Pode ser conclusão de 
 
 O Universo representa transcendência das dualidades e integração dos opostos. Você abraça tanto luz quanto sombra dentro de si, reconhecendo que ambas são partes essenciais do todo. Indica sabedoria madura, compreensão profunda e perspectiva expandida que vem de ter viajado longe.
 
-### 5. Posição Inversa
+### 5. Posição Invertida
 
 Incompletude, falta de fechamento, resistência ao fim. Dificuldade em trazer as coisas para conclusão satisfatória. Você pode estar resistindo ao fim de um ciclo ou tendo problemas para integrar experiências em todo coerente. Há sensação de que algo está inacabado.
 
@@ -95,27 +95,43 @@ Evitar o trabalho de integração necessário para alcançar totalidade. Pode es
 
 ### 1. Spread de Amor
 
-**Normal:** Relacionamento alcançando nível profundo de completude e integração. Você e seu parceiro experimentam união verdadeira, onde diferenças são celebradas e integradas em todo harmonioso. Momento de profunda satisfação e realização no amor. Para solteiros: você está completo em si mesmo, pronto para atrair parceiro que complemente sua totalidade.
+**Posição Vertical:**
 
-**Inversa:** Dificuldade em alcançar completude no relacionamento. Questões não resolvidas impedem verdadeira união; resistência ao compromisso total. Necessidade de trabalhar na integração de diferenças e aceitação de todas as partes do relacionamento.
+Relacionamento alcançando nível profundo de completude e integração. Você e seu parceiro experimentam união verdadeira, onde diferenças são celebradas e integradas em todo harmonioso. Momento de profunda satisfação e realização no amor. Para solteiros: você está completo em si mesmo, pronto para atrair parceiro que complemente sua totalidade.
+
+**Posição Invertida:**
+
+Dificuldade em alcançar completude no relacionamento. Questões não resolvidas impedem verdadeira união; resistência ao compromisso total. Necessidade de trabalhar na integração de diferenças e aceitação de todas as partes do relacionamento.
 
 ### 2. Spread de Carreira
 
-**Normal:** Conclusão bem-sucedida de projeto importante; meta de carreira significativa alcançada. Você experimenta reconhecimento e satisfação de trabalho bem feito. Momento de celebração profissional, colher recompensas de esforços. Pode estar pronto para próximo nível ou novo ciclo na carreira.
+**Posição Vertical:**
 
-**Inversa:** Projetos inacabados; falta de satisfação mesmo após atingir metas. Dificuldade em concluir tarefas ou integrar diferentes aspectos do trabalho. Sentimento de fragmentação, sobrecarga, sem conseguir ver como peças se encaixam.
+Conclusão bem-sucedida de projeto importante; meta de carreira significativa alcançada. Você experimenta reconhecimento e satisfação de trabalho bem feito. Momento de celebração profissional, colher recompensas de esforços. Pode estar pronto para próximo nível ou novo ciclo na carreira.
+
+**Posição Invertida:**
+
+Projetos inacabados; falta de satisfação mesmo após atingir metas. Dificuldade em concluir tarefas ou integrar diferentes aspectos do trabalho. Sentimento de fragmentação, sobrecarga, sem conseguir ver como peças se encaixam.
 
 ### 3. Spread de Finanças
 
-**Normal:** Completude e estabilidade financeira. Finanças em ordem; sensação de segurança e abundância. Momento de colher frutos de investimentos e esforços passados. Tudo no lugar; recursos suficientes.
+**Posição Vertical:**
 
-**Inversa:** Falta de fechamento financeiro; dificuldade em alcançar estabilidade. Contas não resolvidas; finanças fragmentadas. Problemas para integrar diferentes aspectos da vida financeira; resistência a mudanças necessárias.
+Completude e estabilidade financeira. Finanças em ordem; sensação de segurança e abundância. Momento de colher frutos de investimentos e esforços passados. Tudo no lugar; recursos suficientes.
+
+**Posição Invertida:**
+
+Falta de fechamento financeiro; dificuldade em alcançar estabilidade. Contas não resolvidas; finanças fragmentadas. Problemas para integrar diferentes aspectos da vida financeira; resistência a mudanças necessárias.
 
 ### 4. Spread de Saúde
 
-**Normal:** Saúde completa e integrada — corpo, mente e espírito em harmonia. Momento de vitalidade e bem-estar total. Benefício de ter cuidado de todos os aspectos da saúde. Completude e equilíbrio no bem-estar físico e emocional.
+**Posição Vertical:**
 
-**Inversa:** Desequilíbrio; falta de integração entre diferentes aspectos da saúde. Questões não resolvidas; tendência a negligenciar certas áreas do bem-estar. Dificuldade em alcançar senso holístico de saúde, focando em uma área enquanto negligencia outras.
+Saúde completa e integrada — corpo, mente e espírito em harmonia. Momento de vitalidade e bem-estar total. Benefício de ter cuidado de todos os aspectos da saúde. Completude e equilíbrio no bem-estar físico e emocional.
+
+**Posição Invertida:**
+
+Desequilíbrio; falta de integração entre diferentes aspectos da saúde. Questões não resolvidas; tendência a negligenciar certas áreas do bem-estar. Dificuldade em alcançar senso holístico de saúde, focando em uma área enquanto negligencia outras.
 
 ---
 

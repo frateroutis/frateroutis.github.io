@@ -64,12 +64,12 @@ Plenitude, alegria, satisfação. Prazer sensual; mais importante: experiência 
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Alegria de experiência íntima, querida ao coração, após obstáculos. Período de cura (latão) e transformação (serpente).
 - Ênfase sexual: relacionamento pleno ou desejo de relacionamento que melhora ambos — todo maior que partes
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Atrair pessoas erradas; sem conexão com o que é caro
 - Incapacidade de expressar‑se sexualmente de modo saudável

@@ -117,18 +117,42 @@ Quando O Louco aparece em posição invertida, pode indicar imprudência, impuls
 
 ### 1. Spread de Amor
 
-Em um spread de amor, O Louco pode significar um começo novo e emocionante em sua vida romântica. Sugere que você está aberto a novas experiências e disposto a correr riscos no amor. Se você é solteiro, esta carta pode indicar que um novo relacionamento está no horizonte, cheio de espontaneidade e aventura. Se você está em um relacionamento, o Fool pode sugerir um senso renovado de paixão e emoção. Encoraja você a abraçar o inesperado e explorar novas dimensões do seu relacionamento. No entanto, se a carta estiver invertida, pode indicar impulsividade ou imprudência no amor, levando a relacionamentos instáveis ou de curta duração.
+**Posição Vertical:**
+
+Em um spread de amor, O Louco pode significar um começo novo e emocionante em sua vida romântica. Sugere que você está aberto a novas experiências e disposto a correr riscos no amor. Se você é solteiro, esta carta pode indicar que um novo relacionamento está no horizonte, cheio de espontaneidade e aventura. Se você está em um relacionamento, o Fool pode sugerir um senso renovado de paixão e emoção. Encoraja você a abraçar o inesperado e explorar novas dimensões do seu relacionamento.
+
+**Posição Invertida:**
+
+Impulsividade ou imprudência no amor, levando a relacionamentos instáveis ou de curta duração. Falta de comprometimento; decisões precipitadas sem considerar consequências. Pode indicar medo de compromisso ou tendência a fugir quando relacionamento se torna sério.
 
 ### 2. Spread de Carreira
 
-Em um spread de carreira, O Louco pode representar um novo caminho profissional ou uma mudança significativa em sua vida profissional. Sugere que você está pronto para dar um salto de fé e buscar uma nova oportunidade, mesmo que pareça não convencional. Esta carta encoraja você a abraçar sua criatividade e pensar fora da caixa. Também pode indicar um período de autoemprego ou empreendedorismo, onde você tem a liberdade de seguir seu próprio caminho. Se a carta estiver invertida, pode sugerir falta de direção ou impulsividade em suas escolhas de carreira, levando a instabilidade ou insatisfação.
+**Posição Vertical:**
+
+Em um spread de carreira, O Louco pode representar um novo caminho profissional ou uma mudança significativa em sua vida profissional. Sugere que você está pronto para dar um salto de fé e buscar uma nova oportunidade, mesmo que pareça não convencional. Esta carta encoraja você a abraçar sua criatividade e pensar fora da caixa. Também pode indicar um período de autoemprego ou empreendedorismo, onde você tem a liberdade de seguir seu próprio caminho.
+
+**Posição Invertida:**
+
+Falta de direção ou impulsividade em suas escolhas de carreira, levando a instabilidade ou insatisfação. Mudanças constantes sem propósito claro; dificuldade em manter comprometimento profissional. Pode indicar necessidade de mais planejamento e fundamento antes de dar saltos de fé.
 
 ### 3. Spread Financeiro
 
-Em um spread financeiro, O Louco pode significar um novo começo financeiro ou disposição para correr riscos com seu dinheiro. Sugere que você está aberto a novas oportunidades de investimento ou formas não convencionais de ganhar renda. Esta carta encoraja você a ser aventureiro com suas finanças, mas também a estar atento aos riscos potenciais. Se a carta estiver invertida, pode indicar imprudência financeira ou impulsividade, levando a perdas ou instabilidade. Lembra você a ser mais responsável com seu dinheiro e buscar aconselhamento profissional se necessário.
+**Posição Vertical:**
+
+Em um spread financeiro, O Louco pode significar um novo começo financeiro ou disposição para correr riscos com seu dinheiro. Sugere que você está aberto a novas oportunidades de investimento ou formas não convencionais de ganhar renda. Esta carta encoraja você a ser aventureiro com suas finanças, mas também a estar atento aos riscos potenciais.
+
+**Posição Invertida:**
+
+Imprudência financeira ou impulsividade, levando a perdas ou instabilidade. Gastos irresponsáveis; investimentos arriscados sem pesquisa adequada. Lembra você a ser mais responsável com seu dinheiro e buscar aconselhamento profissional se necessário.
 
 ### 4. Spread de Saúde
 
-Em um spread de saúde, O Louco pode representar uma nova abordagem ao seu bem-estar ou disposição para experimentar métodos de cura não convencionais. Sugere que você está aberto a explorar novas dietas, rotinas de exercícios ou terapias alternativas. Esta carta encoraja você a ouvir seu corpo e confiar em sua intuição quando se trata de sua saúde. Se a carta estiver invertida, pode indicar falta de autocuidado ou impulsividade em suas escolhas de saúde, levando a desequilíbrios ou problemas de saúde. Lembra você a ser mais consciente do seu bem-estar e buscar orientação profissional se necessário.
+**Posição Vertical:**
+
+Em um spread de saúde, O Louco pode representar uma nova abordagem ao seu bem-estar ou disposição para experimentar métodos de cura não convencionais. Sugere que você está aberto a explorar novas dietas, rotinas de exercícios ou terapias alternativas. Esta carta encoraja você a ouvir seu corpo e confiar em sua intuição quando se trata de sua saúde.
+
+**Posição Invertida:**
+
+Falta de autocuidado ou impulsividade em suas escolhas de saúde, levando a desequilíbrios ou problemas de saúde. Experimentação sem orientação; negligência de conselhos médicos profissionais. Lembra você a ser mais consciente do seu bem-estar e buscar orientação profissional se necessário.
 
 ---

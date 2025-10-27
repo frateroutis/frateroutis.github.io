@@ -125,11 +125,11 @@ O Imperador Thoth representa o reino do pai, o princípio masculino e a mente co
 
 A carta O Imperador Thoth representa autoridade, estrutura e controle. Significa o princípio masculino, liderança e a capacidade de trazer ordem do caos. O Imperador é um símbolo de estabilidade, responsabilidade e disciplina. Esta carta nos encoraja a assumir o controle de nossas vidas, estabelecer metas claras e criar uma base sólida para nosso futuro. Também nos lembra de ser justos e responsáveis em nossas ações.
 
-### Posição Vertical
+### 4. Posição Vertical
 
 Quando a carta O Imperador Thoth aparece em posição vertical, significa autoridade, liderança e controle. Sugere que você está em uma posição de poder e que é capaz de trazer ordem e estrutura para sua vida. Esta carta encoraja você a assumir o comando, estabelecer limites claros e ser responsável por suas ações. Também representa um forte senso de disciplina e autocontrole. Você é capaz de tomar decisões sólidas e liderar outros com confiança. O Imperador lembra você de que é o mestre de seu próprio destino.
 
-### Posição Invertida
+### 5. Posição Invertida
 
 Quando a carta O Imperador Thoth aparece em posição invertida, pode indicar uso indevido de poder, falta de controle ou tendência a ser autoritário. Você pode estar lutando com questões de autoridade ou se sentindo sobrecarregado pela responsabilidade. Esta carta também pode sugerir falta de disciplina ou incapacidade de estabelecer limites claros. O Imperador invertido encoraja você a reavaliar sua abordagem à liderança, ser mais flexível e delegar tarefas quando necessário. Também lembra você a ser mais compassivo e compreensivo consigo mesmo e com os outros.
 
@@ -137,18 +137,42 @@ Quando a carta O Imperador Thoth aparece em posição invertida, pode indicar us
 
 ### Spread de Amor
 
-Em um spread de amor, a carta O Imperador Thoth pode significar um relacionamento estável e comprometido. Sugere que você e seu parceiro são capazes de criar uma base forte e segura para seu amor. Esta carta encoraja você a ser responsável e disciplinado em seu relacionamento, e assumir o controle de seu bem-estar emocional. Se você é solteiro, o Imperador pode indicar que você está prestes a conhecer alguém que é maduro, responsável e comprometido. No entanto, se a carta estiver invertida, pode sugerir um parceiro controlador ou autoritário, ou falta de compromisso em um relacionamento.
+**Posição Vertical:**
+
+Em um spread de amor, a carta O Imperador Thoth pode significar um relacionamento estável e comprometido. Sugere que você e seu parceiro são capazes de criar uma base forte e segura para seu amor. Esta carta encoraja você a ser responsável e disciplinado em seu relacionamento, e assumir o controle de seu bem-estar emocional. Se você é solteiro, o Imperador pode indicar que você está prestes a conhecer alguém que é maduro, responsável e comprometido.
+
+**Posição Invertida:**
+
+Parceiro controlador ou autoritário, ou falta de compromisso em um relacionamento. Rigidez excessiva; dificuldade em expressar vulnerabilidade. Pode indicar desequilíbrio de poder ou necessidade de maior flexibilidade e compaixão.
 
 ### Spread de Carreira
 
-Em um spread de carreira, a carta O Imperador Thoth pode representar uma posição de autoridade, liderança e sucesso. Sugere que você está em uma carreira que permite assumir o comando e tomar decisões importantes. Esta carta encoraja você a ser disciplinado e responsável em seu trabalho, e estabelecer metas claras para seu desenvolvimento profissional. Se a carta estiver invertida, pode sugerir uso indevido de poder ou falta de controle em sua carreira.
+**Posição Vertical:**
+
+Em um spread de carreira, a carta O Imperador Thoth pode representar uma posição de autoridade, liderança e sucesso. Sugere que você está em uma carreira que permite assumir o comando e tomar decisões importantes. Esta carta encoraja você a ser disciplinado e responsável em seu trabalho, e estabelecer metas claras para seu desenvolvimento profissional.
+
+**Posição Invertida:**
+
+Uso indevido de poder ou falta de controle em sua carreira. Liderança autoritária; dificuldade em delegar. Pode indicar ambiente de trabalho rígido ou necessidade de reavaliar abordagem à autoridade.
 
 ### Spread Financeiro
 
-Em um spread financeiro, a carta O Imperador Thoth pode significar estabilidade financeira, segurança e controle. Sugere que você é capaz de gerenciar seu dinheiro sabiamente e criar uma base financeira sólida para seu futuro. Esta carta encoraja você a ser disciplinado em seus gastos e fazer investimentos sólidos. Se a carta estiver invertida, pode sugerir instabilidade financeira ou falta de controle sobre suas finanças.
+**Posição Vertical:**
+
+Em um spread financeiro, a carta O Imperador Thoth pode significar estabilidade financeira, segurança e controle. Sugere que você é capaz de gerenciar seu dinheiro sabiamente e criar uma base financeira sólida para seu futuro. Esta carta encoraja você a ser disciplinado em seus gastos e fazer investimentos sólidos.
+
+**Posição Invertida:**
+
+Instabilidade financeira ou falta de controle sobre suas finanças. Disciplina excessiva que leva à avareza; ou falta total de estrutura. Pode indicar necessidade de encontrar equilíbrio entre controle e flexibilidade financeira.
 
 ### Spread de Saúde
 
-Em um spread de saúde, a carta O Imperador Thoth pode representar a necessidade de disciplina e estrutura em sua rotina de saúde. Sugere que você deve assumir o controle de seu bem-estar e estabelecer metas claras para sua saúde física e mental. Esta carta encoraja você a ser responsável em suas escolhas de saúde e seguir um regime consistente. Se a carta estiver invertida, pode sugerir falta de disciplina ou tendência a negligenciar suas necessidades de saúde.
+**Posição Vertical:**
+
+Em um spread de saúde, a carta O Imperador Thoth pode representar a necessidade de disciplina e estrutura em sua rotina de saúde. Sugere que você deve assumir o controle de seu bem-estar e estabelecer metas claras para sua saúde física e mental. Esta carta encoraja você a ser responsável em suas escolhas de saúde e seguir um regime consistente.
+
+**Posição Invertida:**
+
+Falta de disciplina ou tendência a negligenciar suas necessidades de saúde. Controle excessivo que gera stress; ou negligência total. Pode indicar necessidade de equilibrar estrutura com autocuidado compassivo.
 
 ---

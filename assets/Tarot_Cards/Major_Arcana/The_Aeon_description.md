@@ -78,19 +78,43 @@ Resistência ao chamado, inflação do ego, delírios de grandeza. Recomendam hu
 
 ### 1. Spread de Amor
 
-Renovação total do vínculo ou do modo de amar. Invertida: inflação, drama, manipulação emocional; buscar equilíbrio.
+**Posição Vertical:**
+
+Renovação total do vínculo ou do modo de amar. Despertar para nova consciência no relacionamento. Momento de renascimento da dinâmica amorosa em nível mais elevado.
+
+**Posição Invertida:**
+
+Inflação, drama, manipulação emocional; buscar equilíbrio. Ego inflado prejudicando relacionamento; grandiosidade sem substância. Pode indicar necessidade de aterramento e humildade.
 
 ### 2. Spread de Carreira
 
-Vocação revelada, mudança de ramo ou missão. Invertida: delirar com grandeza; ancorar em ações concretas.
+**Posição Vertical:**
+
+Vocação revelada, mudança de ramo ou missão. Despertar para verdadeiro propósito profissional. Chamado para trabalho que transcende simples emprego.
+
+**Posição Invertida:**
+
+Delirar com grandeza; ancorar em ações concretas. Visões grandiosas sem fundamento prático; messianismo profissional. Pode indicar necessidade de transformar inspiração em realidade tangível.
 
 ### 3. Spread Financeiro
 
-Reestruturação radical; novo modelo de geração de valor. Invertida: promessas infladas; planejar com realismo.
+**Posição Vertical:**
+
+Reestruturação radical; novo modelo de geração de valor. Transformação profunda da relação com dinheiro. Despertar para novas possibilidades financeiras.
+
+**Posição Invertida:**
+
+Promessas infladas; planejar com realismo. Esquemas grandiosos sem base sólida; ilusões de riqueza rápida. Pode indicar necessidade de maior pragmatismo e planejamento.
 
 ### 4. Spread de Saúde
 
-Cura profunda, renascimento físico/psíquico. Invertida: negação de limites; integrar corpo e espírito com acompanhamento.
+**Posição Vertical:**
+
+Cura profunda, renascimento físico/psíquico. Transformação radical do bem-estar. Despertar para novo nível de saúde e vitalidade.
+
+**Posição Invertida:**
+
+Negação de limites; integrar corpo e espírito com acompanhamento. Otimismo excessivo sobre capacidades físicas; negligência de realidade corporal. Pode indicar necessidade de equilíbrio entre aspiração e cuidado prático.
 
 ---
 

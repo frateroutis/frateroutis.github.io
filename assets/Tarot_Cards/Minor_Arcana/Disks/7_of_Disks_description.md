@@ -74,7 +74,7 @@ Esta carta pode ser particularmente dolorosa porque pode mostrar frustração, b
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Muita autodúvida no momento fazendo parecer difícil de ser insuperável.
 
@@ -86,7 +86,7 @@ O Arcano Maior Associado é "o Carro" que tem a ver com movimento e mudança. En
 
 Pensamentos mentais caóticos prevalecem na meditação, e nos falta quietude para deixar ir da mente e preocupações. Estamos distraídos, então devemos estar conscientes disso acontecendo e tentar mudar coisas na vida que não estão funcionando. Talvez, estamos até comprometendo o desejo de meditar (a espada central) devido à influência de outras partes de nossas vidas (6 espadas circundantes). Desistimos de tentar e perdemos a vontade de defender o que realmente queríamos fazer.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Fazer compromisso inapropriado em um esforço para aliviar o estresse mental que estamos sentindo.
 

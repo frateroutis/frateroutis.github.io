@@ -68,12 +68,12 @@ A carta mostra o momento em que podemos ser mais empáticos do que o normal em t
 
 ## **IV. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Independente, difícil de segurar mas ao mesmo tempo humano
 - Sua sensibilidade, natureza sonhadora, pode não ser confiável; pode haver um aspecto espiritual
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Período de falta de energia e inspiração; parece preguiçoso mas isto também pode ser um período de descanso necessário entre tempos criativos
 

@@ -60,13 +60,13 @@ Mentiras, idolatria e desordem passional cujo desdobramento será despertar dolo
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Imersão em emoções viciantes que não representam o melhor interesse. Depressão → recorrer ao que "faz sentir melhor": comer demais, beber demais, sexo indiscriminado, drogas.
 - Foco excessivo em humor negativo; maneira destrutiva de lidar com depressão/problemas. Padrões negativos (sexo, drogas, dieta, álcool).
 - Perda de controle gerando mudanças de estilo de vida negativas. Necessário recuperar poder pessoal; enfrentar o que está sendo evitado.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Padrões repetidos; não aprender com erros.
 

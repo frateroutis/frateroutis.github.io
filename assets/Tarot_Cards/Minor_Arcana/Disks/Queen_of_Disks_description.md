@@ -58,11 +58,11 @@ Pressente o sentir do outro; não arrasta almas distraídas. Usa amor para garan
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Cultivar confiança e saber receber. Ajuda por compaixão e confiança femininas. Atenção ao mundo material; se necessário, ampliar o autocuidado.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Desesperança, perda de confiança e perspectiva. Descuido da ordem interior e da “digestão” pelo repouso.
 

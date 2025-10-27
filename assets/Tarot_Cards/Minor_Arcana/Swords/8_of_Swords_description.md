@@ -55,12 +55,12 @@ Inibições dificultam contato e execução de planos; relações podem tremer. 
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Dificuldade para definir o melhor passo agora; paralisia por overthinking
 - Tomar distância e fazer algo diferente ajuda a destravar
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Afastar‑se do tema quando só há indecisão; deixar Júpiter clarear
 - Cuidado com gastar energia em minúcias irrelevantes

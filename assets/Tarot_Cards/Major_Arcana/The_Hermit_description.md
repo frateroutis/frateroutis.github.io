@@ -95,7 +95,7 @@ O Eremita representa o reino da introspecção, solidão e sabedoria interior. S
 
 O Eremita representa introspecção, solidão e orientação interior. Significa um período de retirada do mundo externo para buscar verdade e compreensão dentro de si mesmo. O Eremita é um símbolo de sabedoria, autodescoberta e iluminação espiritual. Esta carta nos encoraja a tirar tempo para contemplação tranquila, ouvir nossa voz interior e confiar em nossa própria intuição. Também nos lembra que a verdadeira sabedoria vem de dentro, através da autorreflexão e experiência pessoal.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Quando O Eremita aparece em posição normal, significa introspecção, solidão e orientação interior. Sugere que você está em um período de autodescoberta e que está buscando verdade e compreensão dentro de si mesmo. Esta carta encoraja você a tirar tempo para contemplação tranquila, ouvir sua voz interior e confiar em sua própria intuição. Também representa um tempo de crescimento espiritual e iluminação. Você é capaz de encontrar respostas dentro de si mesmo e ganhar clareza sobre seu caminho. O Eremita lembra que a verdadeira sabedoria vem de dentro.
 
@@ -107,19 +107,43 @@ Quando O Eremita aparece em posição invertida, pode indicar isolamento, solid�
 
 ### 1. Spread de Amor
 
-No amor, O Eremita pode significar necessidade de introspecção e autorreflexão em um relacionamento. Sugere que você ou seu parceiro podem precisar de tempo sozinhos para ganhar clareza sobre seus sentimentos. Esta carta encoraja você a se comunicar aberta e honestamente com seu parceiro, e respeitar a necessidade de espaço um do outro. Se você é solteiro, O Eremita pode indicar que você precisa tirar tempo para autodescoberta antes de entrar em um novo relacionamento. Invertida: isolamento, solidão ou relutância em buscar orientação em um relacionamento.
+**Posição Vertical:**
+
+No amor, O Eremita pode significar necessidade de introspecção e autorreflexão em um relacionamento. Sugere que você ou seu parceiro podem precisar de tempo sozinhos para ganhar clareza sobre seus sentimentos. Esta carta encoraja você a se comunicar aberta e honestamente com seu parceiro, e respeitar a necessidade de espaço um do outro. Se você é solteiro, O Eremita pode indicar que você precisa tirar tempo para autodescoberta antes de entrar em um novo relacionamento.
+
+**Posição Invertida:**
+
+Isolamento, solidão ou relutância em buscar orientação em um relacionamento. Afastamento excessivo; medo de intimidade. Pode indicar necessidade de equilibrar tempo sozinho com conexão e buscar apoio quando necessário.
 
 ### 2. Spread de Carreira
 
-Na carreira, O Eremita pode representar necessidade de introspecção e autorreflexão em sua carreira. Sugere que você pode precisar tirar tempo sozinho para ganhar clareza sobre seu caminho profissional. Esta carta encoraja você a ouvir sua voz interior e confiar em sua própria intuição ao tomar decisões de carreira. Invertida: isolamento, solidão ou relutância em buscar orientação em sua carreira.
+**Posição Vertical:**
+
+Na carreira, O Eremita pode representar necessidade de introspecção e autorreflexão em sua carreira. Sugere que você pode precisar tirar tempo sozinho para ganhar clareza sobre seu caminho profissional. Esta carta encoraja você a ouvir sua voz interior e confiar em sua própria intuição ao tomar decisões de carreira.
+
+**Posição Invertida:**
+
+Isolamento, solidão ou relutância em buscar orientação em sua carreira. Recusa em pedir ajuda; dificuldade em trabalhar em equipe. Pode indicar necessidade de equilibrar autossuficiência com colaboração e mentoria.
 
 ### 3. Spread Financeiro
 
-Nas finanças, O Eremita pode significar necessidade de introspecção e autorreflexão em seus assuntos financeiros. Sugere que você pode precisar tirar tempo sozinho para ganhar clareza sobre sua situação financeira. Esta carta encoraja você a ouvir sua voz interior e confiar em sua própria intuição ao tomar decisões financeiras. Invertida: isolamento, solidão ou relutância em buscar orientação em seus assuntos financeiros.
+**Posição Vertical:**
+
+Nas finanças, O Eremita pode significar necessidade de introspecção e autorreflexão em seus assuntos financeiros. Sugere que você pode precisar tirar tempo sozinho para ganhar clareza sobre sua situação financeira. Esta carta encoraja você a ouvir sua voz interior e confiar em sua própria intuição ao tomar decisões financeiras.
+
+**Posição Invertida:**
+
+Isolamento, solidão ou relutância em buscar orientação em seus assuntos financeiros. Recusa em buscar aconselhamento profissional; decisões financeiras baseadas em medo. Pode indicar necessidade de equilibrar intuição com expertise externa.
 
 ### 4. Spread de Saúde
 
-Na saúde, O Eremita pode representar necessidade de introspecção e autorreflexão em sua saúde. Sugere que você pode precisar tirar tempo sozinho para ganhar clareza sobre seu bem-estar físico e emocional. Esta carta encoraja você a ouvir sua voz interior e confiar em sua própria intuição ao tomar decisões de saúde. Invertida: isolamento, solidão ou relutância em buscar orientação em seus assuntos de saúde.
+**Posição Vertical:**
+
+Na saúde, O Eremita pode representar necessidade de introspecção e autorreflexão em sua saúde. Sugere que você pode precisar tirar tempo sozinho para ganhar clareza sobre seu bem-estar físico e emocional. Esta carta encoraja você a ouvir sua voz interior e confiar em sua própria intuição ao tomar decisões de saúde.
+
+**Posição Invertida:**
+
+Isolamento, solidão ou relutância em buscar orientação em seus assuntos de saúde. Negligência por excesso de isolamento; recusa em buscar ajuda médica. Pode indicar necessidade de equilibrar autoreflexão com cuidados profissionais.
 
 ---
 

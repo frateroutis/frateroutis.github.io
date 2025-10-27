@@ -74,7 +74,7 @@ Planetas associados aos Sephira individuais revelam as qualidades que precisamos
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Sucesso material e prosperidade financeira.
 
@@ -84,7 +84,7 @@ Um resumo do que é preciso para ter sucesso.
 
 Um lembrete para você se lembrar dos sucessos em sua vida neste momento e baseado nessas coisas.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Gastos descuidados.
 

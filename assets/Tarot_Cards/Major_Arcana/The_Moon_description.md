@@ -102,19 +102,43 @@ Confusão, enganos, ansiedade, boatos, gaslighting. Recomenda grounding, terapia
 
 ### 1. Spread de Amor
 
-Magnetismo lunar, idealização, segredos a vir à tona. Invertida: triângulos, manipulação, fantasias; prezar clareza e consentimento.
+**Posição Vertical:**
+
+Magnetismo lunar, idealização, segredos a vir à tona. Mistério e sedução; exploração de profundezas emocionais. Intuição aguçada sobre dinâmicas ocultas do relacionamento.
+
+**Posição Invertida:**
+
+Triângulos, manipulação, fantasias; prezar clareza e consentimento. Ilusões românticas; engano ou autoengano. Pode indicar necessidade de trazer luz à escuridão e buscar verdade.
 
 ### 2. Spread de Carreira
 
-Bastidores, P&D, artes, dados incompletos. Invertida: intrigas, contratos nebulosos; pedir transparência e documentar.
+**Posição Vertical:**
+
+Bastidores, P&D, artes, dados incompletos. Trabalho com dimensões ocultas ou criativas. Intuição como guia em ambientes de incerteza.
+
+**Posição Invertida:**
+
+Intrigas, contratos nebulosos; pedir transparência e documentar. Ambiente de trabalho obscuro; manipulação nos bastidores. Pode indicar necessidade de exigir clareza e proteger-se.
 
 ### 3. Spread Financeiro
 
-Volatilidade, incerteza; planejar cenários e evitar riscos opacos. Invertida: golpes, autoengano; auditoria minuciosa.
+**Posição Vertical:**
+
+Volatilidade, incerteza; planejar cenários e evitar riscos opacos. Situação financeira nebulosa requerendo cautela. Importância de confiar na intuição mas verificar fatos.
+
+**Posição Invertida:**
+
+Golpes, autoengano; auditoria minuciosa. Ilusões financeiras; fraude ou auto-sabotagem. Pode indicar necessidade urgente de investigar e trazer clareza à situação.
 
 ### 4. Spread de Saúde
 
-Sono, ciclos, sistema nervoso; terapias suaves. Invertida: ansiedade, insônia; higiene do sono e acompanhamento profissional.
+**Posição Vertical:**
+
+Sono, ciclos, sistema nervoso; terapias suaves. Atenção a ritmos naturais e dimensões sutis da saúde. Importância do descanso e processos inconscientes.
+
+**Posição Invertida:**
+
+Ansiedade, insônia; higiene do sono e acompanhamento profissional. Desequilíbrios relacionados a estresse e ciclos perturbados. Pode indicar necessidade de abordar saúde mental e padrões de sono.
 
 ---
 

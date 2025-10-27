@@ -72,7 +72,7 @@ Mostra estabilidade e, portanto, também se refere à capacidade de ter um relac
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 A segurança financeira e física é importante para você e você tem uma base sólida.
 
@@ -86,7 +86,7 @@ Ser uma pessoa confiável que age com integridade.
 
 Completar nossos objetivos e sonhos pessoais.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Não compartilhar o suficiente do que você tem.
 

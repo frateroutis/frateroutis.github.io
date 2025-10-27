@@ -135,19 +135,43 @@ Quando a carta O Mago Thoth aparece em posição invertida, pode indicar manipul
 
 ### 1. Spread de Amor
 
-Em um spread de amor, a carta O Mago Thoth pode significar um relacionamento poderoso e transformador. Sugere que você e seu parceiro são capazes de manifestar seus desejos juntos e criar um vínculo forte e duradouro. Esta carta encoraja você a se comunicar aberta e honestamente e usar sua criatividade para manter a chama viva. Se você é solteiro, o Magus pode indicar que você está prestes a conhecer alguém que irá desafiá-lo e inspirá-lo. No entanto, se a carta estiver invertida, pode sugerir manipulação ou engano em um relacionamento, levando a desconfiança e conflito.
+**Posição Vertical:**
+
+Em um spread de amor, a carta O Mago Thoth pode significar um relacionamento poderoso e transformador. Sugere que você e seu parceiro são capazes de manifestar seus desejos juntos e criar um vínculo forte e duradouro. Esta carta encoraja você a se comunicar aberta e honestamente e usar sua criatividade para manter a chama viva. Se você é solteiro, o Magus pode indicar que você está prestes a conhecer alguém que irá desafiá-lo e inspirá-lo.
+
+**Posição Invertida:**
+
+Manipulação ou engano em um relacionamento, levando a desconfiança e conflito. Uso de charme ou habilidades de comunicação para controlar o parceiro; falta de autenticidade. Pode indicar relacionamento baseado em ilusões ou promessas vazias.
 
 ### 2. Spread de Carreira
 
-Em um spread de carreira, a carta O Mago Thoth pode representar sucesso, realização e a capacidade de manifestar seus objetivos de carreira. Sugere que você é altamente qualificado e capaz, e que tem o poder de criar a carreira que deseja. Esta carta encoraja você a tomar iniciativa, ter confiança em suas habilidades e usar seus talentos para alcançar suas aspirações profissionais. Se a carta estiver invertida, pode sugerir uso indevido de poder ou falta de integridade em sua carreira, levando a contratempos ou fracassos.
+**Posição Vertical:**
+
+Em um spread de carreira, a carta O Mago Thoth pode representar sucesso, realização e a capacidade de manifestar seus objetivos de carreira. Sugere que você é altamente qualificado e capaz, e que tem o poder de criar a carreira que deseja. Esta carta encoraja você a tomar iniciativa, ter confiança em suas habilidades e usar seus talentos para alcançar suas aspirações profissionais.
+
+**Posição Invertida:**
+
+Uso indevido de poder ou falta de integridade em sua carreira, levando a contratempos ou fracassos. Manipulação de colegas ou situações; promessas não cumpridas. Pode indicar talento desperdiçado ou habilidades usadas para propósitos questionáveis.
 
 ### 3. Spread Financeiro
 
-Em um spread financeiro, a carta O Mago Thoth pode significar sucesso financeiro, abundância e a capacidade de manifestar seus objetivos financeiros. Sugere que você é engenhoso e capaz de criar riqueza. Esta carta encoraja você a assumir o controle de suas finanças, ser estratégico em seus investimentos e usar suas habilidades para gerar renda. Se a carta estiver invertida, pode sugerir manipulação financeira ou engano, levando a perdas ou instabilidade.
+**Posição Vertical:**
+
+Em um spread financeiro, a carta O Mago Thoth pode significar sucesso financeiro, abundância e a capacidade de manifestar seus objetivos financeiros. Sugere que você é engenhoso e capaz de criar riqueza. Esta carta encoraja você a assumir o controle de suas finanças, ser estratégico em seus investimentos e usar suas habilidades para gerar renda.
+
+**Posição Invertida:**
+
+Manipulação financeira ou engano, levando a perdas ou instabilidade. Esquemas duvidosos; promessas de ganhos rápidos que não se concretizam. Pode indicar falta de transparência em negócios ou necessidade de revisar estratégias financeiras com mais ética.
 
 ### 4. Spread de Saúde
 
-Em um spread de saúde, a carta O Mago Thoth pode representar cura, vitalidade e a capacidade de manifestar boa saúde. Sugere que você tem o poder de assumir o controle de seu bem-estar e criar um estilo de vida saudável. Esta carta encoraja você a ser proativo em suas escolhas de saúde, buscar tratamentos eficazes e usar sua conexão mente-corpo para promover a cura. Se a carta estiver invertida, pode sugerir uso indevido de poder ou falta de integridade em suas escolhas de saúde, levando a desequilíbrios ou problemas de saúde.
+**Posição Vertical:**
+
+Em um spread de saúde, a carta O Mago Thoth pode representar cura, vitalidade e a capacidade de manifestar boa saúde. Sugere que você tem o poder de assumir o controle de seu bem-estar e criar um estilo de vida saudável. Esta carta encoraja você a ser proativo em suas escolhas de saúde, buscar tratamentos eficazes e usar sua conexão mente-corpo para promover a cura.
+
+**Posição Invertida:**
+
+Uso indevido de poder ou falta de integridade em suas escolhas de saúde, levando a desequilíbrios ou problemas de saúde. Auto-sabotagem; negligência de sinais do corpo. Pode indicar dependência de soluções rápidas sem abordar causas reais dos problemas de saúde.
 
 ---
 

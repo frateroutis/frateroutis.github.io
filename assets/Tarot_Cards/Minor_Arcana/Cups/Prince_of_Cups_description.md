@@ -68,12 +68,12 @@ Imaginação sem fronteiras permeia os vínculos. Tendemos ao êxtase afetivo: g
 
 ## **IV. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Comunicar emoções com maturidade; expressar sentimentos de forma saudável e criar conexão afetiva
 - Pessoa sensível, artística e intuitiva; bom ouvinte, conselheiro, terapeuta ou artista
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Dificuldade em comunicar emoções; bloqueio afetivo; afastamento
 - Pessoa insensível ou evasiva; estética vazia; “fala de amor” sem entrega

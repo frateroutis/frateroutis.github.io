@@ -86,19 +86,43 @@ Excesso, impaciência, extremos que se chocam; falta de medida; mistura imprópr
 
 ### 1. Spread de Amor
 
-Harmonização de diferenças, negociação saudável, dinâmica complementar. Invertida: polarização, jogos de poder, necessidade de espaço e ajuste de ritmos.
+**Posição Vertical:**
+
+Harmonização de diferenças, negociação saudável, dinâmica complementar. Equilíbrio entre dar e receber. Alquimia relacional que transforma diferenças em força.
+
+**Posição Invertida:**
+
+Polarização, jogos de poder, necessidade de espaço e ajuste de ritmos. Desequilíbrio na dinâmica; dificuldade em encontrar meio-termo. Pode indicar necessidade de renegociar termos do relacionamento.
 
 ### 2. Spread de Carreira
 
-Integração de equipes, processos e tecnologias; PMO/coordenação; aprendizagem cruzada. Invertida: silos, excesso de tarefas, falta de prioridades claras.
+**Posição Vertical:**
+
+Integração de equipes, processos e tecnologias; PMO/coordenação; aprendizagem cruzada. Síntese de diferentes elementos em projeto coeso. Colaboração efetiva e sinergias.
+
+**Posição Invertida:**
+
+Silos, excesso de tarefas, falta de prioridades claras. Fragmentação; dificuldade em integrar diferentes aspectos do trabalho. Pode indicar necessidade de simplificação e foco.
 
 ### 3. Spread Financeiro
 
-Orçamento equilibrado, diversificação com prudência, reequilíbrio de carteira. Invertida: gastos impulsivos, risco mal dosado.
+**Posição Vertical:**
+
+Orçamento equilibrado, diversificação com prudência, reequilíbrio de carteira. Gestão financeira harmoniosa. Equilíbrio entre poupança e investimento.
+
+**Posição Invertida:**
+
+Gastos impulsivos, risco mal dosado. Desequilíbrio financeiro; extremos entre avareza e desperdício. Pode indicar necessidade de maior moderação e planejamento.
 
 ### 4. Spread de Saúde
 
-Protocolos de equilíbrio: sono, alimentação, atividade. Terapias integrativas. Invertida: extremos (excesso/restrição); necessidade de gradualidade.
+**Posição Vertical:**
+
+Protocolos de equilíbrio: sono, alimentação, atividade. Terapias integrativas. Abordagem holística que harmoniza diferentes aspectos do bem-estar.
+
+**Posição Invertida:**
+
+Extremos (excesso/restrição); necessidade de gradualidade. Desequilíbrio em rotinas de saúde; radicalismo. Pode indicar necessidade de abordagem mais moderada e sustentável.
 
 ---
 

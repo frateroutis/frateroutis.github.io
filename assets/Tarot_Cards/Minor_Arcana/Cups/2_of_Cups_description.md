@@ -61,13 +61,13 @@ Vênus (estrela da noite) no signo da Lua (Câncer) reforça o amor. Estágio de
 
 ## V. Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Início de relação harmoniosa; amizade/parceria íntima
 - Possibilidade de amor universal em meditação
 - Dar e receber amor de forma equivalente
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Desarmonia em relacionamentos ou amizades próximas
 - Rompimentos, discussões, mal‑entendidos, infidelidade

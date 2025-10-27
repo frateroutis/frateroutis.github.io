@@ -71,7 +71,7 @@ Esta carta de "mudança" na natureza refere-se a uma mudança de relacionamento,
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Devemos aprender a seguir o fluxo da vida e acreditar neste processo de mudança para encontrar harmonia e equilíbrio.
 
@@ -83,7 +83,7 @@ Esta carta o traz de volta à terra e lembra você de não apenas focar apenas e
 
 Esta é uma carta que gerencia bem suas questões práticas e financeiras. Parece tedioso focar sua atenção nessas questões mais mundanas, mas esta carta lembra que às vezes ficar à frente do trabalho cotidiano é tão importante quanto perseguir seus objetivos de vida mais interessantes.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Não seguir o fluxo em sua vida e levar à falta de harmonia e equilíbrio; tentar manipular muitos eventos excessivamente.
 

@@ -54,12 +54,12 @@ A carta mostra o tempo feliz de forte prazer. Na riqueza e afluência, experimen
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Às vezes chamada de "Carta do Desejo" porque as coisas se tornam realidade da maneira que você sempre quis
 - Esta carta representa realização e, portanto, tudo não pode ser melhor do que o presente
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Desejos e sonhos não realizados, deixando você se sentindo vazio
 

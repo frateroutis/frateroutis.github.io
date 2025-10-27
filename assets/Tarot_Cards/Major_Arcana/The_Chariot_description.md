@@ -97,7 +97,7 @@ O carro do vencedor representa não apenas o poder de avançar, mas também a ha
 
 O Carro representa triunfo, força de vontade e autocontrole. Significa a capacidade de superar obstáculos, alcançar a vitória e avançar com determinação. O Carro é um símbolo de sucesso, ambição e a busca pelos objetivos. Esta carta nos encoraja a assumir o controle de nossas vidas, focar em nossos objetivos e superar quaisquer desafios que possam surgir. Também nos lembra que a verdadeira vitória vem de dentro, através do autodomínio e força interior.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Quando O Carro aparece em posição normal, significa triunfo, força de vontade e autocontrole. Sugere que você está em um período de sucesso e que é capaz de superar quaisquer obstáculos que possam surgir. Esta carta encoraja você a assumir o controle de sua vida, focar em seus objetivos e avançar com determinação. Também representa um forte senso de ambição e uma visão clara para seu futuro. Você é capaz de aproveitar sua força interior e alcançar seus objetivos com facilidade. O Carro lembra que você é o mestre de seu próprio destino.
 
@@ -109,19 +109,43 @@ Quando O Carro aparece em posição invertida, pode indicar falta de controle, d
 
 ### 1. Spread de Amor
 
-No amor, O Carro pode significar uma abordagem triunfante e determinada ao amor. Sugere que você está assumindo o controle de sua vida amorosa e que está avançando com confiança. Esta carta encoraja você a ser claro sobre seus desejos e buscar seus objetivos românticos com paixão. Se você é solteiro, O Carro pode indicar que está prestes a conhecer alguém que é ambicioso, determinado e focado. Invertida: falta de controle, derrota ou sensação de estar sobrecarregado em um relacionamento.
+**Posição Vertical:**
+
+No amor, O Carro pode significar uma abordagem triunfante e determinada ao amor. Sugere que você está assumindo o controle de sua vida amorosa e que está avançando com confiança. Esta carta encoraja você a ser claro sobre seus desejos e buscar seus objetivos românticos com paixão. Se você é solteiro, O Carro pode indicar que está prestes a conhecer alguém que é ambicioso, determinado e focado.
+
+**Posição Invertida:**
+
+Falta de controle, derrota ou sensação de estar sobrecarregado em um relacionamento. Conflitos de direção; dificuldade em alinhar objetivos com o parceiro. Pode indicar necessidade de reavaliar prioridades e recuperar equilíbrio.
 
 ### 2. Spread de Carreira
 
-Na carreira, O Carro pode representar uma carreira triunfante e bem-sucedida. Sugere que você está alcançando seus objetivos profissionais e que está avançando com determinação. Esta carta encoraja você a assumir o controle de sua carreira, focar em seus objetivos e superar quaisquer desafios que possam surgir. Invertida: falta de controle, derrota ou sensação de estar sobrecarregado em sua carreira.
+**Posição Vertical:**
+
+Na carreira, O Carro pode representar uma carreira triunfante e bem-sucedida. Sugere que você está alcançando seus objetivos profissionais e que está avançando com determinação. Esta carta encoraja você a assumir o controle de sua carreira, focar em seus objetivos e superar quaisquer desafios que possam surgir.
+
+**Posição Invertida:**
+
+Falta de controle, derrota ou sensação de estar sobrecarregado em sua carreira. Esforços que não levam a resultados; perda de foco. Pode indicar necessidade de reavaliar estratégias e buscar novo senso de direção.
 
 ### 3. Spread Financeiro
 
-Nas finanças, O Carro pode significar triunfo e sucesso financeiro. Sugere que você está alcançando seus objetivos financeiros e que está avançando com determinação. Esta carta encoraja você a assumir o controle de suas finanças, focar em seus objetivos e superar quaisquer desafios que possam surgir. Invertida: falta de controle, derrota ou sensação de estar sobrecarregado em seus assuntos financeiros.
+**Posição Vertical:**
+
+Nas finanças, O Carro pode significar triunfo e sucesso financeiro. Sugere que você está alcançando seus objetivos financeiros e que está avançando com determinação. Esta carta encoraja você a assumir o controle de suas finanças, focar em seus objetivos e superar quaisquer desafios que possam surgir.
+
+**Posição Invertida:**
+
+Falta de controle, derrota ou sensação de estar sobrecarregado em seus assuntos financeiros. Gastos impulsivos; perda de direção financeira. Pode indicar necessidade de recuperar controle e estabelecer metas mais claras.
 
 ### 4. Spread de Saúde
 
-Na saúde, O Carro pode representar uma abordagem triunfante e determinada à saúde. Sugere que você está assumindo o controle de seu bem-estar e que está avançando com confiança. Esta carta encoraja você a ser claro sobre seus objetivos de saúde e buscá-los com paixão. Invertida: falta de controle, derrota ou sensação de estar sobrecarregado em seus assuntos de saúde.
+**Posição Vertical:**
+
+Na saúde, O Carro pode representar uma abordagem triunfante e determinada à saúde. Sugere que você está assumindo o controle de seu bem-estar e que está avançando com confiança. Esta carta encoraja você a ser claro sobre seus objetivos de saúde e buscá-los com paixão.
+
+**Posição Invertida:**
+
+Falta de controle, derrota ou sensação de estar sobrecarregado em seus assuntos de saúde. Esforços de bem-estar que não trazem resultados; burnout. Pode indicar necessidade de abordagem mais equilibrada e buscar apoio quando necessário.
 
 ---
 

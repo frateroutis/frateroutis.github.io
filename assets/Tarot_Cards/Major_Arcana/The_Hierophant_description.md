@@ -89,7 +89,7 @@ O Hierofante representa fé, tradição e orientação espiritual. É a busca po
 
 A carta do Hierofante aponta para tradição, aprendizado e participação consciente em sistemas de sentido. Incentiva a buscar mentores e praticar — não apenas crer. Convida ao respeito às formas sem perder o espírito: questionar quando preciso, para que a fé permaneça viva.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Quando em posição ereta, favorece estudos, rituais, conselhos de mestres e pertença a comunidades. Tempo de aprendizado e crescimento, abertura a novas ideias dentro de uma estrutura. Compromissos, regularidade e ética sustentam o avanço.
 
@@ -101,19 +101,43 @@ Invertida, sugere ruptura com dogmas, questionamento de normas e busca de um cam
 
 ### 1. Spread de Amor
 
-No amor, indica compromisso, valores compartilhados e construção de base sólida. Honrar votos e buscar orientação madura fortalece a união. Solteiros podem encontrar alguém alinhado espiritualmente. Invertida: choque de valores ou rejeição a modelos tradicionais.
+**Posição Vertical:**
+
+No amor, indica compromisso, valores compartilhados e construção de base sólida. Honrar votos e buscar orientação madura fortalece a união. Solteiros podem encontrar alguém alinhado espiritualmente.
+
+**Posição Invertida:**
+
+Choque de valores ou rejeição a modelos tradicionais. Conflitos sobre crenças ou expectativas no relacionamento. Pode indicar necessidade de encontrar novo entendimento ou questionar normas estabelecidas.
 
 ### 2. Spread de Carreira
 
-Na carreira, favorece ensino, orientação, pesquisa, serviço público ou atuação em instituições. Mentoria, certificações e caminhos formais ajudam. Invertida: ruptura com carreiras convencionais, necessidade de redefinir propósito.
+**Posição Vertical:**
+
+Na carreira, favorece ensino, orientação, pesquisa, serviço público ou atuação em instituições. Mentoria, certificações e caminhos formais ajudam.
+
+**Posição Invertida:**
+
+Ruptura com carreiras convencionais, necessidade de redefinir propósito. Resistência a hierarquias ou estruturas tradicionais. Pode indicar busca por caminhos mais autônomos ou alternativos.
 
 ### 3. Spread Financeiro
 
-Nas finanças, pede prudência, princípios testados, conselhos qualificados e visão de longo prazo. Evite riscos desnecessários. Invertida: impulsividade ou descrédito de boas práticas.
+**Posição Vertical:**
+
+Nas finanças, pede prudência, princípios testados, conselhos qualificados e visão de longo prazo. Evite riscos desnecessários.
+
+**Posição Invertida:**
+
+Impulsividade ou descrédito de boas práticas. Rejeição de conselhos financeiros sólidos; tentação por esquemas não convencionais. Pode indicar necessidade de equilibrar inovação com sabedoria comprovada.
 
 ### 4. Spread de Saúde
 
-Na saúde, sugere aderência a orientações profissionais, rotina consistente e prevenção. Invertida: busca por alternativas sem critério ou resistência a cuidados necessários.
+**Posição Vertical:**
+
+Na saúde, sugere aderência a orientações profissionais, rotina consistente e prevenção.
+
+**Posição Invertida:**
+
+Busca por alternativas sem critério ou resistência a cuidados necessários. Desconfiança de medicina convencional sem base sólida. Pode indicar necessidade de integrar diferentes abordagens com discernimento.
 
 ---
 

@@ -68,13 +68,13 @@ Tempo de proximidade sensível e amorosa, desejo de oferta e partilha. Atração
 
 ## **IV. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Intuição e maturidade emocional
 - Capacidade de se aprofundar nos vínculos e comunicar sentimentos com delicadeza
 - Meditação; comunhão com a natureza e o espírito; praticidade sensível
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Traumas do passado distorcem a sensibilidade psíquica
 - Perda de enraizamento; dificuldade de relação; hipersensibilidade ao ambiente

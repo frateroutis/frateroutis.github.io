@@ -60,11 +60,11 @@ Traz mensagens fortes fora da estrutura mental do relacionamento. Faz perceber q
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Sucesso e sorte; perseverança e paciência. Fertilidade e gravidez. Paciência que nutre; sutileza profunda que vê além do superficial.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Pobreza de consciência; dependência física. Aparência e ostentação vazia; acomodação a uma riqueza temporária.
 

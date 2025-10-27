@@ -2,6 +2,7 @@
     --primary: #000000;
     --secondary: #000000;
     --accent: #e94560;
+    --success: #2ecc71;
     --gold: #d4af37;
     --light: #f1f1f1;
     --shadow: rgba(0, 0, 0, 0.3);
@@ -268,6 +269,18 @@ h1 {
     border-radius: 20px;
     display: inline-block;
     border: 1px solid var(--accent);
+}
+
+.upright-indicator {
+    font-size: 0.85rem;
+    color: var(--success);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 0.8rem;
+    background: rgba(46, 204, 113, 0.2);
+    border-radius: 20px;
+    display: inline-block;
+    border: 1px solid var(--success);
 }
 
 .card-image-container {

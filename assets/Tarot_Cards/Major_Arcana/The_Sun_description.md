@@ -67,7 +67,7 @@ Tempo de afirmação, alegria, reconhecimento, êxito e lucidez. Energia alta; v
 
 Ilumina e simplifica. O conselho é agir com transparência, partilhar a luz e manter a humildade para que o calor não se torne deserto.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Sucesso, visibilidade, cura pela luz; autoestima saudável; projetos prosperam. Amor sincero, vínculos claros.
 
@@ -79,19 +79,43 @@ Deslumbramento, orgulho, autoimagem frágil, queimaduras do excesso. Recomenda m
 
 ### 1. Spread de Amor
 
-Afeto aberto, alegria, vitalidade do vínculo. Invertida: ego atrapalhando, competição, exposição excessiva.
+**Posição Vertical:**
+
+Afeto aberto, alegria, vitalidade do vínculo. Relacionamento marcado por autenticidade, calor e expressão livre de amor. Momento de felicidade e clareza nos sentimentos.
+
+**Posição Invertida:**
+
+Ego atrapalhando, competição, exposição excessiva. Necessidade de validação externa prejudicando intimidade. Pode indicar arrogância ou falta de sensibilidade às necessidades do parceiro.
 
 ### 2. Spread de Carreira
 
-Reconhecimento, promoções, vitórias públicas. Invertida: ofuscar equipe, burnout, política tóxica.
+**Posição Vertical:**
+
+Reconhecimento, promoções, vitórias públicas. Sucesso visível e merecido. Momento de brilhar profissionalmente e receber crédito pelo trabalho.
+
+**Posição Invertida:**
+
+Ofuscar equipe, burnout, política tóxica. Excesso de foco em reconhecimento pessoal; esgotamento por pressão. Pode indicar ambiente competitivo prejudicial ou necessidade de equilibrar ambição com colaboração.
 
 ### 3. Spread Financeiro
 
-Prosperidade por clareza e constância. Invertida: gastos exibicionistas; planejar e poupar.
+**Posição Vertical:**
+
+Prosperidade por clareza e constância. Finanças saudáveis resultado de gestão transparente e consistente. Momento de abundância e segurança financeira.
+
+**Posição Invertida:**
+
+Gastos exibicionistas; planejar e poupar. Ostentação financeira sem base sólida; necessidade de maior prudência. Pode indicar ego inflado levando a decisões financeiras imprudentes.
 
 ### 4. Spread de Saúde
 
-Vitalidade alta, boa recuperação com luz/rotina. Invertida: exaustão por excesso; hidratar, descansar, regular exposição ao sol.
+**Posição Vertical:**
+
+Vitalidade alta, boa recuperação com luz/rotina. Energia abundante; saúde radiante. Benefício de exposição solar saudável e rotinas consistentes.
+
+**Posição Invertida:**
+
+Exaustão por excesso; hidratar, descansar, regular exposição ao sol. Burnout por atividade excessiva; necessidade de moderação. Pode indicar esgotamento ou problemas relacionados a excesso de calor/exposição.
 
 ---
 

@@ -62,12 +62,12 @@ Esta carta mostra que apesar de toda a paz exterior, a força interior está reu
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Este é realmente um tipo de felicidade transitória, muito curta e perdeu a capacidade de nos satisfazer. Pode ser algo físico e pode variar do extremo. Pensamos que encontraremos satisfação nisso por um tempo, mas no final, rapidamente ficamos desanimados com isso e passamos para a próxima coisa
 - Em um relacionamento, pode envolver perder a alegria no que o relacionamento traz e, portanto, ou temos que mudar a dinâmica do relacionamento ou nos afastar dele. Não é que não sejamos felizes, mas a segurança significa completo e assim, fomos ao fim do que ele pode oferecer
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Permanecer em um relacionamento incompleto
 - Não perceber que este é um modelo de longo prazo de adquirir coisas materiais apenas para ver que são incapazes de responder a você

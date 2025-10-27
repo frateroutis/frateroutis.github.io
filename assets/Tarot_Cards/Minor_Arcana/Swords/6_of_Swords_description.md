@@ -55,12 +55,12 @@ Equilíbrio entre necessidades emocionais e ideias de alma. Propício para resol
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Clareza intelectual após os desafios (3–5); decisões mais inteligentes e efetivas
 - Situação melhora com abordagem melhor; aprender por tentativa e erro; disposição para aprender
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Repetição de erros; falta de aprendizado com a experiência
 - Emocional transbordando ofusca a visão; excesso de pensamento sem fluxo para sair da situação

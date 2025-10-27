@@ -95,11 +95,11 @@ Tudo implica que a natureza combina imortalidade no ciclo de morte e nascimento.
 
 A carta A Imperatriz Thoth representa fertilidade, criatividade e abundância. Significa o aspecto nutritivo do divino feminino e o poder de trazer nova vida à existência. A Imperatriz é um símbolo de crescimento, prosperidade e a beleza da natureza. Esta carta nos encoraja a abraçar nosso potencial criativo, nutrir nossas ideias e nos permitir receber a abundância que o universo tem a oferecer. Também nos lembra de nos conectar com a natureza e apreciar a beleza do mundo ao nosso redor.
 
-### Posição Vertical
+### 4. Posição Vertical
 
 Quando a carta A Imperatriz Thoth aparece em posição vertical, significa fertilidade, criatividade e abundância. Sugere que você está em um período de crescimento e prosperidade, e que suas ideias estão florescendo. Esta carta encoraja você a abraçar seu potencial criativo, nutrir seus projetos e se permitir receber a abundância que o universo tem a oferecer. Também representa uma forte conexão com a natureza e uma profunda apreciação pela beleza. Você está cercado de amor e apoio, e é capaz de manifestar seus desejos com facilidade. A Imperatriz lembra você de que é um poderoso co-criador de sua realidade.
 
-### Posição Invertida
+### 5. Posição Invertida
 
 Quando a carta A Imperatriz Thoth aparece em posição invertida, pode indicar um bloqueio na criatividade, falta de nutrição ou sentimento de estagnação. Você pode estar lutando para concretizar suas ideias ou se sentindo desconectado de seu fluxo criativo. Esta carta também pode sugerir falta de autocuidado ou tendência a negligenciar suas próprias necessidades. A Imperatriz invertida encoraja você a se reconectar com sua fonte criativa, se nutrir e liberar quaisquer bloqueios que estejam impedindo você de manifestar seus desejos. Também lembra você a ser mais compassivo consigo mesmo e se permitir receber o apoio de que precisa.
 
@@ -107,18 +107,42 @@ Quando a carta A Imperatriz Thoth aparece em posição invertida, pode indicar u
 
 ### Spread de Amor
 
-Em um spread de amor, a carta A Imperatriz Thoth pode significar um relacionamento fértil e nutritivo. Sugere que você e seu parceiro são capazes de criar um ambiente amoroso e de apoio um para o outro, e que seu relacionamento está crescendo e florescendo. Esta carta encoraja você a abraçar sua sensualidade e expressar seu amor livremente. Se você é solteiro, a Imperatriz pode indicar que você está prestes a conhecer alguém que trará abundância e alegria para sua vida. No entanto, se a carta estiver invertida, pode sugerir falta de nutrição ou sentimento de estagnação em um relacionamento.
+**Posição Vertical:**
+
+Em um spread de amor, a carta A Imperatriz Thoth pode significar um relacionamento fértil e nutritivo. Sugere que você e seu parceiro são capazes de criar um ambiente amoroso e de apoio um para o outro, e que seu relacionamento está crescendo e florescendo. Esta carta encoraja você a abraçar sua sensualidade e expressar seu amor livremente. Se você é solteiro, a Imperatriz pode indicar que você está prestes a conhecer alguém que trará abundância e alegria para sua vida.
+
+**Posição Invertida:**
+
+Falta de nutrição ou sentimento de estagnação em um relacionamento. Bloqueios na expressão do amor; dificuldade em criar ambiente acolhedor. Pode indicar relacionamento sem crescimento ou necessidade de maior atenção e cuidado mútuo.
 
 ### Spread de Carreira
 
-Em um spread de carreira, a carta A Imperatriz Thoth pode representar uma carreira criativa e gratificante. Sugere que você está em uma profissão que permite expressar seus talentos e dar vida às suas ideias. Esta carta encoraja você a abraçar seu potencial criativo e nutrir seus projetos. Se a carta estiver invertida, pode sugerir um bloqueio na criatividade ou sentimento de não estar realizado em sua carreira.
+**Posição Vertical:**
+
+Em um spread de carreira, a carta A Imperatriz Thoth pode representar uma carreira criativa e gratificante. Sugere que você está em uma profissão que permite expressar seus talentos e dar vida às suas ideias. Esta carta encoraja você a abraçar seu potencial criativo e nutrir seus projetos.
+
+**Posição Invertida:**
+
+Bloqueio na criatividade ou sentimento de não estar realizado em sua carreira. Projetos estagnados; ambiente de trabalho que não nutre o crescimento. Pode indicar necessidade de reconectar-se com paixão profissional ou buscar espaço mais fértil.
 
 ### Spread Financeiro
 
-Em um spread financeiro, a carta A Imperatriz Thoth pode significar abundância financeira e prosperidade. Sugere que você está em um período de crescimento financeiro e que seus investimentos estão florescendo. Esta carta encoraja você a ser generoso com sua riqueza e compartilhar sua abundância com os outros. Se a carta estiver invertida, pode sugerir estagnação financeira ou falta de abundância.
+**Posição Vertical:**
+
+Em um spread financeiro, a carta A Imperatriz Thoth pode significar abundância financeira e prosperidade. Sugere que você está em um período de crescimento financeiro e que seus investimentos estão florescendo. Esta carta encoraja você a ser generoso com sua riqueza e compartilhar sua abundância com os outros.
+
+**Posição Invertida:**
+
+Estagnação financeira ou falta de abundância. Investimentos que não rendem frutos; dificuldade em manifestar prosperidade. Pode indicar necessidade de nutrir melhor os recursos ou remover bloqueios à abundância.
 
 ### Spread de Saúde
 
-Em um spread de saúde, a carta A Imperatriz Thoth pode representar vitalidade, bem-estar e uma forte conexão com seu corpo. Sugere que você está com boa saúde e que está nutrindo suas necessidades físicas e emocionais. Esta carta encoraja você a abraçar sua sensualidade e se conectar com seu corpo em um nível mais profundo. Se a carta estiver invertida, pode sugerir falta de autocuidado ou sentimento de estar desconectado do seu corpo.
+**Posição Vertical:**
+
+Em um spread de saúde, a carta A Imperatriz Thoth pode representar vitalidade, bem-estar e uma forte conexão com seu corpo. Sugere que você está com boa saúde e que está nutrindo suas necessidades físicas e emocionais. Esta carta encoraja você a abraçar sua sensualidade e se conectar com seu corpo em um nível mais profundo.
+
+**Posição Invertida:**
+
+Falta de autocuidado ou sentimento de estar desconectado do seu corpo. Negligência das necessidades físicas e emocionais; desequilíbrio. Pode indicar necessidade de maior atenção ao bem-estar e reconexão com o corpo.
 
 ---

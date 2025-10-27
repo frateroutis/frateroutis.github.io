@@ -59,12 +59,12 @@ Retiro temporário para reorganizar a vida afetiva (eventualmente com terapia). 
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Necessidade de pausa fora de situação estressante; descanso e recuperação
 - Reordenar a vida para reduzir estresse; há pendências que voltarão à tona — use o repouso para clarear decisões e medos
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Resistência a pausar apesar do estresse alto; ou pausa ineficaz
 - Trégua obtida com concessões excessivas mantém a mente ruminando

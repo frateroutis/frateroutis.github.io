@@ -62,12 +62,12 @@ Relações em via de sublimação ou submersão. Clima de hostilidade, frieza e 
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Desenvolver vontade própria e autossuficiência
 - Em negativo: lutar contra o novo para manter o status quo; subjugação material; círculo vicioso
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Medo distorce a visão presente e o futuro; possíveis traições ou ataques sorrateiros
 - Auto‑boicote decorrente de feridas antigas; sonhos recorrentes de situações não resolvidas

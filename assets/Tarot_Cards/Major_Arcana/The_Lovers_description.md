@@ -95,7 +95,7 @@ Os Amantes representam o reino do amor, dos relacionamentos e das escolhas. Sign
 
 A carta dos Amantes representa escolhas, relacionamentos e união de opostos. Assinala uma decisão significativa a ser tomada — frequentemente ligada ao amor ou a uma parceria. Os Amantes são símbolo de harmonia, equilíbrio e integração de diferentes aspectos de si. Incentivam escolhas alinhadas aos verdadeiros desejos e abraçar a dualidade interior. Lembram também que o amor verdadeiro envolve aceitar tanto a luz quanto a sombra em si e no outro.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Em posição ereta, assinalam escolhas, relacionamentos e união de opostos. Sugere que você enfrenta decisão significativa, muitas vezes ligada a amor ou parceria. A carta encoraja escolhas alinhadas aos verdadeiros desejos e abraçar a dualidade interior. Também representa tempo de harmonia, equilíbrio e integração. Você consegue reconciliar aspectos conflitantes de si e encontrar terreno comum com os outros. Os Amantes lembram que o amor verdadeiro envolve aceitar luz e sombra em si e no outro.
 
@@ -107,19 +107,43 @@ Invertida, pode indicar indecisão, desarmonia ou conflito em relacionamentos. V
 
 ### 1. Spread de Amor
 
-No amor, pode assinalar escolha ou decisão significativa em um relacionamento. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará sua vida amorosa. A carta encoraja ouvir o coração e decidir em alinhamento com seus verdadeiros desejos. Se você é solteiro, Os Amantes podem indicar que está prestes a conhecer alguém que o desafiará a fazer uma escolha sobre seu status de relacionamento. Invertida: indecisão, desarmonia ou conflito no relacionamento.
+**Posição Vertical:**
+
+No amor, pode assinalar escolha ou decisão significativa em um relacionamento. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará sua vida amorosa. A carta encoraja ouvir o coração e decidir em alinhamento com seus verdadeiros desejos. Se você é solteiro, Os Amantes podem indicar que está prestes a conhecer alguém que o desafiará a fazer uma escolha sobre seu status de relacionamento.
+
+**Posição Invertida:**
+
+Indecisão, desarmonia ou conflito no relacionamento. Dificuldade em fazer escolhas importantes sobre o amor; sentimentos divididos ou confusos. Pode indicar relacionamento em que há falta de comunicação ou valores desalinhados.
 
 ### 2. Spread de Carreira
 
-Na carreira, representa escolha ou decisão relacionada ao seu caminho profissional. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará sua vida profissional. A carta encoraja escolhas alinhadas às suas verdadeiras paixões e abraçar a dualidade dentro de sua carreira. Invertida: indecisão, desarmonia ou conflito na carreira.
+**Posição Vertical:**
+
+Na carreira, representa escolha ou decisão relacionada ao seu caminho profissional. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará sua vida profissional. A carta encoraja escolhas alinhadas às suas verdadeiras paixões e abraçar a dualidade dentro de sua carreira.
+
+**Posição Invertida:**
+
+Indecisão, desarmonia ou conflito na carreira. Dificuldade em escolher entre oportunidades ou caminhos profissionais; falta de clareza sobre vocação. Pode indicar trabalho que não está alinhado com valores pessoais.
 
 ### 3. Spread Financeiro
 
-Nas finanças, pode assinalar escolha ou decisão relacionada aos seus assuntos financeiros. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará sua vida financeira. A carta encoraja escolhas alinhadas aos seus verdadeiros valores e abraçar a dualidade dentro de sua situação financeira. Invertida: indecisão, desarmonia ou conflito em assuntos financeiros.
+**Posição Vertical:**
+
+Nas finanças, pode assinalar escolha ou decisão relacionada aos seus assuntos financeiros. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará sua vida financeira. A carta encoraja escolhas alinhadas aos seus verdadeiros valores e abraçar a dualidade dentro de sua situação financeira.
+
+**Posição Invertida:**
+
+Indecisão, desarmonia ou conflito em assuntos financeiros. Escolhas financeiras difíceis; valores em conflito sobre dinheiro. Pode indicar gastos impulsivos ou investimentos que não refletem prioridades reais.
 
 ### 4. Spread de Saúde
 
-Na saúde, pode representar escolha ou decisão relacionada à sua saúde. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará seu bem-estar físico e emocional. A carta encoraja escolhas alinhadas às suas verdadeiras necessidades e abraçar a dualidade dentro de sua saúde. Invertida: indecisão, desarmonia ou conflito em questões de saúde.
+**Posição Vertical:**
+
+Na saúde, pode representar escolha ou decisão relacionada à sua saúde. Sugere que você está numa encruzilhada e precisa fazer uma escolha que impactará seu bem-estar físico e emocional. A carta encoraja escolhas alinhadas às suas verdadeiras necessidades e abraçar a dualidade dentro de sua saúde.
+
+**Posição Invertida:**
+
+Indecisão, desarmonia ou conflito em questões de saúde. Dificuldade em escolher tratamentos ou caminhos de cura; negligência do equilíbrio entre corpo e mente. Pode indicar necessidade de integrar diferentes aspectos do bem-estar.
 
 ---
 

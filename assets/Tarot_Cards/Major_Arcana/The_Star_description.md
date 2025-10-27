@@ -80,7 +80,7 @@ Fala de renovação após crise, inspiração que desce do alto, confiança no f
 
 Convida a confiar no processo de renovação, nutrir aspirações autênticas e permitir que a inspiração guie. Cuidado com ilusões: esperança que nega a realidade vira escapismo.
 
-### 4. Posição Normal
+### 4. Posição Vertical
 
 Fase de cura, inspiração, renovação. Momento propício para sonhar, planejar e confiar. Energia criativa flui abundantemente.
 
@@ -92,19 +92,43 @@ Ilusões, esperanças vazias, fuga da realidade. Recomenda conectar sonho e aç�
 
 ### 1. Spread de Amor
 
-Renovação de vínculo, esperança, idealização saudável. Invertida: ilusão, projeção excessiva, necessidade de realismo.
+**Posição Vertical:**
+
+Renovação de vínculo, esperança, idealização saudável. Momento de renovar fé no amor e no relacionamento. Perspectiva otimista e inspiradora sobre o futuro a dois.
+
+**Posição Invertida:**
+
+Ilusão, projeção excessiva, necessidade de realismo. Idealização que não corresponde à realidade; expectativas irreais. Pode indicar necessidade de equilibrar esperança com pragmatismo.
 
 ### 2. Spread de Carreira
 
-Inspiração para novos projetos, fase criativa, visão de futuro. Invertida: planos irrealistas, falta de ação concreta.
+**Posição Vertical:**
+
+Inspiração para novos projetos, fase criativa, visão de futuro. Momento de sonhar grande e planejar com otimismo. Renovação de propósito profissional e clareza de direção.
+
+**Posição Invertida:**
+
+Planos irrealistas, falta de ação concreta. Sonhos sem fundamento prático; procrastinação disfarçada de planejamento. Pode indicar necessidade de transformar inspiração em passos concretos.
 
 ### 3. Spread Financeiro
 
-Recuperação gradual, esperança de melhora, planejamento otimista. Invertida: contar com sorte sem base, ilusão de ganho fácil.
+**Posição Vertical:**
+
+Recuperação gradual, esperança de melhora, planejamento otimista. Perspectiva positiva sobre finanças; renovação de estratégias. Momento de reconstrução financeira com esperança fundamentada.
+
+**Posição Invertida:**
+
+Contar com sorte sem base, ilusão de ganho fácil. Otimismo financeiro sem planejamento sólido; expectativas mágicas. Pode indicar necessidade de maior realismo e disciplina.
 
 ### 4. Spread de Saúde
 
-Regeneração, cura gradual, esperança fundamentada. Invertida: negar sintomas, confiar só em milagres; buscar equilíbrio entre fé e tratamento.
+**Posição Vertical:**
+
+Regeneração, cura gradual, esperança fundamentada. Processo de recuperação com perspectiva positiva. Renovação de vitalidade e bem-estar.
+
+**Posição Invertida:**
+
+Negar sintomas, confiar só em milagres; buscar equilíbrio entre fé e tratamento. Otimismo que ignora necessidade de cuidados práticos. Pode indicar necessidade de integrar esperança com ação responsável.
 
 ---
 

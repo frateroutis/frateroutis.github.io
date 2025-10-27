@@ -101,19 +101,43 @@ Quando A Luxúria aparece em posição invertida, pode indicar fraqueza, falta d
 
 ### 1. Spread de Amor
 
-No amor, A Luxúria pode significar paixão intensa e atração física em um relacionamento. Sugere que você está experimentando forte conexão sensual com seu parceiro. Esta carta encoraja você a abraçar sua sensualidade e expressar seus desejos abertamente e honestamente. Se você é solteiro, A Luxúria pode indicar que está prestes a conhecer alguém que despertará paixão intensa em você. Invertida: falta de controle, comportamento compulsivo ou repressão de desejos em um relacionamento.
+**Posição Vertical:**
+
+No amor, A Luxúria pode significar paixão intensa e atração física em um relacionamento. Sugere que você está experimentando forte conexão sensual com seu parceiro. Esta carta encoraja você a abraçar sua sensualidade e expressar seus desejos abertamente e honestamente. Se você é solteiro, A Luxúria pode indicar que está prestes a conhecer alguém que despertará paixão intensa em você.
+
+**Posição Invertida:**
+
+Falta de controle, comportamento compulsivo ou repressão de desejos em um relacionamento. Instintos reprimidos causando tensão; dificuldade em expressar necessidades. Pode indicar necessidade de encontrar equilíbrio saudável entre paixão e controle.
 
 ### 2. Spread de Carreira
 
-Na carreira, A Luxúria pode representar energia, ambição e determinação para alcançar seus objetivos profissionais. Sugere que você está em um período de grande vitalidade e que é capaz de superar quaisquer desafios. Esta carta encoraja você a abraçar sua paixão e direcionar sua energia criativa para seus projetos. Invertida: falta de controle, comportamento agressivo ou esgotamento em sua carreira.
+**Posição Vertical:**
+
+Na carreira, A Luxúria pode representar energia, ambição e determinação para alcançar seus objetivos profissionais. Sugere que você está em um período de grande vitalidade e que é capaz de superar quaisquer desafios. Esta carta encoraja você a abraçar sua paixão e direcionar sua energia criativa para seus projetos.
+
+**Posição Invertida:**
+
+Falta de controle, comportamento agressivo ou esgotamento em sua carreira. Energia descontrolada; conflitos no ambiente de trabalho. Pode indicar necessidade de canalizar força vital de forma mais construtiva.
 
 ### 3. Spread Financeiro
 
-Nas finanças, A Luxúria pode significar energia e determinação para melhorar sua situação financeira. Sugere que você tem a força e a vitalidade necessárias para alcançar seus objetivos financeiros. Esta carta encoraja você a ser corajoso e tomar riscos calculados. Invertida: falta de controle, gastos compulsivos ou comportamento financeiro imprudente.
+**Posição Vertical:**
+
+Nas finanças, A Luxúria pode significar energia e determinação para melhorar sua situação financeira. Sugere que você tem a força e a vitalidade necessárias para alcançar seus objetivos financeiros. Esta carta encoraja você a ser corajoso e tomar riscos calculados.
+
+**Posição Invertida:**
+
+Falta de controle, gastos compulsivos ou comportamento financeiro imprudente. Impulsividade com dinheiro; vícios que drenam recursos. Pode indicar necessidade de maior disciplina e equilíbrio financeiro.
 
 ### 4. Spread de Saúde
 
-Na saúde, A Luxúria pode representar vitalidade, energia e força física. Sugere que você está em um período de boa saúde e bem-estar. Esta carta encoraja você a manter seu estilo de vida ativo e abraçar sua vitalidade natural. Invertida: falta de controle, comportamento compulsivo ou esgotamento físico e emocional.
+**Posição Vertical:**
+
+Na saúde, A Luxúria pode representar vitalidade, energia e força física. Sugere que você está em um período de boa saúde e bem-estar. Esta carta encoraja você a manter seu estilo de vida ativo e abraçar sua vitalidade natural.
+
+**Posição Invertida:**
+
+Falta de controle, comportamento compulsivo ou esgotamento físico e emocional. Excesso de estímulos; burnout por intensidade. Pode indicar necessidade de moderar energia e buscar equilíbrio sustentável.
 
 ---
 

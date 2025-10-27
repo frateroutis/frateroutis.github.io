@@ -60,11 +60,11 @@ Manter clareza, definir metas e marchar com perseverança nessa direção.
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Companheiro que ajuda e coopera em nossa busca — paciente, prático, persistente e confiável. Perseverança e lealdade como dons significativos. Sucesso por decisões cautelosas e constância.
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Obstáculos e dureza quando o elemento Terra pesa demais; tendência a emperrar, atrasar e resistir à mudança.
 

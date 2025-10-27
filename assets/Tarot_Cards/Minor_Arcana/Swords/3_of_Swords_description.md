@@ -55,12 +55,12 @@ Frustração, humilhação, mágoa e, por vezes, término. Lado positivo: assert
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Tristeza por feridas do passado, perda ou separação; melancolia e medo
 - Desejo de inteireza; risco de negar ou abandonar a realidade
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Luto prolongado; tristeza que se aprofunda e segue sem resolução
 - Depressão de longo prazo; fim de casamento ou vínculo duradouro

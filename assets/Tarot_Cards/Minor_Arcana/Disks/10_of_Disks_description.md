@@ -74,7 +74,7 @@ A riqueza desta carta é um período encantador em que muitos aspectos da relaç
 
 ### Spreads
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 Riqueza e abundância material (às vezes até perderem importância).
 
@@ -84,7 +84,7 @@ A riqueza se perde se não for aplicada de modo construtivo — energia precisa 
 
 Considere como seus recursos podem beneficiar outros e dar sentido (filantropia, apoio).
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 Estagnação pelo mau uso/uso egoísta dos recursos; prioridade material sufocando o fluxo.
 

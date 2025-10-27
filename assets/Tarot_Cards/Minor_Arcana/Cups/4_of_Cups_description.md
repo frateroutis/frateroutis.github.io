@@ -69,7 +69,7 @@ A carta representa a família, embora seu nível de segurança pareça pequeno. 
 
 ## **V. Spreads**
 
-**Carta na posição vertical:**
+**Posição Vertical:**
 
 - Depressão e insatisfação na vida; talvez estejamos muito familiarizados com nosso ambiente
 - Necessidade de buscar novos objetivos e falta de motivação
@@ -77,7 +77,7 @@ A carta representa a família, embora seu nível de segurança pareça pequeno. 
 - Busca por prazeres temporários como fuga para sentimentos de descontentamento (abuso de álcool e drogas em casos extremos)
 - A carta é um lembrete para reconhecer o que temos e apreciá-lo mesmo na pior situação
 
-**Carta na posição invertida:**
+**Posição Invertida:**
 
 - Rejeição de novas oportunidades
 - Planos de longo prazo sem motivação; permanecer na zona de conforto/depressão
