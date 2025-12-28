@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música - Frater Outis</title>
+    <link rel="stylesheet" href="/css/windows95.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- Animation Overlay -->
+    <div id="transitionOverlay" class="transition-overlay active">
+        <div class="transition-content">
+            <div class="boot-title">FROUTIS 93</div>
+            <div class="boot-icon">🎛️</div>
+            <div class="boot-text">Initializing Audio Engine...</div>
+            <div class="boot-progress">
+                <div class="boot-progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div id="musicContainer" class="music-container">
+        <div class="desktop">
+            <!-- Taskbar -->
+            <div class="taskbar">
+                <div class="start-button">Start</div>
+                <div class="taskbar-buttons"></div>
+                <div class="clock">
+                    <span id="currentTime">00:00</span>
+                </div>
+            </div>
+
+            <!-- Start Menu -->
+            <div id="startMenu" class="start-menu hidden">
+                <div class="start-menu-header">Frater Outis</div>
+                <div class="start-menu-divider"></div>
+                
+                <!-- Favorites Section -->
+                <div class="start-menu-favorites">
+                    <div class="start-menu-favorite" data-app="minesweeper">
+                        💣 Campo Minado
+                    </div>
+                    <div class="start-menu-favorite" data-app="bpm">
+                        🎵 BPM Tapper
+                    </div>
+                </div>
+                <div class="start-menu-divider"></div>
+                
+                <div class="start-menu-items">
+                <div class="start-menu-item" data-folder="sets">
+                    📁 SETS
+                </div>
+                <div class="start-menu-item" data-folder="lives">
+                    📁 LIVES
+                </div>
+                <div class="start-menu-item" data-folder="mtg">
+                    📁 MTG
+                </div>
+                <div class="start-menu-item" data-folder="mashups">
+                    📁 MASHUPS
+                </div>
+                </div>
+            </div>
+
+            <!-- Desktop Icons -->
+            <div class="desktop-content">
+                <div class="folder-icon" data-folder="sets">
+                    <img src="/assets/folder-95.png" alt="SETS folder" class="folder-image">
+                    <div class="folder-label">SETS</div>
+                </div>
+
+                <div class="folder-icon" data-folder="lives">
+                    <img src="/assets/folder-95.png" alt="LIVES folder" class="folder-image">
+                    <div class="folder-label">LIVES</div>
+                </div>
+
+                <div class="folder-icon" data-folder="mtg">
+                    <img src="/assets/folder-95.png" alt="MTG folder" class="folder-image">
+                    <div class="folder-label">MTG</div>
+                </div>
+
+                <div class="folder-icon" data-folder="mashups">
+                    <img src="/assets/folder-95.png" alt="MASHUPS folder" class="folder-image">
+                    <div class="folder-label">MASHUPS</div>
+                </div>
+
+                <div id="homeIcon" class="home-icon">
+                    <img src="/assets/My Computer.ico" alt="Home" class="home-image">
+                    <div class="app-label">Home</div>
+                </div>
+
+                <div id="minesweeperIcon" class="app-icon" data-app="minesweeper">
+                    <div class="app-image">💣</div>
+                    <div class="app-label">Campo Minado</div>
+                </div>
+
+                <div id="bpmIcon" class="app-icon" data-app="bpm">
+                    <div class="app-image">🎵</div>
+                    <div class="app-label">BPM Tapper</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Folder Window -->
+        <div id="folderWindow" class="folder-window hidden">
+            <div class="window-titlebar">
+                <span id="windowTitle">Folder</span>
+                <div class="window-controls">
+                    <button class="minimize-btn">_</button>
+                    <button class="maximize-btn">□</button>
+                    <button class="close-btn">✕</button>
+                </div>
+            </div>
+            <div class="window-toolbar">
+                <button class="back-btn">← Back</button>
+                <input type="text" class="address-bar" readonly>
+            </div>
+            <div class="window-content">
+                <div id="folderContents" class="folder-contents"></div>
+            </div>
+            <div class="window-statusbar">
+                <span id="statusText">Ready</span>
+            </div>
+        </div>
+
+        <!-- Minesweeper Window -->
+        <div id="minesweeperWindow" class="folder-window hidden minesweeper-window">
+            <div class="window-titlebar">
+                <span>Campo Minado</span>
+                <div class="window-controls">
+                    <button class="minimize-btn">_</button>
+                    <button class="maximize-btn">□</button>
+                    <button class="close-btn-minesweeper">✕</button>
+                </div>
+            </div>
+            <div class="window-content minesweeper-content">
+                <div class="minesweeper-header">
+                    <div class="minesweeper-info">
+                        <div class="info-box">
+                            <label>Minas:</label>
+                            <span id="mineCount">10</span>
+                        </div>
+                        <button id="newGameBtn" class="new-game-btn">Novo Jogo</button>
+                        <div class="info-box">
+                            <label>Tempo:</label>
+                            <span id="timer">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="minesweeperGrid" class="minesweeper-grid"></div>
+            </div>
+            <div class="window-statusbar">
+                <span id="gameStatus">Clique em uma célula para começar</span>
+            </div>
+        </div>
+
+        <!-- BPM Tapper Window -->
+        <div id="bpmWindow" class="folder-window hidden bpm-window">
+            <div class="window-titlebar">
+                <span>BPM Tapper</span>
+                <div class="window-controls">
+                    <button class="minimize-btn">_</button>
+                    <button class="maximize-btn">□</button>
+                    <button class="close-btn-bpm">✕</button>
+                </div>
+            </div>
+            <div class="window-content bpm-content">
+                <div class="bpm-display">
+                    <div class="bpm-label">BPM</div>
+                    <div class="bpm-value" id="bpmValue">--</div>
+                </div>
+                <button id="bpmButton" class="bpm-tap-button">CLIQUE AQUI</button>
+                <button id="resetBpmBtn" class="reset-bpm-btn">Limpar</button>
+                <div class="bpm-info" id="bpmInfo">Clique para começar...</div>
+            </div>
+            <div class="window-statusbar">
+                <span id="bpmStatus">Pronto</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/windows95.js" defer></script>
+</body>
+</html>
