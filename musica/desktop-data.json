@@ -1,0 +1,177 @@
+{
+  "/**": [
+    "Windows 95 Desktop Data Structure",
+    "",
+    "USAGE:",
+    "  This JSON file stores all folders, files, and applications for the Windows 95 desktop.",
+    "  The JavaScript parser reads this file and dynamically generates desktop icons and folder contents.",
+    "",
+    "STRUCTURE:",
+    "  - folders: Array of folder objects",
+    "    - id: unique identifier (used as key in JavaScript)",
+    "    - name: display name",
+    "    - icon: emoji or icon path",
+    "    - description: folder description",
+    "    - files: array of file objects",
+    "      - name: file name",
+    "      - icon: file icon emoji",
+    "      - link: URL to open when clicked",
+    "",
+    "  - applications: Array of application objects",
+    "    - id: unique identifier",
+    "    - name: display name",
+    "    - icon: emoji or icon path",
+    "    - type: 'game' or 'tool'",
+    "    - description: what the app does",
+    "",
+    "EDITING:",
+    "  1. ADD NEW FOLDER:",
+    "     Add an object to 'folders' array with id, name, icon, description, and empty files array",
+    "",
+    "  2. ADD FILES TO FOLDER:",
+    "     Add objects to the 'files' array of the target folder with name, icon, and link",
+    "",
+    "  3. ADD NEW APPLICATION:",
+    "     Add object to 'applications' array with id, name, icon, type, and description",
+    "",
+    "ICON EXAMPLES:",
+    "  Music/Audio: 🎵 🎶 🎼 🎹 🎸 🎤 🎧",
+    "  Video: 🎬 🎥 📹 📽️",
+    "  Games: 💣 🎮 🕹️ 🎯",
+    "  Documents: 📄 📃 📋 📑",
+    "  Images: 🖼️ 🎨 📸 📷",
+    "  Folders: 📁 📂 📚 🎓",
+    "",
+    "Note: Keep this comment block at the top for documentation purposes"
+  ],
+  "folders": [
+    {
+      "id": "sets",
+      "name": "SETS",
+      "icon": "🎵",
+      "description": "DJ Sets e mixes de áudio",
+      "files": [
+        {
+          "name": "Kill V. Main De Kenner",
+          "icon": "🎵",
+          "link": "https://soundcloud.com/frateroutis/set-08-12-kill-v-main-de"
+        },
+        {
+          "name": "You Got Squable Da Pookie",
+          "icon": "🎵",
+          "link": "https://soundcloud.com/frateroutis/set-1712-you-got-squable-da-pookie"
+        },
+        {
+          "name": "21 perguntas sobre Neymar",
+          "icon": "🎵",
+          "link": "https://soundcloud.com/frateroutis/set-09-12-21-perguntas-sobre"
+        },
+        {
+          "name": "Cash Rules the 7th Element",
+          "icon": "🎵",
+          "link": "https://soundcloud.com/frateroutis/set-0612-cash-rules-the-7th-element"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "name": "LIVES",
+      "icon": "🎬",
+      "description": "Performances ao vivo e transmissões",
+      "files": [
+        // {
+        //   "name": "Live at Festival 2023",
+        //   "icon": "🎬",
+        //   "link": "https://example.com/live1"
+        // },
+        // {
+        //   "name": "Studio Performance",
+        //   "icon": "🎬",
+        //   "link": "https://example.com/live2"
+        // },
+      ]
+    },
+    {
+      "id": "mtg",
+      "name": "MTG",
+      "icon": "🎮",
+      "description": "Montagens e picotes loucos",
+      "files": [
+        // {
+        //   "name": "MTG Soundtrack",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mtg1"
+        // },
+        // {
+        //   "name": "Game Audio",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mtg2"
+        // }
+      ]
+    },
+    {
+      "id": "mashups",
+      "name": "MASHUPS",
+      "icon": "🎼",
+      "description": "Remixes e mashups de gêneros",
+      "files": [
+        // {
+        //   "name": "Classical x Electronic",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup1"
+        // },
+        // {
+        //   "name": "Pop x House",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup2"
+        // },
+        // {
+        //   "name": "Rock x Ambient",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup3"
+        // },
+        // {
+        //   "name": "Jazz x Techno",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup4"
+        // },
+        // {
+        //   "name": "Vocal x Instrumental",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup5"
+        // },
+        // {
+        //   "name": "Retro x Modern",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup6"
+        // },
+        // {
+        //   "name": "World Fusion",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup7"
+        // },
+        // {
+        //   "name": "Genre Blend",
+        //   "icon": "🎵",
+        //   "link": "https://example.com/mashup8"
+        // }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "minesweeper",
+      "name": "Campo Minado",
+      "icon": "💣",
+      "type": "game",
+      "description": "Jogo clássico do W 95"
+    },
+    {
+      "id": "bpm",
+      "name": "BPM Tapper",
+      "icon": "🎵",
+      "type": "tool",
+      "description": "Medidor de BPM em tempo real"
+    }
+  ]
+}
