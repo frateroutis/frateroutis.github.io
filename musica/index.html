@@ -51,6 +51,9 @@
                     <div class="start-menu-favorite" data-app="bpm">
                         🎵 BPM Tapper
                     </div>
+                    <div class="start-menu-favorite" data-app="drumtoy">
+                        🥁 DRUM TOy
+                    </div>
                 </div>
                 <div class="start-menu-divider"></div>
                 
@@ -105,6 +108,11 @@
                 <div id="bpmIcon" class="app-icon" data-app="bpm">
                     <div class="app-image">🎵</div>
                     <div class="app-label">BPM Tapper</div>
+                </div>
+
+                <div id="drumToyIcon" class="app-icon" data-app="drumtoy">
+                    <div class="app-image">🥁</div>
+                    <div class="app-label">DRUM TOy</div>
                 </div>
             </div>
         </div>
@@ -183,6 +191,278 @@
             </div>
             <div class="window-statusbar">
                 <span id="bpmStatus">Pronto</span>
+            </div>
+        </div>
+
+        <!-- DRUM TOy Window -->
+        <div id="drumToyWindow" class="folder-window hidden drumtoy-window">
+            <div class="window-titlebar">
+                <span>DRUM TOy - Sequenciador de Bateria</span>
+                <div class="window-controls">
+                    <button class="minimize-btn">_</button>
+                    <button class="maximize-btn">□</button>
+                    <button class="close-btn-drumtoy">✕</button>
+                </div>
+            </div>
+            
+            <!-- Window Toolbar (Transport Bar) -->
+            <div class="window-toolbar drumtoy-toolbar">
+                <button id="drumToyPlayBtn" class="drumtoy-btn">▶ Play</button>
+                <button id="drumToyStopBtn" class="drumtoy-btn">■ Stop</button>
+                <span class="toolbar-divider"></span>
+                
+                <div class="bpm-control-container">
+                    <label for="drumToyBpm">BPM:</label>
+                    <input type="number" id="drumToyBpm" class="drumtoy-input-bpm" value="120" min="60" max="240">
+                    <button id="drumToyBpmMinus" class="bpm-adjust-btn">-</button>
+                    <button id="drumToyBpmPlus" class="bpm-adjust-btn">+</button>
+                </div>
+                
+                <span class="toolbar-divider"></span>
+                <button id="drumToyDemoBtn" class="drumtoy-btn">Carregar Demo</button>
+                <button id="drumToyResetBtn" class="drumtoy-btn">Limpar</button>
+                <button id="drumToyExportBtn" class="drumtoy-btn">Salvar WAV</button>
+            </div>
+            
+            <!-- Window Content (Channel Rack) -->
+            <div class="window-content drumtoy-content">
+                <div class="channel-rack">
+                    <!-- Channel 1: 808 -->
+                    <div class="channel-row" data-channel="808">
+                        <div class="channel-info">
+                            <span class="channel-name">808 (GRAVE)</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.8">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Channel 2: Kick -->
+                    <div class="channel-row" data-channel="kick">
+                        <div class="channel-info">
+                            <span class="channel-name">KICK</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.8">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Channel 3: Snap -->
+                    <div class="channel-row" data-channel="snap">
+                        <div class="channel-info">
+                            <span class="channel-name">SNAP</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.7">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Channel 4: Snare -->
+                    <div class="channel-row" data-channel="snare">
+                        <div class="channel-info">
+                            <span class="channel-name">SNARE</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.7">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Channel 5: Clap -->
+                    <div class="channel-row" data-channel="clap">
+                        <div class="channel-info">
+                            <span class="channel-name">CLAP</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.7">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Channel 6: Closed Hi-Hat -->
+                    <div class="channel-row" data-channel="hihat_closed">
+                        <div class="channel-info">
+                            <span class="channel-name">CLOSED HAT</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Channel 7: Open Hi-Hat -->
+                    <div class="channel-row" data-channel="hihat_open">
+                        <div class="channel-info">
+                            <span class="channel-name">OPEN HAT</span>
+                            <div class="channel-knobs">
+                                <div class="knob-container" title="Volume">
+                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-container">
+                            <button class="step-pad beat-1" data-step="0"></button>
+                            <button class="step-pad beat-1" data-step="1"></button>
+                            <button class="step-pad beat-1" data-step="2"></button>
+                            <button class="step-pad beat-1" data-step="3"></button>
+                            
+                            <button class="step-pad beat-2" data-step="4"></button>
+                            <button class="step-pad beat-2" data-step="5"></button>
+                            <button class="step-pad beat-2" data-step="6"></button>
+                            <button class="step-pad beat-2" data-step="7"></button>
+                            
+                            <button class="step-pad beat-1" data-step="8"></button>
+                            <button class="step-pad beat-1" data-step="9"></button>
+                            <button class="step-pad beat-1" data-step="10"></button>
+                            <button class="step-pad beat-1" data-step="11"></button>
+                            
+                            <button class="step-pad beat-2" data-step="12"></button>
+                            <button class="step-pad beat-2" data-step="13"></button>
+                            <button class="step-pad beat-2" data-step="14"></button>
+                            <button class="step-pad beat-2" data-step="15"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Window Statusbar -->
+            <div class="window-statusbar">
+                <span id="drumToyStatus">Pronto. Clique em Play para iniciar o sequenciador!</span>
             </div>
         </div>
     </div>

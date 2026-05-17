@@ -79,6 +79,13 @@
       "icon": "🎵",
       "type": "tool",
       "description": "Medidor de BPM em tempo real"
+    },
+    {
+      "id": "drumtoy",
+      "name": "DRUM TOy",
+      "icon": "🥁",
+      "type": "instrument",
+      "description": "Channel rack step sequencer de bateria"
     }
   ]
 }

@@ -952,6 +952,207 @@
     border-color: var(--win95-light-gray) var(--win95-dark-gray) var(--win95-dark-gray) var(--win95-light-gray);
 }
 
+/* ========== DRUM TOy SEQUENCER ========== */
+
+.drumtoy-window {
+    width: 680px !important;
+    height: 500px !important;
+}
+
+.drumtoy-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    background: var(--win95-gray);
+    border-bottom: 2px solid var(--win95-dark-gray);
+}
+
+.drumtoy-btn {
+    padding: 3px 8px;
+    border: 2px solid;
+    border-color: var(--win95-light-gray) var(--win95-dark-gray) var(--win95-dark-gray) var(--win95-light-gray);
+    background: var(--win95-gray);
+    color: var(--win95-black);
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+}
+
+.drumtoy-btn:active {
+    border-color: var(--win95-dark-gray) var(--win95-light-gray) var(--win95-light-gray) var(--win95-dark-gray);
+}
+
+.toolbar-divider {
+    width: 2px;
+    height: 18px;
+    background: var(--win95-dark-gray);
+    border-right: 1px solid var(--win95-white);
+    margin: 0 4px;
+}
+
+.bpm-control-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.drumtoy-input-bpm {
+    width: 48px;
+    height: 20px;
+    text-align: center;
+    border: 2px inset;
+    border-color: var(--win95-dark-gray) var(--win95-light-gray) var(--win95-light-gray) var(--win95-dark-gray);
+    background: var(--win95-white);
+    font-size: 11px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.bpm-adjust-btn {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: var(--win95-light-gray) var(--win95-dark-gray) var(--win95-dark-gray) var(--win95-light-gray);
+    background: var(--win95-gray);
+    cursor: pointer;
+}
+
+.bpm-adjust-btn:active {
+    border-color: var(--win95-dark-gray) var(--win95-light-gray) var(--win95-light-gray) var(--win95-dark-gray);
+}
+
+.drumtoy-content {
+    background: #333333 !important; /* Dark background like FL Studio */
+    padding: 12px !important;
+    overflow-y: auto;
+}
+
+.channel-rack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.channel-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222222;
+    padding: 6px 12px;
+    border: 2px inset #555555;
+    border-radius: 2px;
+}
+
+.channel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 110px;
+    min-width: 110px;
+}
+
+.channel-name {
+    color: #e0e0e0;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 0px #000;
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+}
+
+.channel-knobs {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.channel-volume {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80px;
+    height: 6px;
+    background: #111;
+    border: 1px solid #555;
+    outline: none;
+}
+
+.channel-volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 12px;
+    background: var(--win95-gray);
+    border: 1.5px solid;
+    border-color: var(--win95-white) var(--win95-dark-gray) var(--win95-dark-gray) var(--win95-white);
+    cursor: pointer;
+}
+
+.step-container {
+    display: flex;
+    gap: 4px;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.step-pad {
+    width: 24px;
+    height: 24px;
+    border: 2px solid;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.05s ease;
+    outline: none;
+}
+
+/* FL Studio grouping style: groups of 4 */
+.step-pad.beat-1 {
+    /* Dark gray steps */
+    background: #555555;
+    border-color: #777777 #333333 #333333 #777777;
+}
+
+.step-pad.beat-2 {
+    /* Light gray/yellowish retro steps */
+    background: #888888;
+    border-color: #aaaaaa #555555 #555555 #aaaaaa;
+}
+
+/* Step active / checked state (led light effect) */
+.step-pad.active::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    background: #ff2a2a;
+    border-radius: 1px;
+    box-shadow: 0 0 8px #ff2a2a, inset 0 0 2px #ffffff;
+}
+
+/* Hover styles */
+.step-pad:hover {
+    filter: brightness(1.2);
+}
+
+/* Currently playing step tracker (Playhead marker) */
+.step-pad.playing {
+    border-color: #00ff00 !important;
+    box-shadow: 0 0 6px #00ff00;
+}
+
+/* Step pad active pressed */
+.step-pad:active {
+    border-style: inset;
+}
+
 /* ========== RESPONSIVE ========== */
 
 @media (max-width: 768px) {
