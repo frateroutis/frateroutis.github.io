@@ -1,0 +1,613 @@
+/* ==========================================================================
+   Frater Outis — Árvore da Vida (Etz Chaim) Hermetic Interactive Module
+   ========================================================================== */
+
+.tree-sanctum {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0.4rem 0 3rem 0;
+}
+
+.tree-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.35rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    padding-bottom: 1.65rem;
+    margin-bottom: 1.85rem;
+}
+
+.tree-eyebrow {
+    font-family: var(--fo-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+    margin-bottom: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tree-header h1 {
+    font-family: var(--fo-serif-display);
+    font-size: clamp(2.3rem, 4.6vw, 3.8rem);
+    margin: 0 0 0.45rem 0;
+    line-height: 1.04;
+}
+
+.tree-subtitle {
+    font-family: var(--fo-serif-body);
+    font-size: clamp(1.1rem, 1.35vw, 1.3rem);
+    line-height: 1.48;
+    color: rgba(255, 255, 255, 0.72);
+    max-width: 780px;
+    margin: 0;
+}
+
+.tree-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 0.35rem;
+}
+
+.tree-control-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.tree-ctrl-label {
+    font-family: var(--fo-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.48);
+    margin-right: 0.25rem;
+}
+
+.world-pills {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: #060609;
+}
+
+.world-pill {
+    background: transparent;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.65);
+    font-family: var(--fo-mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    padding: 0.5rem 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.world-pill:last-child {
+    border-right: none;
+}
+
+.world-pill:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.world-pill.is-active {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.layer-toggle {
+    background: #07070a;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: var(--fo-mono);
+    font-size: 0.73rem;
+    letter-spacing: 0.06em;
+    padding: 0.48rem 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.layer-toggle:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.layer-toggle.is-on {
+    border-color: rgba(201, 168, 76, 0.65);
+    color: var(--fo-gold);
+    background: rgba(201, 168, 76, 0.08);
+}
+
+/* Main Workspace */
+.tree-workspace {
+    display: grid;
+    grid-template-columns: minmax(340px, 1.15fr) minmax(320px, 0.85fr);
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.tree-canvas-card {
+    background: radial-gradient(ellipse at 50% 35%, #0d0e15 0%, #050508 72%, #020203 100%);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    position: relative;
+    overflow: hidden;
+}
+
+.tree-canvas-statusbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.55);
+    font-family: var(--fo-mono);
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.62);
+    flex-wrap: wrap;
+}
+
+.tree-lock-badge {
+    color: var(--fo-gold);
+}
+
+.tree-svg-wrap {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#etzChaimSvg {
+    width: 100%;
+    height: auto;
+    max-height: 82vh;
+    display: block;
+    margin: 0 auto;
+    user-select: none;
+}
+
+/* SVG Elements */
+.veil-arc {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.12);
+    stroke-dasharray: 4 6;
+    stroke-width: 1.1;
+}
+
+.veil-label {
+    fill: rgba(255, 255, 255, 0.34);
+    font-family: var(--fo-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.22em;
+    text-anchor: middle;
+    text-transform: uppercase;
+}
+
+.pillar-line {
+    stroke: rgba(255, 255, 255, 0.06);
+    stroke-width: 1;
+    stroke-dasharray: 2 6;
+}
+
+.pillar-title {
+    fill: rgba(255, 255, 255, 0.26);
+    font-family: var(--fo-mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-anchor: middle;
+    text-transform: uppercase;
+}
+
+.abyss-veil {
+    stroke: rgba(201, 168, 76, 0.24);
+    stroke-width: 1.2;
+    stroke-dasharray: 7 5;
+}
+
+.flaming-sword {
+    fill: none;
+    stroke: #f5d06f;
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 10 6;
+    animation: swordFlow 18s linear infinite;
+    filter: drop-shadow(0 0 6px rgba(245, 208, 111, 0.6));
+    pointer-events: none;
+}
+
+@keyframes swordFlow {
+    to { stroke-dashoffset: -320; }
+}
+
+/* Paths */
+.tree-path-group {
+    cursor: pointer;
+    transition: opacity 0.28s ease;
+}
+
+.tree-path-hit {
+    stroke: transparent;
+    stroke-width: 20;
+    fill: none;
+}
+
+.tree-path-outer {
+    stroke: rgba(255, 255, 255, 0.22);
+    stroke-width: 7.5;
+    stroke-linecap: round;
+    transition: stroke 0.25s ease, stroke-width 0.25s ease;
+}
+
+.tree-path-core {
+    stroke-width: 3.4;
+    stroke-linecap: round;
+    transition: stroke 0.28s ease, stroke-width 0.25s ease, filter 0.25s ease;
+}
+
+.tree-path-badge {
+    fill: #07080c;
+    stroke: rgba(255, 255, 255, 0.28);
+    stroke-width: 1;
+    transition: transform 0.2s ease, stroke 0.2s ease;
+}
+
+.tree-path-heb {
+    fill: rgba(255, 255, 255, 0.88);
+    font-size: 11px;
+    text-anchor: middle;
+    dominant-baseline: central;
+    pointer-events: none;
+}
+
+.tree-path-group:hover .tree-path-outer,
+.tree-path-group.is-selected .tree-path-outer {
+    stroke: rgba(255, 255, 255, 0.65);
+    stroke-width: 9.5;
+}
+
+.tree-path-group:hover .tree-path-badge,
+.tree-path-group.is-selected .tree-path-badge {
+    stroke: var(--fo-gold);
+}
+
+/* Nodes / Sephiroth */
+.tree-node-group {
+    cursor: pointer;
+    transition: opacity 0.28s ease;
+}
+
+.tree-node-halo {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.22);
+    stroke-width: 1.2;
+    transition: r 0.25s ease, stroke 0.25s ease, opacity 0.25s ease;
+}
+
+.tree-node-sphere {
+    stroke: rgba(255, 255, 255, 0.65);
+    stroke-width: 1.6;
+    transition: stroke 0.25s ease, stroke-width 0.25s ease;
+}
+
+.tree-node-daath .tree-node-sphere {
+    stroke-dasharray: 4 3;
+}
+
+.tree-node-group:hover .tree-node-halo,
+.tree-node-group.is-selected .tree-node-halo {
+    stroke: var(--fo-gold);
+    stroke-width: 2;
+}
+
+.tree-node-heb {
+    font-size: 14px;
+    text-anchor: middle;
+    dominant-baseline: central;
+    pointer-events: none;
+    font-weight: 600;
+}
+
+.tree-node-title {
+    fill: #ffffff;
+    font-family: var(--fo-serif-display);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-anchor: middle;
+    pointer-events: none;
+    paint-order: stroke;
+    stroke: #040406;
+    stroke-width: 4px;
+    stroke-linejoin: round;
+}
+
+.tree-node-sub {
+    fill: rgba(255, 255, 255, 0.62);
+    font-family: var(--fo-serif-body);
+    font-style: italic;
+    font-size: 11.5px;
+    text-anchor: middle;
+    pointer-events: none;
+    paint-order: stroke;
+    stroke: #040406;
+    stroke-width: 3px;
+}
+
+.is-dimmed {
+    opacity: 0.22 !important;
+}
+
+/* ==========================================================================
+   Right Inspector Panel
+   ========================================================================== */
+
+.tree-inspector {
+    background: #07070b;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    position: sticky;
+    top: 5.2rem;
+}
+
+.inspector-search-bar {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0a0a10;
+}
+
+.tree-jump-select {
+    flex: 1;
+    background: #030305;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-family: var(--fo-mono);
+    font-size: 0.78rem;
+    padding: 0.5rem 0.65rem;
+}
+
+.tree-jump-select:focus {
+    outline: none;
+    border-color: var(--fo-gold);
+}
+
+.inspector-step-btns {
+    display: flex;
+    gap: 0.35rem;
+}
+
+.tree-step-btn {
+    background: #030305;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tree-step-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.inspector-content {
+    padding: 1.35rem 1.4rem;
+    max-height: calc(85vh - 4rem);
+    overflow-y: auto;
+}
+
+.insp-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.1rem;
+}
+
+.insp-kicker {
+    font-family: var(--fo-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+    margin-bottom: 0.3rem;
+}
+
+.insp-title {
+    font-family: var(--fo-serif-display);
+    font-size: 1.75rem;
+    margin: 0;
+    color: #fff;
+    line-height: 1.12;
+}
+
+.insp-meaning {
+    font-family: var(--fo-serif-body);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.2rem;
+}
+
+.insp-hebrew-box {
+    background: #020204;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 0.5rem 0.85rem;
+    text-align: center;
+    min-width: 72px;
+}
+
+.insp-hebrew-glyph {
+    font-size: 1.65rem;
+    color: #fff;
+    line-height: 1.15;
+    display: block;
+}
+
+.insp-gematria {
+    font-family: var(--fo-mono);
+    font-size: 0.68rem;
+    color: var(--fo-gold);
+}
+
+/* Four Color Swatches */
+.insp-scales-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.45rem;
+    margin-bottom: 1.2rem;
+}
+
+.scale-swatch-card {
+    background: #030305;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.45rem;
+    text-align: center;
+}
+
+.scale-swatch-bar {
+    height: 14px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    margin-bottom: 0.35rem;
+}
+
+.scale-swatch-lbl {
+    font-family: var(--fo-mono);
+    font-size: 0.64rem;
+    color: rgba(255, 255, 255, 0.62);
+    display: block;
+    text-transform: uppercase;
+}
+
+/* Key-Value Table */
+.insp-section-title {
+    font-family: var(--fo-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+    margin: 1.15rem 0 0.5rem 0;
+}
+
+.insp-kv-list {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.insp-kv-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.52rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.insp-kv-key {
+    font-family: var(--fo-mono);
+    font-size: 0.73rem;
+    color: rgba(255, 255, 255, 0.5);
+    flex-shrink: 0;
+}
+
+.insp-kv-val {
+    font-family: var(--fo-serif-body);
+    font-size: 1.06rem;
+    color: #fff;
+    text-align: right;
+}
+
+/* Integrated Thoth Card Preview */
+.insp-tarot-card {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: #030306;
+    border: 1px solid rgba(201, 168, 76, 0.28);
+    padding: 0.85rem;
+    margin-top: 0.75rem;
+}
+
+.insp-tarot-thumb {
+    width: 68px;
+    height: 108px;
+    object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    flex-shrink: 0;
+    background: #000;
+}
+
+.insp-tarot-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.insp-tarot-name {
+    font-family: var(--fo-serif-display);
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.insp-tarot-gd {
+    font-family: var(--fo-mono);
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.52);
+}
+
+.insp-minor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.45rem;
+    margin-top: 0.5rem;
+}
+
+.insp-minor-link {
+    background: #030306;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 0.5rem 0.65rem;
+    font-family: var(--fo-serif-body);
+    font-size: 0.98rem;
+    color: rgba(255, 255, 255, 0.88);
+    text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.insp-minor-link:hover {
+    border-color: var(--fo-gold);
+    color: var(--fo-gold);
+}
+
+.insp-actions-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+    .tree-workspace {
+        grid-template-columns: 1fr;
+    }
+
+    .tree-inspector {
+        position: static;
+    }
+
+    .inspector-content {
+        max-height: none;
+    }
+}

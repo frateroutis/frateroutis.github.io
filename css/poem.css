@@ -1,0 +1,303 @@
+/* ==========================================================================
+   Frater Outis — Poema Digital Combinatório (Negativo & Chiaroscuro)
+   ========================================================================== */
+
+.home-stage {
+    min-height: calc(100vh - 11.5em);
+    display: grid;
+    grid-template-columns: minmax(280px, 1.15fr) minmax(320px, 0.95fr);
+    align-items: center;
+    gap: clamp(2.5rem, 6vw, 6.5rem);
+    max-width: 1380px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home-masthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-masthead h1 {
+    font-size: clamp(3.6rem, 8.2vw, 8.8rem);
+    margin: 0;
+    line-height: 0.94;
+    letter-spacing: 0.02em;
+    user-select: none;
+}
+
+/* Poetic Sanctum */
+.poem-sanctum {
+    position: relative;
+    padding: clamp(1.2rem, 2.5vw, 2.2rem) clamp(1.2rem, 2.8vw, 2.6rem);
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+    transition: border-color 0.8s ease;
+}
+
+.poem-sanctum:hover {
+    border-left-color: rgba(255, 255, 255, 0.22);
+}
+
+.poem-aura {
+    position: absolute;
+    inset: -24px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    background: radial-gradient(
+        240px circle at var(--cursor-x, 50%) var(--cursor-y, 50%),
+        rgba(255, 255, 255, 0.045),
+        transparent 72%
+    );
+    z-index: 0;
+}
+
+.poem-sanctum.has-cursor .poem-aura {
+    opacity: 1;
+}
+
+.poem-folio {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(145px, 1fr));
+    gap: 1.5rem clamp(2rem, 4vw, 3.8rem);
+}
+
+.poem-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.45rem;
+}
+
+.poem-stanza {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.16rem;
+    padding-left: 0.65rem;
+}
+
+.poem-stanza::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.28em;
+    bottom: 0.28em;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.06);
+    transform: scaleY(0.35);
+    transform-origin: center;
+    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.55s ease;
+}
+
+.poem-stanza.is-resonating::before {
+    background: rgba(255, 255, 255, 0.38);
+    transform: scaleY(1);
+}
+
+.poem-line {
+    margin: 0;
+    font-family: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+    font-size: clamp(1.14rem, 1.38vw, 1.38rem);
+    line-height: 1.34;
+    letter-spacing: 0.025em;
+    color: rgba(255, 255, 255, 0.68);
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.32em;
+    transition: color 0.45s ease;
+}
+
+.poem-verb {
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 400;
+    transition: color 0.45s ease, opacity 0.45s ease;
+    transform: translate3d(var(--pull-x, 0px), var(--pull-y, 0px), 0);
+    will-change: transform;
+}
+
+.poem-stanza.is-resonating .poem-verb {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.poem-article {
+    color: rgba(255, 255, 255, 0.52);
+    font-style: italic;
+    display: inline-block;
+    min-width: 0.58em;
+    text-align: center;
+    transition:
+        opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1),
+        filter 0.9s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.9s cubic-bezier(0.4, 0, 0.2, 1),
+        color 0.4s ease;
+}
+
+.poem-article.is-fading {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(-3px);
+}
+
+/* Mutable Noun */
+.poem-word {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.86);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    cursor: crosshair;
+    outline: none;
+    transform: translate3d(var(--pull-x, 0px), var(--pull-y, 0px), 0);
+    transition:
+        opacity 0.95s cubic-bezier(0.4, 0, 0.2, 1),
+        filter 0.95s cubic-bezier(0.4, 0, 0.2, 1),
+        color 0.35s ease,
+        letter-spacing 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+        text-shadow 0.45s ease;
+    will-change: opacity, filter, transform;
+}
+
+/* Spectral double-exposure palimpsest on cursor proximity / hover */
+.poem-word::before {
+    content: attr(data-ghost);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba(255, 255, 255, 0.22);
+    pointer-events: none;
+    opacity: var(--ghost-opacity, 0);
+    transform: translate3d(var(--ghost-x, 3px), var(--ghost-y, -2px), 0);
+    filter: blur(1.2px);
+    transition: opacity 0.45s ease, transform 0.25s ease;
+}
+
+.poem-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.45), transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.poem-word:hover,
+.poem-word:focus-visible {
+    color: #ffffff;
+    letter-spacing: 0.075em;
+    text-shadow: 0 0 18px rgba(255, 255, 255, 0.45);
+}
+
+.poem-word:hover::after,
+.poem-word:focus-visible::after {
+    transform: scaleX(1);
+}
+
+/* Fadeout / Fadein Transmutation States */
+.poem-word.is-fading-out {
+    opacity: 0 !important;
+    filter: blur(6px);
+    transform: translate3d(0, -5px, 0) scale(0.98);
+}
+
+.poem-word.is-materializing {
+    opacity: 0 !important;
+    filter: blur(6px);
+    transform: translate3d(0, 5px, 0) scale(1.02);
+    transition: none;
+}
+
+.poem-word.just-transmuted {
+    color: #ffffff;
+    text-shadow: 0 0 16px rgba(255, 255, 255, 0.38);
+}
+
+/* Subtle 7-second cadence whisper */
+.poem-cadence {
+    margin-top: 1.65rem;
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    opacity: 0.35;
+    transition: opacity 0.5s ease;
+    user-select: none;
+}
+
+.poem-sanctum:hover .poem-cadence {
+    opacity: 0.62;
+}
+
+.cadence-sigil {
+    font-size: 0.85rem;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    transition: text-shadow 0.6s ease, opacity 0.6s ease;
+}
+
+.cadence-sigil.is-pulsing {
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.85);
+    opacity: 1;
+}
+
+.cadence-track {
+    position: relative;
+    width: 72px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+}
+
+.cadence-fill {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.55);
+    transform-origin: left center;
+    transform: scaleX(0);
+}
+
+@media (max-width: 1024px) {
+    .home-stage {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .poem-sanctum {
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 2rem 0 0.5rem 0;
+    }
+
+    .poem-folio {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 540px) {
+    .poem-folio {
+        grid-template-columns: 1fr;
+        gap: 1.35rem;
+    }
+
+    .poem-line {
+        font-size: 1.24rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .poem-word,
+    .poem-article {
+        transition: opacity 0.6s ease !important;
+        filter: none !important;
+        transform: none !important;
+    }
+}

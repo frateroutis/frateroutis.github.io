@@ -1,3 +1,32 @@
+:root {
+    --fo-bg: #000000;
+    --fo-surface: #08080a;
+    --fo-surface-2: #0f0f13;
+    --fo-border: rgba(255, 255, 255, 0.12);
+    --fo-border-strong: rgba(255, 255, 255, 0.28);
+    --fo-text: #ffffff;
+    --fo-muted: rgba(255, 255, 255, 0.62);
+    --fo-subtle: rgba(255, 255, 255, 0.36);
+    --fo-gold: #c9a84c;
+    --fo-gold-soft: rgba(201, 168, 76, 0.22);
+    --fo-serif-display: 'Playfair Display', Georgia, serif;
+    --fo-serif-body: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+    --fo-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #ffffff;
+    color: #000000;
+}
+
+html {
+    background: #000;
+    scroll-behavior: smooth;
+}
 
 body {
     background: #000;
@@ -5,11 +34,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0 5vw;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 main {
     padding-top: 6em;
-    padding-bottom: 5em;
+    padding-bottom: 5.5em;
 }
 
 .header-navigation {
@@ -19,50 +51,87 @@ main {
     position: fixed;
     left: 0;
     top: 0;
-    background: transparent;
-    z-index: 10;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.94) 55%, rgba(0, 0, 0, 0.65) 80%, transparent 100%);
+    z-index: 50;
+    padding: 0 4vw;
 }
+
 .header-navigation nav {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 0.5em;
+    justify-content: center;
+    gap: 0.45em;
     align-items: center;
-    font-size: 1.2em;
-    opacity: 0.8;
-    padding: 1em 0 1.5em 0;
+    font-size: clamp(0.95rem, 1.15vw, 1.2rem);
+    opacity: 0.85;
+    padding: 1em 0 1.4em 0;
+    transition: opacity 0.3s ease;
+}
+
+.header-navigation nav:hover {
+    opacity: 1;
 }
 
 .header-navigation nav a {
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    transition: opacity 0.25s ease, color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.header-navigation nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+    opacity: 0.75;
+}
+
+.header-navigation nav a:hover::after,
+.header-navigation nav a.is-active::after {
+    transform: scaleX(1);
+}
+
+.header-navigation nav a.is-active {
+    text-shadow: 0 0 16px rgba(255, 255, 255, 0.35);
 }
 
 .header-navigation nav span {
-    font-size: 1.5em !important;
+    font-size: 1.35em !important;
     color: #fff;
-    opacity: 0.7;
-    margin: 0 0.2em;
+    opacity: 0.55;
+    margin: 0 0.18em;
+    user-select: none;
 }
 
 h1 {
-    font-size: 10em;
+    font-size: clamp(3.4rem, 9.2vw, 10rem);
     font-family: 'Playfair Display', serif;
-    font-weight: 999;
+    font-weight: 900;
     letter-spacing: 2px;
-    margin: 1.5em 0 0.5em 0;
+    margin: 1.2em 0 0.5em 0;
     text-align: left;
+    line-height: 0.96;
 }
+
 p {
-    font-size: 2em;
-    line-height: 1.3;
+    font-size: clamp(1.15rem, 1.8vw, 1.8rem);
+    line-height: 1.35;
     text-align: left;
-    margin: 0 0 2em 0;
+    margin: 0 0 1.6em 0;
 }
 
 a {
     color: #fff;
-    /* text-decoration: underline; */
 }
 
 footer {
@@ -70,28 +139,90 @@ footer {
     position: fixed;
     left: 0 !important;
     bottom: 0 !important;
-    background: transparent;
-    font-size: 1.2em;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.94) 55%, rgba(0, 0, 0, 0.65) 80%, transparent 100%);
+    font-size: clamp(0.88rem, 1.1vw, 1.15rem);
     text-align: center;
-    opacity: 0.8;
-    padding: 1em 0 1.5em 0 !important;
-    z-index: 10;
+    opacity: 0.82;
+    padding: 1.2em 4vw 1.25em 4vw !important;
+    z-index: 40;
+    transition: opacity 0.3s ease;
 }
+
+footer:hover {
+    opacity: 1;
+}
+
 footer nav {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 0.5em;
+    justify-content: center;
+    gap: 0.45em;
     align-items: center;
 }
+
 footer a {
     color: #fff;
     text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: rgba(255, 255, 255, 0.45);
     font-weight: 700;
     letter-spacing: 1px;
+    transition: text-decoration-color 0.25s ease, opacity 0.25s ease;
 }
+
+footer a:hover {
+    text-decoration-color: #fff;
+}
+
 footer span {
-    font-size: 1.5em;
+    font-size: 1.35em;
     color: #fff;
-    opacity: 0.7;
-    margin: 0 0.2em;
+    opacity: 0.55;
+    margin: 0 0.18em;
+    user-select: none;
+}
+
+/* Subtle global toast notification */
+.notification {
+    position: fixed;
+    bottom: 4.5rem;
+    right: 1.5rem;
+    background: #0c0c10;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    padding: 0.65rem 1.1rem;
+    border-radius: 6px;
+    font-family: var(--fo-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 9999;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.8);
+}
+
+.notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0 5vw;
+    }
+
+    main {
+        padding-top: 5.5em;
+        padding-bottom: 6.5em;
+    }
+
+    .header-navigation nav {
+        gap: 0.3em;
+        padding: 0.8em 0 1em 0;
+    }
+
+    footer {
+        padding: 0.9em 3vw 1em 3vw !important;
+    }
 }

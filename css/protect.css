@@ -1,15 +1,122 @@
-/* Protect modal styles (scoped with .sp- prefix) */
-.sp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:999999}
-.sp-modal{background:#fff;color:#111;max-width:560px;width:94%;padding:24px;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6);font-family:inherit;text-align:center;overflow:hidden}
-body.dark-mode .sp-modal{background:#111;color:#eee}
-.sp-title{margin:0 0 10px;font-size:1.35rem}
-.sp-message{margin:0 auto 14px;color:#444;font-size:1rem;text-align:center;max-width:520px}
-.sp-input{width:100%;max-width:520px;box-sizing:border-box;padding:14px 16px;border-radius:10px;border:1px solid #ddd;margin:0 auto 12px;font-size:1.05rem}
-.sp-input:focus{outline:none;box-shadow:0 0 0 3px rgba(59,130,246,.35);border-color:#4c9ffe}
-body.dark-mode .sp-input{background:#222;border-color:#333;color:#fff}
-.sp-error{color:#d9534f;min-height:20px;margin-bottom:8px}
-.sp-row{display:flex;gap:10px;justify-content:center}
-.sp-btn{padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
-.sp-btn-primary{background:#2b6cb0;color:#fff}
-.sp-btn-secondary{background:#e2e8f0;color:#111}
-.sp-btn-link{background:transparent;color:#2b6cb0;border:1px solid transparent}
+/* Protect modal styles (scoped with .sp- prefix, aligned with Frater Outis negative aesthetic) */
+.sp-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    padding: 1rem;
+}
+
+.sp-modal {
+    background: #09090c;
+    color: #f4f4f6;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    max-width: 480px;
+    width: 100%;
+    padding: 2.2rem 2rem;
+    border-radius: 4px;
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.9);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sp-title {
+    margin: 0 0 0.65rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.55rem;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.sp-message {
+    margin: 0 auto 1.25rem;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 1.02rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 420px;
+}
+
+.sp-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.85rem 1rem;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: #000000;
+    color: #ffffff;
+    margin: 0 auto 0.75rem;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    text-align: center;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sp-input:focus {
+    outline: none;
+    border-color: #c9a84c;
+    box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.2);
+}
+
+.sp-error {
+    color: #e57373;
+    min-height: 22px;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.sp-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+}
+
+.sp-btn {
+    padding: 0.65rem 1.15rem;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    transition: all 0.2s ease;
+}
+
+.sp-btn-primary {
+    background: #ffffff;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sp-btn-primary:hover {
+    background: #c9a84c;
+    color: #000000;
+}
+
+.sp-btn-secondary {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.82);
+    border-color: rgba(255, 255, 255, 0.22);
+}
+
+.sp-btn-secondary:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.sp-btn-link {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.sp-btn-link:hover {
+    color: #ffffff;
+}

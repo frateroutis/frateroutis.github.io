@@ -1,0 +1,240 @@
+---
+layout: default
+title: Sigilos
+description: Laboratório ritual e geométrico para destilação da vontade, criação, gnose e consagração de sigilos.
+extra_css:
+  - /css/sigilos.css
+extra_js:
+  - /js/sigilos.js
+---
+
+<div class="sigil-sanctum" id="sigilSanctum">
+    <header class="sigil-header">
+        <div>
+            <div class="sigil-eyebrow"><span>🜏</span> Ars Sigillorum · Zos Kia &amp; Hermetismo</div>
+            <h1>Laboratório de Sigilos</h1>
+            <p class="sigil-lead">
+                Transmute uma declaração de vontade em geometria silenciosa — pela Rosa-Cruz de 22 pétalas, pelos Kameas Planetários de Agrippa, por síntese monogramática ou pelo traço direto da mão.
+            </p>
+        </div>
+    </header>
+
+    <div class="sigil-workbench">
+        <!-- LEFT COLUMN: Intention & Method Controls -->
+        <section class="sigil-controls-col" aria-label="Parâmetros de Construção do Sigilo">
+            <!-- Step 1: Statement of Will -->
+            <div class="sigil-panel">
+                <div class="sigil-panel-head">
+                    <span class="sigil-step-num">I · Declaração de Vontade</span>
+                    <button type="button" class="sigil-mini-btn" id="veilIntentBtn" title="Ocultar texto consciente">Velar Texto</button>
+                </div>
+                <textarea
+                    id="sigilIntentInput"
+                    class="sigil-textarea"
+                    rows="2"
+                    placeholder="Escreva sua intenção no tempo presente e afirmativo..."
+                    spellcheck="false"
+                >CONHECER O SILENCIO INTERIOR</textarea>
+
+                <div class="sigil-toggles-row">
+                    <label class="sigil-check">
+                        <input type="checkbox" id="stripVowelsToggle" checked>
+                        <span>Suprimir vogais</span>
+                    </label>
+                    <label class="sigil-check">
+                        <input type="checkbox" id="dedupeToggle" checked>
+                        <span>Eliminar duplicatas</span>
+                    </label>
+                </div>
+
+                <div class="distillation-box" aria-live="polite">
+                    <div class="distill-row">
+                        <span class="distill-key">Raiz Sigílica</span>
+                        <span class="distill-val mono" id="distilledSeedDisplay">—</span>
+                    </div>
+                    <div class="distill-row">
+                        <span class="distill-key">Transliteração</span>
+                        <span class="distill-val heb" id="distilledHebDisplay">—</span>
+                    </div>
+                    <div class="distill-row">
+                        <span class="distill-key">Gematria / Raiz</span>
+                        <span class="distill-val mono gold" id="distilledGematriaDisplay">—</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Esoteric Engine -->
+            <div class="sigil-panel">
+                <div class="sigil-panel-head">
+                    <span class="sigil-step-num">II · Método Geométrico</span>
+                </div>
+
+                <div class="engine-grid" id="engineSelector">
+                    <button type="button" class="engine-btn is-active" data-engine="rosecross">
+                        <span class="engine-glyph">❀</span>
+                        <span class="engine-name">Rosa-Cruz</span>
+                        <span class="engine-sub">22 Pétalas</span>
+                    </button>
+                    <button type="button" class="engine-btn" data-engine="kamea">
+                        <span class="engine-glyph">⊞</span>
+                        <span class="engine-name">Kamea</span>
+                        <span class="engine-sub">Agrippa 3×3–9×9</span>
+                    </button>
+                    <button type="button" class="engine-btn" data-engine="monogram">
+                        <span class="engine-glyph">🜍</span>
+                        <span class="engine-name">Monograma</span>
+                        <span class="engine-sub">Zos Kia / Eixo</span>
+                    </button>
+                    <button type="button" class="engine-btn" data-engine="freehand">
+                        <span class="engine-glyph">✒</span>
+                        <span class="engine-name">Mão Livre</span>
+                        <span class="engine-sub">Caleidoscópio</span>
+                    </button>
+                </div>
+
+                <!-- Contextual Sub-controls: Planetary Kamea -->
+                <div class="subcontrol-block" id="kameaSubControls" style="display: none;">
+                    <label class="sigil-field-label" for="kameaPlanetSelect">Quadrado Mágico Planetário</label>
+                    <select id="kameaPlanetSelect" class="sigil-select">
+                        <option value="saturn">♄ Saturno (3×3 · Soma 15 · Silêncio &amp; Proteção)</option>
+                        <option value="jupiter">♃ Júpiter (4×4 · Soma 34 · Soberania &amp; Expansão)</option>
+                        <option value="mars">♂ Marte (5×5 · Soma 65 · Força &amp; Vontade)</option>
+                        <option value="sun" selected>☉ Sol (6×6 · Soma 111 · Clareza &amp; Ouro Interior)</option>
+                        <option value="venus">♀ Vênus (7×7 · Soma 175 · Arte &amp; Magnetismo)</option>
+                        <option value="mercury">☿ Mercúrio (8×8 · Soma 260 · Verbo &amp; Ciência)</option>
+                        <option value="moon">☽ Lua (9×9 · Soma 369 · Intuição &amp; Sonho)</option>
+                    </select>
+                </div>
+
+                <!-- Contextual Sub-controls: Monogram Seed -->
+                <div class="subcontrol-block" id="monogramSubControls" style="display: none;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
+                        <span class="sigil-field-label" style="margin:0;">Permutação Estrutural</span>
+                        <button type="button" class="sigil-mini-btn" id="mutateSeedBtn">↻ Mutar Variação Astral</button>
+                    </div>
+                </div>
+
+                <!-- Contextual Sub-controls: Freehand Overlay (always usable!) -->
+                <div class="subcontrol-block" id="freehandSubControls">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                        <label class="sigil-field-label" for="symmetrySelect" style="margin:0;">Traço Manual / Simetria no Altar</label>
+                        <div style="display:flex; gap:0.35rem;">
+                            <button type="button" class="sigil-mini-btn" id="undoStrokeBtn" title="Desfazer último traço">↶ Desfazer</button>
+                            <button type="button" class="sigil-mini-btn" id="clearStrokesBtn" title="Limpar traços manuais">✕ Limpar</button>
+                        </div>
+                    </div>
+                    <select id="symmetrySelect" class="sigil-select">
+                        <option value="1">Traço Livre (Sem Espelhamento)</option>
+                        <option value="2">Espelho Axial Bilateral (2×)</option>
+                        <option value="4" selected>Cruz Hermética Quádrupla (4×)</option>
+                        <option value="8">Estrela do Caos / Mandala (8×)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Step 3: Sacred Seal & Aesthetics -->
+            <div class="sigil-panel">
+                <div class="sigil-panel-head">
+                    <span class="sigil-step-num">III · Selo &amp; Ornamentação</span>
+                    <label class="sigil-check">
+                        <input type="checkbox" id="showMatrixGuide" checked>
+                        <span>Mostrar Matriz</span>
+                    </label>
+                </div>
+
+                <div class="sigil-row-2col">
+                    <div>
+                        <label class="sigil-field-label" for="frameSelect">Círculo de Contenção</label>
+                        <select id="frameSelect" class="sigil-select">
+                            <option value="double-inscribed" selected>Anel Duplo + Inscrição</option>
+                            <option value="single">Círculo Hermético Simples</option>
+                            <option value="octagram">Octograma (8 Pontas)</option>
+                            <option value="hexagram">Hexagrama Solar</option>
+                            <option value="none">Nu (Sigilo Puro)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="sigil-field-label" for="inkSelect">Tinta Alquímica</label>
+                        <select id="inkSelect" class="sigil-select">
+                            <option value="#ffffff" selected>Prata em Negativo (#FFF)</option>
+                            <option value="#d4af37">Ouro Alquímico (#D4AF37)</option>
+                            <option value="#dc2626">Cinábrio / Marte (#DC2626)</option>
+                            <option value="#93c5fd">Mercúrio Astral (#93C5FD)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="sigil-row-2col" style="margin-top:0.85rem;">
+                    <div>
+                        <label class="sigil-field-label" for="curveRange">Tensão: Angular ↔ Curva</label>
+                        <input type="range" id="curveRange" min="0" max="100" value="38" class="sigil-range">
+                    </div>
+                    <div>
+                        <label class="sigil-field-label" for="strokeRange">Espessura do Traço</label>
+                        <input type="range" id="strokeRange" min="15" max="55" value="28" class="sigil-range">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RIGHT COLUMN: The Ritual Altar -->
+        <section class="sigil-altar-col" aria-label="Altar do Sigilo">
+            <div class="altar-card" id="altarCard">
+                <div class="altar-topbar">
+                    <span id="altarMethodLabel">Rosa-Cruz Hermética · 22 Pétalas</span>
+                    <span class="altar-hint">Desenhe sobre o altar para acrescentar selos manuais</span>
+                </div>
+
+                <div class="altar-stage" id="altarStage">
+                    <canvas id="altarParticlesCanvas" class="altar-particles" aria-hidden="true"></canvas>
+                    <svg
+                        id="sigilSvg"
+                        viewBox="0 0 600 600"
+                        xmlns="http://www.w3.org/2000/svg"
+                        role="img"
+                        aria-label="Sigilo gerado"
+                    ></svg>
+                </div>
+
+                <div class="altar-actions">
+                    <button type="button" class="fo-btn fo-btn-gold" id="enterGnosisBtn">
+                        🜏 Câmara de Gnose &amp; Ativação
+                    </button>
+                    <button type="button" class="fo-btn" id="exportSvgBtn">Baixar SVG</button>
+                    <button type="button" class="fo-btn" id="exportPngBtn">Baixar PNG</button>
+                    <button type="button" class="fo-btn" id="saveGrimoireBtn">Selar no Grimório</button>
+                    <button type="button" class="fo-btn sigil-burn-btn" id="burnSigilBtn" title="Dissolver no éter e apagar a sentença consciente">
+                        🜂 Incinerar (Esquecer)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Saved Grimoire Strip -->
+            <div class="grimoire-strip" id="grimoireStrip" style="display: none;">
+                <div class="sigil-panel-head">
+                    <span class="sigil-step-num">IV · Grimório Silencioso (Selos Guardados sem Sentença)</span>
+                    <button type="button" class="sigil-mini-btn" id="clearGrimoireBtn">Limpar Grimório</button>
+                </div>
+                <div class="grimoire-thumbs" id="grimoireThumbs"></div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- Immersive Gnosis / Charging Chamber Overlay -->
+<div class="gnosis-chamber" id="gnosisChamber" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Câmara de Gnose">
+    <div class="gnosis-top-controls">
+        <button type="button" class="sigil-mini-btn" id="gnosisDroneBtn">♪ Drone Harmônico: Desligado</button>
+        <button type="button" class="sigil-mini-btn" id="exitGnosisBtn">✕ Encerrar Câmara (Esc)</button>
+    </div>
+
+    <div class="gnosis-centerpiece" id="gnosisCenterpiece">
+        <div class="gnosis-rings" id="gnosisRings"></div>
+        <div class="gnosis-svg-mount" id="gnosisSvgMount"></div>
+    </div>
+
+    <div class="gnosis-footer-guide">
+        <div class="gnosis-charge-bar"><div class="gnosis-charge-fill" id="gnosisChargeFill"></div></div>
+        <p id="gnosisStatusText">Fixe o olhar no centro do selo. Mantenha pressionado sobre o sigilo para concentrar e consagrar.</p>
+    </div>
+</div>

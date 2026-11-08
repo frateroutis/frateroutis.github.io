@@ -1,0 +1,537 @@
+/* ==========================================================================
+   Frater Outis — Ars Sigillorum (Laboratório Interativo de Sigilos)
+   ========================================================================== */
+
+.sigil-sanctum {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0.4rem 0 3.5rem 0;
+}
+
+.sigil-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.85rem;
+}
+
+.sigil-eyebrow {
+    font-family: var(--fo-mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+    margin-bottom: 0.45rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sigil-header h1 {
+    font-family: var(--fo-serif-display);
+    font-size: clamp(2.3rem, 4.6vw, 3.8rem);
+    margin: 0 0 0.45rem 0;
+    line-height: 1.05;
+}
+
+.sigil-lead {
+    font-family: var(--fo-serif-body);
+    font-size: clamp(1.1rem, 1.35vw, 1.3rem);
+    color: rgba(255, 255, 255, 0.72);
+    max-width: 820px;
+    margin: 0;
+    line-height: 1.48;
+}
+
+.sigil-workbench {
+    display: grid;
+    grid-template-columns: minmax(330px, 440px) 1fr;
+    gap: 1.65rem;
+    align-items: start;
+}
+
+.sigil-controls-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.sigil-panel {
+    background: #07070b;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    padding: 1.2rem 1.3rem;
+}
+
+.sigil-panel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+}
+
+.sigil-step-num {
+    font-family: var(--fo-mono);
+    font-size: 0.71rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+}
+
+.sigil-mini-btn {
+    background: #020204;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    font-family: var(--fo-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    padding: 0.32rem 0.65rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sigil-mini-btn:hover {
+    border-color: var(--fo-gold);
+    color: var(--fo-gold);
+}
+
+.sigil-textarea {
+    width: 100%;
+    background: #020204;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #fff;
+    font-family: var(--fo-serif-body);
+    font-size: 1.18rem;
+    letter-spacing: 0.05em;
+    padding: 0.75rem 0.9rem;
+    resize: vertical;
+    transition: border-color 0.2s ease, filter 0.35s ease;
+}
+
+.sigil-textarea:focus {
+    outline: none;
+    border-color: var(--fo-gold);
+}
+
+.sigil-textarea.is-veiled {
+    filter: blur(7px);
+    user-select: none;
+}
+
+.sigil-toggles-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0.7rem 0 0.85rem 0;
+}
+
+.sigil-check {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--fo-mono);
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    user-select: none;
+}
+
+.sigil-check input {
+    accent-color: var(--fo-gold);
+}
+
+.distillation-box {
+    background: #030305;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    padding: 0.65rem 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.38rem;
+}
+
+.distill-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+}
+
+.distill-key {
+    font-family: var(--fo-mono);
+    font-size: 0.67rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.distill-val.mono {
+    font-family: var(--fo-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.14em;
+    color: #fff;
+    text-align: right;
+    word-break: break-all;
+}
+
+.distill-val.heb {
+    font-size: 1.05rem;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.distill-val.gold {
+    color: var(--fo-gold);
+}
+
+/* Engine Selector Grid */
+.engine-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.engine-btn {
+    background: #030306;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0.75rem 0.7rem;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    transition: all 0.2s ease;
+}
+
+.engine-btn:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.engine-btn.is-active {
+    border-color: var(--fo-gold);
+    background: rgba(201, 168, 76, 0.09);
+}
+
+.engine-glyph {
+    font-size: 1.1rem;
+    color: var(--fo-gold);
+}
+
+.engine-name {
+    font-family: var(--fo-mono);
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.engine-sub {
+    font-family: var(--fo-mono);
+    font-size: 0.64rem;
+    color: rgba(255, 255, 255, 0.48);
+}
+
+.subcontrol-block {
+    margin-top: 0.9rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sigil-field-label {
+    display: block;
+    font-family: var(--fo-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 0.4rem;
+}
+
+.sigil-select {
+    width: 100%;
+    background: #020204;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-family: var(--fo-mono);
+    font-size: 0.75rem;
+    padding: 0.52rem 0.65rem;
+}
+
+.sigil-select:focus {
+    outline: none;
+    border-color: var(--fo-gold);
+}
+
+.sigil-row-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.sigil-range {
+    width: 100%;
+    accent-color: var(--fo-gold);
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   Right Column: Ritual Altar Stage
+   ========================================================================== */
+
+.altar-card {
+    background: radial-gradient(circle at 50% 48%, #0e0e16 0%, #050508 68%, #010102 100%);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.altar-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.72rem 1.15rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.6);
+    font-family: var(--fo-mono);
+    font-size: 0.72rem;
+    color: var(--fo-gold);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.altar-hint {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.altar-stage {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: crosshair;
+    touch-action: none;
+    user-select: none;
+}
+
+.altar-particles {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+#sigilSvg {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    display: block;
+    transition: opacity 0.65s ease, transform 0.65s ease, filter 0.65s ease;
+}
+
+#sigilSvg.is-incinerating {
+    opacity: 0;
+    transform: scale(1.14);
+    filter: blur(12px) brightness(2.5);
+}
+
+.orbital-inscription {
+    animation: slowOrbit 90s linear infinite;
+    transform-origin: 300px 300px;
+}
+
+@keyframes slowOrbit {
+    to { transform: rotate(360deg); }
+}
+
+.altar-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    padding: 1rem 1.15rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: #060609;
+    justify-content: center;
+}
+
+.sigil-burn-btn {
+    border-color: rgba(220, 38, 38, 0.45);
+    color: #fca5a5;
+}
+
+.sigil-burn-btn:hover {
+    background: #dc2626 !important;
+    border-color: #dc2626 !important;
+    color: #fff !important;
+}
+
+/* Grimoire Strip */
+.grimoire-strip {
+    margin-top: 1.15rem;
+    background: #07070b;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    padding: 1rem 1.2rem;
+}
+
+.grimoire-thumbs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    gap: 0.65rem;
+}
+
+.grimoire-item {
+    background: #020204;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 0.4rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.grimoire-item:hover {
+    border-color: var(--fo-gold);
+    transform: translateY(-2px);
+}
+
+.grimoire-item svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grimoire-item-meta {
+    font-family: var(--fo-mono);
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.48);
+    margin-top: 0.25rem;
+}
+
+/* ==========================================================================
+   Immersive Gnosis / Charging Chamber
+   ========================================================================== */
+
+.gnosis-chamber {
+    position: fixed;
+    inset: 0;
+    background: #000000;
+    z-index: 9999;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.gnosis-chamber.is-open {
+    display: flex;
+    animation: gnosisFadeIn 0.6s ease;
+}
+
+@keyframes gnosisFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.gnosis-top-controls {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    opacity: 0.55;
+    transition: opacity 0.3s ease;
+}
+
+.gnosis-top-controls:hover {
+    opacity: 1;
+}
+
+.gnosis-centerpiece {
+    position: relative;
+    width: min(74vmin, 540px);
+    height: min(74vmin, 540px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    touch-action: none;
+}
+
+.gnosis-rings {
+    position: absolute;
+    inset: -8%;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    pointer-events: none;
+    animation: gnosisPulse 7s ease-in-out infinite;
+}
+
+@keyframes gnosisPulse {
+    0%, 100% { transform: scale(0.96); opacity: 0.25; }
+    50% { transform: scale(1.04); opacity: 0.6; }
+}
+
+.gnosis-svg-mount {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.gnosis-svg-mount svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.gnosis-centerpiece.is-consecrated .gnosis-svg-mount {
+    filter: drop-shadow(0 0 38px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 80px rgba(201, 168, 76, 0.8));
+}
+
+.gnosis-footer-guide {
+    text-align: center;
+    max-width: 520px;
+    width: 100%;
+}
+
+.gnosis-charge-bar {
+    width: 240px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.12);
+    margin: 0 auto 0.75rem auto;
+    overflow: hidden;
+}
+
+.gnosis-charge-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff, var(--fo-gold));
+    transform-origin: left center;
+    transform: scaleX(0);
+}
+
+.gnosis-footer-guide p {
+    font-family: var(--fo-serif-body);
+    font-style: italic;
+    font-size: 1.08rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 980px) {
+    .sigil-workbench {
+        grid-template-columns: 1fr;
+    }
+
+    .sigil-row-2col {
+        grid-template-columns: 1fr;
+    }
+}

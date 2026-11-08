@@ -1,243 +1,159 @@
 ---
 layout: default
-title: Liber 777 API - Lucas Rafaldini
+title: Liber 777 API
+description: Explorador interativo, matriz de escalas cabalísticas e playground JSON do Liber 777.
+extra_js:
+  - /js/apis-777.js
 ---
 
-<div class="api-777-header-card">
-    <h1>🔮 Liber 777 API</h1>
-    <p>
-        Bem-vindo à API da Tabela de Correspondências do Liber 777. </p>    
-    <p>
-        Esta é uma das obras mais importantes da magia cerimonial moderna, compilada por Aleister Crowley e Allan Bennett.
-    </p>
-    <div class="api-info">
-        <div class="info-item">
-            <span class="info-label">📊 Total de Colunas:</span>
-            <span class="info-value" id="totalColumns">Carregando...</span>
+<div class="api-shell">
+    <header class="api-hero">
+        <div class="api-eyebrow"><span>🜏</span> <a href="/apis/" style="text-decoration:none; color:inherit;">APIs</a> <span>/</span> Liber 777</div>
+        <h1>Liber 777 — Matriz &amp; API</h1>
+        <p class="api-hero-lead">
+            Tabela de Correspondências compilada por Aleister Crowley e Allan Bennett. Consulte as colunas originais em JSON, cruze horizontalmente todas as atribuições de uma Sephira ou Caminho, ou teste os endpoints diretamente.
+        </p>
+
+        <div class="api-metrics-bar">
+            <div class="api-metric">
+                <span class="api-metric-label">Colunas Mapeadas</span>
+                <span class="api-metric-value gold" id="metricTotalCols">—</span>
+            </div>
+            <div class="api-metric">
+                <span class="api-metric-label">Escalas Chave</span>
+                <span class="api-metric-value" id="metricTotalScales">34 (0 a 32 bis)</span>
+            </div>
+            <div class="api-metric">
+                <span class="api-metric-label">Células Indexadas</span>
+                <span class="api-metric-value" id="metricTotalCells">—</span>
+            </div>
+            <div class="api-metric">
+                <span class="api-metric-label">Dataset Completo</span>
+                <span class="api-metric-value"><a href="/apis/777/all/index.json" target="_blank" rel="noopener" style="font-size:0.85rem;">/all/index.json ↗</a></span>
+            </div>
         </div>
-        <div class="info-item">
-            <span class="info-label">📈 Valores por Coluna:</span>
-            <span class="info-value">32</span>
-        </div>
-        <div class="info-item">
-            <span class="info-label">🔄 Última Atualização:</span>
-            <span class="info-value">Agosto 2025</span>
-        </div>
+    </header>
+
+    <!-- Mode Switcher -->
+    <div class="explorer-tabs" role="tablist" aria-label="Modos de exploração do Liber 777">
+        <button type="button" class="explorer-tab is-active" data-pane="columns" role="tab" aria-selected="true">
+            I · Colunas &amp; Busca Global
+        </button>
+        <button type="button" class="explorer-tab" data-pane="matrix" role="tab" aria-selected="false">
+            II · Matriz por Escala (0–32 bis)
+        </button>
+        <button type="button" class="explorer-tab" data-pane="playground" role="tab" aria-selected="false">
+            III · Playground HTTP / JSON
+        </button>
     </div>
+
+    <!-- PANE 1: Columns & Global Search -->
+    <section class="explorer-pane is-active" id="pane-columns" role="tabpanel">
+        <div class="explorer-toolbar">
+            <div class="api-search-box">
+                <input
+                    type="search"
+                    id="globalSearchInput"
+                    class="api-search-input"
+                    placeholder="Buscar coluna romana (ex: VI, LXXVII) ou termo (ex: Tiphareth, Thoth, Lotus)..."
+                    autocomplete="off"
+                >
+                <button type="button" id="globalSearchClear" class="api-search-clear" aria-label="Limpar busca">×</button>
+            </div>
+            <div class="explorer-count" id="columnsCountLabel">Carregando índice...</div>
+        </div>
+
+        <div class="global-hits-panel" id="globalHitsPanel">
+            <div class="global-hits-header">
+                <span id="globalHitsTitle">Ocorrências nas células</span>
+                <span>Clique para inspecionar a coluna</span>
+            </div>
+            <div class="global-hits-list" id="globalHitsList"></div>
+        </div>
+
+        <div class="columns-modern-grid" id="columnsGrid">
+            <div class="explorer-count">Carregando colunas do Liber 777...</div>
+        </div>
+    </section>
+
+    <!-- PANE 2: Cross-Column Scale Matrix -->
+    <section class="explorer-pane" id="pane-matrix" role="tabpanel">
+        <div class="scale-selector-bar">
+            <select id="scaleSelect" class="fo-select" aria-label="Selecionar Escala Chave (0 a 32 bis)"></select>
+            <div class="api-search-box" style="max-width:100%;">
+                <input
+                    type="search"
+                    id="matrixFilterInput"
+                    class="api-search-input"
+                    placeholder="Filtrar correspondências desta escala (ex: Egyptian, Tarot, Color, Perfumes)..."
+                    autocomplete="off"
+                >
+            </div>
+        </div>
+
+        <div class="scale-summary-banner" id="scaleSummaryBanner">
+            <h2 class="scale-summary-title" id="scaleSummaryTitle">Escala 6 — Tiphareth</h2>
+            <span class="scale-summary-sub" id="scaleSummarySub">—</span>
+        </div>
+
+        <div class="matrix-table-wrap">
+            <table class="matrix-table">
+                <thead>
+                    <tr>
+                        <th>Col.</th>
+                        <th>Título da Coluna</th>
+                        <th>Correspondência na Escala</th>
+                    </tr>
+                </thead>
+                <tbody id="matrixTableBody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- PANE 3: Live API Playground -->
+    <section class="explorer-pane" id="pane-playground" role="tabpanel">
+        <div class="playground-box">
+            <div class="playground-bar">
+                <select id="playgroundEndpointSelect" class="fo-select" style="max-width: 320px;" aria-label="Escolher endpoint"></select>
+                <div class="playground-url-display">
+                    <span class="http-method">GET</span>
+                    <code id="playgroundUrlCode">/apis/777/column/II/index.json</code>
+                </div>
+                <button type="button" class="fo-btn fo-btn-gold" id="playgroundRunBtn">Executar GET</button>
+                <button type="button" class="fo-btn" id="playgroundCopyBtn">Copiar JSON</button>
+            </div>
+
+            <div class="playground-meta-strip" id="playgroundMeta">
+                <span>Status: <strong class="playground-status-ok" id="pgStatus">Pronto</strong></span>
+                <span>Latência: <strong id="pgLatency">—</strong></span>
+                <span>Payload: <strong id="pgSize">—</strong></span>
+            </div>
+
+            <pre class="playground-output" id="playgroundOutput">// Selecione um endpoint acima e clique em "Executar GET" para inspecionar a resposta real.</pre>
+        </div>
+    </section>
 </div>
 
-<div class="api-777-content">
-    <div class="api-section">
-        <div class="usage-main-card">
-            <h2>Como usar a API</h2>
-            <div class="usage-grid">
-                <div class="usage-card">
-                    <h3>🔍 Buscar todos os Dados</h3>
-                    <p>Acesse todos os dados da tabela de correspondências de uma vez.</p>
-                    <a href="/apis/777/all/" target="_blank" class="btn btn-primary">Acessar todos os dados</a>
-                </div>
-                <div class="usage-card">
-                    <h3>🔗 URLs Diretas</h3>
-                    <p>Use estas URLs para acessar dados específicos:</p>
-                    <ul class="url-list">
-                        <li><code>/apis/777/all/</code> - Todos os dados</li>
-                        <li><code>/apis/777/column/{número da coluna}/</code> - Coluna desejada</li>
-                    </ul>
-                </div>
+<!-- Column Inspector Modal -->
+<div class="col-drawer-backdrop" id="colDrawerBackdrop" role="dialog" aria-modal="true" aria-labelledby="colDrawerTitle">
+    <div class="col-drawer">
+        <div class="col-drawer-head">
+            <div>
+                <div class="api-eyebrow" id="colDrawerRoman">Coluna I</div>
+                <h2 class="col-drawer-title" id="colDrawerTitle">Key Scale</h2>
+            </div>
+            <button type="button" class="fo-btn" id="colDrawerClose" aria-label="Fechar inspetor">✕</button>
+        </div>
+        <div class="col-drawer-actions">
+            <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
+                <button type="button" class="fo-btn fo-btn-gold" id="colViewTableBtn">Tabela Formatada</button>
+                <button type="button" class="fo-btn" id="colViewJsonBtn">JSON Bruto</button>
+            </div>
+            <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
+                <button type="button" class="fo-btn" id="colCopyJsonBtn">Copiar JSON</button>
+                <a href="#" target="_blank" rel="noopener" class="fo-btn" id="colRawEndpointLink">Abrir Endpoint ↗</a>
             </div>
         </div>
-    </div>
-
-    <div class="api-section">
-        <div class="search-card">
-            <h2 class="search-title">🔍 Busca Rápida</h2>
-            <div class="search-container">
-                <div class="search-input-wrapper">
-                    <input type="text" id="quickSearch" placeholder="Digite para buscar colunas ou valores..." class="search-input">
-                    <button type="button" id="clearSearch" class="clear-search" title="Limpar busca">×</button>
-                </div>
-                <div class="search-results" id="searchResults"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="api-section">
-        <h2>Navegação por Colunas</h2>
-        <div class="columns-grid" id="columnsGrid">
-            <div class="loading">Carregando colunas...</div>
-        </div>
-    </div>
-
-    <div class="api-section">
-        <div class="about-card">
-            <div class="about-card-content">
-                <h2>Sobre o Liber 777</h2>
-                <p>
-                    O Liber 777 é uma das obras mais importantes da magia cerimonial moderna. Compilado por Aleister Crowley 
-                    e Allan Bennett, contém uma extensa tabela de correspondências que relaciona elementos de diferentes 
-                    sistemas mágicos, incluindo:
-                </p>
-                <ul>
-                    <li><strong>Cabala:</strong> Sephiroth, caminhos e correspondências hebraicas</li>
-                    <li><strong>Astrologia:</strong> Planetas, signos e aspectos astrológicos</li>
-                    <li><strong>Elementos:</strong> Fogo, água, ar e terra</li>
-                    <li><strong>Magia Cerimonial:</strong> Instrumentos, cores e invocações</li>
-                    <li><strong>Tarot:</strong> Arcanos maiores e menores</li>
-                </ul>
-                <p>
-                    Esta API disponibiliza todos esses dados de forma estruturada e acessível, permitindo que desenvolvedores 
-                    e pesquisadores possam integrar essas informações em suas aplicações.
-                </p>
-            </div>
-        </div>
+        <div class="col-drawer-body" id="colDrawerBody"></div>
     </div>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Load API data and populate interface
-    loadAPIData();
-    
-    // Setup search functionality
-    setupSearch();
-    // Setup clear button
-    document.getElementById('clearSearch').onclick = function() {
-        var input = document.getElementById('quickSearch');
-        input.value = '';
-        document.getElementById('searchResults').innerHTML = '';
-        input.focus();
-    };
-});
-
-async function loadAPIData() {
-    try {
-        const response = await fetch('/apis/777/all/index.json');
-        const data = await response.json();
-        
-        // Update total columns count
-        const totalColumns = Object.keys(data).length;
-        document.getElementById('totalColumns').textContent = totalColumns;
-        
-        // Populate columns grid
-        populateColumnsGrid(data);
-        
-    } catch (error) {
-        console.error('Erro ao carregar dados da API:', error);
-        document.getElementById('totalColumns').textContent = 'Erro ao carregar';
-    }
-}
-
-
-
-function populateColumnsGrid(data) {
-    const gridContainer = document.getElementById('columnsGrid');
-    const columns = Object.keys(data);
-    
-    const gridHTML = columns.map(column => {
-        const columnData = data[column];
-        return `
-            <div class="column-card">
-                <div class="column-header">
-                    <h3>Coluna ${column}</h3>
-                    <span class="column-status">Ativo</span>
-                </div>
-                <p class="column-description">${columnData.columnName || 'Sem descrição'}</p>
-                <div class="column-stats">
-                    <span class="stat">${Object.keys(columnData).length - 1} valores</span>
-                </div>
-                <div class="column-actions">
-                    <a href="/apis/777/column/${column}/" target="_blank" class="btn btn-secondary">Ver Coluna</a>
-                </div>
-            </div>
-        `;
-    }).join('');
-    
-    gridContainer.innerHTML = gridHTML;
-}
-
-function setupSearch() {
-    const searchInput = document.getElementById('quickSearch');
-    const resultsContainer = document.getElementById('searchResults');
-    
-    searchInput.addEventListener('input', async (e) => {
-        const query = e.target.value;
-        
-        if (query.length < 2) {
-            resultsContainer.innerHTML = '';
-            return;
-        }
-        
-        try {
-            const response = await fetch('/apis/777/all/index.json');
-            const data = await response.json();
-            
-            const results = searchInData(data, query);
-            displaySearchResults(results, resultsContainer);
-        } catch (error) {
-            console.error('Erro na busca:', error);
-        }
-    });
-}
-
-function searchInData(data, query) {
-    const results = [];
-    const queryLower = query.toLowerCase();
-    
-    Object.keys(data).forEach(column => {
-        const columnData = data[column];
-        const columnName = columnData.columnName || '';
-        
-        if (columnName.toLowerCase().includes(queryLower)) {
-            results.push({
-                type: 'column',
-                id: column,
-                name: columnName,
-                url: `/apis/777/column/${column}/`
-            });
-        }
-        
-        // Search in column values
-        Object.keys(columnData).forEach(key => {
-            const value = columnData[key];
-            if (typeof value === 'string' && value.toLowerCase().includes(queryLower)) {
-                results.push({
-                    type: 'value',
-                    column: column,
-                    key: key,
-                    value: value,
-                    columnName: columnName
-                });
-            }
-        });
-    });
-    
-    return results.slice(0, 15); // Limit results
-}
-
-function displaySearchResults(results, container) {
-    if (results.length === 0) {
-        container.innerHTML = '<p class="no-results">Nenhum resultado encontrado</p>';
-        return;
-    }
-    
-    const resultsHTML = results.map(result => {
-        if (result.type === 'column') {
-            return `
-                <div class="search-result">
-                    <a href="${result.url}">
-                        <strong>Coluna ${result.id}</strong>: ${result.name}
-                    </a>
-                </div>
-            `;
-        } else {
-            return `
-                <div class="search-result">
-                    <strong>${result.columnName}</strong> (${result.key}): ${result.value}
-                </div>
-            `;
-        }
-    }).join('');
-    
-    container.innerHTML = resultsHTML;
-}
-</script>

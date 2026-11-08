@@ -3,48 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta do Tarot de Thoth</title>
-    <meta name="description" content="Descrição detalhada da carta do Tarot de Thoth">
+    <title>Estudo do Arcano • Tarot de Thoth - Frater Outis</title>
+    <meta name="description" content="Análise simbólica, astrológica e cabalística detalhada da carta do Tarot de Thoth.">
     <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="card-detail.css">
 </head>
 <body>
-    <div class="container">
-        <a href="index.html" class="back-button">
-            ← Voltar para Tiragem
-        </a>
+    <!-- Global Navigation -->
+    <div class="header-navigation">
+        <nav aria-label="Navegação principal">
+            <span>[</span>
+            <a href="/" aria-label="Página inicial">Início</a>
+            <span> ∴ </span>
+            <a href="/apis" aria-label="APIs">APIs</a>
+            <span> ∴ </span>
+            <a href="/thoth" class="is-active" aria-label="Tarot de Thoth">Tarot de Thoth</a>
+            <span> ∴ </span>
+            <a href="/arvore-da-vida" aria-label="Árvore da Vida">Árvore da Vida</a>
+            <span> ∴ </span>
+            <a href="/sigilos" aria-label="Sigilos">Sigilos</a>
+            <span> ∴ </span>
+            <a href="/musica" aria-label="Música">Música</a>
+            <span>]</span>
+        </nav>
+    </div>
 
-        <div id="loading" class="loading">
-            Carregando carta
+    <main class="detail-shell">
+        <div class="detail-topbar">
+            <a href="index.html" class="detail-nav-btn">← Altar &amp; Compêndio</a>
+            <div class="detail-step-group" id="cardStepNav" style="display: none;">
+                <a href="#" id="prevCardLink" class="detail-nav-btn">◀ Anterior</a>
+                <a href="#" id="nextCardLink" class="detail-nav-btn">Próximo ▶</a>
+            </div>
         </div>
 
+        <div id="loading" class="detail-loading">Consultando os arquivos de Thoth...</div>
+
         <div id="card-display" style="display: none;">
-            <div class="card-header fade-in">
-                <div class="card-image-section">
-                    <div class="card-image-container">
-                        <img id="card-image" class="card-image" alt="Carta do Tarot">
+            <div class="detail-grid">
+                <aside class="detail-visual-col">
+                    <div class="detail-frame" id="detailFrame">
+                        <img id="card-image" class="detail-image" alt="Carta do Tarot de Thoth">
                     </div>
-                </div>
-                <div class="card-content-section">
-                    <div id="card-info" class="content-body">
-                        <!-- Conteúdo será inserido aqui -->
-                    </div>
-                </div>
+                    <div id="card-esoteric-meta" class="detail-esoteric-meta"></div>
+                </aside>
+
+                <article class="detail-article-col">
+                    <div id="card-info" class="content-body"></div>
+                </article>
             </div>
         </div>
 
         <div id="error-display" style="display: none;">
-            <div class="error-message fade-in">
-                <h2>⚠️ Carta não encontrada</h2>
-                <p>Não foi possível carregar a descrição desta carta.</p>
-                <p>Por favor, tente novamente ou volte para a tiragem.</p>
+            <div class="detail-error">
+                <h2>Arcano não localizado</h2>
+                <p>Não foi possível carregar o pergaminho correspondente a esta lâmina.</p>
+                <a href="index.html" class="detail-nav-btn" style="margin-top: 1rem;">Retornar ao Tarot de Thoth</a>
             </div>
         </div>
+    </main>
 
-        <footer>
-            <p>© 2025</p>
-        </footer>
-    </div>
+    <footer>
+        <nav>
+            <span>[</span>
+            <a href="https://medium.com/@frateroutis" target="_blank" rel="noopener">Medium</a>
+            <span> ∴ </span>
+            <a href="https://frateroutis.substack.com" target="_blank" rel="noopener">Substack</a>
+            <span> ∴ </span>
+            <a href="https://instagram.com/frateroutis" target="_blank" rel="noopener">Instagram</a>
+            <span> ∴ </span>
+            <a href="https://open.spotify.com/intl-pt/artist/5ryzwJMrEgM9GcF2b61VIY?si=Gm6o_cH-RrSaRIgP53V9Kw" target="_blank" rel="noopener">Spotify</a>
+            <span> ∴ </span>
+            <a href="https://music.apple.com/br/artist/frater-outis/1800792539?l=en-GB" target="_blank" rel="noopener">Apple Music</a>
+            <span> ∴ </span>
+            <a href="https://youtube.com/@frateroutis" target="_blank" rel="noopener">YouTube</a>
+            <span> ∴ </span>
+            <a href="mailto:frateroutis@icloud.com">Email</a>
+            <span>]</span>
+        </nav>
+    </footer>
 
     <script src="card-renderer.js"></script>
 </body>

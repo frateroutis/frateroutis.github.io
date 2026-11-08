@@ -1,82 +1,138 @@
 ---
 layout: default
-title: APIs - Lucas Rafaldini
+title: APIs
+description: Repositório aberto de APIs estáticas e tabelas herméticas estruturadas em JSON.
 ---
 
-<div class="api-header">
-    <h1>APIs Abertas</h1>
-    <p>
-        Já não é mais tão incomum eu encontrar por aí uma massa de dados que eu acho relevantíssimos, mas que estão esquecidos em algum lugar escuro da internet.
-    </p>
-    <p>
-        Por conta disso decidi abrir essas APIs de dados por aqui, pois afinal é grátis, é acessível e vai bem direto ao ponto, então acredito ser a melhor maneira de ampliar o acesso a esses dados.
-    </p>
-</div>
-
-<div class="api-grid">
-    <div class="api-card" data-api="777">
-        <div class="api-card-header">
-            <h3>🔮 Liber 777</h3>
-            <span class="api-status">Ativo</span>
-            <span class="api-status">Requer password</span>
-        </div>
-        <p>
-            Tabela de Correspondências do Liber 777 - uma das obras mais importantes da magia cerimonial moderna.
+<div class="api-shell">
+    <header class="api-hero">
+        <div class="api-eyebrow"><span>🜏</span> Índices &amp; Dados Estruturados</div>
+        <h1>APIs Abertas</h1>
+        <p class="api-hero-lead">
+            Já não é mais tão incomum encontrar uma massa de dados relevantíssima esquecida em algum canto escuro e inacessível da internet.
         </p>
-        <div class="api-stats">
-            <div class="stat">
-                <span class="stat-number">180+</span>
-                <span class="stat-label">Colunas</span>
-            </div>
-            <div class="stat">
-                <span class="stat-number">32</span>
-                <span class="stat-label">Valores por Coluna</span>
-            </div>
-        </div>
-        <div class="api-actions">
-            <a href="/apis/777/" class="btn btn-primary">Explorar API</a>
-        </div>
-    </div>
-    
-    <div class="api-card coming-soon">
-        <div class="api-card-header">
-            <h3>🔮 Nova API</h3>
-            <span class="api-status">Em Breve</span>
-        </div>
-        <p>
-            Mais APIs serão adicionadas em breve. Aguarde por novidades!
+        <p class="api-hero-lead">
+            Este índice disponibiliza essas bases como endpoints JSON estáticos, diretos e gratuitos — prontos para consulta programática, pesquisa comparada ou integração com outras ferramentas.
         </p>
-        <div class="api-actions">
-            <button class="btn btn-disabled" disabled>Em Desenvolvimento</button>
+    </header>
+
+    <section class="api-catalog-grid" aria-label="Catálogo de APIs disponíveis">
+        <article class="api-entry-card" data-api="777">
+            <div>
+                <div class="api-entry-top">
+                    <h2 class="api-entry-title"><span class="api-glyph">☉</span> Liber 777</h2>
+                    <div class="api-badges">
+                        <span class="api-badge active">Ativo · v1.1</span>
+                        <span class="api-badge">Requer Senha</span>
+                    </div>
+                </div>
+                <p class="api-entry-desc">
+                    Tabela completa de correspondências cabalísticas, astrológicas, mágicas e simbólicas compilada por Aleister Crowley e Allan Bennett — estruturada por colunas romanas e pelas 32 escalas da Árvore da Vida.
+                </p>
+                <div class="api-endpoint-preview">
+                    <span class="http-method">GET</span>
+                    <code>/apis/777/all/index.json</code>
+                </div>
+            </div>
+            <div class="api-card-footer">
+                <span class="api-mini-stats">189 colunas · 34 escalas (0–32 bis)</span>
+                <a href="/apis/777/" class="fo-btn fo-btn-gold">Abrir Explorador →</a>
+            </div>
+        </article>
+
+        <article class="api-entry-card is-muted">
+            <div>
+                <div class="api-entry-top">
+                    <h2 class="api-entry-title"><span class="api-glyph">☽</span> Próximos Índices</h2>
+                    <div class="api-badges">
+                        <span class="api-badge">Em Curadoria</span>
+                    </div>
+                </div>
+                <p class="api-entry-desc">
+                    Novos corpora esotéricos, dicionários gemátricos, tabelas planetárias de Agrippa e índices lexicais estão em processo de higienização e estruturação para publicação futura.
+                </p>
+                <div class="api-endpoint-preview">
+                    <span class="http-method">GET</span>
+                    <code>/apis/{corpus}/index.json</code>
+                </div>
+            </div>
+            <div class="api-card-footer">
+                <span class="api-mini-stats">Formato REST Estático · UTF-8</span>
+                <button class="fo-btn" disabled>Em Preparação</button>
+            </div>
+        </article>
+    </section>
+
+    <section aria-label="Exemplo rápido de integração">
+        <div class="api-eyebrow"><span>∴</span> Consumo Programático</div>
+        <div class="api-code-panel">
+            <div class="api-code-header">
+                <div class="api-code-tabs" role="tablist">
+                    <button type="button" class="api-code-tab is-active" data-lang="js">JavaScript (fetch)</button>
+                    <button type="button" class="api-code-tab" data-lang="curl">cURL</button>
+                    <button type="button" class="api-code-tab" data-lang="py">Python</button>
+                </div>
+                <button type="button" class="fo-btn" id="copySnippetBtn" style="padding: 0.35rem 0.75rem; font-size: 0.72rem;">Copiar</button>
+            </div>
+            <pre class="api-code-pre"><code id="apiSnippetCode"></code></pre>
         </div>
-    </div>
+    </section>
 </div>
-
-
 
 <script>
-// API usage statistics
-document.addEventListener('DOMContentLoaded', function() {
-    // Track API usage
-    const apiCards = document.querySelectorAll('.api-card');
-    
-    apiCards.forEach(card => {
-        card.addEventListener('click', function(e) {
-            if (e.target.tagName === 'A') return; // Don't track link clicks
-            
-            const apiName = this.dataset.api;
-            if (apiName) {
-                // Track API interaction
-                console.log(`API ${apiName} accessed`);
-            }
+(function () {
+    const snippets = {
+        js: `// Buscar uma coluna específica ou toda a matriz do Liber 777
+const res = await fetch('https://frateroutis.github.io/apis/777/column/II/index.json');
+const colII = await res.json();
+
+console.log(colII.columnName); // "Hebrew Names of Numbers and Letters"
+console.log(colII['6']);       // "Tiphareth"
+console.log(colII['11']);      // "Aleph"`,
+        curl: `# Consultar coluna individual (JSON UTF-8)
+curl -s https://frateroutis.github.io/apis/777/column/VI/index.json | jq .
+
+# Baixar matriz completa (189 colunas)
+curl -sO https://frateroutis.github.io/apis/777/all/index.json`,
+        py: `import requests
+
+url = "https://frateroutis.github.io/apis/777/all/index.json"
+data = requests.get(url, timeout=10).json()
+
+# Cruzar Tiphareth (escala '6') em todas as colunas disponíveis
+tiphareth = {col: vals.get("6") for col, vals in data.items() if vals.get("6")}
+print(f"{len(tiphareth)} correspondências carregadas para Tiphareth.")`
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const codeEl = document.getElementById('apiSnippetCode');
+        const copyBtn = document.getElementById('copySnippetBtn');
+        const tabs = document.querySelectorAll('.api-code-tab');
+        let activeLang = 'js';
+
+        if (!codeEl) return;
+        codeEl.textContent = snippets[activeLang];
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('is-active'));
+                tab.classList.add('is-active');
+                activeLang = tab.dataset.lang;
+                codeEl.textContent = snippets[activeLang] || '';
+            });
         });
+
+        if (copyBtn) {
+            copyBtn.addEventListener('click', async () => {
+                try {
+                    await navigator.clipboard.writeText(snippets[activeLang]);
+                    copyBtn.textContent = 'Copiado ✓';
+                    setTimeout(() => { copyBtn.textContent = 'Copiar'; }, 1600);
+                } catch (_) {
+                    copyBtn.textContent = 'Erro';
+                }
+            });
+        }
     });
-    
-    // Add loading animation to API cards
-    apiCards.forEach((card, index) => {
-        setTimeout(() => {
-            card.classList.add('fade-in');
-        }, index * 200);
-    });
-});
+})();
 </script>
