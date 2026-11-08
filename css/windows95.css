@@ -2051,6 +2051,19 @@
     box-shadow: 2px 2px 0 #000000;
 }
 
+.promo-cta-bar-single {
+    justify-content: center;
+}
+
+.promo-cta-wide {
+    flex: 1 1 100% !important;
+    text-align: center;
+    padding: 10px 16px !important;
+    font-size: 13px !important;
+    background: linear-gradient(180deg, #ff70d9 0%, #c9008c 100%) !important;
+    letter-spacing: 0.5px;
+}
+
 .promo-cta-home:active,
 .promo-cta-close:active {
     border-style: inset;
@@ -2066,12 +2079,13 @@
 /* ========== SATIRICAL HOME EXIT WORDART POPUP (COMPACT) ========== */
 
 .folder-window.exit-popup-window {
-    width: 350px;
+    width: 330px;
     height: auto;
     max-width: calc(100vw - 24px);
-    top: 24%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top: 80px;
+    left: 120px;
+    right: auto;
+    transform: none;
     border: 3px solid #ff00ea;
     box-shadow: 0 0 0 3px #00ffff, 0 16px 36px rgba(0, 0, 0, 0.7);
 }

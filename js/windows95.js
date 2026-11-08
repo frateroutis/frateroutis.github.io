@@ -88,13 +88,17 @@ function finishBootSequence(openPromoImmediately = false) {
         overlay.classList.add('hidden');
     }
 
-    // Show promo popup gracefully after arriving on desktop (once per boot)
-    const promoDelay = openPromoImmediately ? 220 : 800;
+    // Show BOTH satirical popups gracefully after arriving on desktop (once per boot)
+    const promoDelay = openPromoImmediately ? 180 : 650;
     const t = setTimeout(() => {
-        const promoEl = document.getElementById('promoPopupWindow');
-        if (!promoAutoShownThisBoot && promoEl && promoEl.classList.contains('hidden')) {
+        if (!promoAutoShownThisBoot) {
             promoAutoShownThisBoot = true;
+            // 1. Promo popup with Poema Superficial in top right
             launchPromoPopup();
+            // 2. Separate WordArt popup for returning home
+            setTimeout(() => {
+                launchExitPopup();
+            }, 280);
         }
     }, promoDelay);
     bootTimers.push(t);
