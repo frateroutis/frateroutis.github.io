@@ -132,7 +132,7 @@
 /* Main Workspace — Larger Tree Canvas & Side Inspector */
 .tree-workspace {
     display: grid;
-    grid-template-columns: minmax(420px, 1.38fr) minmax(330px, 0.78fr);
+    grid-template-columns: minmax(0, 1.38fr) minmax(320px, 0.82fr);
     gap: 1.5rem;
     align-items: start;
 }
@@ -473,24 +473,38 @@
     border: 1px solid rgba(255, 255, 255, 0.16);
     position: sticky;
     top: 5.2rem;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .inspector-search-bar {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
-    padding: 0.85rem 1rem;
+    padding: 0.75rem 0.85rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     background: #0a0a10;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
 }
 
 .tree-jump-select {
-    flex: 1;
+    flex: 1 1 0;
+    min-width: 0;
+    width: 0;
+    max-width: 100%;
     background: #030305;
     border: 1px solid rgba(255, 255, 255, 0.22);
     color: #fff;
     font-family: var(--fo-mono);
     font-size: 0.78rem;
-    padding: 0.5rem 0.65rem;
+    padding: 0.5rem 0.6rem;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .tree-jump-select:focus {
@@ -501,16 +515,19 @@
 .inspector-step-btns {
     display: flex;
     gap: 0.35rem;
+    flex-shrink: 0;
 }
 
 .tree-step-btn {
     background: #030305;
     border: 1px solid rgba(255, 255, 255, 0.22);
     color: #fff;
-    padding: 0.45rem 0.75rem;
+    padding: 0.45rem 0.65rem;
     font-size: 0.78rem;
     cursor: pointer;
     transition: all 0.2s ease;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .tree-step-btn:hover {
