@@ -424,11 +424,21 @@
                     <td class="col-num cell-num-wrap">
                         <span class="num-badge">${entry.n}</span>
                     </td>
-                    <td class="col-heb cell-heb-wrap">${hebContent}</td>
-                    <td class="col-grk cell-grk-wrap">${grkContent}</td>
-                    <td class="col-eng cell-eng-wrap">${engContent}</td>
-                    <td class="col-pt cell-pt-wrap">${ptContent}</td>
-                    <td class="col-notes">${notesContent}</td>
+                    <td class="col-heb">
+                        <div class="cell-heb-stack">${hebContent}</div>
+                    </td>
+                    <td class="col-grk">
+                        <div class="cell-grk-stack">${grkContent}</div>
+                    </td>
+                    <td class="col-eng">
+                        <div class="cell-eng-stack">${engContent}</div>
+                    </td>
+                    <td class="col-pt">
+                        <div class="cell-pt-stack">${ptContent}</div>
+                    </td>
+                    <td class="col-notes">
+                        <div class="cell-notes-stack">${notesContent}</div>
+                    </td>
                 </tr>
             `;
         }).join('');
