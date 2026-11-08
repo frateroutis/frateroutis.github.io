@@ -247,6 +247,9 @@ function setupWindowDrag(winEl, handle) {
         winEl.classList.add('positioned');
         winEl.style.left = `${rect.left}px`;
         winEl.style.top = `${rect.top}px`;
+        winEl.style.right = 'auto';
+        winEl.style.bottom = 'auto';
+        winEl.style.transform = 'none';
 
         initLeft = rect.left;
         initTop = rect.top;
@@ -771,12 +774,18 @@ function initializePopups() {
     const closePromoBtn = document.querySelector('.close-btn-promo');
     const promoDismissBtn = document.getElementById('promoDismissBtn');
     const promoGoHomeBtn = document.getElementById('promoGoHomeBtn');
+    const promoOpenExitBtn = document.getElementById('promoOpenExitBtn');
 
     if (closePromoBtn) closePromoBtn.addEventListener('click', closePromoPopup);
     if (promoDismissBtn) promoDismissBtn.addEventListener('click', closePromoPopup);
     if (promoGoHomeBtn) {
         promoGoHomeBtn.addEventListener('click', () => {
             goHome();
+        });
+    }
+    if (promoOpenExitBtn) {
+        promoOpenExitBtn.addEventListener('click', () => {
+            launchExitPopup();
         });
     }
 

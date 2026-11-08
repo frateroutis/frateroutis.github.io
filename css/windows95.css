@@ -1622,12 +1622,28 @@
 /* ========== SATIRICAL PROMO POPUP (POEMA SUPERFICIAL) ========== */
 
 .folder-window.promo-popup-window {
-    width: 650px;
+    top: 14px;
+    right: 18px;
+    left: auto;
+    transform: none;
+    width: 630px;
     height: auto;
-    max-width: 95vw;
-    max-height: calc(100vh - 46px);
+    max-width: calc(100vw - 28px);
+    max-height: calc(100vh - 56px);
     border: 3px solid #ff00aa;
     box-shadow: 0 0 0 3px #ffff00, 0 14px 36px rgba(0, 0, 0, 0.6);
+}
+
+.dancing-baby-original {
+    width: 100px;
+    height: auto;
+    display: block;
+    image-rendering: auto;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.45));
+}
+
+.dancing-baby-original.baby-mirror {
+    transform: scaleX(-1);
 }
 
 .promo-titlebar {
@@ -2047,14 +2063,17 @@
     font-weight: bold;
 }
 
-/* ========== SATIRICAL HOME EXIT POPUP ========== */
+/* ========== SATIRICAL HOME EXIT WORDART POPUP (COMPACT) ========== */
 
 .folder-window.exit-popup-window {
-    width: 500px;
+    width: 350px;
     height: auto;
-    max-width: 94vw;
-    border: 3px solid #00ffff;
-    box-shadow: 0 0 0 3px #ff00cc, 0 12px 32px rgba(0, 0, 0, 0.55);
+    max-width: calc(100vw - 24px);
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 3px solid #ff00ea;
+    box-shadow: 0 0 0 3px #00ffff, 0 16px 36px rgba(0, 0, 0, 0.7);
 }
 
 .exit-titlebar {
@@ -2063,104 +2082,109 @@
 }
 
 .exit-content {
-    padding: 12px !important;
-    background:
-        linear-gradient(135deg, #ffea00 0%, #ff4dd2 48%, #00f0ff 100%) !important;
+    padding: 10px !important;
+    background: linear-gradient(135deg, #2b0057 0%, #a80084 50%, #009db3 100%) !important;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-
-.exit-party-banner {
-    background: #140033;
-    color: #ffff00;
-    border: 2px dashed #39ff14;
-    padding: 6px 10px;
-    text-align: center;
-    font-family: 'Comic Sans MS', Arial, sans-serif;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 8px;
 }
 
-.exit-hero-row {
+.exit-wordart-header {
+    text-align: center;
+    background: #000000;
+    border: 2px solid #ffff00;
+    padding: 6px 4px;
+    box-shadow: 2px 2px 0 #000000;
+}
+
+.wordart-rainbow-arch {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    color: #39ff14;
+    text-shadow: 1px 1px 0 #000;
+    letter-spacing: 2px;
+}
+
+.wordart-3d-skew {
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    line-height: 1.1;
+    background: linear-gradient(180deg, #ffe600 0%, #ff0077 50%, #00ffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 2px 0 #ffffff) drop-shadow(3px 3px 0 #000000);
+    transform: perspective(200px) rotateX(10deg) skewX(-6deg);
+}
+
+.exit-body-compact {
     display: flex;
     align-items: center;
-    gap: 12px;
-    background: rgba(255, 255, 255, 0.92);
-    border: 3px ridge #ff00aa;
-    padding: 12px;
+    gap: 10px;
+    background: #ffffff;
+    border: 2px dashed #ff00aa;
+    padding: 8px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.exit-baby-wrap {
-    position: relative;
+.exit-baby-small {
+    width: 60px;
+    height: auto;
     flex-shrink: 0;
-    text-align: center;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
 }
 
-.baby-crown {
-    font-size: 22px;
-    margin-bottom: -10px;
-    animation: trophyHop 0.6s ease-in-out infinite alternate;
-}
-
-.exit-copy-card h3 {
-    margin: 0 0 6px 0;
+.exit-tagline {
     font-family: Impact, 'Arial Black', sans-serif;
-    font-size: 17px;
-    color: #b8006e;
-    letter-spacing: 0.4px;
-}
-
-.exit-copy-card p {
-    margin: 0 0 8px 0;
-    font-size: 12px;
-    line-height: 1.45;
-    color: #1f1f1f;
-}
-
-.exit-fake-perks {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
     font-size: 11px;
-    font-weight: bold;
-    color: #006b2d;
+    color: #cc0066;
+    margin: 0 0 4px 0;
+    line-height: 1.25;
 }
 
-.exit-actions {
+.exit-sub {
+    font-size: 10.5px;
+    line-height: 1.35;
+    color: #222222;
+    margin: 0;
+}
+
+.exit-actions-compact {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.exit-confirm-home-btn {
-    padding: 10px 14px;
+.exit-wordart-btn {
+    width: 100%;
+    padding: 9px 10px;
     border: 3px outset #ffffff;
-    background: linear-gradient(90deg, #00e639 0%, #ffff00 50%, #00ff99 100%);
+    background: linear-gradient(90deg, #00ff66 0%, #ffff00 50%, #00f0ff 100%);
     color: #000000;
-    font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+    font-family: Impact, 'Arial Black', sans-serif;
     font-size: 13px;
-    font-weight: bold;
+    letter-spacing: 0.5px;
     cursor: pointer;
     box-shadow: 2px 2px 0 #000000;
+    animation: ctaPulse 1.1s ease-in-out infinite alternate;
 }
 
-.exit-stay-btn {
-    padding: 7px 12px;
+.exit-cancel-btn {
+    width: 100%;
+    padding: 5px 8px;
     border: 2px solid;
     border-color: var(--win95-white) var(--win95-dark-gray) var(--win95-dark-gray) var(--win95-white);
     background: var(--win95-gray);
     color: var(--win95-black);
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.exit-confirm-home-btn:active,
-.exit-stay-btn:active {
+.exit-wordart-btn:active,
+.exit-cancel-btn:active {
     transform: translateY(1px);
 }
 
@@ -2219,6 +2243,22 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .folder-window.promo-popup-window {
+        top: 8px;
+        right: 8px;
+        left: 8px;
+        width: auto;
+        max-width: none;
+    }
+
+    .folder-window.exit-popup-window {
+        top: 15%;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        transform: none;
+    }
+
     .promo-stage-row {
         grid-template-columns: 1fr;
     }
@@ -2232,18 +2272,12 @@
         justify-content: center;
     }
 
-    .dancing-baby-svg {
-        width: 78px;
-        height: 102px;
+    .dancing-baby-original {
+        width: 82px;
     }
 
     .poem-stanzas {
         column-count: 1;
-    }
-
-    .exit-hero-row {
-        flex-direction: column;
-        text-align: center;
     }
 }
 
