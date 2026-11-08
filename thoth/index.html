@@ -1,171 +1,122 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot de Thoth - Frater Outis</title>
-    <meta name="description" content="Oráculo ritual, análise de dignidades elementares e compêndio completo dos 78 arcanos do Tarot de Thoth de Aleister Crowley e Lady Frieda Harris.">
-    <link rel="icon" href="../favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="tarot-main.css">
-</head>
-<body>
-    <!-- Global Navigation -->
-    <div class="header-navigation">
-        <nav aria-label="Navegação principal">
-            <span>[</span>
-            <a href="/" aria-label="Página inicial">Início</a>
-            <span> ∴ </span>
-            <a href="/apis" aria-label="APIs">APIs</a>
-            <span> ∴ </span>
-            <a href="/thoth" class="is-active" aria-label="Tarot de Thoth">Tarot de Thoth</a>
-            <span> ∴ </span>
-            <a href="/arvore-da-vida" aria-label="Árvore da Vida">Árvore da Vida</a>
-            <span> ∴ </span>
-            <a href="/sigilos" aria-label="Sigilos">Sigilos</a>
-            <span> ∴ </span>
-            <a href="/musica" aria-label="Música">Música</a>
-            <span>]</span>
-        </nav>
-    </div>
+---
+layout: default
+title: Tarot de Thoth
+description: Oráculo ritual, análise de dignidades elementares e compêndio completo dos 78 arcanos do Tarot de Thoth de Aleister Crowley e Lady Frieda Harris.
+extra_css:
+  - /thoth/tarot-main.css
+extra_js:
+  - /thoth/tarot.js
+---
 
-    <main class="thoth-shell">
-        <header class="thoth-hero">
-            <div class="thoth-eyebrow"><span>🜏</span> O Livro de Thoth · Crowley &amp; Frieda Harris</div>
-            <h1>Tarot de Thoth</h1>
-            <p class="thoth-subtitle">
-                Oráculo hermético de tiragens rituais, síntese de dignidades elementares e compêndio dos 78 arcanos.
-            </p>
+<div class="thoth-shell">
+    <header class="thoth-hero">
+        <div class="thoth-eyebrow"><span>🜏</span> O Livro de Thoth · Crowley &amp; Frieda Harris</div>
+        <h1>Tarot de Thoth</h1>
+        <p class="thoth-subtitle">
+            Oráculo hermético de tiragens rituais, síntese de dignidades elementares e compêndio dos 78 arcanos.
+        </p>
 
-            <div class="thoth-mode-tabs" role="tablist">
-                <button type="button" class="thoth-mode-tab is-active" data-mode="oracle" role="tab" aria-selected="true">
-                    I · Altar de Tiragem
-                </button>
-                <button type="button" class="thoth-mode-tab" data-mode="compendium" role="tab" aria-selected="false">
-                    II · Compêndio (78 Arcanos)
-                </button>
-                <button type="button" class="thoth-mode-tab" data-mode="journal" role="tab" aria-selected="false">
-                    III · Diário de Tiragens
-                </button>
-            </div>
-        </header>
+        <div class="thoth-mode-tabs" role="tablist">
+            <button type="button" class="thoth-mode-tab is-active" data-mode="oracle" role="tab" aria-selected="true">
+                I · Altar de Tiragem
+            </button>
+            <button type="button" class="thoth-mode-tab" data-mode="compendium" role="tab" aria-selected="false">
+                II · Compêndio (78 Arcanos)
+            </button>
+            <button type="button" class="thoth-mode-tab" data-mode="journal" role="tab" aria-selected="false">
+                III · Diário de Tiragens
+            </button>
+        </div>
+    </header>
 
-        <!-- MODE I: ORACLE / ALTAR -->
-        <section class="thoth-pane is-active" id="mode-oracle">
-            <div class="oracle-panel">
-                <div class="oracle-row">
-                    <div class="oracle-field" style="flex: 1 1 320px;">
-                        <label for="intentInput" class="oracle-label">Questão ou Intenção (Opcional)</label>
-                        <input
-                            type="text"
-                            id="intentInput"
-                            class="oracle-input"
-                            placeholder="Formule sua questão com clareza ou contemple em silêncio..."
-                            autocomplete="off"
-                        >
-                    </div>
-                    <div class="oracle-toggles">
-                        <label class="ritual-check" title="Filtrar apenas os 22 Triunfos (Arcanos Maiores)">
-                            <input type="checkbox" id="toggleMajorsOnly">
-                            <span>Apenas 22 Maiores</span>
-                        </label>
-                        <label class="ritual-check" title="No sistema Thoth tradicional priorizam-se dignidades elementares em vez de cartas invertidas">
-                            <input type="checkbox" id="toggleReversals">
-                            <span>Permitir Invertidas</span>
-                        </label>
-                        <label class="ritual-check" title="Virar cartas manualmente uma a uma sobre o altar">
-                            <input type="checkbox" id="toggleFaceDown" checked>
-                            <span>Revelação Ritual (Verso Rosa-Cruz)</span>
-                        </label>
-                    </div>
+    <!-- MODE I: ORACLE / ALTAR -->
+    <section class="thoth-pane is-active" id="mode-oracle">
+        <div class="oracle-panel">
+            <div class="oracle-row">
+                <div class="oracle-field" style="flex: 1 1 320px;">
+                    <label for="intentInput" class="oracle-label">Questão ou Intenção (Opcional)</label>
+                    <input
+                        type="text"
+                        id="intentInput"
+                        class="oracle-input"
+                        placeholder="Formule sua questão com clareza ou contemple em silêncio..."
+                        autocomplete="off"
+                    >
                 </div>
-
-                <div class="oracle-row oracle-spread-row">
-                    <div>
-                        <span class="oracle-label">Estrutura da Tiragem</span>
-                        <div class="spread-buttons" id="spreadButtons">
-                            <button type="button" class="spread-btn active" data-spread="one">I · Síntese (1)</button>
-                            <button type="button" class="spread-btn" data-spread="three">II · Tríade &amp; Dignidades (3)</button>
-                            <button type="button" class="spread-btn" data-spread="cross">III · Pentagrama / Elementos (5)</button>
-                            <button type="button" class="spread-btn" data-spread="horseshoe">IV · Ferradura (7)</button>
-                            <button type="button" class="spread-btn" data-spread="tree">V · Árvore da Vida (10)</button>
-                            <button type="button" class="spread-btn" data-spread="celtic">VI · Cruz Celta (10)</button>
-                        </div>
-                    </div>
-
-                    <div class="oracle-actions">
-                        <button type="button" class="draw-btn" id="drawBtn">🜏 Consagrar &amp; Tirar</button>
-                    </div>
+                <div class="oracle-toggles">
+                    <label class="ritual-check" title="Filtrar apenas os 22 Triunfos (Arcanos Maiores)">
+                        <input type="checkbox" id="toggleMajorsOnly">
+                        <span>Apenas 22 Maiores</span>
+                    </label>
+                    <label class="ritual-check" title="No sistema Thoth tradicional priorizam-se dignidades elementares em vez de cartas invertidas">
+                        <input type="checkbox" id="toggleReversals">
+                        <span>Permitir Invertidas</span>
+                    </label>
+                    <label class="ritual-check" title="Virar cartas manualmente uma a uma sobre o altar">
+                        <input type="checkbox" id="toggleFaceDown" checked>
+                        <span>Revelação Ritual (Verso Rosa-Cruz)</span>
+                    </label>
                 </div>
             </div>
 
-            <div id="spread-info" class="spread-info" style="display: none;"></div>
-            <div id="dignity-banner" class="dignity-banner" style="display: none;"></div>
-
-            <div class="reading-ActionBar" id="readingActionBar" style="display: none;">
-                <button type="button" class="thoth-ghost-btn" id="revealAllBtn">☉ Revelar Todas as Cartas</button>
-                <button type="button" class="thoth-ghost-btn" id="resetBtn">↺ Limpar Altar</button>
-            </div>
-
-            <div id="cards-container" class="cards-display"></div>
-        </section>
-
-        <!-- MODE II: COMPENDIUM (78 ARCANOS) -->
-        <section class="thoth-pane" id="mode-compendium">
-            <div class="compendium-toolbar">
-                <div class="suit-filters" id="suitFilters">
-                    <button type="button" class="suit-pill is-active" data-suit="all">Todos (78)</button>
-                    <button type="button" class="suit-pill" data-suit="major">Triunfos / Maiores (22)</button>
-                    <button type="button" class="suit-pill" data-suit="wands">🜂 Paus (14)</button>
-                    <button type="button" class="suit-pill" data-suit="cups">🜄 Copas (14)</button>
-                    <button type="button" class="suit-pill" data-suit="swords">🜁 Espadas (14)</button>
-                    <button type="button" class="suit-pill" data-suit="disks">🜃 Discos (14)</button>
+            <div class="oracle-row oracle-spread-row">
+                <div>
+                    <span class="oracle-label">Estrutura da Tiragem</span>
+                    <div class="spread-buttons" id="spreadButtons">
+                        <button type="button" class="spread-btn active" data-spread="one">I · Síntese (1)</button>
+                        <button type="button" class="spread-btn" data-spread="three">II · Tríade &amp; Dignidades (3)</button>
+                        <button type="button" class="spread-btn" data-spread="cross">III · Pentagrama / Elementos (5)</button>
+                        <button type="button" class="spread-btn" data-spread="horseshoe">IV · Ferradura (7)</button>
+                        <button type="button" class="spread-btn" data-spread="tree">V · Árvore da Vida (10)</button>
+                        <button type="button" class="spread-btn" data-spread="celtic">VI · Cruz Celta (10)</button>
+                    </div>
                 </div>
-                <input
-                    type="search"
-                    id="compendiumSearch"
-                    class="oracle-input compendium-search"
-                    placeholder="Filtrar por nome, título (ex: Luxúria, Ciência), signo ou letra..."
-                >
+
+                <div class="oracle-actions">
+                    <button type="button" class="draw-btn" id="drawBtn">🜏 Consagrar &amp; Tirar</button>
+                </div>
             </div>
+        </div>
 
-            <div class="compendium-grid" id="compendiumGrid"></div>
-        </section>
+        <div id="spread-info" class="spread-info" style="display: none;"></div>
+        <div id="dignity-banner" class="dignity-banner" style="display: none;"></div>
 
-        <!-- MODE III: JOURNAL -->
-        <section class="thoth-pane" id="mode-journal">
-            <div class="journal-header-bar">
-                <span class="oracle-label" id="journalCountLabel">Registros locais neste navegador</span>
-                <button type="button" class="thoth-ghost-btn" id="clearJournalBtn">Limpar Histórico</button>
+        <div class="reading-ActionBar" id="readingActionBar" style="display: none;">
+            <button type="button" class="thoth-ghost-btn" id="revealAllBtn">☉ Revelar Todas as Cartas</button>
+            <button type="button" class="thoth-ghost-btn" id="resetBtn">↺ Limpar Altar</button>
+        </div>
+
+        <div id="cards-container" class="cards-display"></div>
+    </section>
+
+    <!-- MODE II: COMPENDIUM (78 ARCANOS) -->
+    <section class="thoth-pane" id="mode-compendium">
+        <div class="compendium-toolbar">
+            <div class="suit-filters" id="suitFilters">
+                <button type="button" class="suit-pill is-active" data-suit="all">Todos (78)</button>
+                <button type="button" class="suit-pill" data-suit="major">Triunfos / Maiores (22)</button>
+                <button type="button" class="suit-pill" data-suit="wands">🜂 Paus (14)</button>
+                <button type="button" class="suit-pill" data-suit="cups">🜄 Copas (14)</button>
+                <button type="button" class="suit-pill" data-suit="swords">🜁 Espadas (14)</button>
+                <button type="button" class="suit-pill" data-suit="disks">🜃 Discos (14)</button>
             </div>
-            <div class="journal-list" id="journalList"></div>
-        </section>
-    </main>
+            <input
+                type="search"
+                id="compendiumSearch"
+                class="oracle-input compendium-search"
+                placeholder="Filtrar por nome, título (ex: Luxúria, Ciência), signo ou letra..."
+            >
+        </div>
 
-    <!-- Footer -->
-    <footer>
-        <nav>
-            <span>[</span>
-            <a href="https://medium.com/@frateroutis" target="_blank" rel="noopener">Medium</a>
-            <span> ∴ </span>
-            <a href="https://frateroutis.substack.com" target="_blank" rel="noopener">Substack</a>
-            <span> ∴ </span>
-            <a href="https://instagram.com/frateroutis" target="_blank" rel="noopener">Instagram</a>
-            <span> ∴ </span>
-            <a href="https://open.spotify.com/intl-pt/artist/5ryzwJMrEgM9GcF2b61VIY?si=Gm6o_cH-RrSaRIgP53V9Kw" target="_blank" rel="noopener">Spotify</a>
-            <span> ∴ </span>
-            <a href="https://music.apple.com/br/artist/frater-outis/1800792539?l=en-GB" target="_blank" rel="noopener">Apple Music</a>
-            <span> ∴ </span>
-            <a href="https://youtube.com/@frateroutis" target="_blank" rel="noopener">YouTube</a>
-            <span> ∴ </span>
-            <a href="mailto:frateroutis@icloud.com">Email</a>
-            <span>]</span>
-        </nav>
-    </footer>
+        <div class="compendium-grid" id="compendiumGrid"></div>
+    </section>
 
-    <script src="tarot.js"></script>
-</body>
-</html>
+    <!-- MODE III: JOURNAL -->
+    <section class="thoth-pane" id="mode-journal">
+        <div class="journal-header-bar">
+            <span class="oracle-label" id="journalCountLabel">Registros locais neste navegador</span>
+            <button type="button" class="thoth-ghost-btn" id="clearJournalBtn">Limpar Histórico</button>
+        </div>
+        <div class="journal-list" id="journalList"></div>
+    </section>
+</div>

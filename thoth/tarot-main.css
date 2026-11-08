@@ -1,27 +1,27 @@
 /* ==========================================================================
-   Frater Outis — Tarot de Thoth (Oráculo Ritual & Compêndio)
+   Frater Outis — Tarot de Thoth (Jornal Digital em Negativo · Monocromático)
    ========================================================================== */
 
 .thoth-shell {
     max-width: 1380px;
     margin: 0 auto;
-    padding-top: 6rem;
-    padding-bottom: 6.5rem;
+    padding: 0.4rem 0 3.5rem 0;
+    font-variant-emoji: text;
 }
 
 .thoth-hero {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    padding-bottom: 1.6rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    padding-bottom: 1.75rem;
     margin-bottom: 2rem;
 }
 
 .thoth-eyebrow {
     font-family: var(--fo-mono);
-    font-size: 0.74rem;
+    font-size: 0.73rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--fo-gold);
-    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.56);
+    margin-bottom: 0.55rem;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -29,21 +29,24 @@
 
 .thoth-hero h1 {
     font-family: var(--fo-serif-display);
-    font-size: clamp(2.5rem, 5vw, 4.1rem);
-    margin: 0 0 0.45rem 0;
-    line-height: 1.04;
-    color: #fff;
+    font-size: clamp(2.4rem, 5vw, 4.1rem);
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.02;
+    color: #ffffff;
 }
 
 .thoth-subtitle {
     font-family: var(--fo-serif-body);
-    font-size: clamp(1.12rem, 1.4vw, 1.32rem);
+    font-size: clamp(1.15rem, 1.4vw, 1.35rem);
     color: rgba(255, 255, 255, 0.72);
-    max-width: 760px;
-    margin: 0 0 1.4rem 0;
+    max-width: 780px;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.48;
 }
 
-/* Mode Tabs */
+/* Mode Tabs — Negativo Invertido */
 .thoth-mode-tabs {
     display: flex;
     flex-wrap: wrap;
@@ -51,11 +54,11 @@
 }
 
 .thoth-mode-tab {
-    background: #07070a;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: rgba(255, 255, 255, 0.65);
+    background: #040406;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.68);
     font-family: var(--fo-mono);
-    font-size: 0.76rem;
+    font-size: 0.75rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     padding: 0.62rem 1.15rem;
@@ -64,14 +67,14 @@
 }
 
 .thoth-mode-tab:hover {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.36);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.45);
 }
 
 .thoth-mode-tab.is-active {
-    background: #fff;
-    color: #000;
-    border-color: #fff;
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
     font-weight: 600;
 }
 
@@ -81,7 +84,7 @@
 
 .thoth-pane.is-active {
     display: block;
-    animation: thothFade 0.3s ease;
+    animation: thothFade 0.28s ease;
 }
 
 @keyframes thothFade {
@@ -91,13 +94,13 @@
 
 /* Oracle Controls Panel */
 .oracle-panel {
-    background: #07070b;
+    background: #050507;
     border: 1px solid rgba(255, 255, 255, 0.14);
-    padding: 1.5rem 1.6rem;
+    padding: 1.5rem 1.65rem;
     display: flex;
     flex-direction: column;
     gap: 1.35rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.65rem;
 }
 
 .oracle-row {
@@ -114,30 +117,34 @@
     font-size: 0.7rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--fo-gold);
+    color: rgba(255, 255, 255, 0.56);
     margin-bottom: 0.5rem;
 }
 
 .oracle-input {
     width: 100%;
-    background: #020204;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: #fff;
-    font-family: var(--fo-serif-body);
-    font-size: 1.08rem;
-    padding: 0.68rem 0.95rem;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+    font-family: var(--fo-sans);
+    font-size: 0.96rem;
+    padding: 0.7rem 0.95rem;
     transition: border-color 0.2s ease;
+}
+
+.oracle-input::placeholder {
+    color: rgba(255, 255, 255, 0.36);
 }
 
 .oracle-input:focus {
     outline: none;
-    border-color: var(--fo-gold);
+    border-color: #ffffff;
 }
 
 .oracle-toggles {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.1rem;
     align-items: center;
     padding-bottom: 0.35rem;
 }
@@ -147,14 +154,14 @@
     align-items: center;
     gap: 0.45rem;
     font-family: var(--fo-mono);
-    font-size: 0.74rem;
-    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.73rem;
+    color: rgba(255, 255, 255, 0.76);
     cursor: pointer;
     user-select: none;
 }
 
 .ritual-check input {
-    accent-color: var(--fo-gold);
+    accent-color: #ffffff;
 }
 
 .spread-buttons {
@@ -164,55 +171,56 @@
 }
 
 .spread-btn {
-    background: #030305;
+    background: #000000;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.72);
     font-family: var(--fo-mono);
-    font-size: 0.74rem;
+    font-size: 0.73rem;
     letter-spacing: 0.05em;
-    padding: 0.58rem 0.9rem;
+    padding: 0.58rem 0.92rem;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .spread-btn:hover {
-    border-color: rgba(255, 255, 255, 0.45);
-    color: #fff;
+    border-color: rgba(255, 255, 255, 0.52);
+    color: #ffffff;
 }
 
 .spread-btn.active {
-    border-color: var(--fo-gold);
-    color: var(--fo-gold);
-    background: rgba(201, 168, 76, 0.1);
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
 }
 
 .draw-btn {
-    background: #fff;
-    color: #000;
-    border: 1px solid #fff;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
     font-family: var(--fo-mono);
-    font-size: 0.82rem;
+    font-size: 0.79rem;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    padding: 0.85rem 1.8rem;
+    padding: 0.82rem 1.75rem;
     cursor: pointer;
-    transition: all 0.25s ease;
+    transition: all 0.22s ease;
 }
 
 .draw-btn:hover {
-    background: var(--fo-gold);
-    border-color: var(--fo-gold);
-    color: #000;
-    box-shadow: 0 0 24px rgba(201, 168, 76, 0.35);
+    background: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 0 0 22px rgba(255, 255, 255, 0.18);
 }
 
 .thoth-ghost-btn {
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    color: rgba(255, 255, 255, 0.86);
     font-family: var(--fo-mono);
-    font-size: 0.74rem;
+    font-size: 0.73rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     padding: 0.55rem 1rem;
@@ -221,15 +229,16 @@
 }
 
 .thoth-ghost-btn:hover {
-    background: #fff;
-    color: #000;
-    border-color: #fff;
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
 }
 
 /* Spread Info & Elemental Dignities Banner */
 .spread-info {
-    background: #07070b;
-    border-left: 2px solid var(--fo-gold);
+    background: #050507;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-left: 2px solid #ffffff;
     padding: 0.95rem 1.25rem;
     margin-bottom: 1rem;
 }
@@ -237,51 +246,53 @@
 .spread-info h3 {
     font-family: var(--fo-serif-display);
     font-size: 1.25rem;
-    color: #fff;
+    color: #ffffff;
     margin: 0 0 0.25rem 0;
 }
 
 .spread-info p {
-    font-family: var(--fo-serif-body);
-    font-size: 1.08rem;
+    font-family: var(--fo-sans);
+    font-size: 0.95rem;
+    line-height: 1.5;
     color: rgba(255, 255, 255, 0.72);
     margin: 0;
 }
 
 .dignity-banner {
-    background: rgba(201, 168, 76, 0.07);
-    border: 1px solid rgba(201, 168, 76, 0.32);
-    padding: 0.9rem 1.25rem;
+    background: #060609;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    padding: 0.95rem 1.25rem;
     margin-bottom: 1.25rem;
-    font-family: var(--fo-serif-body);
-    font-size: 1.08rem;
-    color: rgba(255, 255, 255, 0.88);
+    font-family: var(--fo-sans);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .dignity-banner strong {
-    color: var(--fo-gold);
+    color: #ffffff;
     font-family: var(--fo-mono);
-    font-size: 0.76rem;
+    font-size: 0.74rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-right: 0.5rem;
+    margin-right: 0.55rem;
 }
 
 .reading-ActionBar {
     display: flex;
     justify-content: center;
     gap: 0.75rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.85rem;
     flex-wrap: wrap;
 }
 
 /* ==========================================================================
-   3D Tactile Tarot Cards & Spread Layouts
+   3D Tactile Tarot Cards & Spread Layouts (Monochrome Framing)
    ========================================================================== */
 
 .cards-display {
     display: grid;
-    gap: 1.6rem;
+    gap: 1.7rem;
     justify-items: center;
     margin-top: 1rem;
 }
@@ -301,12 +312,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.35rem;
+    gap: 1.4rem;
 }
 
 .cross-row {
     display: flex;
-    gap: 1.35rem;
+    gap: 1.4rem;
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
@@ -325,20 +336,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: slotEnter 0.48s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation: slotEnter 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes slotEnter {
-    from { opacity: 0; transform: translateY(16px); }
+    from { opacity: 0; transform: translateY(14px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
 .slot-position-label {
     font-family: var(--fo-mono);
-    font-size: 0.7rem;
+    font-size: 0.69rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--fo-gold);
+    color: rgba(255, 255, 255, 0.68);
     margin-bottom: 0.55rem;
     text-align: center;
 }
@@ -368,10 +379,10 @@
     inset: 0;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    border: 1px solid rgba(201, 168, 76, 0.42);
-    background: #060609;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: #030305;
     overflow: hidden;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.9);
 }
 
 .card-face-front {
@@ -393,37 +404,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at 50% 50%, #13111c 0%, #050508 85%);
+    background: #030305;
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card-3d-scene.is-facedown:hover .card-face-back {
-    border-color: var(--fo-gold);
-    box-shadow: 0 0 26px rgba(201, 168, 76, 0.28);
+    border-color: #ffffff;
+    box-shadow: 0 0 26px rgba(255, 255, 255, 0.18);
 }
 
 .slot-meta {
-    margin-top: 0.75rem;
+    margin-top: 0.78rem;
     text-align: center;
     transition: opacity 0.35s ease;
 }
 
 .tarot-slot.is-unrevealed .slot-meta {
-    opacity: 0.35;
+    opacity: 0.45;
 }
 
 .slot-card-name {
     font-family: var(--fo-serif-display);
     font-size: 1.15rem;
-    color: #fff;
-    margin-bottom: 0.18rem;
+    color: #ffffff;
+    margin-bottom: 0.22rem;
 }
 
 .slot-card-corresp {
     font-family: var(--fo-mono);
     font-size: 0.69rem;
-    color: rgba(255, 255, 255, 0.56);
-    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.62);
+    margin-bottom: 0.52rem;
 }
 
 .slot-study-link {
@@ -432,16 +443,15 @@
     font-size: 0.68rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--fo-gold);
+    color: #ffffff;
     text-decoration: none;
-    border-bottom: 1px solid rgba(201, 168, 76, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.42);
     padding-bottom: 2px;
-    transition: color 0.2s ease, border-color 0.2s ease;
+    transition: opacity 0.2s ease, border-color 0.2s ease;
 }
 
 .slot-study-link:hover {
-    color: #fff;
-    border-color: #fff;
+    border-color: #ffffff;
 }
 
 /* Tree of Life Spread Grid */
@@ -463,7 +473,7 @@
     gap: 1rem;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.65rem;
 }
 
 .suit-filters {
@@ -473,58 +483,60 @@
 }
 
 .suit-pill {
-    background: #07070a;
+    background: #040406;
     border: 1px solid rgba(255, 255, 255, 0.16);
-    color: rgba(255, 255, 255, 0.68);
+    color: rgba(255, 255, 255, 0.72);
     font-family: var(--fo-mono);
     font-size: 0.72rem;
-    padding: 0.5rem 0.85rem;
+    padding: 0.5rem 0.88rem;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .suit-pill:hover {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.45);
 }
 
 .suit-pill.is-active {
-    background: var(--fo-gold);
-    border-color: var(--fo-gold);
-    color: #000;
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
     font-weight: 600;
 }
 
 .compendium-search {
-    max-width: 360px;
+    max-width: 380px;
 }
 
 .compendium-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(198px, 1fr));
     gap: 1.15rem;
 }
 
 .compendium-card {
-    background: #07070b;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 0.75rem;
+    background: #050507;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    padding: 0.78rem;
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    gap: 0.55rem;
-    transition: transform 0.24s ease, border-color 0.24s ease;
+    gap: 0.5rem;
+    transition: transform 0.24s ease, border-color 0.24s ease, background 0.24s ease;
 }
 
 .compendium-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--fo-gold);
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.65);
+    background: #09090d;
 }
 
 .compendium-thumb-wrap {
     width: 100%;
     aspect-ratio: 5 / 8;
-    background: #020204;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -540,22 +552,21 @@
 .compendium-card-kicker {
     font-family: var(--fo-mono);
     font-size: 0.65rem;
-    color: var(--fo-gold);
+    color: rgba(255, 255, 255, 0.55);
     letter-spacing: 0.06em;
 }
 
 .compendium-card-title {
     font-family: var(--fo-serif-display);
-    font-size: 1.02rem;
-    color: #fff;
-    line-height: 1.2;
+    font-size: 1.04rem;
+    color: #ffffff;
+    line-height: 1.22;
 }
 
 .compendium-card-sub {
-    font-family: var(--fo-serif-body);
-    font-style: italic;
-    font-size: 0.92rem;
-    color: rgba(255, 255, 255, 0.58);
+    font-family: var(--fo-sans);
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.62);
 }
 
 /* ==========================================================================
@@ -578,8 +589,8 @@
 }
 
 .journal-entry {
-    background: #07070b;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #050507;
+    border: 1px solid rgba(255, 255, 255, 0.13);
     padding: 1.15rem 1.35rem;
 }
 
@@ -589,7 +600,7 @@
     gap: 1rem;
     font-family: var(--fo-mono);
     font-size: 0.72rem;
-    color: var(--fo-gold);
+    color: rgba(255, 255, 255, 0.62);
     margin-bottom: 0.45rem;
     flex-wrap: wrap;
 }
@@ -597,9 +608,9 @@
 .journal-entry-intent {
     font-family: var(--fo-serif-body);
     font-style: italic;
-    font-size: 1.12rem;
-    color: rgba(255, 255, 255, 0.86);
-    margin-bottom: 0.55rem;
+    font-size: 1.14rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.6rem;
 }
 
 .journal-entry-cards {
@@ -609,18 +620,20 @@
 }
 
 .journal-chip {
-    background: #020204;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 0.28rem 0.6rem;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 0.3rem 0.65rem;
     font-family: var(--fo-mono);
     font-size: 0.7rem;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .journal-chip:hover {
-    border-color: var(--fo-gold);
-    color: var(--fo-gold);
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
 }
 
 @media (max-width: 900px) {

@@ -207,34 +207,34 @@
             const prevCard = ORDERED_CARDS[(idx - 1 + ORDERED_CARDS.length) % ORDERED_CARDS.length];
             const nextCard = ORDERED_CARDS[(idx + 1) % ORDERED_CARDS.length];
 
-            prevLink.href = `card-detail.html?card=${encodeURIComponent('assets/Tarot_Cards/' + prevCard.path)}&name=${encodeURIComponent(prevCard.name)}`;
+            prevLink.href = `/thoth/card-detail.html?card=${encodeURIComponent('assets/Tarot_Cards/' + prevCard.path)}&name=${encodeURIComponent(prevCard.name)}`;
             prevLink.title = prevCard.name;
-            nextLink.href = `card-detail.html?card=${encodeURIComponent('assets/Tarot_Cards/' + nextCard.path)}&name=${encodeURIComponent(nextCard.name)}`;
+            nextLink.href = `/thoth/card-detail.html?card=${encodeURIComponent('assets/Tarot_Cards/' + nextCard.path)}&name=${encodeURIComponent(nextCard.name)}`;
             nextLink.title = nextCard.name;
             stepNav.style.display = 'flex';
         }
 
         try {
-            const descriptionUrl = `../${cardParam}_description.md`;
+            const descriptionUrl = `/${cardParam}_description.md`;
             const mdRes = await fetch(descriptionUrl);
             if (!mdRes.ok) throw new Error('Markdown not found');
             const mdText = await mdRes.text();
 
             // Resolve image extension directly from metadata or fallback probe
             let imgUrl = cardMeta
-                ? `../assets/Tarot_Cards/${cardMeta.path}.${cardMeta.ext}`
+                ? `/assets/Tarot_Cards/${cardMeta.path}.${cardMeta.ext}`
                 : '';
 
             if (!imgUrl) {
                 for (const ext of ['.webp', '.png', '.jpg']) {
-                    const testUrl = `../${cardParam}${ext}`;
+                    const testUrl = `/${cardParam}${ext}`;
                     const headRes = await fetch(testUrl, { method: 'HEAD' });
                     if (headRes.ok) { imgUrl = testUrl; break; }
                 }
             }
 
             const imgEl = document.getElementById('card-image');
-            imgEl.src = imgUrl || `../${cardParam}.webp`;
+            imgEl.src = imgUrl || `/${cardParam}.webp`;
             imgEl.alt = cardMeta?.name || cardName || 'Carta do Tarot de Thoth';
             if (isReversed) imgEl.style.transform = 'rotate(180deg)';
 

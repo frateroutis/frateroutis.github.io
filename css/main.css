@@ -11,6 +11,7 @@
     --fo-gold-soft: rgba(201, 168, 76, 0.22);
     --fo-serif-display: 'Playfair Display', Georgia, serif;
     --fo-serif-body: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+    --fo-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --fo-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 

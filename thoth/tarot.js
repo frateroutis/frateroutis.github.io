@@ -147,20 +147,20 @@
         }
     };
 
-    // Procedural Rosicrucian Rose-Cross SVG back
+    // Procedural Rosicrucian Rose-Cross SVG back (Monochrome Engraved Negative)
     const ROSE_CROSS_SVG = `
         <svg viewBox="0 0 200 320" width="88%" height="88%" aria-hidden="true">
-            <rect x="8" y="8" width="184" height="304" fill="none" stroke="rgba(201,168,76,0.45)" stroke-width="1"/>
-            <rect x="14" y="14" width="172" height="292" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="0.7"/>
-            <line x1="14" y1="14" x2="186" y2="306" stroke="rgba(201,168,76,0.14)" stroke-width="0.7"/>
-            <line x1="186" y1="14" x2="14" y2="306" stroke="rgba(201,168,76,0.14)" stroke-width="0.7"/>
+            <rect x="8" y="8" width="184" height="304" fill="none" stroke="rgba(255,255,255,0.42)" stroke-width="1"/>
+            <rect x="14" y="14" width="172" height="292" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="0.7"/>
+            <line x1="14" y1="14" x2="186" y2="306" stroke="rgba(255,255,255,0.12)" stroke-width="0.7"/>
+            <line x1="186" y1="14" x2="14" y2="306" stroke="rgba(255,255,255,0.12)" stroke-width="0.7"/>
             <!-- Equal-armed Cross & Vertical Beam -->
-            <path d="M90 62 H110 V145 H162 V165 H110 V258 H90 V165 H38 V145 H90 Z" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.75)" stroke-width="1.3"/>
+            <path d="M90 62 H110 V145 H162 V165 H110 V258 H90 V165 H38 V145 H90 Z" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.68)" stroke-width="1.2"/>
             <!-- Concentric Rose at Center -->
-            <circle cx="100" cy="155" r="32" fill="#07070b" stroke="rgba(201,168,76,0.65)" stroke-width="1.1"/>
-            <circle cx="100" cy="155" r="22" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="0.9" stroke-dasharray="4 3"/>
-            <circle cx="100" cy="155" r="12" fill="rgba(201,168,76,0.22)" stroke="rgba(201,168,76,0.85)" stroke-width="1"/>
-            <circle cx="100" cy="155" r="3" fill="#c9a84c"/>
+            <circle cx="100" cy="155" r="32" fill="#030305" stroke="rgba(255,255,255,0.58)" stroke-width="1.1"/>
+            <circle cx="100" cy="155" r="22" fill="none" stroke="rgba(255,255,255,0.34)" stroke-width="0.9" stroke-dasharray="4 3"/>
+            <circle cx="100" cy="155" r="12" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.82)" stroke-width="1"/>
+            <circle cx="100" cy="155" r="2.8" fill="#ffffff"/>
         </svg>
     `;
 
@@ -365,10 +365,10 @@
         slot.className = `tarot-slot ${card.revealed ? '' : 'is-unrevealed'}`;
         slot.style.animationDelay = `${index * 0.08}s`;
 
-        const imagePath = `../assets/Tarot_Cards/${card.path}/${card.file}.${card.ext}`;
+        const imagePath = `/assets/Tarot_Cards/${card.path}/${card.file}.${card.ext}`;
         const cardPath = `assets/Tarot_Cards/${card.path}/${card.file}`;
         const revParam = card.reversed ? '&reversed=true' : '';
-        const detailUrl = `card-detail.html?card=${encodeURIComponent(cardPath)}&name=${encodeURIComponent(card.name)}${revParam}`;
+        const detailUrl = `/thoth/card-detail.html?card=${encodeURIComponent(cardPath)}&name=${encodeURIComponent(card.name)}${revParam}`;
         const imgRotate = card.reversed ? 'transform: rotate(180deg);' : '';
 
         const scene = document.createElement('div');
@@ -471,9 +471,9 @@
             });
 
             grid.innerHTML = filtered.map(c => {
-                const imgSrc = `../assets/Tarot_Cards/${c.path}/${c.file}.${c.ext}`;
+                const imgSrc = `/assets/Tarot_Cards/${c.path}/${c.file}.${c.ext}`;
                 const cardParam = `assets/Tarot_Cards/${c.path}/${c.file}`;
-                const href = `card-detail.html?card=${encodeURIComponent(cardParam)}&name=${encodeURIComponent(c.name)}`;
+                const href = `/thoth/card-detail.html?card=${encodeURIComponent(cardParam)}&name=${encodeURIComponent(c.name)}`;
                 return `
                     <a href="${href}" class="compendium-card">
                         <div class="compendium-thumb-wrap">
@@ -535,7 +535,7 @@
             listEl.innerHTML = entries.map(entry => {
                 const dateStr = new Date(entry.ts).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' });
                 const chips = entry.items.map(it => {
-                    const href = `card-detail.html?card=${encodeURIComponent(it.cardPath)}&name=${encodeURIComponent(it.name)}${it.reversed ? '&reversed=true' : ''}`;
+                    const href = `/thoth/card-detail.html?card=${encodeURIComponent(it.cardPath)}&name=${encodeURIComponent(it.name)}${it.reversed ? '&reversed=true' : ''}`;
                     return `<a class="journal-chip" href="${href}">${it.pos}: ${it.name}${it.reversed ? ' (Inv.)' : ''}</a>`;
                 }).join('');
                 return `

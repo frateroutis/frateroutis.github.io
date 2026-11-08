@@ -3,27 +3,27 @@
    ========================================================================== */
 
 .tree-sanctum {
-    max-width: 1360px;
+    max-width: 1460px;
     margin: 0 auto;
-    padding: 0.4rem 0 3rem 0;
+    padding: 0.4rem 0 3.5rem 0;
 }
 
 .tree-header {
     display: flex;
     flex-direction: column;
-    gap: 1.35rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    padding-bottom: 1.65rem;
-    margin-bottom: 1.85rem;
+    gap: 1.25rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    padding-bottom: 1.55rem;
+    margin-bottom: 1.75rem;
 }
 
 .tree-eyebrow {
     font-family: var(--fo-mono);
-    font-size: 0.75rem;
+    font-size: 0.74rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--fo-gold);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.45rem;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -34,14 +34,15 @@
     font-size: clamp(2.3rem, 4.6vw, 3.8rem);
     margin: 0 0 0.45rem 0;
     line-height: 1.04;
+    color: #ffffff;
 }
 
 .tree-subtitle {
-    font-family: var(--fo-serif-body);
-    font-size: clamp(1.1rem, 1.35vw, 1.3rem);
-    line-height: 1.48;
-    color: rgba(255, 255, 255, 0.72);
-    max-width: 780px;
+    font-family: var(--fo-sans);
+    font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.76);
+    max-width: 820px;
     margin: 0;
 }
 
@@ -51,7 +52,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-top: 0.35rem;
+    padding-top: 0.3rem;
 }
 
 .tree-control-group {
@@ -66,22 +67,22 @@
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: rgba(255, 255, 255, 0.48);
+    color: rgba(255, 255, 255, 0.56);
     margin-right: 0.25rem;
 }
 
 .world-pills {
     display: inline-flex;
     flex-wrap: wrap;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    background: #060609;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #050507;
 }
 
 .world-pill {
     background: transparent;
     border: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.65);
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.72);
     font-family: var(--fo-mono);
     font-size: 0.74rem;
     letter-spacing: 0.06em;
@@ -96,7 +97,7 @@
 
 .world-pill:hover {
     color: #fff;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.06);
 }
 
 .world-pill.is-active {
@@ -106,9 +107,9 @@
 }
 
 .layer-toggle {
-    background: #07070a;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    color: rgba(255, 255, 255, 0.6);
+    background: #060609;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: rgba(255, 255, 255, 0.72);
     font-family: var(--fo-mono);
     font-size: 0.73rem;
     letter-spacing: 0.06em;
@@ -119,26 +120,26 @@
 
 .layer-toggle:hover {
     color: #fff;
-    border-color: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.42);
 }
 
 .layer-toggle.is-on {
-    border-color: rgba(201, 168, 76, 0.65);
+    border-color: rgba(201, 168, 76, 0.72);
     color: var(--fo-gold);
-    background: rgba(201, 168, 76, 0.08);
+    background: rgba(201, 168, 76, 0.1);
 }
 
-/* Main Workspace */
+/* Main Workspace — Larger Tree Canvas & Side Inspector */
 .tree-workspace {
     display: grid;
-    grid-template-columns: minmax(340px, 1.15fr) minmax(320px, 0.85fr);
+    grid-template-columns: minmax(420px, 1.38fr) minmax(330px, 0.78fr);
     gap: 1.5rem;
     align-items: start;
 }
 
 .tree-canvas-card {
-    background: radial-gradient(ellipse at 50% 35%, #0d0e15 0%, #050508 72%, #020203 100%);
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: radial-gradient(ellipse at 50% 35%, #0e0f17 0%, #050508 72%, #020203 100%);
+    border: 1px solid rgba(255, 255, 255, 0.16);
     position: relative;
     overflow: hidden;
 }
@@ -148,13 +149,52 @@
     justify-content: space-between;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.7rem 1.1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(0, 0, 0, 0.55);
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.72);
+    font-family: var(--fo-mono);
+    font-size: 0.71rem;
+    color: rgba(255, 255, 255, 0.74);
+    flex-wrap: wrap;
+}
+
+.tree-zoom-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.28rem;
+    background: #030305;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 0.18rem 0.3rem;
+}
+
+.tree-zoom-btn {
+    background: transparent;
+    border: 1px solid transparent;
+    color: rgba(255, 255, 255, 0.84);
     font-family: var(--fo-mono);
     font-size: 0.72rem;
-    color: rgba(255, 255, 255, 0.62);
-    flex-wrap: wrap;
+    padding: 0.22rem 0.48rem;
+    cursor: pointer;
+    transition: all 0.18s ease;
+}
+
+.tree-zoom-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+.tree-zoom-btn.is-active {
+    background: var(--fo-gold);
+    color: #000;
+    font-weight: 600;
+}
+
+.tree-zoom-readout {
+    font-family: var(--fo-mono);
+    font-size: 0.69rem;
+    color: rgba(255, 255, 255, 0.78);
+    min-width: 3.1em;
+    text-align: center;
 }
 
 .tree-lock-badge {
@@ -163,60 +203,126 @@
 
 .tree-svg-wrap {
     width: 100%;
+    position: relative;
+    overflow: hidden;
     padding: 0.5rem;
+    touch-action: none;
+    user-select: none;
+    cursor: grab;
+}
+
+.tree-svg-wrap.is-zoomed {
+    cursor: grab;
+}
+
+.tree-svg-wrap.is-panning {
+    cursor: grabbing;
+}
+
+.tree-svg-wrap.has-loupe {
+    cursor: crosshair;
 }
 
 #etzChaimSvg {
     width: 100%;
+    max-width: 720px;
     height: auto;
-    max-height: 82vh;
+    min-height: 820px;
     display: block;
     margin: 0 auto;
     user-select: none;
 }
 
-/* SVG Elements */
+/* Optional Cursor Loupe (Precision Magnifier) */
+.tree-loupe {
+    position: absolute;
+    width: 196px;
+    height: 196px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.72);
+    box-shadow:
+        0 0 0 4px rgba(0, 0, 0, 0.75),
+        0 18px 46px rgba(0, 0, 0, 0.92),
+        0 0 24px rgba(201, 168, 76, 0.25);
+    background: #040407;
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: opacity 0.16s ease, transform 0.16s ease;
+    z-index: 25;
+}
+
+.tree-loupe.is-visible {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#treeLoupeSvg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.tree-loupe-crosshair {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at center, rgba(201, 168, 76, 0.5) 0 1.5px, transparent 2px),
+        linear-gradient(to right, transparent 49.6%, rgba(255, 255, 255, 0.14) 50%, transparent 50.4%),
+        linear-gradient(to bottom, transparent 49.6%, rgba(255, 255, 255, 0.14) 50%, transparent 50.4%);
+}
+
+/* SVG Typography & High-Contrast Readability */
 .veil-arc {
     fill: none;
-    stroke: rgba(255, 255, 255, 0.12);
+    stroke: rgba(255, 255, 255, 0.24);
     stroke-dasharray: 4 6;
-    stroke-width: 1.1;
+    stroke-width: 1.15;
 }
 
 .veil-label {
-    fill: rgba(255, 255, 255, 0.34);
+    fill: rgba(255, 255, 255, 0.68);
     font-family: var(--fo-mono);
-    font-size: 9.5px;
+    font-size: 10px;
+    font-weight: 500;
     letter-spacing: 0.22em;
     text-anchor: middle;
     text-transform: uppercase;
+    paint-order: stroke;
+    stroke: #030306;
+    stroke-width: 3px;
 }
 
 .pillar-line {
-    stroke: rgba(255, 255, 255, 0.06);
+    stroke: rgba(255, 255, 255, 0.12);
     stroke-width: 1;
     stroke-dasharray: 2 6;
 }
 
 .pillar-title {
-    fill: rgba(255, 255, 255, 0.26);
+    fill: rgba(255, 255, 255, 0.62);
     font-family: var(--fo-mono);
-    font-size: 10px;
-    letter-spacing: 0.18em;
+    font-size: 10.5px;
+    letter-spacing: 0.16em;
     text-anchor: middle;
     text-transform: uppercase;
+    paint-order: stroke;
+    stroke: #030306;
+    stroke-width: 3px;
 }
 
 .abyss-veil {
-    stroke: rgba(201, 168, 76, 0.24);
-    stroke-width: 1.2;
+    stroke: rgba(201, 168, 76, 0.36);
+    stroke-width: 1.25;
     stroke-dasharray: 7 5;
 }
 
 .flaming-sword {
     fill: none;
     stroke: #f5d06f;
-    stroke-width: 2.6;
+    stroke-width: 2.8;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-dasharray: 10 6;
@@ -237,33 +343,35 @@
 
 .tree-path-hit {
     stroke: transparent;
-    stroke-width: 20;
+    stroke-width: 22;
     fill: none;
 }
 
 .tree-path-outer {
-    stroke: rgba(255, 255, 255, 0.22);
-    stroke-width: 7.5;
+    stroke: rgba(255, 255, 255, 0.3);
+    stroke-width: 8;
     stroke-linecap: round;
     transition: stroke 0.25s ease, stroke-width 0.25s ease;
 }
 
 .tree-path-core {
-    stroke-width: 3.4;
+    stroke-width: 3.6;
     stroke-linecap: round;
     transition: stroke 0.28s ease, stroke-width 0.25s ease, filter 0.25s ease;
 }
 
 .tree-path-badge {
-    fill: #07080c;
-    stroke: rgba(255, 255, 255, 0.28);
-    stroke-width: 1;
+    fill: #08090e;
+    stroke: rgba(255, 255, 255, 0.56);
+    stroke-width: 1.25;
     transition: transform 0.2s ease, stroke 0.2s ease;
 }
 
 .tree-path-heb {
-    fill: rgba(255, 255, 255, 0.88);
-    font-size: 11px;
+    fill: #ffffff;
+    font-family: var(--fo-sans);
+    font-size: 12px;
+    font-weight: 600;
     text-anchor: middle;
     dominant-baseline: central;
     pointer-events: none;
@@ -271,8 +379,8 @@
 
 .tree-path-group:hover .tree-path-outer,
 .tree-path-group.is-selected .tree-path-outer {
-    stroke: rgba(255, 255, 255, 0.65);
-    stroke-width: 9.5;
+    stroke: rgba(255, 255, 255, 0.78);
+    stroke-width: 10;
 }
 
 .tree-path-group:hover .tree-path-badge,
@@ -288,63 +396,72 @@
 
 .tree-node-halo {
     fill: none;
-    stroke: rgba(255, 255, 255, 0.22);
-    stroke-width: 1.2;
+    stroke: rgba(255, 255, 255, 0.28);
+    stroke-width: 1.3;
     transition: r 0.25s ease, stroke 0.25s ease, opacity 0.25s ease;
 }
 
 .tree-node-sphere {
-    stroke: rgba(255, 255, 255, 0.65);
-    stroke-width: 1.6;
+    stroke: rgba(255, 255, 255, 0.78);
+    stroke-width: 1.7;
     transition: stroke 0.25s ease, stroke-width 0.25s ease;
 }
 
 .tree-node-daath .tree-node-sphere {
     stroke-dasharray: 4 3;
+    stroke: rgba(255, 255, 255, 0.65);
 }
 
 .tree-node-group:hover .tree-node-halo,
 .tree-node-group.is-selected .tree-node-halo {
     stroke: var(--fo-gold);
-    stroke-width: 2;
+    stroke-width: 2.2;
 }
 
 .tree-node-heb {
-    font-size: 14px;
+    font-size: 16px;
     text-anchor: middle;
     dominant-baseline: central;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
+/* Crisp readable labels replacing slanted/ambiguous display italic */
 .tree-node-title {
     fill: #ffffff;
-    font-family: var(--fo-serif-display);
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
+    font-family: var(--fo-sans);
+    font-size: 13.8px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
     text-anchor: middle;
     pointer-events: none;
     paint-order: stroke;
-    stroke: #040406;
-    stroke-width: 4px;
+    stroke: #030306;
+    stroke-width: 6px;
     stroke-linejoin: round;
 }
 
 .tree-node-sub {
-    fill: rgba(255, 255, 255, 0.62);
-    font-family: var(--fo-serif-body);
-    font-style: italic;
-    font-size: 11.5px;
+    fill: rgba(255, 255, 255, 0.92);
+    font-family: var(--fo-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8px;
+    letter-spacing: 0.015em;
     text-anchor: middle;
     pointer-events: none;
     paint-order: stroke;
-    stroke: #040406;
-    stroke-width: 3px;
+    stroke: #030306;
+    stroke-width: 5.5px;
+    stroke-linejoin: round;
 }
 
-.is-dimmed {
-    opacity: 0.22 !important;
+.tree-path-group.is-dimmed {
+    opacity: 0.34 !important;
+}
+
+.tree-node-group.is-dimmed {
+    opacity: 0.74 !important;
 }
 
 /* ==========================================================================
@@ -352,8 +469,8 @@
    ========================================================================== */
 
 .tree-inspector {
-    background: #07070b;
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: #06060a;
+    border: 1px solid rgba(255, 255, 255, 0.16);
     position: sticky;
     top: 5.2rem;
 }
@@ -369,7 +486,7 @@
 .tree-jump-select {
     flex: 1;
     background: #030305;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.22);
     color: #fff;
     font-family: var(--fo-mono);
     font-size: 0.78rem;
@@ -388,7 +505,7 @@
 
 .tree-step-btn {
     background: #030305;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.22);
     color: #fff;
     padding: 0.45rem 0.75rem;
     font-size: 0.78rem;
@@ -435,19 +552,18 @@
 }
 
 .insp-meaning {
-    font-family: var(--fo-serif-body);
-    font-style: italic;
-    font-size: 1.15rem;
-    color: rgba(255, 255, 255, 0.7);
-    margin-top: 0.2rem;
+    font-family: var(--fo-sans);
+    font-size: 0.94rem;
+    color: rgba(255, 255, 255, 0.78);
+    margin-top: 0.3rem;
 }
 
 .insp-hebrew-box {
     background: #020204;
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 0.5rem 0.85rem;
     text-align: center;
-    min-width: 72px;
+    min-width: 74px;
 }
 
 .insp-hebrew-glyph {
@@ -473,7 +589,7 @@
 
 .scale-swatch-card {
     background: #030305;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 0.45rem;
     text-align: center;
 }
@@ -481,14 +597,14 @@
 .scale-swatch-bar {
     height: 14px;
     width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.24);
     margin-bottom: 0.35rem;
 }
 
 .scale-swatch-lbl {
     font-family: var(--fo-mono);
     font-size: 0.64rem;
-    color: rgba(255, 255, 255, 0.62);
+    color: rgba(255, 255, 255, 0.74);
     display: block;
     text-transform: uppercase;
 }
@@ -513,19 +629,19 @@
     align-items: baseline;
     gap: 1rem;
     padding: 0.52rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 .insp-kv-key {
     font-family: var(--fo-mono);
     font-size: 0.73rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
     flex-shrink: 0;
 }
 
 .insp-kv-val {
-    font-family: var(--fo-serif-body);
-    font-size: 1.06rem;
+    font-family: var(--fo-sans);
+    font-size: 0.92rem;
     color: #fff;
     text-align: right;
 }
@@ -536,7 +652,7 @@
     gap: 1rem;
     align-items: center;
     background: #030306;
-    border: 1px solid rgba(201, 168, 76, 0.28);
+    border: 1px solid rgba(201, 168, 76, 0.32);
     padding: 0.85rem;
     margin-top: 0.75rem;
 }
@@ -545,7 +661,7 @@
     width: 68px;
     height: 108px;
     object-fit: cover;
-    border: 1px solid rgba(255, 255, 255, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.24);
     flex-shrink: 0;
     background: #000;
 }
@@ -565,7 +681,7 @@
 .insp-tarot-gd {
     font-family: var(--fo-mono);
     font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.52);
+    color: rgba(255, 255, 255, 0.64);
 }
 
 .insp-minor-grid {
@@ -577,11 +693,11 @@
 
 .insp-minor-link {
     background: #030306;
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    padding: 0.5rem 0.65rem;
-    font-family: var(--fo-serif-body);
-    font-size: 0.98rem;
-    color: rgba(255, 255, 255, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 0.55rem 0.7rem;
+    font-family: var(--fo-sans);
+    font-size: 0.86rem;
+    color: rgba(255, 255, 255, 0.92);
     text-decoration: none;
     transition: border-color 0.2s ease, color 0.2s ease;
 }
@@ -598,9 +714,13 @@
     margin-top: 1.25rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     .tree-workspace {
         grid-template-columns: 1fr;
+    }
+
+    #etzChaimSvg {
+        min-height: 580px;
     }
 
     .tree-inspector {

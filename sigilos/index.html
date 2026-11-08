@@ -70,27 +70,50 @@ extra_js:
                 </div>
 
                 <div class="engine-grid" id="engineSelector">
-                    <button type="button" class="engine-btn is-active" data-engine="rosecross">
+                    <button
+                        type="button"
+                        class="engine-btn is-active"
+                        data-engine="rosecross"
+                        data-tooltip="Rosa Hermética (Golden Dawn): converte cada letra destilada em sua letra hebraica e traça um único vetor contínuo entre as 22 pétalas concêntricas (3 Mães, 7 Duplas e 12 Simples), com anel inicial e barra final."
+                    >
                         <span class="engine-glyph">❀</span>
-                        <span class="engine-name">Rosa-Cruz</span>
-                        <span class="engine-sub">22 Pétalas</span>
+                        <span class="engine-name">Rosa-Cruz <span class="sigil-info-dot" aria-hidden="true">?</span></span>
+                        <span class="engine-sub">22 Pétalas Hebraicas</span>
                     </button>
-                    <button type="button" class="engine-btn" data-engine="kamea">
+                    <button
+                        type="button"
+                        class="engine-btn"
+                        data-engine="kamea"
+                        data-tooltip="Quadrados Mágicos Planetários (Agrippa): projeta os valores gemátricos/AiQ Beker da intenção sobre a matriz numérica do planeta escolhido (3×3 Saturno até 9×9 Lua), unindo forças astrais por linhas de força."
+                    >
                         <span class="engine-glyph">⊞</span>
-                        <span class="engine-name">Kamea</span>
+                        <span class="engine-name">Kamea <span class="sigil-info-dot" aria-hidden="true">?</span></span>
                         <span class="engine-sub">Agrippa 3×3–9×9</span>
                     </button>
-                    <button type="button" class="engine-btn" data-engine="monogram">
+                    <button
+                        type="button"
+                        class="engine-btn"
+                        data-engine="monogram"
+                        data-tooltip="Ligadura Monogramática (Austin Osman Spare): funde e sobrepõe a anatomia gráfica real das próprias letras destiladas (hastes, arcos, travessões, laços) em um único glifo orgânico e irreconhecível ao intelecto consciente."
+                    >
                         <span class="engine-glyph">🜍</span>
-                        <span class="engine-name">Monograma</span>
-                        <span class="engine-sub">Zos Kia / Eixo</span>
+                        <span class="engine-name">Zos Kia <span class="sigil-info-dot" aria-hidden="true">?</span></span>
+                        <span class="engine-sub">Fusão Monogramática</span>
                     </button>
-                    <button type="button" class="engine-btn" data-engine="freehand">
+                    <button
+                        type="button"
+                        class="engine-btn"
+                        data-engine="freehand"
+                        data-tooltip="Autografia Intuitiva & Caleidoscópica: desenhe diretamente no altar em gnose motora com espelhamento axial ou radial (1× livre, 2× bilateral, 4× cruz ou 8× estrela do caos) — isolado ou sobreposto a qualquer método."
+                    >
                         <span class="engine-glyph">✒</span>
-                        <span class="engine-name">Mão Livre</span>
+                        <span class="engine-name">Mão Livre <span class="sigil-info-dot" aria-hidden="true">?</span></span>
                         <span class="engine-sub">Caleidoscópio</span>
                     </button>
                 </div>
+
+                <!-- Live Method Description Strip -->
+                <div class="engine-method-note" id="engineMethodNote"></div>
 
                 <!-- Contextual Sub-controls: Planetary Kamea -->
                 <div class="subcontrol-block" id="kameaSubControls" style="display: none;">
@@ -106,12 +129,19 @@ extra_js:
                     </select>
                 </div>
 
-                <!-- Contextual Sub-controls: Monogram Seed -->
+                <!-- Contextual Sub-controls: Zos Kia Ligature Topology -->
                 <div class="subcontrol-block" id="monogramSubControls" style="display: none;">
-                    <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
-                        <span class="sigil-field-label" style="margin:0;">Permutação Estrutural</span>
-                        <button type="button" class="sigil-mini-btn" id="mutateSeedBtn">↻ Mutar Variação Astral</button>
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem; margin-bottom:0.45rem;">
+                        <label class="sigil-field-label" for="monogramTopologySelect" style="margin:0;">Arranjo da Fusão (Zos Kia)</label>
+                        <button type="button" class="sigil-mini-btn" id="mutateSeedBtn">↻ Mutar Variação</button>
                     </div>
+                    <select id="monogramTopologySelect" class="sigil-select">
+                        <option value="nexus" selected>Núcleo Concêntrico (Letras fundidas em centro único)</option>
+                        <option value="orbital">Constelação / Mandala Orbital (Letras entrelaçadas em arco)</option>
+                        <option value="diagonal">Vetor Ascendente / Cruzado (Eixo oblíquo e travessões)</option>
+                        <option value="triad">Altar Triangular (Ápice e dois pólos)</option>
+                        <option value="spine">Eixo Clássico (Haste vertebral e membros laterais)</option>
+                    </select>
                 </div>
 
                 <!-- Contextual Sub-controls: Freehand Overlay (always usable!) -->
@@ -144,13 +174,45 @@ extra_js:
 
                 <div class="sigil-row-2col">
                     <div>
-                        <label class="sigil-field-label" for="frameSelect">Círculo de Contenção</label>
+                        <label class="sigil-field-label" for="frameSelect">
+                            Selo / Círculo de Contenção <span class="sigil-inline-tip" id="frameTooltipBadge" tabindex="0">?</span>
+                        </label>
                         <select id="frameSelect" class="sigil-select">
-                            <option value="double-inscribed" selected>Anel Duplo + Inscrição</option>
-                            <option value="single">Círculo Hermético Simples</option>
-                            <option value="octagram">Octograma (8 Pontas)</option>
-                            <option value="hexagram">Hexagrama Solar</option>
-                            <option value="none">Nu (Sigilo Puro)</option>
+                            <optgroup label="Selos Clássicos">
+                                <option value="double-inscribed" selected>Anel Duplo + Inscrição Orbital</option>
+                                <option value="single">Círculo Hermético Simples</option>
+                                <option value="octagram">Octograma (8 Pontas · Estrela do Caos)</option>
+                                <option value="hexagram">Hexagrama Solar (Equilíbrio Macro/Micro)</option>
+                                <option value="none">Nu (Sigilo Puro sem Moldura)</option>
+                            </optgroup>
+                            <optgroup label="Thelema &amp; Alta Magia">
+                                <option value="aa">A∴A∴ — Selo da Astrum Argentum (Estrela de 7 Pontas)</option>
+                                <option value="babalon">Selo de Babalon (Cálice, Heptagrama e Rosa de 49 Pétalas)</option>
+                                <option value="enochian">Selo Enoquiano — Sigillum Dei Æmeth (7 Ângulos &amp; 72 Nomes)</option>
+                            </optgroup>
+                            <optgroup label="Pantáculos Planetários (Chaves de Salomão)">
+                                <option value="pantacle-sun">☉ Pantáculo do Sol (Grande Hexagrama &amp; Raios Reais)</option>
+                                <option value="pantacle-moon">☽ Pantáculo da Lua (Crescentes, Marés &amp; Porta Astral)</option>
+                                <option value="pantacle-mercury">☿ Pantáculo de Mercúrio (Caduceu, Octógono &amp; Octagrama)</option>
+                                <option value="pantacle-venus">♀ Pantáculo de Vênus (Heptagrama da Harmonia &amp; Rosa)</option>
+                                <option value="pantacle-mars">♂ Pantáculo de Marte (Pentagramas Invocadores &amp; Espada)</option>
+                                <option value="pantacle-jupiter">♃ Pantáculo de Júpiter (Cruz da Soberania &amp; Quadrado 4×4)</option>
+                                <option value="pantacle-saturn">♄ Pantáculo de Saturno (Triângulo de Manifestação &amp; Foice)</option>
+                            </optgroup>
+                            <optgroup label="Goécia &amp; Círculos Salomônicos">
+                                <option value="goetia-circle">Goécia — Grande Círculo de Salomão &amp; Nomes Divinos</option>
+                                <option value="goetia-triangle">Goécia — Triângulo da Arte (Anaphaxeton / Primeumaton)</option>
+                                <option value="goetia-bael">Goécia #01 — Bael (Rei · Sol · Invisibilidade &amp; Astúcia)</option>
+                                <option value="goetia-vassago">Goécia #03 — Vassago (Príncipe · Júpiter · Visão do Oculto)</option>
+                                <option value="goetia-paimon">Goécia #09 — Paimon (Rei · Sol · Artes &amp; Ciências Secretas)</option>
+                                <option value="goetia-buer">Goécia #10 — Buer (Presidente · Mercúrio · Filosofia &amp; Cura)</option>
+                                <option value="goetia-gusion">Goécia #11 — Gusion (Duque · Vênus · Honra &amp; Discernimento)</option>
+                                <option value="goetia-astaroth">Goécia #29 — Astaroth (Duque · Vênus · Segredos &amp; Ciências)</option>
+                                <option value="goetia-asmoday">Goécia #32 — Asmoday (Rei · Sol · Geometria &amp; Domínio)</option>
+                                <option value="goetia-orobas">Goécia #55 — Orobas (Príncipe · Júpiter · Verdade Fiel)</option>
+                                <option value="goetia-belial">Goécia #68 — Belial (Rei · Sol · Soberania &amp; Autonomia)</option>
+                                <option value="goetia-dantalion">Goécia #71 — Dantalion (Duque · Vênus · Mente &amp; Conhecimento)</option>
+                            </optgroup>
                         </select>
                     </div>
                     <div>
@@ -163,6 +225,20 @@ extra_js:
                         </select>
                     </div>
                 </div>
+
+                <!-- Interactive Seal Gallery with Hover Tooltips -->
+                <div class="seal-gallery-wrap">
+                    <div class="seal-cat-tabs" id="sealCatTabs" role="tablist" aria-label="Categorias de Selos">
+                        <button type="button" class="seal-cat-tab is-active" data-cat="thelema">Thelema &amp; Enoquiano</button>
+                        <button type="button" class="seal-cat-tab" data-cat="pantacles">7 Pantáculos</button>
+                        <button type="button" class="seal-cat-tab" data-cat="goetia">Goécia</button>
+                        <button type="button" class="seal-cat-tab" data-cat="classic">Clássicos</button>
+                    </div>
+                    <div class="seal-chips-grid" id="sealChipsGrid"></div>
+                </div>
+
+                <!-- Dynamic tooltip box explaining currently selected seal/ornamentation -->
+                <div class="seal-lore-card" id="sealLoreCard"></div>
 
                 <div class="sigil-row-2col" style="margin-top:0.85rem;">
                     <div>

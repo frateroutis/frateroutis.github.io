@@ -237,16 +237,34 @@
         return el;
     }
 
-    function isLightHex(hex) {
-        if (!hex || !hex.startsWith('#') || hex.length < 7) return false;
-        const r = parseInt(hex.slice(1, 3), 16);
-        const g = parseInt(hex.slice(3, 5), 16);
-        const b = parseInt(hex.slice(5, 7), 16);
-        return (0.299 * r + 0.587 * g + 0.114 * b) > 165;
+    function srgbLum(hex) {
+        const r = parseInt(hex.slice(1, 3), 16) / 255;
+        const g = parseInt(hex.slice(3, 5), 16) / 255;
+        const b = parseInt(hex.slice(5, 7), 16) / 255;
+        const f = c => (c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4));
+        return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+    }
+
+    function bestContrastText(hex) {
+        if (!hex || !hex.startsWith('#') || hex.length < 7) return '#ffffff';
+        const lBg = srgbLum(hex);
+        const lDark = srgbLum('#070709');
+        const lLight = 1.0;
+        const cDark = (Math.max(lBg, lDark) + 0.05) / (Math.min(lBg, lDark) + 0.05);
+        const cLight = (Math.max(lBg, lLight) + 0.05) / (Math.min(lBg, lLight) + 0.05);
+        return cDark > cLight ? '#070709' : '#ffffff';
     }
 
     document.addEventListener('DOMContentLoaded', () => {
         const svg = document.getElementById('etzChaimSvg');
+        const svgWrap = document.getElementById('treeSvgWrap');
+        const loupe = document.getElementById('treeLoupe');
+        const loupeSvg = document.getElementById('treeLoupeSvg');
+        const zoomInBtn = document.getElementById('treeZoomInBtn');
+        const zoomOutBtn = document.getElementById('treeZoomOutBtn');
+        const zoomResetBtn = document.getElementById('treeZoomResetBtn');
+        const zoomReadout = document.getElementById('treeZoomReadout');
+        const loupeToggleBtn = document.getElementById('treeLoupeToggleBtn');
         const inspectorContent = document.getElementById('treeInspectorContent');
         const jumpSelect = document.getElementById('treeJumpSelect');
         const prevBtn = document.getElementById('treePrevBtn');
@@ -255,6 +273,8 @@
         const lockIndicator = document.getElementById('treeLockIndicator');
 
         if (!svg || !inspectorContent) return;
+
+        const BASE_VB = { x: 70, y: 2, w: 680, h: 1054 };
 
         const state = {
             world: localStorage.getItem('fo_tree_world') || 'briah',
@@ -265,7 +285,10 @@
                 sword: false
             },
             selectedKey: 'node:6',
-            locked: false
+            locked: false,
+            zoom: 1,
+            vb: { ...BASE_VB },
+            loupeEnabled: false
         };
 
         function getNavigableItems() {
@@ -296,7 +319,7 @@
 
             const defs = createSvgEl('defs');
             const clipMalkuth = createSvgEl('clipPath', { id: 'malkuthClip' });
-            clipMalkuth.appendChild(createSvgEl('circle', { cx: POS[10].x, cy: POS[10].y, r: 28 }));
+            clipMalkuth.appendChild(createSvgEl('circle', { cx: POS[10].x, cy: POS[10].y, r: 31 }));
             defs.appendChild(clipMalkuth);
             svg.appendChild(defs);
 
@@ -351,9 +374,9 @@
 
                 let bx = mx;
                 let by = my;
-                if (path.num === 13) by = my - 32;
-                if (path.num === 14) by = my - 10;
-                if (path.num === 25) by = my - 16;
+                if (path.num === 13) by = 204; // Cleanly between Kether subtitle (174) and Daleth badge (245)
+                if (path.num === 14) by = my;
+                if (path.num === 25) by = 674; // Cleanly above Peh badge (710)
 
                 const g = createSvgEl('g', {
                     class: 'tree-path-group',
@@ -377,6 +400,7 @@
                     if (!state.locked) selectEntity(key, false);
                 });
                 g.addEventListener('click', (e) => {
+                    if (didPanDrag) return;
                     e.stopPropagation();
                     selectEntity(key, true);
                 });
@@ -395,7 +419,7 @@
             const nodesToDraw = SEPHIROTH.filter(n => state.layers.daath || n.id !== 'd');
             nodesToDraw.forEach(node => {
                 const pos = POS[node.id];
-                const r = node.id === 'd' ? 21 : 28;
+                const r = node.id === 'd' ? 23 : 31;
                 const key = `node:${node.id}`;
                 const g = createSvgEl('g', {
                     class: `tree-node-group ${node.id === 'd' ? 'tree-node-daath' : ''}`,
@@ -403,17 +427,18 @@
                     'data-node-id': node.id
                 });
 
-                g.appendChild(createSvgEl('circle', { cx: pos.x, cy: pos.y, r: r + 5, class: 'tree-node-halo' }));
+                g.appendChild(createSvgEl('circle', { cx: pos.x, cy: pos.y, r: r + 5.5, class: 'tree-node-halo' }));
 
                 const fillVal = resolveColor(node.scales);
                 if (fillVal === 'quartered' && node.id === 10) {
                     const qGroup = createSvgEl('g', { 'clip-path': 'url(#malkuthClip)' });
-                    const cx = pos.x, cy = pos.y, s = 42;
+                    const cx = pos.x, cy = pos.y, s = 44;
                     qGroup.appendChild(createSvgEl('polygon', { points: `${cx},${cy} ${cx - s},${cy - s} ${cx + s},${cy - s}`, fill: '#d4b830' }));
                     qGroup.appendChild(createSvgEl('polygon', { points: `${cx},${cy} ${cx - s},${cy - s} ${cx - s},${cy + s}`, fill: '#556b2f' }));
                     qGroup.appendChild(createSvgEl('polygon', { points: `${cx},${cy} ${cx + s},${cy - s} ${cx + s},${cy + s}`, fill: '#7f3b21' }));
                     qGroup.appendChild(createSvgEl('polygon', { points: `${cx},${cy} ${cx - s},${cy + s} ${cx + s},${cy + s}`, fill: '#0b0b0e' }));
                     g.appendChild(qGroup);
+                    g.appendChild(createSvgEl('circle', { cx: pos.x, cy: pos.y, r: 15.5, fill: 'rgba(5, 5, 9, 0.82)', stroke: 'rgba(255, 255, 255, 0.35)', 'stroke-width': '0.9' }));
                     g.appendChild(createSvgEl('circle', { cx: pos.x, cy: pos.y, r, fill: 'none', class: 'tree-node-sphere' }));
                 } else {
                     const actualFill = state.world === 'noir'
@@ -422,18 +447,28 @@
                     g.appendChild(createSvgEl('circle', { cx: pos.x, cy: pos.y, r, fill: actualFill, class: 'tree-node-sphere' }));
                 }
 
-                const textDark = fillVal !== 'quartered' && state.world !== 'noir' && isLightHex(fillVal);
-                const textFill = (state.world === 'noir' && node.id === 1) || textDark ? '#09090b' : '#ffffff';
+                const textFill = state.world === 'noir'
+                    ? (node.id === 1 ? '#070709' : '#ffffff')
+                    : (fillVal === 'quartered' ? '#ffffff' : bestContrastText(fillVal));
+                const textHalo = textFill === '#ffffff' ? 'rgba(3, 3, 6, 0.52)' : 'rgba(255, 255, 255, 0.35)';
 
-                const hebEl = createSvgEl('text', { x: pos.x, y: pos.y + 1, class: 'tree-node-heb', fill: textFill });
+                const hebEl = createSvgEl('text', {
+                    x: pos.x,
+                    y: pos.y + 1,
+                    class: 'tree-node-heb',
+                    fill: textFill,
+                    stroke: textHalo,
+                    'stroke-width': '2',
+                    'paint-order': 'stroke'
+                });
                 hebEl.textContent = node.heb;
                 g.appendChild(hebEl);
 
-                const titleEl = createSvgEl('text', { x: pos.x, y: pos.y - r - 11, class: 'tree-node-title' });
+                const titleEl = createSvgEl('text', { x: pos.x, y: pos.y - r - 12, class: 'tree-node-title' });
                 titleEl.textContent = node.num === '—' ? 'Daath' : `${node.num}. ${node.name}`;
                 g.appendChild(titleEl);
 
-                const subEl = createSvgEl('text', { x: pos.x, y: pos.y + r + 17, class: 'tree-node-sub' });
+                const subEl = createSvgEl('text', { x: pos.x, y: pos.y + r + 18, class: 'tree-node-sub' });
                 subEl.textContent = node.meaning.split('/')[0].trim();
                 g.appendChild(subEl);
 
@@ -441,6 +476,7 @@
                     if (!state.locked) selectEntity(key, false);
                 });
                 g.addEventListener('click', (e) => {
+                    if (didPanDrag) return;
                     e.stopPropagation();
                     selectEntity(key, true);
                 });
@@ -449,9 +485,16 @@
             });
 
             applySelectionHighlights();
+            syncLoupeMarkup();
         }
 
-        svg.addEventListener('click', () => {
+        let didPanDrag = false;
+
+        svg.addEventListener('click', (e) => {
+            if (didPanDrag) {
+                e.stopPropagation();
+                return;
+            }
             if (state.locked) {
                 state.locked = false;
                 updateLockLabel();
@@ -471,6 +514,7 @@
             updateLockLabel();
             if (jumpSelect) jumpSelect.value = key;
             applySelectionHighlights();
+            if (state.loupeEnabled) syncLoupeMarkup();
             renderInspector(key);
         }
 
@@ -730,9 +774,176 @@
             }
         }
 
-        populateJumpSelect();
+            populateJumpSelect();
         updateLockLabel();
+        applyViewBox();
         drawTree();
         renderInspector(state.selectedKey);
+
+        // ==================================================================
+        // Interactive Zoom, Pan & Optional Cursor Loupe (Exact CTM Mapping)
+        // ==================================================================
+        function screenToSvg(clientX, clientY) {
+            const ctm = svg.getScreenCTM();
+            if (ctm) {
+                const pt = svg.createSVGPoint();
+                pt.x = clientX;
+                pt.y = clientY;
+                const loc = pt.matrixTransform(ctm.inverse());
+                return { x: loc.x, y: loc.y };
+            }
+            const rect = svg.getBoundingClientRect();
+            return {
+                x: state.vb.x + ((clientX - rect.left) / (rect.width || 1)) * state.vb.w,
+                y: state.vb.y + ((clientY - rect.top) / (rect.height || 1)) * state.vb.h
+            };
+        }
+
+        function clampViewBox(vb) {
+            vb.x = Math.max(-120, Math.min(820 - vb.w + 120, vb.x));
+            vb.y = Math.max(-80, Math.min(1080 - vb.h + 80, vb.y));
+            return vb;
+        }
+
+        function applyViewBox() {
+            clampViewBox(state.vb);
+            svg.setAttribute('viewBox', `${state.vb.x.toFixed(2)} ${state.vb.y.toFixed(2)} ${state.vb.w.toFixed(2)} ${state.vb.h.toFixed(2)}`);
+            state.zoom = BASE_VB.w / state.vb.w;
+            if (zoomReadout) zoomReadout.textContent = `${Math.round(state.zoom * 100)}%`;
+            svgWrap?.classList.toggle('is-zoomed', state.zoom > 1.04);
+        }
+
+        function setZoomAtPoint(targetZoom, clientX, clientY) {
+            const clamped = Math.max(1, Math.min(4.2, targetZoom));
+            const focus = screenToSvg(clientX, clientY);
+            const fx = (focus.x - state.vb.x) / state.vb.w;
+            const fy = (focus.y - state.vb.y) / state.vb.h;
+
+            state.vb.w = BASE_VB.w / clamped;
+            state.vb.h = BASE_VB.h / clamped;
+            state.vb.x = focus.x - fx * state.vb.w;
+            state.vb.y = focus.y - fy * state.vb.h;
+            if (clamped === 1) {
+                state.vb = { ...BASE_VB };
+            }
+            applyViewBox();
+        }
+
+        function syncLoupeMarkup() {
+            if (!loupeSvg) return;
+            loupeSvg.innerHTML = svg.innerHTML;
+            // Avoid duplicate clipPath id clash between main SVG and loupe
+            const loupeClip = loupeSvg.querySelector('#malkuthClip');
+            if (loupeClip) loupeClip.id = 'malkuthClipLoupe';
+            const qGroup = loupeSvg.querySelector('[clip-path="url(#malkuthClip)"]');
+            if (qGroup) qGroup.setAttribute('clip-path', 'url(#malkuthClipLoupe)');
+        }
+
+        zoomInBtn?.addEventListener('click', () => {
+            const rect = svg.getBoundingClientRect();
+            setZoomAtPoint(state.zoom * 1.32, rect.left + rect.width / 2, rect.top + rect.height / 2);
+        });
+
+        zoomOutBtn?.addEventListener('click', () => {
+            const rect = svg.getBoundingClientRect();
+            setZoomAtPoint(state.zoom / 1.32, rect.left + rect.width / 2, rect.top + rect.height / 2);
+        });
+
+        zoomResetBtn?.addEventListener('click', () => {
+            state.vb = { ...BASE_VB };
+            applyViewBox();
+        });
+
+        loupeToggleBtn?.addEventListener('click', () => {
+            state.loupeEnabled = !state.loupeEnabled;
+            loupeToggleBtn.classList.toggle('is-active', state.loupeEnabled);
+            svgWrap?.classList.toggle('has-loupe', state.loupeEnabled);
+            if (state.loupeEnabled) syncLoupeMarkup();
+            else loupe?.classList.remove('is-visible');
+        });
+
+        // Mouse wheel / trackpad pinch zoom centered on cursor
+        svgWrap?.addEventListener('wheel', (e) => {
+            if (e.ctrlKey || e.metaKey || state.zoom > 1.01) {
+                e.preventDefault();
+                const factor = e.deltaY < 0 ? 1.18 : 1 / 1.18;
+                setZoomAtPoint(state.zoom * factor, e.clientX, e.clientY);
+            }
+        }, { passive: false });
+
+        // Double-click quick zoom toggle
+        svg.addEventListener('dblclick', (e) => {
+            if (state.zoom < 1.3) setZoomAtPoint(2.2, e.clientX, e.clientY);
+            else {
+                state.vb = { ...BASE_VB };
+                applyViewBox();
+            }
+        });
+
+        // Drag to pan when zoomed + live cursor Loupe tracking
+        let panStart = null;
+        svgWrap?.addEventListener('pointerdown', (e) => {
+            didPanDrag = false;
+            if (state.zoom <= 1.02 || e.button !== 0) return;
+            const ctm = svg.getScreenCTM();
+            panStart = {
+                x: e.clientX,
+                y: e.clientY,
+                vbx: state.vb.x,
+                vby: state.vb.y,
+                scaleX: ctm ? ctm.a : (svg.getBoundingClientRect().width / state.vb.w),
+                scaleY: ctm ? ctm.d : (svg.getBoundingClientRect().height / state.vb.h)
+            };
+            svgWrap.classList.add('is-panning');
+        });
+
+        svgWrap?.addEventListener('pointermove', (e) => {
+            if (panStart) {
+                const moveDist = Math.hypot(e.clientX - panStart.x, e.clientY - panStart.y);
+                if (moveDist > 4) didPanDrag = true;
+                const dx = (e.clientX - panStart.x) / (panStart.scaleX || 1);
+                const dy = (e.clientY - panStart.y) / (panStart.scaleY || 1);
+                state.vb.x = panStart.vbx - dx;
+                state.vb.y = panStart.vby - dy;
+                applyViewBox();
+            }
+
+            if (state.loupeEnabled && loupe && loupeSvg) {
+                const wrapRect = svgWrap.getBoundingClientRect();
+                const lx = e.clientX - wrapRect.left;
+                const ly = e.clientY - wrapRect.top;
+                loupe.style.left = `${lx}px`;
+                loupe.style.top = `${ly}px`;
+                loupe.classList.add('is-visible');
+
+                const { x: svgX, y: svgY } = screenToSvg(e.clientX, e.clientY);
+                const ctm = svg.getScreenCTM();
+                const pxPerVb = ctm ? Math.abs(ctm.a) : (svg.getBoundingClientRect().width / state.vb.w);
+                const loupeMag = 2.6;
+                const loupeSpan = 196 / Math.max(0.25, pxPerVb * loupeMag);
+                loupeSvg.setAttribute(
+                    'viewBox',
+                    `${(svgX - loupeSpan / 2).toFixed(1)} ${(svgY - loupeSpan / 2).toFixed(1)} ${loupeSpan.toFixed(1)} ${loupeSpan.toFixed(1)}`
+                );
+            }
+        });
+
+        const endPan = () => {
+            panStart = null;
+            svgWrap?.classList.remove('is-panning');
+            setTimeout(() => { didPanDrag = false; }, 30);
+        };
+        window.addEventListener('pointerup', endPan);
+        svgWrap?.addEventListener('pointerleave', () => {
+            loupe?.classList.remove('is-visible');
+            endPan();
+        });
+
+        window.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+            if (e.key.toLowerCase() === 'l' && loupeToggleBtn) {
+                loupeToggleBtn.click();
+            }
+        });
     });
 })();

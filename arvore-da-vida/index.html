@@ -40,14 +40,25 @@ extra_js:
     </header>
 
     <div class="tree-workspace">
-        <!-- Left: Sacred SVG Canvas -->
-        <div class="tree-canvas-card">
+        <!-- Left: Sacred SVG Canvas + Interactive Zoom / Cursor Loupe -->
+        <div class="tree-canvas-card" id="treeCanvasCard">
             <div class="tree-canvas-statusbar">
                 <span id="treeWorldIndicator">Mundo de Briah · Escala da Rainha</span>
+                <div class="tree-zoom-controls" role="group" aria-label="Ferramentas de zoom">
+                    <button type="button" class="tree-zoom-btn" id="treeZoomOutBtn" title="Reduzir zoom (−)">−</button>
+                    <span class="tree-zoom-readout" id="treeZoomReadout">100%</span>
+                    <button type="button" class="tree-zoom-btn" id="treeZoomInBtn" title="Ampliar zoom (+)">+</button>
+                    <button type="button" class="tree-zoom-btn" id="treeZoomResetBtn" title="Resetar enquadramento (1:1)">↺</button>
+                    <button type="button" class="tree-zoom-btn tree-loupe-btn" id="treeLoupeToggleBtn" title="Ativar/desativar lupa de zoom acompanhando o cursor (atalho: L)">⌖ Zoom no Cursor</button>
+                </div>
                 <span id="treeLockIndicator" class="tree-lock-badge">Passe o cursor ou clique para fixar</span>
             </div>
-            <div class="tree-svg-wrap">
-                <svg id="etzChaimSvg" viewBox="0 0 820 1060" role="img" aria-label="Diagrama interativo da Árvore da Vida"></svg>
+            <div class="tree-svg-wrap" id="treeSvgWrap">
+                <svg id="etzChaimSvg" viewBox="0 0 820 1080" role="img" aria-label="Diagrama interativo da Árvore da Vida"></svg>
+                <div class="tree-loupe" id="treeLoupe" aria-hidden="true">
+                    <svg id="treeLoupeSvg" viewBox="0 0 180 180"></svg>
+                    <div class="tree-loupe-crosshair"></div>
+                </div>
             </div>
         </div>
 
