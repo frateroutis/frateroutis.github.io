@@ -86,6 +86,13 @@
       "icon": "🥁",
       "type": "instrument",
       "description": "Channel rack step sequencer de bateria"
+    },
+    {
+      "id": "promo",
+      "name": "OFERTA!!",
+      "icon": "🎁",
+      "type": "promo",
+      "description": "Promoção imperdível + poema Superficial"
     }
   ]
 }

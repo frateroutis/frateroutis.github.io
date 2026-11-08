@@ -3,27 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Música - Frater Outis</title>
-    <link rel="stylesheet" href="/css/windows95.css">
+    <title>Música - Froutis 95 | Frater Outis</title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/windows95.css?v=20261108">
     <style>
         body {
             margin: 0;
             padding: 0;
             overflow: hidden;
+            background: #000;
         }
     </style>
 </head>
 <body>
-    <!-- Animation Overlay -->
-    <div id="transitionOverlay" class="transition-overlay active">
-        <div class="transition-content">
-            <div class="boot-title">FROUTIS 93</div>
-            <div class="boot-icon">🎛️</div>
-            <div class="boot-text">Initializing Audio Engine...</div>
-            <div class="boot-progress">
-                <div class="boot-progress-fill"></div>
+    <!-- OS Boot Sequence Overlay (POST BIOS -> Win95 Splash) -->
+    <div id="transitionOverlay" class="transition-overlay active" role="dialog" aria-label="Inicialização do sistema Froutis 95">
+        <div class="crt-scanlines" aria-hidden="true"></div>
+        <div class="crt-vignette" aria-hidden="true"></div>
+
+        <!-- Stage 1: BIOS POST -->
+        <div id="bootStagePost" class="boot-stage boot-stage-post">
+            <div class="post-top-row">
+                <div class="post-header-text">
+                    <div class="post-bios-title">FROUTIS-AUDIO Modular BIOS v4.51PG, An Energy Star Ally</div>
+                    <div>Copyright (C) 1993-1995, Frater Outis MicroSystems Inc.</div>
+                    <div class="post-submodel">OUTIS-95DX4-S Audio Workstation Revision 1.93BR</div>
+                </div>
+                <div class="post-epa-badge" aria-hidden="true">
+                    <div class="epa-top">★ ENERGY ★</div>
+                    <div class="epa-mid">EPA POLLUTION PREVENTER</div>
+                    <div class="epa-bot">FRATER OUTIS 93</div>
+                </div>
+            </div>
+
+            <div class="post-lines" id="bootPostLines">
+                <div class="post-line visible">Main Processor : Froutis 80486DX4-100MHz &nbsp;|&nbsp; Math Co-Processor : Installed</div>
+                <div class="post-line visible">Memory Test &nbsp;&nbsp;&nbsp;: <span id="bootMemCounter">00640K</span> OK</div>
+                <div class="post-line post-delayed" data-delay="180">Detecting Primary Master &nbsp;&nbsp;... FRATER-DISK 2.1GB (C:\MUSIC\SETS)</div>
+                <div class="post-line post-delayed" data-delay="330">Detecting Audio Controller ... WebAudio SB16 IRQ 05 / DMA 01 / 44.1kHz [OK]</div>
+                <div class="post-line post-delayed" data-delay="480">Loading Drivers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... HIMEM.SYS, DRUMTOY.DRV, BPMTAP.VXD [OK]</div>
+                <div class="post-line post-delayed" data-delay="640">Mounting Desktop Shell &nbsp;&nbsp;&nbsp;... SUPERFICIAL.EXE &amp; FROUTIS95.SYS<span class="dos-cursor">_</span></div>
+            </div>
+
+            <div class="post-footer-hint">
+                Press <strong>ESC</strong> to skip POST &nbsp;|&nbsp; FROUTIS (C)1995 C:\MUSIC&gt;BOOT.EXE
             </div>
         </div>
+
+        <!-- Stage 2: Classic Windows 95 Splash -->
+        <div id="bootStageWin95" class="boot-stage boot-stage-win95 hidden">
+            <div class="win95-splash-sky">
+                <div class="win95-splash-clouds" aria-hidden="true"></div>
+                <div class="win95-splash-center">
+                    <div class="win95-flag-lockup" aria-hidden="true">
+                        <svg class="win95-flag-svg" viewBox="0 0 132 96" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Trailing pixels -->
+                            <rect x="4" y="20" width="7" height="7" fill="#e53935"/>
+                            <rect x="13" y="28" width="8" height="8" fill="#111"/>
+                            <rect x="6" y="44" width="6" height="6" fill="#1e88e5"/>
+                            <rect x="15" y="54" width="8" height="8" fill="#fdd835"/>
+                            <rect x="5" y="68" width="7" height="7" fill="#43a047"/>
+                            <rect x="16" y="76" width="6" height="6" fill="#111"/>
+                            <!-- Waving 4-pane logo -->
+                            <path d="M29 18 Q50 8 70 18 L66 46 Q46 36 25 46 Z" fill="#e53935" stroke="#000" stroke-width="2.5"/>
+                            <path d="M74 19 Q94 29 114 19 L110 47 Q90 57 70 47 Z" fill="#43a047" stroke="#000" stroke-width="2.5"/>
+                            <path d="M24 50 Q45 40 65 50 L61 78 Q41 68 20 78 Z" fill="#1e88e5" stroke="#000" stroke-width="2.5"/>
+                            <path d="M69 51 Q89 61 109 51 L105 79 Q85 89 65 79 Z" fill="#fdd835" stroke="#000" stroke-width="2.5"/>
+                        </svg>
+                    </div>
+                    <div class="win95-splash-wordmark">
+                        <div class="win95-publisher">Frater Outis<sup>®</sup></div>
+                        <div class="win95-os-name">
+                            <span class="win95-os-main">Froutis</span><span class="win95-os-num">95</span>
+                        </div>
+                        <div class="win95-edition-tag">Estação de Áudio, Sets &amp; Bateria 808 • Edição Brasileira</div>
+                    </div>
+                </div>
+                <div class="win95-splash-status" id="bootDriverStatus">Carregando interface gráfica...</div>
+            </div>
+            <div class="win95-boot-bar" aria-hidden="true">
+                <div class="win95-boot-bar-sweep"></div>
+            </div>
+        </div>
+
+        <button id="skipBootBtn" type="button" class="boot-skip-btn" title="Pular inicialização (ESC)">Pular Boot [ESC]</button>
     </div>
 
     <!-- Main Container -->
@@ -31,45 +94,77 @@
         <div class="desktop">
             <!-- Taskbar -->
             <div class="taskbar">
-                <div class="start-button">Start</div>
-                <div class="taskbar-buttons"></div>
-                <div class="clock">
-                    <span id="currentTime">00:00</span>
+                <button type="button" class="start-button">
+                    <span class="start-logo" aria-hidden="true">
+                        <svg viewBox="0 0 16 16" width="14" height="14">
+                            <rect x="1" y="2" width="6" height="5" fill="#e53935"/>
+                            <rect x="9" y="2" width="6" height="5" fill="#43a047"/>
+                            <rect x="1" y="9" width="6" height="5" fill="#1e88e5"/>
+                            <rect x="9" y="9" width="6" height="5" fill="#fdd835"/>
+                        </svg>
+                    </span>
+                    <span>Iniciar</span>
+                </button>
+                <div class="taskbar-divider" aria-hidden="true"></div>
+                <div class="taskbar-buttons" id="taskbarButtons"></div>
+                <div class="tray-box">
+                    <span class="tray-indicator" title="WebAudio Engine">🔊</span>
+                    <div class="clock">
+                        <span id="currentTime">00:00</span>
+                    </div>
                 </div>
             </div>
 
             <!-- Start Menu -->
             <div id="startMenu" class="start-menu hidden">
-                <div class="start-menu-header">Frater Outis</div>
-                <div class="start-menu-divider"></div>
-                
-                <!-- Favorites Section -->
-                <div class="start-menu-favorites">
-                    <div class="start-menu-favorite" data-app="minesweeper">
-                        💣 Campo Minado
+                <div class="start-menu-sidebar" aria-hidden="true">
+                    <span>FROUTIS <strong>95</strong></span>
+                </div>
+                <div class="start-menu-body">
+                    <div class="start-menu-header">Frater Outis</div>
+                    <div class="start-menu-divider"></div>
+
+                    <!-- Favorites Section -->
+                    <div class="start-menu-favorites">
+                        <div class="start-menu-favorite" data-app="drumtoy">
+                            🥁 DRUM TOy
+                        </div>
+                        <div class="start-menu-favorite" data-app="bpm">
+                            🎵 BPM Tapper
+                        </div>
+                        <div class="start-menu-favorite" data-app="minesweeper">
+                            💣 Campo Minado
+                        </div>
+                        <div class="start-menu-favorite start-menu-promo-item" data-app="promo">
+                            🎁 OFERTA!! Superficial
+                        </div>
                     </div>
-                    <div class="start-menu-favorite" data-app="bpm">
-                        🎵 BPM Tapper
+                    <div class="start-menu-divider"></div>
+
+                    <div class="start-menu-items">
+                        <div class="start-menu-item" data-folder="sets">
+                            📁 SETS
+                        </div>
+                        <div class="start-menu-item" data-folder="lives">
+                            📁 LIVES
+                        </div>
+                        <div class="start-menu-item" data-folder="mtg">
+                            📁 MTG
+                        </div>
+                        <div class="start-menu-item" data-folder="mashups">
+                            📁 MASHUPS
+                        </div>
                     </div>
-                    <div class="start-menu-favorite" data-app="drumtoy">
-                        🥁 DRUM TOy
+                    <div class="start-menu-divider"></div>
+
+                    <div class="start-menu-actions">
+                        <div class="start-menu-action" id="startMenuRebootBtn">
+                            ↺ Reiniciar Boot
+                        </div>
+                        <div class="start-menu-action" id="startMenuHomeBtn">
+                            🚪 Voltar para Home...
+                        </div>
                     </div>
-                </div>
-                <div class="start-menu-divider"></div>
-                
-                <div class="start-menu-items">
-                <div class="start-menu-item" data-folder="sets">
-                    📁 SETS
-                </div>
-                <div class="start-menu-item" data-folder="lives">
-                    📁 LIVES
-                </div>
-                <div class="start-menu-item" data-folder="mtg">
-                    📁 MTG
-                </div>
-                <div class="start-menu-item" data-folder="mashups">
-                    📁 MASHUPS
-                </div>
                 </div>
             </div>
 
@@ -95,11 +190,6 @@
                     <div class="folder-label">MASHUPS</div>
                 </div>
 
-                <div id="homeIcon" class="home-icon">
-                    <img src="/assets/My Computer.ico" alt="Home" class="home-image">
-                    <div class="app-label">Home</div>
-                </div>
-
                 <div id="minesweeperIcon" class="app-icon" data-app="minesweeper">
                     <div class="app-image">💣</div>
                     <div class="app-label">Campo Minado</div>
@@ -114,51 +204,61 @@
                     <div class="app-image">🥁</div>
                     <div class="app-label">DRUM TOy</div>
                 </div>
+
+                <div id="promoIcon" class="app-icon promo-desktop-icon" data-app="promo" title="CLIQUE PARA VER A PROMOÇÃO DO POEMA SUPERFICIAL!!">
+                    <div class="app-image promo-icon-badge">🎁<span class="promo-mini-tag">GRÁTIS</span></div>
+                    <div class="app-label">OFERTA_99.exe</div>
+                </div>
+
+                <div id="homeIcon" class="home-icon" title="Voltar para a página inicial">
+                    <img src="/assets/My Computer.ico" alt="Home" class="home-image">
+                    <div class="app-label">Voltar p/ Home</div>
+                </div>
             </div>
         </div>
 
         <!-- Folder Window -->
-        <div id="folderWindow" class="folder-window hidden">
+        <div id="folderWindow" class="folder-window hidden" data-win-title="Pastas" data-win-icon="📁">
             <div class="window-titlebar">
                 <span id="windowTitle">Folder</span>
                 <div class="window-controls">
-                    <button class="minimize-btn">_</button>
-                    <button class="maximize-btn">□</button>
-                    <button class="close-btn">✕</button>
+                    <button type="button" class="minimize-btn" title="Minimizar">_</button>
+                    <button type="button" class="maximize-btn" title="Maximizar">□</button>
+                    <button type="button" class="close-btn" title="Fechar">✕</button>
                 </div>
             </div>
             <div class="window-toolbar">
-                <button class="back-btn">← Back</button>
+                <button type="button" class="back-btn">← Voltar</button>
                 <input type="text" class="address-bar" readonly>
             </div>
             <div class="window-content">
                 <div id="folderContents" class="folder-contents"></div>
             </div>
             <div class="window-statusbar">
-                <span id="statusText">Ready</span>
+                <span id="statusText">Pronto</span>
             </div>
         </div>
 
         <!-- Minesweeper Window -->
-        <div id="minesweeperWindow" class="folder-window hidden minesweeper-window">
+        <div id="minesweeperWindow" class="folder-window hidden minesweeper-window" data-win-title="Campo Minado" data-win-icon="💣">
             <div class="window-titlebar">
-                <span>Campo Minado</span>
+                <span>💣 Campo Minado</span>
                 <div class="window-controls">
-                    <button class="minimize-btn">_</button>
-                    <button class="maximize-btn">□</button>
-                    <button class="close-btn-minesweeper">✕</button>
+                    <button type="button" class="minimize-btn" title="Minimizar">_</button>
+                    <button type="button" class="maximize-btn" title="Maximizar">□</button>
+                    <button type="button" class="close-btn-minesweeper" title="Fechar">✕</button>
                 </div>
             </div>
             <div class="window-content minesweeper-content">
                 <div class="minesweeper-header">
                     <div class="minesweeper-info">
                         <div class="info-box">
-                            <label>Minas:</label>
+                            <label>Minas</label>
                             <span id="mineCount">10</span>
                         </div>
-                        <button id="newGameBtn" class="new-game-btn">Novo Jogo</button>
+                        <button type="button" id="newGameBtn" class="new-game-btn">🙂 Novo Jogo</button>
                         <div class="info-box">
-                            <label>Tempo:</label>
+                            <label>Tempo</label>
                             <span id="timer">0</span>
                         </div>
                     </div>
@@ -171,302 +271,676 @@
         </div>
 
         <!-- BPM Tapper Window -->
-        <div id="bpmWindow" class="folder-window hidden bpm-window">
+        <div id="bpmWindow" class="folder-window hidden bpm-window" data-win-title="BPM Tapper" data-win-icon="🎵">
             <div class="window-titlebar">
-                <span>BPM Tapper</span>
+                <span>🎵 BPM Tapper Pro 95</span>
                 <div class="window-controls">
-                    <button class="minimize-btn">_</button>
-                    <button class="maximize-btn">□</button>
-                    <button class="close-btn-bpm">✕</button>
+                    <button type="button" class="minimize-btn" title="Minimizar">_</button>
+                    <button type="button" class="maximize-btn" title="Maximizar">□</button>
+                    <button type="button" class="close-btn-bpm" title="Fechar">✕</button>
                 </div>
             </div>
             <div class="window-content bpm-content">
-                <div class="bpm-display">
-                    <div class="bpm-label">BPM</div>
-                    <div class="bpm-value" id="bpmValue">--</div>
+                <div class="bpm-lcd-bezel">
+                    <div class="bpm-lcd-top">
+                        <span class="bpm-lcd-tag">AUDIO CLOCK PRECISION</span>
+                        <span class="bpm-led-wrap">
+                            <span id="bpmBeatLed" class="bpm-beat-led" aria-hidden="true"></span>
+                            <span class="bpm-kbd-hint">[ESPAÇO]</span>
+                        </span>
+                    </div>
+                    <div class="bpm-lcd-main">
+                        <div class="bpm-digits-row">
+                            <span class="bpm-value" id="bpmValue">--</span>
+                            <span class="bpm-decimal" id="bpmDecimal"></span>
+                            <span class="bpm-unit">BPM</span>
+                        </div>
+                        <div class="bpm-pulse-track" aria-hidden="true">
+                            <div id="bpmPulseBar" class="bpm-pulse-fill"></div>
+                        </div>
+                    </div>
+                    <div class="bpm-telemetry">
+                        <span id="bpmInterval">Intervalo: -- ms</span>
+                        <span id="bpmCount">Cliques: 0</span>
+                        <span id="bpmConfidence">Estab.: --%</span>
+                    </div>
                 </div>
-                <button id="bpmButton" class="bpm-tap-button">CLIQUE AQUI</button>
-                <button id="resetBpmBtn" class="reset-bpm-btn">Limpar</button>
-                <div class="bpm-info" id="bpmInfo">Clique para começar...</div>
+
+                <button type="button" id="bpmButton" class="bpm-tap-button">
+                    <span class="bpm-tap-main">TAP / BATIDA</span>
+                    <span class="bpm-tap-sub">Clique rápido ou pressione Barra de Espaço</span>
+                </button>
+
+                <div class="bpm-tools-row">
+                    <button type="button" id="bpmHalfBtn" class="bpm-tool-btn" title="Metade do BPM (÷2)">÷2</button>
+                    <button type="button" id="bpmDoubleBtn" class="bpm-tool-btn" title="Dobro do BPM (×2)">×2</button>
+                    <button type="button" id="bpmNudgeDown" class="bpm-tool-btn" title="Diminuir 1 BPM">-1</button>
+                    <button type="button" id="bpmNudgeUp" class="bpm-tool-btn" title="Aumentar 1 BPM">+1</button>
+                    <button type="button" id="bpmClickToggle" class="bpm-tool-btn" title="Ligar/desligar metrônomo no BPM medido">🔔 Clique</button>
+                    <button type="button" id="resetBpmBtn" class="reset-bpm-btn" title="Zerar medição">Limpar</button>
+                </div>
+
+                <button type="button" id="sendBpmToDrumToyBtn" class="bpm-sync-btn" disabled>
+                    🥁 Aplicar BPM no DRUM TOy
+                </button>
+
+                <div class="bpm-info" id="bpmInfo">Toque no pad ou use a Barra de Espaço no ritmo da música.</div>
             </div>
             <div class="window-statusbar">
-                <span id="bpmStatus">Pronto</span>
+                <span id="bpmStatus">Pronto • Aguardando primeira batida</span>
             </div>
         </div>
 
         <!-- DRUM TOy Window -->
-        <div id="drumToyWindow" class="folder-window hidden drumtoy-window">
+        <div id="drumToyWindow" class="folder-window hidden drumtoy-window" data-win-title="DRUM TOy" data-win-icon="🥁">
             <div class="window-titlebar">
-                <span>DRUM TOy - Sequenciador de Bateria</span>
+                <span>🥁 DRUM TOy - Channel Rack &amp; Step Sequencer 95</span>
                 <div class="window-controls">
-                    <button class="minimize-btn">_</button>
-                    <button class="maximize-btn">□</button>
-                    <button class="close-btn-drumtoy">✕</button>
+                    <button type="button" class="minimize-btn" title="Minimizar">_</button>
+                    <button type="button" class="maximize-btn" title="Maximizar">□</button>
+                    <button type="button" class="close-btn-drumtoy" title="Fechar">✕</button>
                 </div>
             </div>
-            
+
             <!-- Window Toolbar (Transport Bar) -->
             <div class="window-toolbar drumtoy-toolbar">
-                <button id="drumToyPlayBtn" class="drumtoy-btn">▶ Play</button>
-                <button id="drumToyStopBtn" class="drumtoy-btn">■ Stop</button>
+                <button type="button" id="drumToyPlayBtn" class="drumtoy-btn drumtoy-play-btn">▶ Play</button>
+                <button type="button" id="drumToyStopBtn" class="drumtoy-btn">■ Stop</button>
                 <span class="toolbar-divider"></span>
-                
+
                 <div class="bpm-control-container">
                     <label for="drumToyBpm">BPM:</label>
-                    <input type="number" id="drumToyBpm" class="drumtoy-input-bpm" value="120" min="60" max="240">
-                    <button id="drumToyBpmMinus" class="bpm-adjust-btn">-</button>
-                    <button id="drumToyBpmPlus" class="bpm-adjust-btn">+</button>
+                    <button type="button" id="drumToyBpmMinus" class="bpm-adjust-btn" title="Shift + clique = -5">-</button>
+                    <input type="number" id="drumToyBpm" class="drumtoy-input-bpm" value="120" min="40" max="240">
+                    <button type="button" id="drumToyBpmPlus" class="bpm-adjust-btn" title="Shift + clique = +5">+</button>
+                    <button type="button" id="drumToyOpenTapperBtn" class="drumtoy-btn" title="Abrir BPM Tapper">🎵 Tap</button>
                 </div>
-                
+
                 <span class="toolbar-divider"></span>
-                <button id="drumToyDemoBtn" class="drumtoy-btn">Carregar Demo</button>
-                <button id="drumToyResetBtn" class="drumtoy-btn">Limpar</button>
-                <button id="drumToyExportBtn" class="drumtoy-btn">Salvar WAV</button>
+
+                <div class="swing-control-container" title="Swing (atraso rítmico nas semicolcheias pares)">
+                    <label for="drumToySwing">Swing:</label>
+                    <input type="range" id="drumToySwing" class="drumtoy-swing-slider" min="0" max="55" step="5" value="0">
+                    <span id="drumToySwingVal" class="swing-val">0%</span>
+                </div>
+
+                <span class="toolbar-divider"></span>
+
+                <div class="preset-control-container">
+                    <select id="drumToyPresetSelect" class="drumtoy-select" aria-label="Preset de bateria">
+                        <option value="demo">Preset: Trap 808</option>
+                        <option value="mtg">Preset: MTG Funk 130</option>
+                        <option value="house">Preset: House 95</option>
+                        <option value="electro">Preset: Miami Electro</option>
+                        <option value="boombap">Preset: Boom Bap 90</option>
+                    </select>
+                    <button type="button" id="drumToyDemoBtn" class="drumtoy-btn" title="Carregar preset selecionado">Carregar</button>
+                    <button type="button" id="drumToyKitBtn" class="drumtoy-btn" title="Alternar entre Samples WAV e Síntese Retro">Kit: WAV</button>
+                    <button type="button" id="drumToyResetBtn" class="drumtoy-btn">Limpar</button>
+                    <button type="button" id="drumToyExportBtn" class="drumtoy-btn drumtoy-export-btn">💾 Salvar WAV</button>
+                </div>
             </div>
-            
+
             <!-- Window Content (Channel Rack) -->
             <div class="window-content drumtoy-content">
-                <div class="channel-rack">
+                <div class="step-ruler" id="drumToyStepRuler" aria-hidden="true">
+                    <div class="ruler-spacer"><span>CANAL / MIX</span><small>Clique no nome p/ ouvir • Arraste nos pads</small></div>
+                    <div class="ruler-steps">
+                        <span class="ruler-step beat-start" data-step="0">1</span>
+                        <span class="ruler-step" data-step="1">2</span>
+                        <span class="ruler-step" data-step="2">3</span>
+                        <span class="ruler-step" data-step="3">4</span>
+                        <span class="ruler-step beat-start" data-step="4">5</span>
+                        <span class="ruler-step" data-step="5">6</span>
+                        <span class="ruler-step" data-step="6">7</span>
+                        <span class="ruler-step" data-step="7">8</span>
+                        <span class="ruler-step beat-start" data-step="8">9</span>
+                        <span class="ruler-step" data-step="9">10</span>
+                        <span class="ruler-step" data-step="10">11</span>
+                        <span class="ruler-step" data-step="11">12</span>
+                        <span class="ruler-step beat-start" data-step="12">13</span>
+                        <span class="ruler-step" data-step="13">14</span>
+                        <span class="ruler-step" data-step="14">15</span>
+                        <span class="ruler-step" data-step="15">16</span>
+                    </div>
+                </div>
+
+                <div class="channel-rack" id="drumToyChannelRack">
                     <!-- Channel 1: 808 -->
                     <div class="channel-row" data-channel="808">
                         <div class="channel-info">
-                            <span class="channel-name">808 (GRAVE)</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.8">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir 808">808 GRAVE</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Silenciar canal (Mute)">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Isolar canal (Solo)">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar linha">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.8" title="Volume 808">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
-                    
+
                     <!-- Channel 2: Kick -->
                     <div class="channel-row" data-channel="kick">
                         <div class="channel-info">
-                            <span class="channel-name">KICK</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.8">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir Kick">KICK</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Mute">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Solo">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.8" title="Volume Kick">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
-                    
+
                     <!-- Channel 3: Snap -->
                     <div class="channel-row" data-channel="snap">
                         <div class="channel-info">
-                            <span class="channel-name">SNAP</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.7">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir Snap">SNAP</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Mute">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Solo">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.7" title="Volume Snap">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
-                    
+
                     <!-- Channel 4: Snare -->
                     <div class="channel-row" data-channel="snare">
                         <div class="channel-info">
-                            <span class="channel-name">SNARE</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.7">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir Snare">SNARE</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Mute">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Solo">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.7" title="Volume Snare">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
-                    
+
                     <!-- Channel 5: Clap -->
                     <div class="channel-row" data-channel="clap">
                         <div class="channel-info">
-                            <span class="channel-name">CLAP</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.7">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir Clap">CLAP</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Mute">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Solo">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.7" title="Volume Clap">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
-                    
+
                     <!-- Channel 6: Closed Hi-Hat -->
                     <div class="channel-row" data-channel="hihat_closed">
                         <div class="channel-info">
-                            <span class="channel-name">CLOSED HAT</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.6">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir Closed Hat">CLOSED HAT</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Mute">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Solo">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.6" title="Volume Closed Hat">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
-                    
+
                     <!-- Channel 7: Open Hi-Hat -->
                     <div class="channel-row" data-channel="hihat_open">
                         <div class="channel-info">
-                            <span class="channel-name">OPEN HAT</span>
-                            <div class="channel-knobs">
-                                <div class="knob-container" title="Volume">
-                                    <input type="range" class="channel-volume" min="0" max="1" step="0.1" value="0.6">
+                            <div class="channel-header-line">
+                                <span class="channel-led" aria-hidden="true"></span>
+                                <button type="button" class="channel-name-btn" title="Ouvir Open Hat">OPEN HAT</button>
+                            </div>
+                            <div class="channel-controls-line">
+                                <div class="channel-ms-btns">
+                                    <button type="button" class="ch-mini-btn ch-mute-btn" title="Mute">M</button>
+                                    <button type="button" class="ch-mini-btn ch-solo-btn" title="Solo">S</button>
+                                    <button type="button" class="ch-mini-btn ch-clear-btn" title="Limpar">×</button>
                                 </div>
+                                <input type="range" class="channel-volume" min="0" max="1" step="0.05" value="0.6" title="Volume Open Hat">
                             </div>
                         </div>
                         <div class="step-container">
-                            <button class="step-pad beat-1" data-step="0"></button>
-                            <button class="step-pad beat-1" data-step="1"></button>
-                            <button class="step-pad beat-1" data-step="2"></button>
-                            <button class="step-pad beat-1" data-step="3"></button>
-                            
-                            <button class="step-pad beat-2" data-step="4"></button>
-                            <button class="step-pad beat-2" data-step="5"></button>
-                            <button class="step-pad beat-2" data-step="6"></button>
-                            <button class="step-pad beat-2" data-step="7"></button>
-                            
-                            <button class="step-pad beat-1" data-step="8"></button>
-                            <button class="step-pad beat-1" data-step="9"></button>
-                            <button class="step-pad beat-1" data-step="10"></button>
-                            <button class="step-pad beat-1" data-step="11"></button>
-                            
-                            <button class="step-pad beat-2" data-step="12"></button>
-                            <button class="step-pad beat-2" data-step="13"></button>
-                            <button class="step-pad beat-2" data-step="14"></button>
-                            <button class="step-pad beat-2" data-step="15"></button>
+                            <button type="button" class="step-pad beat-1" data-step="0"></button>
+                            <button type="button" class="step-pad beat-1" data-step="1"></button>
+                            <button type="button" class="step-pad beat-1" data-step="2"></button>
+                            <button type="button" class="step-pad beat-1" data-step="3"></button>
+                            <button type="button" class="step-pad beat-2" data-step="4"></button>
+                            <button type="button" class="step-pad beat-2" data-step="5"></button>
+                            <button type="button" class="step-pad beat-2" data-step="6"></button>
+                            <button type="button" class="step-pad beat-2" data-step="7"></button>
+                            <button type="button" class="step-pad beat-1" data-step="8"></button>
+                            <button type="button" class="step-pad beat-1" data-step="9"></button>
+                            <button type="button" class="step-pad beat-1" data-step="10"></button>
+                            <button type="button" class="step-pad beat-1" data-step="11"></button>
+                            <button type="button" class="step-pad beat-2" data-step="12"></button>
+                            <button type="button" class="step-pad beat-2" data-step="13"></button>
+                            <button type="button" class="step-pad beat-2" data-step="14"></button>
+                            <button type="button" class="step-pad beat-2" data-step="15"></button>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <!-- Window Statusbar -->
             <div class="window-statusbar">
-                <span id="drumToyStatus">Pronto. Clique em Play para iniciar o sequenciador!</span>
+                <span id="drumToyStatus">Pronto • Carregue um Preset ou clique/arraste nos pads! [Espaço = Play]</span>
+            </div>
+        </div>
+
+        <!-- Satirical 90s/2000s Spam Promo Popup: Poema SUPERFICIAL -->
+        <div id="promoPopupWindow" class="folder-window hidden promo-popup-window" data-win-title="🎁 OFERTA!! SUPERFICIAL" data-win-icon="🎁">
+            <div class="window-titlebar promo-titlebar">
+                <span>🚨 PARABÉNS!! VOCÊ É O VISITANTE Nº 999.999!! [PROMOÇÃO_SUPERFICIAL.EXE]</span>
+                <div class="window-controls">
+                    <button type="button" class="minimize-btn" title="Minimizar">_</button>
+                    <button type="button" class="maximize-btn" title="Maximizar">□</button>
+                    <button type="button" class="close-btn-promo" title="Fechar propaganda">✕</button>
+                </div>
+            </div>
+
+            <div class="promo-marquee-wrap" aria-hidden="true">
+                <div class="promo-marquee-track">
+                    ★ OFERTA RELÂMPAGO ★ TUDO BEM 100% GARANTIDO ★ SEM JUROS ★ CLIQUE AGORA E NÃO GANHE NADA ★ BEBÊ DANÇANTE AUTENTICADO ★ POEMA GRÁTIS NO CORPO DESTE ANÚNCIO ★
+                </div>
+            </div>
+
+            <div class="window-content promo-content">
+                <div class="promo-sparkles-bg" aria-hidden="true"></div>
+
+                <div class="promo-stage-row">
+                    <!-- Left Dancing Baby -->
+                    <div class="baby-stage baby-stage-left" aria-hidden="true">
+                        <div class="starburst-sticker sticker-yellow">GRÁTIS!!</div>
+                        <svg class="dancing-baby-svg baby-dance-a" viewBox="0 0 120 155" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient id="skinGradL" cx="38%" cy="32%" r="68%">
+                                    <stop offset="0%" stop-color="#ffe0c8"/>
+                                    <stop offset="55%" stop-color="#f2b28b"/>
+                                    <stop offset="100%" stop-color="#c47b55"/>
+                                </radialGradient>
+                                <linearGradient id="diaperGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#ffffff"/>
+                                    <stop offset="100%" stop-color="#cfd8e3"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="baby-shadow" cx="60" cy="144" rx="28" ry="6" fill="rgba(0,0,0,0.38)"/>
+                            <g class="baby-body-bounce">
+                                <g class="baby-leg-l">
+                                    <path d="M50 96 C40 108 38 122 44 134" stroke="url(#skinGradL)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                                    <ellipse cx="43" cy="136" rx="9" ry="5" fill="url(#skinGradL)"/>
+                                </g>
+                                <g class="baby-leg-r">
+                                    <path d="M70 96 C82 108 82 122 76 134" stroke="url(#skinGradL)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                                    <ellipse cx="77" cy="136" rx="9" ry="5" fill="url(#skinGradL)"/>
+                                </g>
+                                <g class="baby-arm-l">
+                                    <path d="M42 62 C25 56 18 42 22 28" stroke="url(#skinGradL)" stroke-width="11" stroke-linecap="round" fill="none"/>
+                                    <circle cx="22" cy="27" r="6" fill="url(#skinGradL)"/>
+                                </g>
+                                <g class="baby-arm-r">
+                                    <path d="M78 62 C95 66 102 80 96 92" stroke="url(#skinGradL)" stroke-width="11" stroke-linecap="round" fill="none"/>
+                                    <circle cx="96" cy="93" r="6" fill="url(#skinGradL)"/>
+                                </g>
+                                <g class="baby-hips">
+                                    <ellipse cx="60" cy="72" rx="18" ry="20" fill="url(#skinGradL)"/>
+                                    <path d="M39 78 Q60 88 81 78 L78 103 Q60 112 42 103 Z" fill="url(#diaperGradL)" stroke="#8899aa" stroke-width="1.5"/>
+                                    <circle cx="48" cy="86" r="2.2" fill="#ff0099"/>
+                                    <circle cx="72" cy="86" r="2.2" fill="#00aaff"/>
+                                </g>
+                                <g class="baby-head">
+                                    <circle cx="38" cy="36" r="5.5" fill="url(#skinGradL)"/>
+                                    <circle cx="82" cy="36" r="5.5" fill="url(#skinGradL)"/>
+                                    <ellipse cx="60" cy="36" rx="22" ry="21" fill="url(#skinGradL)"/>
+                                    <ellipse cx="52" cy="24" rx="7" ry="4" fill="#fff4eb" opacity="0.55"/>
+                                    <path d="M58 15 Q63 5 69 12" stroke="#b96d45" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                                    <circle cx="52" cy="35" r="2.4" fill="#1e293b"/>
+                                    <circle cx="68" cy="35" r="2.4" fill="#1e293b"/>
+                                    <circle cx="51.2" cy="34.2" r="0.8" fill="#ffffff"/>
+                                    <circle cx="67.2" cy="34.2" r="0.8" fill="#ffffff"/>
+                                    <ellipse cx="47" cy="40" rx="3.8" ry="2" fill="#ff6b81" opacity="0.5"/>
+                                    <ellipse cx="73" cy="40" rx="3.8" ry="2" fill="#ff6b81" opacity="0.5"/>
+                                    <path d="M53 43 Q60 50 67 43" stroke="#7c2d12" stroke-width="2" fill="none" stroke-linecap="round"/>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="clipart-badge clipart-money">💸 R$ 0,00!</div>
+                    </div>
+
+                    <!-- Center Kitsch Banner + Poem Card -->
+                    <div class="promo-center-column">
+                        <div class="promo-wordart-box">
+                            <div class="promo-flash-pills">
+                                <span class="flash-pill pill-red">NOVO!!</span>
+                                <span class="clipart-spin">💿</span>
+                                <span class="flash-pill pill-lime">👍 100% TUDO BEM!!</span>
+                                <span class="clipart-bounce">🏆</span>
+                                <span class="flash-pill pill-cyan">APROVADO!</span>
+                            </div>
+                            <h2 class="promo-wordart-title">SUPERFICIAL</h2>
+                            <div class="promo-wordart-sub">COMBO PROMOCIONAL DE SIMPATIA OBRIGATÓRIA™</div>
+                        </div>
+
+                        <article class="promo-poem-coupon" aria-label="Poema Superficial de Frater Outis">
+                            <span class="coupon-corner tl" aria-hidden="true">✂️</span>
+                            <span class="coupon-corner tr" aria-hidden="true">🌟</span>
+                            <span class="coupon-corner bl" aria-hidden="true">😊</span>
+                            <span class="coupon-corner br" aria-hidden="true">🔥</span>
+
+                            <div class="poem-stanzas">
+                                <p>Quando tudo bem<br>Responde tudo bem<br>Tudo bens a cantar<br>Tudo bens sem parar<br>Tudo a desmoronar</p>
+                                <p>Seja chave de simpatia<br>Ou máscara social<br>Tudo bem não é tão diferente<br>Nos contextos em que se aplica</p>
+                                <p>Tudo bem<br>(está ou esteve um dia)<br>Guardo comigo essa magia<br>De invocar o tudo bem<br>Logo que vejo alguém</p>
+                                <p>Seja feio e antipático<br>Amargo, desafinado<br>Tudo bem já não é mais normal<br>Avant garde é estar tudo mal.</p>
+                            </div>
+
+                            <div class="poem-credit">
+                                📖 Do livro <em>Estive em São Paulo e lembrei de ninguém</em> — Frater Outis
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Right Dancing Baby -->
+                    <div class="baby-stage baby-stage-right" aria-hidden="true">
+                        <div class="starburst-sticker sticker-pink">IMPERDÍVEL</div>
+                        <svg class="dancing-baby-svg baby-dance-b" viewBox="0 0 120 155" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient id="skinGradR" cx="38%" cy="32%" r="68%">
+                                    <stop offset="0%" stop-color="#ffe0c8"/>
+                                    <stop offset="55%" stop-color="#f2b28b"/>
+                                    <stop offset="100%" stop-color="#c47b55"/>
+                                </radialGradient>
+                                <linearGradient id="diaperGradR" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#ffffff"/>
+                                    <stop offset="100%" stop-color="#cfd8e3"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="baby-shadow" cx="60" cy="144" rx="28" ry="6" fill="rgba(0,0,0,0.38)"/>
+                            <g class="baby-body-bounce">
+                                <g class="baby-leg-l">
+                                    <path d="M50 96 C40 108 38 122 44 134" stroke="url(#skinGradR)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                                    <ellipse cx="43" cy="136" rx="9" ry="5" fill="url(#skinGradR)"/>
+                                </g>
+                                <g class="baby-leg-r">
+                                    <path d="M70 96 C82 108 82 122 76 134" stroke="url(#skinGradR)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                                    <ellipse cx="77" cy="136" rx="9" ry="5" fill="url(#skinGradR)"/>
+                                </g>
+                                <g class="baby-arm-l">
+                                    <path d="M42 62 C25 56 18 42 22 28" stroke="url(#skinGradR)" stroke-width="11" stroke-linecap="round" fill="none"/>
+                                    <circle cx="22" cy="27" r="6" fill="url(#skinGradR)"/>
+                                </g>
+                                <g class="baby-arm-r">
+                                    <path d="M78 62 C95 66 102 80 96 92" stroke="url(#skinGradR)" stroke-width="11" stroke-linecap="round" fill="none"/>
+                                    <circle cx="96" cy="93" r="6" fill="url(#skinGradR)"/>
+                                </g>
+                                <g class="baby-hips">
+                                    <ellipse cx="60" cy="72" rx="18" ry="20" fill="url(#skinGradR)"/>
+                                    <path d="M39 78 Q60 88 81 78 L78 103 Q60 112 42 103 Z" fill="url(#diaperGradR)" stroke="#8899aa" stroke-width="1.5"/>
+                                    <circle cx="48" cy="86" r="2.2" fill="#00e676"/>
+                                    <circle cx="72" cy="86" r="2.2" fill="#ff9100"/>
+                                </g>
+                                <g class="baby-head">
+                                    <circle cx="38" cy="36" r="5.5" fill="url(#skinGradR)"/>
+                                    <circle cx="82" cy="36" r="5.5" fill="url(#skinGradR)"/>
+                                    <ellipse cx="60" cy="36" rx="22" ry="21" fill="url(#skinGradR)"/>
+                                    <ellipse cx="52" cy="24" rx="7" ry="4" fill="#fff4eb" opacity="0.55"/>
+                                    <path d="M58 15 Q63 5 69 12" stroke="#b96d45" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                                    <circle cx="52" cy="35" r="2.4" fill="#1e293b"/>
+                                    <circle cx="68" cy="35" r="2.4" fill="#1e293b"/>
+                                    <circle cx="51.2" cy="34.2" r="0.8" fill="#ffffff"/>
+                                    <circle cx="67.2" cy="34.2" r="0.8" fill="#ffffff"/>
+                                    <ellipse cx="47" cy="40" rx="3.8" ry="2" fill="#ff6b81" opacity="0.5"/>
+                                    <ellipse cx="73" cy="40" rx="3.8" ry="2" fill="#ff6b81" opacity="0.5"/>
+                                    <path d="M53 43 Q60 50 67 43" stroke="#7c2d12" stroke-width="2" fill="none" stroke-linecap="round"/>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="clipart-badge clipart-hot">🔥 OOGACHAKA!</div>
+                    </div>
+                </div>
+
+                <div class="promo-counter-strip">
+                    <span>⏳ EXPIRA EM: <strong id="promoCountdown">00:59</strong></span>
+                    <span>👁️ CONTADOR: <strong class="counter-odometer">00999999</strong></span>
+                    <span>🥇 GARANTIA: <strong>NENHUMA</strong></span>
+                </div>
+
+                <div class="promo-cta-bar">
+                    <button type="button" id="promoGoHomeBtn" class="promo-cta-home">
+                        🏠 CLIQUE AQUI P/ VOLTAR À HOME!! (SAIR DA MÚSICA)
+                    </button>
+                    <button type="button" id="promoDismissBtn" class="promo-cta-close">
+                        ✨ TUDO BEM! FECHAR POPUP
+                    </button>
+                </div>
+            </div>
+
+            <div class="window-statusbar promo-statusbar">
+                <span>Anúncio Oficial Froutis 95 • 0% livre de vírus (provavelmente)</span>
+            </div>
+        </div>
+
+        <!-- Satirical Exit / Return Home Popup -->
+        <div id="exitPopupWindow" class="folder-window hidden exit-popup-window" data-win-title="🚪 RESGATE SUA VOLTA P/ HOME!!" data-win-icon="🏠">
+            <div class="window-titlebar exit-titlebar">
+                <span>🎊 ALERTA DE PRÊMIO!! PORTA DE SAÍDA LIBERADA!! 🎊</span>
+                <div class="window-controls">
+                    <button type="button" class="minimize-btn" title="Minimizar">_</button>
+                    <button type="button" class="close-btn-exit" title="Fechar">✕</button>
+                </div>
+            </div>
+
+            <div class="window-content exit-content">
+                <div class="exit-party-banner">
+                    <span class="clipart-bounce">🎉</span>
+                    <strong>VOCÊ DESBLOQUEOU O BILHETE DOURADO PARA A HOME!!</strong>
+                    <span class="clipart-bounce">🏆</span>
+                </div>
+
+                <div class="exit-hero-row">
+                    <div class="exit-baby-wrap" aria-hidden="true">
+                        <div class="baby-crown">👑</div>
+                        <svg class="dancing-baby-svg baby-dance-a" viewBox="0 0 120 155" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient id="skinGradExit" cx="38%" cy="32%" r="68%">
+                                    <stop offset="0%" stop-color="#ffe0c8"/>
+                                    <stop offset="55%" stop-color="#f2b28b"/>
+                                    <stop offset="100%" stop-color="#c47b55"/>
+                                </radialGradient>
+                            </defs>
+                            <ellipse class="baby-shadow" cx="60" cy="144" rx="28" ry="6" fill="rgba(0,0,0,0.38)"/>
+                            <g class="baby-body-bounce">
+                                <g class="baby-leg-l">
+                                    <path d="M50 96 C40 108 38 122 44 134" stroke="url(#skinGradExit)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                                    <ellipse cx="43" cy="136" rx="9" ry="5" fill="url(#skinGradExit)"/>
+                                </g>
+                                <g class="baby-leg-r">
+                                    <path d="M70 96 C82 108 82 122 76 134" stroke="url(#skinGradExit)" stroke-width="14" stroke-linecap="round" fill="none"/>
+                                    <ellipse cx="77" cy="136" rx="9" ry="5" fill="url(#skinGradExit)"/>
+                                </g>
+                                <g class="baby-arm-l">
+                                    <path d="M42 62 C25 56 18 42 22 28" stroke="url(#skinGradExit)" stroke-width="11" stroke-linecap="round" fill="none"/>
+                                    <circle cx="22" cy="27" r="6" fill="url(#skinGradExit)"/>
+                                </g>
+                                <g class="baby-arm-r">
+                                    <path d="M78 62 C95 66 102 80 96 92" stroke="url(#skinGradExit)" stroke-width="11" stroke-linecap="round" fill="none"/>
+                                    <circle cx="96" cy="93" r="6" fill="url(#skinGradExit)"/>
+                                </g>
+                                <g class="baby-hips">
+                                    <ellipse cx="60" cy="72" rx="18" ry="20" fill="url(#skinGradExit)"/>
+                                    <path d="M39 78 Q60 88 81 78 L78 103 Q60 112 42 103 Z" fill="#ffffff" stroke="#8899aa" stroke-width="1.5"/>
+                                </g>
+                                <g class="baby-head">
+                                    <ellipse cx="60" cy="36" rx="22" ry="21" fill="url(#skinGradExit)"/>
+                                    <circle cx="52" cy="35" r="2.4" fill="#1e293b"/>
+                                    <circle cx="68" cy="35" r="2.4" fill="#1e293b"/>
+                                    <path d="M52 43 Q60 51 68 43" stroke="#7c2d12" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="exit-copy-card">
+                        <h3>DESEJA MESMO SAIR DA ÁREA DE MÚSICA?</h3>
+                        <p>Parabéns!! Você sobreviveu ao Froutis 95 sem perder o compasso. Resgate agora sua viagem 100% GRATUITA de volta para a página inicial!</p>
+                        <div class="exit-fake-perks">
+                            <span>✅ Sem anuidade</span>
+                            <span>✅ Teleporte imediato para <code>/</code></span>
+                            <span>✅ Avant garde é estar tudo mal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exit-actions">
+                    <button type="button" id="confirmGoHomeBtn" class="exit-confirm-home-btn">
+                        🚀 SIM!! VOLTAR AGORA PARA A HOME (/)
+                    </button>
+                    <button type="button" id="cancelGoHomeBtn" class="exit-stay-btn">
+                        🥁 NÃO, QUERO FICAR AQUI FAZENDO BEAT
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="/js/windows95.js" defer></script>
+    <script src="/js/windows95.js?v=20261108" defer></script>
 </body>
 </html>
