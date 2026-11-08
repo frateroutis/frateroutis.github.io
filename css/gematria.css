@@ -320,6 +320,28 @@
     color: #ffffff;
 }
 
+.biblio-hint-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    background: rgba(201, 168, 76, 0.06);
+    border: 1px dashed rgba(201, 168, 76, 0.35);
+    padding: 0.65rem 0.95rem;
+    font-size: 0.77rem;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top: 0.4rem;
+}
+
+.biblio-hint-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.biblio-hint-text strong {
+    color: var(--fo-gold);
+}
+
 /* ==========================================================================
    Gematria Master Table
    ========================================================================== */
@@ -416,6 +438,20 @@
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
+    padding: 0.25rem 0.35rem;
+    border-radius: 2px;
+    transition: background 0.15s ease;
+}
+
+.heb-item.has-biblio-ref:hover {
+    background: rgba(201, 168, 76, 0.08);
+}
+
+.heb-text-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
 }
 
 .heb-text {
@@ -454,6 +490,12 @@
     border-radius: 2px;
     margin-top: 0.2rem;
     width: fit-content;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.shem-tag.has-biblio-ref:hover {
+    background: rgba(201, 168, 76, 0.25);
+    border-color: var(--fo-gold);
 }
 
 /* Greek Column */
@@ -467,6 +509,20 @@
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
+    padding: 0.25rem 0.35rem;
+    border-radius: 2px;
+    transition: background 0.15s ease;
+}
+
+.grk-item.has-biblio-ref:hover {
+    background: rgba(201, 168, 76, 0.08);
+}
+
+.grk-text-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
 }
 
 .grk-text {
@@ -500,6 +556,20 @@
     display: flex;
     flex-direction: column;
     gap: 0.15rem;
+    padding: 0.25rem 0.35rem;
+    border-radius: 2px;
+    transition: background 0.15s ease;
+}
+
+.lang-item.has-biblio-ref:hover {
+    background: rgba(201, 168, 76, 0.08);
+}
+
+.lang-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.4rem;
 }
 
 .lang-term-title {
@@ -530,6 +600,48 @@
     margin-top: 0.1rem;
 }
 
+/* Bibliographical Citation Indicators */
+.has-biblio-ref {
+    cursor: help;
+}
+
+.biblio-cite-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.18rem;
+    font-family: var(--fo-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.04em;
+    color: var(--fo-gold);
+    background: rgba(201, 168, 76, 0.1);
+    border: 1px solid rgba(201, 168, 76, 0.28);
+    padding: 0.06rem 0.28rem;
+    border-radius: 2px;
+    opacity: 0.75;
+    vertical-align: middle;
+    user-select: none;
+    transition: all 0.18s ease;
+    white-space: nowrap;
+}
+
+.has-biblio-ref:hover .biblio-cite-badge,
+.has-biblio-ref:focus-visible .biblio-cite-badge {
+    opacity: 1;
+    background: rgba(201, 168, 76, 0.25);
+    border-color: var(--fo-gold);
+    box-shadow: 0 0 6px rgba(201, 168, 76, 0.4);
+}
+
+.num-badge.has-biblio-ref {
+    cursor: help;
+    transition: all 0.18s ease;
+}
+
+.num-badge.has-biblio-ref:hover {
+    border-color: var(--fo-gold);
+    box-shadow: 0 0 10px rgba(201, 168, 76, 0.35);
+}
+
 /* Notes / Significance Column */
 .cell-notes-stack {
     display: block;
@@ -540,11 +652,163 @@
     font-size: 0.96rem;
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.88);
+    padding: 0.25rem 0.35rem;
+    border-radius: 2px;
+    transition: background 0.15s ease;
+}
+
+.cell-notes-wrap.has-biblio-ref:hover {
+    background: rgba(201, 168, 76, 0.06);
+}
+
+.notes-ref-hint {
+    margin-top: 0.45rem;
 }
 
 .empty-cell-dash {
     color: rgba(255, 255, 255, 0.2);
     font-family: var(--fo-mono);
+}
+
+/* ==========================================================================
+   Floating Bibliographic Tooltip Portal (Clamped to Viewport)
+   ========================================================================== */
+
+.gematria-biblio-tooltip {
+    position: fixed;
+    z-index: 10050;
+    pointer-events: none;
+    max-width: min(390px, 92vw);
+    width: max-content;
+    background: #06060a;
+    border: 1px solid rgba(201, 168, 76, 0.6);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.98), 0 0 20px rgba(201, 168, 76, 0.15);
+    padding: 0.75rem 0.95rem;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.92);
+    font-family: var(--fo-sans);
+    font-size: 0.78rem;
+    line-height: 1.45;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.14s ease, transform 0.14s ease;
+}
+
+.gematria-biblio-tooltip.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gb-tooltip-header {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--fo-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+    margin-bottom: 0.35rem;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.25);
+    padding-bottom: 0.25rem;
+}
+
+.gb-tooltip-work {
+    font-family: var(--fo-serif-display);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 0.2rem;
+}
+
+.gb-tooltip-author {
+    font-size: 0.74rem;
+    color: var(--fo-gold);
+    font-style: italic;
+    margin-bottom: 0.3rem;
+}
+
+.gb-tooltip-locus {
+    font-family: var(--fo-mono);
+    font-size: 0.68rem;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.25rem 0.45rem;
+    border-radius: 2px;
+    margin-bottom: 0.35rem;
+    word-break: break-word;
+    line-height: 1.35;
+}
+
+.gb-tooltip-desc {
+    font-size: 0.74rem;
+    color: rgba(255, 255, 255, 0.78);
+    line-height: 1.4;
+}
+
+/* Modal Bibliography Section */
+.modal-biblio-section {
+    border-top: 1px solid rgba(201, 168, 76, 0.3);
+    padding-top: 1.25rem;
+    margin-top: 1.4rem;
+}
+
+.modal-biblio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.modal-biblio-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(201, 168, 76, 0.22);
+    border-left: 3px solid var(--fo-gold);
+    padding: 0.65rem 0.85rem;
+    border-radius: 2px;
+}
+
+.modal-biblio-cat {
+    font-family: var(--fo-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fo-gold);
+    margin-bottom: 0.2rem;
+}
+
+.modal-biblio-item-title {
+    font-family: var(--fo-serif-display);
+    font-size: 0.96rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.15rem;
+}
+
+.modal-biblio-item-author {
+    font-size: 0.74rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-style: italic;
+    margin-bottom: 0.25rem;
+}
+
+.modal-biblio-item-locus {
+    font-family: var(--fo-mono);
+    font-size: 0.68rem;
+    color: var(--fo-gold);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.2rem 0.45rem;
+    border-radius: 2px;
+    margin-bottom: 0.3rem;
+    display: inline-block;
+}
+
+.modal-biblio-item-desc {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.42;
 }
 
 /* ==========================================================================

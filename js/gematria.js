@@ -84,6 +84,7 @@
         bindEvents();
         updateCategoryCounts();
         renderTable();
+        setupBiblioTooltip();
 
         // Calculate initial sample if input is pre-filled or trigger empty state
         calculateLive(calcInput ? calcInput.value : '');
@@ -357,33 +358,53 @@
             return;
         }
 
+        function formatBiblioAttrs(ref) {
+            if (!ref) return '';
+            const work = escapeHtml(ref.work || '');
+            const author = escapeHtml(ref.author || '');
+            const locus = escapeHtml(ref.locus || '');
+            const desc = escapeHtml(ref.desc || '');
+            return `data-biblio-work="${work}" data-biblio-author="${author}" data-biblio-locus="${locus}" data-biblio-desc="${desc}" tabindex="0" role="button" aria-haspopup="true"`;
+        }
+
         const rowsHtml = entries.map(entry => {
             // Hebrew Cell
             let hebContent = '<span class="empty-cell-dash">—</span>';
+            const hebParts = [];
             if (entry.hebrew && entry.hebrew.length > 0) {
-                hebContent = entry.hebrew.map(h => `
-                    <div class="heb-item">
-                        <div class="heb-text">${escapeHtml(h.text)}</div>
+                hebParts.push(...entry.hebrew.map(h => `
+                    <div class="heb-item has-biblio-ref" ${formatBiblioAttrs(h.ref)}>
+                        <div class="heb-text-row">
+                            <span class="biblio-cite-badge" title="Referência Bibliográfica">📖 ref</span>
+                            <div class="heb-text">${escapeHtml(h.text)}</div>
+                        </div>
                         <div class="heb-translit">${escapeHtml(h.translit)}</div>
                         <div class="heb-meaning">${escapeHtml(h.meaning)}</div>
                     </div>
-                `).join('');
+                `));
             }
             if (entry.shem && entry.shem.length > 0) {
                 const shemBadges = entry.shem.map(s => `
-                    <div class="shem-tag" title="${escapeHtml(s.attribute)}">
+                    <div class="shem-tag has-biblio-ref" title="${escapeHtml(s.attribute)}" ${formatBiblioAttrs(s.ref)}>
                         ★ Shem #${s.index} (${escapeHtml(s.choir)})
+                        <span class="biblio-cite-badge">📖</span>
                     </div>
                 `).join('');
-                hebContent += shemBadges;
+                hebParts.push(shemBadges);
+            }
+            if (hebParts.length > 0) {
+                hebContent = hebParts.join('');
             }
 
             // Greek Cell
             let grkContent = '<span class="empty-cell-dash">—</span>';
             if (entry.greek && entry.greek.length > 0) {
                 grkContent = entry.greek.map(g => `
-                    <div class="grk-item">
-                        <div class="grk-text">${escapeHtml(g.text)}</div>
+                    <div class="grk-item has-biblio-ref" ${formatBiblioAttrs(g.ref)}>
+                        <div class="grk-text-row">
+                            <div class="grk-text">${escapeHtml(g.text)}</div>
+                            <span class="biblio-cite-badge" title="Referência Bibliográfica">📖 ref</span>
+                        </div>
                         <div class="grk-translit">${escapeHtml(g.translit)}</div>
                         <div class="grk-meaning">${escapeHtml(g.meaning)}</div>
                     </div>
@@ -394,8 +415,11 @@
             let engContent = '<span class="empty-cell-dash">—</span>';
             if (entry.english && entry.english.length > 0) {
                 engContent = entry.english.map(en => `
-                    <div class="lang-item">
-                        <div class="lang-term-title">${escapeHtml(en.term)}</div>
+                    <div class="lang-item has-biblio-ref" ${formatBiblioAttrs(en.ref)}>
+                        <div class="lang-title-row">
+                            <div class="lang-term-title">${escapeHtml(en.term)}</div>
+                            <span class="biblio-cite-badge" title="Referência Bibliográfica">📖 ref</span>
+                        </div>
                         <div class="lang-cipher-badge">${escapeHtml(en.cipher || 'Simbólica')}</div>
                         ${en.notes ? `<div class="lang-note">${escapeHtml(en.notes)}</div>` : ''}
                     </div>
@@ -406,8 +430,11 @@
             let ptContent = '<span class="empty-cell-dash">—</span>';
             if (entry.portuguese && entry.portuguese.length > 0) {
                 ptContent = entry.portuguese.map(pt => `
-                    <div class="lang-item">
-                        <div class="lang-term-title">${escapeHtml(pt.term)}</div>
+                    <div class="lang-item has-biblio-ref" ${formatBiblioAttrs(pt.ref)}>
+                        <div class="lang-title-row">
+                            <div class="lang-term-title">${escapeHtml(pt.term)}</div>
+                            <span class="biblio-cite-badge" title="Referência Bibliográfica">📖 ref</span>
+                        </div>
                         <div class="lang-cipher-badge">${escapeHtml(pt.cipher || 'Simbólica')}</div>
                         ${pt.notes ? `<div class="lang-note">${escapeHtml(pt.notes)}</div>` : ''}
                     </div>
@@ -416,13 +443,18 @@
 
             // Notes / Significance Cell
             const notesContent = entry.significance
-                ? `<div class="cell-notes-wrap">${escapeHtml(entry.significance)}</div>`
+                ? `<div class="cell-notes-wrap has-biblio-ref" ${formatBiblioAttrs(entry.significance_ref)}>
+                    ${escapeHtml(entry.significance)}
+                    <div class="notes-ref-hint">
+                        <span class="biblio-cite-badge">📖 fonte: ${escapeHtml(entry.significance_ref ? entry.significance_ref.work : 'Liber 777')}</span>
+                    </div>
+                   </div>`
                 : '<span class="empty-cell-dash">—</span>';
 
             return `
                 <tr data-num="${entry.n}">
                     <td class="col-num cell-num-wrap">
-                        <span class="num-badge">${entry.n}</span>
+                        <span class="num-badge has-biblio-ref" ${formatBiblioAttrs(entry.ref)} title="Ver fontes cabalísticas">${entry.n}</span>
                     </td>
                     <td class="col-heb">
                         <div class="cell-heb-stack">${hebContent}</div>
@@ -541,6 +573,46 @@
             `;
         }
 
+        // Bibliographical citations in modal drawer
+        const biblioRefs = [];
+        if (entry.ref) biblioRefs.push({ category: `Número Sagrado ${entry.n}`, ...entry.ref });
+        if (entry.significance_ref) biblioRefs.push({ category: 'Síntese Esotérica / Liber 777', ...entry.significance_ref });
+        (entry.shem || []).forEach(s => {
+            if (s.ref) biblioRefs.push({ category: `Shem #${s.index} (${s.letters} — ${s.angel})`, ...s.ref });
+        });
+        (entry.hebrew || []).forEach(h => {
+            if (h.ref) biblioRefs.push({ category: `Hebraico: ${h.text} (${h.translit})`, ...h.ref });
+        });
+        (entry.greek || []).forEach(g => {
+            if (g.ref) biblioRefs.push({ category: `Grego: ${g.text} (${g.translit})`, ...g.ref });
+        });
+        (entry.english || []).forEach(en => {
+            if (en.ref) biblioRefs.push({ category: `Inglês: ${en.term}`, ...en.ref });
+        });
+        (entry.portuguese || []).forEach(pt => {
+            if (pt.ref) biblioRefs.push({ category: `Português: ${pt.term}`, ...pt.ref });
+        });
+
+        let biblioHtml = '';
+        if (biblioRefs.length > 0) {
+            biblioHtml = `
+                <div class="modal-section modal-biblio-section">
+                    <div class="modal-section-title">📚 Referências Bibliográficas &amp; Fontes Primárias</div>
+                    <div class="modal-biblio-list">
+                        ${biblioRefs.map(r => `
+                            <div class="modal-biblio-item">
+                                <div class="modal-biblio-cat">${escapeHtml(r.category || '')}</div>
+                                <div class="modal-biblio-item-title">📖 ${escapeHtml(r.work || '')}</div>
+                                ${r.author ? `<div class="modal-biblio-item-author">✍️ ${escapeHtml(r.author)}</div>` : ''}
+                                ${r.locus ? `<div class="modal-biblio-item-locus">📍 ${escapeHtml(r.locus)}</div>` : ''}
+                                ${r.desc ? `<div class="modal-biblio-item-desc">${escapeHtml(r.desc)}</div>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
         modalContent.innerHTML = `
             <div class="modal-num-hero">
                 <span class="modal-num-display">${entry.n}</span>
@@ -551,6 +623,7 @@
             ${grkHtml}
             ${langHtml}
             ${sigHtml}
+            ${biblioHtml}
             <div class="modal-actions">
                 <button type="button" class="modal-btn" id="modalCopyBtn">📋 Copiar Dados</button>
                 <button type="button" class="modal-btn" id="modalCalcBtn">⌨️ Preencher na Calculadora</button>
@@ -584,6 +657,142 @@
         }
 
         modalBackdrop.classList.add('is-open');
+    }
+
+    // ==========================================
+    // Viewport-Clamped Floating Bibliographic Tooltip Portal
+    // ==========================================
+
+    let biblioTooltipEl = null;
+
+    function setupBiblioTooltip() {
+        if (biblioTooltipEl) return;
+        biblioTooltipEl = document.createElement('div');
+        biblioTooltipEl.id = 'gematriaBiblioTooltip';
+        biblioTooltipEl.className = 'gematria-biblio-tooltip';
+        biblioTooltipEl.setAttribute('role', 'tooltip');
+        biblioTooltipEl.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(biblioTooltipEl);
+
+        let activeTarget = null;
+
+        function showTooltip(target, e) {
+            const work = target.getAttribute('data-biblio-work');
+            if (!work) return;
+            const author = target.getAttribute('data-biblio-author') || '';
+            const locus = target.getAttribute('data-biblio-locus') || '';
+            const desc = target.getAttribute('data-biblio-desc') || '';
+
+            biblioTooltipEl.innerHTML = `
+                <div class="gb-tooltip-header">
+                    <span class="gb-tooltip-icon">📖</span>
+                    <span class="gb-tooltip-title">Referência Bibliográfica</span>
+                </div>
+                <div class="gb-tooltip-work">${work}</div>
+                ${author ? `<div class="gb-tooltip-author">✍️ ${author}</div>` : ''}
+                ${locus ? `<div class="gb-tooltip-locus">📍 ${locus}</div>` : ''}
+                ${desc ? `<div class="gb-tooltip-desc">${desc}</div>` : ''}
+            `;
+
+            positionTooltip(target, e);
+            biblioTooltipEl.classList.add('is-visible');
+            biblioTooltipEl.setAttribute('aria-hidden', 'false');
+            activeTarget = target;
+        }
+
+        function hideTooltip() {
+            if (!biblioTooltipEl) return;
+            biblioTooltipEl.classList.remove('is-visible');
+            biblioTooltipEl.setAttribute('aria-hidden', 'true');
+            activeTarget = null;
+        }
+
+        function positionTooltip(target, e) {
+            if (!biblioTooltipEl) return;
+
+            const tipRect = biblioTooltipEl.getBoundingClientRect();
+            const tipWidth = tipRect.width || 340;
+            const tipHeight = tipRect.height || 140;
+            const pad = 12;
+
+            let left = 0;
+            let top = 0;
+
+            if (e && e.clientX !== undefined) {
+                left = e.clientX + 14;
+                top = e.clientY + 14;
+            } else {
+                const rect = target.getBoundingClientRect();
+                left = rect.left;
+                top = rect.bottom + 8;
+            }
+
+            // Clamp horizontally
+            if (left + tipWidth > window.innerWidth - pad) {
+                left = window.innerWidth - tipWidth - pad;
+            }
+            if (left < pad) {
+                left = pad;
+            }
+
+            // Clamp vertically (flip upward if bottom doesn't fit)
+            if (top + tipHeight > window.innerHeight - pad) {
+                if (e && e.clientY !== undefined) {
+                    top = e.clientY - tipHeight - 14;
+                } else {
+                    const rect = target.getBoundingClientRect();
+                    top = rect.top - tipHeight - 8;
+                }
+            }
+            if (top < pad) {
+                top = pad;
+            }
+
+            biblioTooltipEl.style.left = `${Math.round(left)}px`;
+            biblioTooltipEl.style.top = `${Math.round(top)}px`;
+        }
+
+        // Delegated listeners on table container and document
+        document.addEventListener('mouseover', (e) => {
+            const target = e.target.closest('[data-biblio-work]');
+            if (target) {
+                showTooltip(target, e);
+            }
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (activeTarget && biblioTooltipEl.classList.contains('is-visible')) {
+                positionTooltip(activeTarget, e);
+            }
+        });
+
+        document.addEventListener('mouseout', (e) => {
+            const target = e.target.closest('[data-biblio-work]');
+            if (target) {
+                const related = e.relatedTarget ? e.relatedTarget.closest('[data-biblio-work]') : null;
+                if (related !== target) {
+                    hideTooltip();
+                }
+            }
+        });
+
+        // Keyboard accessibility
+        document.addEventListener('focusin', (e) => {
+            const target = e.target.closest('[data-biblio-work]');
+            if (target) {
+                showTooltip(target);
+            }
+        });
+
+        document.addEventListener('focusout', (e) => {
+            const target = e.target.closest('[data-biblio-work]');
+            if (target) {
+                hideTooltip();
+            }
+        });
+
+        // Dismiss on window scroll
+        window.addEventListener('scroll', hideTooltip, { passive: true });
     }
 
     function closeModal() {

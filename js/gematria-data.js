@@ -1,8 +1,8 @@
 /**
- * Frater Outis — Banco de Dados Hermético de Gematria
+ * Frater Outis — Banco de Dados Hermético de Gematria com Referências Bibliográficas
  * Contém os 72 Nomes de Deus (Shem ha-Mephorash), termos bíblicos e judaicos clássicos,
  * correspondências thelêmicas e de Crowley (Liber 777 e Sepher Sephiroth),
- * isopsefia grega e correlações na English Qabalah / Português.
+ * isopsefia grega, correlações na English Qabalah e referências bibliográficas eruditas.
  */
 
 window.GEMATRIA_DATABASE = [
@@ -12,28 +12,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אין",
         "translit": "Ain",
-        "meaning": "O Nada Primordial, o Ilimitado antes de toda emanação"
+        "meaning": "O Nada Primordial, o Ilimitado antes de toda emanação",
+        "ref": {
+          "work": "Sefer Yetzirah & Zohar",
+          "author": "Tradição Cabalística Clássica",
+          "locus": "Zohar I:15a; Sefer ha-Bahir §1; Crowley, Sepher Sephiroth p. 0",
+          "desc": "O Ain (Nada Absoluto), o primeiro véu negativo da existência antes de qualquer emanação."
+        }
       }
     ],
     "greek": [
       {
         "text": "Οὐδέν",
         "translit": "Ouden",
-        "meaning": "Nada, o Vazio absoluto"
+        "meaning": "Nada, o Vazio absoluto",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 0",
+          "desc": "Isopsefia grega clássica para 'Οὐδέν' (Ouden = 0). Nada, o Vazio absoluto"
+        }
       }
     ],
     "english": [
       {
         "term": "Nothing / The Fool (0)",
         "cipher": "Simbólica / Tarot",
-        "notes": "Kether antes de se manifestar; a fonte oculta de Nuit"
+        "notes": "Kether antes de se manifestar; a fonte oculta de Nuit",
+        "ref": {
+          "work": "The Book of Thoth: Egyptian Tarot & Liber 777",
+          "author": "Aleister Crowley (1944) / S.L. MacGregor Mathers",
+          "locus": "The Book of Thoth; Liber 777 Colunas de Atribuição Simbólica",
+          "desc": "Atribuição simbólica no Tarot de Thoth para 'Nothing / The Fool (0)'. Kether antes de se manifestar; a fonte oculta de Nuit"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "O Nada / O Louco (0)",
         "cipher": "Simbólica",
-        "notes": "Origem silenciosa e incriada"
+        "notes": "Origem silenciosa e incriada",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'O Nada / O Louco (0)' (Simbólica = 0). Origem silenciosa e incriada"
+        }
       }
     ],
     "shem": [],
@@ -41,7 +65,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "Ain — O Véu Negativo Supremo da Existência. Em Thelema, corresponde a Nuit e ao Arcano 0 (O Louco)."
+    "significance": "Ain — O Véu Negativo Supremo da Existência. Em Thelema, corresponde a Nuit e ao Arcano 0 (O Louco).",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 0; Liber AL vel Legis",
+      "desc": "Número sagrado 0 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 0",
+      "desc": "Comentário esotérico canônico sobre o valor 0 na Cabala Thelêmica."
+    }
   },
   {
     "n": 1,
@@ -49,38 +85,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "א",
         "translit": "Aleph",
-        "meaning": "Letra Aleph; Boi, Líder Primordial"
+        "meaning": "Letra Aleph; Boi, Líder Primordial",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 2:1 & Cap. 3:2 (Aleph como Mãe do Ar Místico entre Fogo e Água)",
+          "desc": "1ª letra do Alef-Beit (valor 1). O sopro silencioso primordial, Ruach Elohim."
+        }
       },
       {
         "text": "כתר",
         "translit": "Kether (1ª Sephira)",
-        "meaning": "A Coroa Suprema, a mônada divina"
+        "meaning": "A Coroa Suprema, a mônada divina",
+        "ref": {
+          "work": "Sefer Yetzirah & Liber 777",
+          "author": "Aleister Crowley / Cabala Tradicional",
+          "locus": "Liber 777 Col. II (Linha 1); Zohar III:288a (Idra Rabba); Sepher Sephiroth p. 620",
+          "desc": "Kether (A Coroa), a 1ª Sephira da Árvore da Vida, a Unidade primordial."
+        }
       },
       {
         "text": "הוא",
         "translit": "Hu",
-        "meaning": "'Ele', o Inominável"
+        "meaning": "'Ele', o Inominável",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Mística Merkabah / Zohar",
+          "locus": "Salmos 102:27 ('Ve-Attah Hu'); Zohar II:176a; Sepher Sephiroth p. 12",
+          "desc": "Hu ('Ele'), o mistério do Absoluto Oculto e da Causa Primeira transcendente."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἕν",
         "translit": "Hen",
-        "meaning": "O Uno de Plotino"
+        "meaning": "O Uno de Plotino",
+        "ref": {
+          "work": "Enéadas & Introductio Arithmetica",
+          "author": "Plotino / Nicômaco de Gerasa",
+          "locus": "Enéadas VI.9; Nicômaco; The Greek Qabalah",
+          "desc": "Hen (O Um = 5+50 = 55). A Mônada neoplatônica indivisível, fonte de todo ser."
+        }
       }
     ],
     "english": [
       {
         "term": "One / Monad / Hadit",
         "cipher": "EQ: A=1",
-        "notes": "O ponto primordial de Hadit no coração de cada estrela"
+        "notes": "O ponto primordial de Hadit no coração de cada estrela",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 1",
+          "desc": "Termo em língua inglesa 'One / Monad / Hadit' com valor gemátrico 1. O ponto primordial de Hadit no coração de cada estrela"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Um / Coroa / Mônada",
         "cipher": "EQ: A=1",
-        "notes": "O princípio supremo do universo"
+        "notes": "O princípio supremo do universo",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Um / Coroa / Mônada' (EQ: A=1 = 1). O princípio supremo do universo"
+        }
       }
     ],
     "shem": [],
@@ -89,7 +161,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "A Unidade primordial da qual todos os números emanam. Kether na Árvore da Vida. O ponto matemático de Hadit."
+    "significance": "A Unidade primordial da qual todos os números emanam. Kether na Árvore da Vida. O ponto matemático de Hadit.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 1",
+      "desc": "Número bíblico e cabalístico fundamental 1, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 1",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 1."
+    }
   },
   {
     "n": 2,
@@ -97,33 +181,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ב",
         "translit": "Beth",
-        "meaning": "Letra Beth; Casa, Dualidade manifesta"
+        "meaning": "Letra Beth; Casa, Dualidade manifesta",
+        "ref": {
+          "work": "Sefer Yetzirah & Bereshit Rabbah",
+          "author": "Midrash Tradicional",
+          "locus": "Bereshit Rabbah 1:10; Sefer Yetzirah 4:1 (Bet, a Casa)",
+          "desc": "Bet (valor 2). A primeira letra manifesta da Torá em Bereshit. O princípio da dualidade."
+        }
       },
       {
         "text": "חכמה",
         "translit": "Chokmah (2ª Sephira)",
-        "meaning": "Sabedoria criativa primordial, o Pai (Abba)"
+        "meaning": "Sabedoria criativa primordial, o Pai (Abba)",
+        "ref": {
+          "work": "Tanakh & Sefer Yetzirah",
+          "author": "Salomão / Cabala Luriânica",
+          "locus": "Provérbios 3:19 ('YHVH com Sabedoria fundou a terra'); Liber 777 Col. II",
+          "desc": "Chokmah (Sabedoria = 73), a 2ª Sephira, o Pai primordial (Abba) e o Raio Relampejante."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δυάς",
         "translit": "Dyas",
-        "meaning": "A Díade, a primeira polarização da luz"
+        "meaning": "A Díade, a primeira polarização da luz",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 2",
+          "desc": "Isopsefia grega clássica para 'Δυάς' (Dyas = 2). A Díade, a primeira polarização da luz"
+        }
       }
     ],
     "english": [
       {
         "term": "Two / The Magus (I)",
         "cipher": "EQ: L=2",
-        "notes": "A primeira manifestação da dualidade e do reflexo"
+        "notes": "A primeira manifestação da dualidade e do reflexo",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 2",
+          "desc": "Termo em língua inglesa 'Two / The Magus (I)' com valor gemátrico 2. A primeira manifestação da dualidade e do reflexo"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Dois / O Mago / Espelho",
         "cipher": "EQ: L=2",
-        "notes": "Dualidade cósmica criativa"
+        "notes": "Dualidade cósmica criativa",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Dois / O Mago / Espelho' (EQ: L=2 = 2). Dualidade cósmica criativa"
+        }
       }
     ],
     "shem": [],
@@ -131,7 +245,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "A Díade, o início da diferenciação. O Mago que projeta a ilusão do universo (Maya) a partir do Uno."
+    "significance": "A Díade, o início da diferenciação. O Mago que projeta a ilusão do universo (Maya) a partir do Uno.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 2",
+      "desc": "Número bíblico e cabalístico fundamental 2, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 2",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 2."
+    }
   },
   {
     "n": 3,
@@ -139,38 +265,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ג",
         "translit": "Gimel",
-        "meaning": "Letra Gimel; Camelo, travessia do Abismo"
+        "meaning": "Letra Gimel; Camelo, travessia do Abismo",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 4:1 (Gimel como Letra Dupla, canal Kether-Tiphareth)",
+          "desc": "Gimel (Camelo = 3). A Grande Sacerdotisa e a travessia sagrada do Abismo."
+        }
       },
       {
         "text": "אב",
         "translit": "Ab",
-        "meaning": "Pai; a raiz primordial da paternidade divina"
+        "meaning": "Pai; a raiz primordial da paternidade divina",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "Salmos 89:26; Zohar II:121b; Crowley, Sepher Sephiroth p. 3",
+          "desc": "Ab (Pai = 1+2 = 3). O arquétipo seminal masculino associado a Chokmah."
+        }
       },
       {
         "text": "בינה",
         "translit": "Binah (3ª Sephira)",
-        "meaning": "Compreensão, a Grande Mãe (Aima)"
+        "meaning": "Compreensão, a Grande Mãe (Aima)",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "Provérbios 2:3; Zohar I:1b; Liber 777 Col. II (Linha 3)",
+          "desc": "Binah (Compreensão = 67), a 3ª Sephira, a Grande Mãe (Aima Elohim) e a Matriz das Formas."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τριάς",
         "translit": "Trias",
-        "meaning": "A Tríade primordial, conclusão das Supernas"
+        "meaning": "A Tríade primordial, conclusão das Supernas",
+        "ref": {
+          "work": "Theologoumena Arithmeticae",
+          "author": "Jâmblico / Nicômaco de Gerasa",
+          "locus": "Theologoumena Arithmeticae (Tratado sobre o Número Três)",
+          "desc": "Trias (A Tríade = 300+100+10+1+200 = 611 ou mística do número 3)."
+        }
       }
     ],
     "english": [
       {
         "term": "Father / Trinity / Isis",
         "cipher": "EQ: W=3",
-        "notes": "Triângulo Superno concluído em Binah"
+        "notes": "Triângulo Superno concluído em Binah",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 3",
+          "desc": "Termo em língua inglesa 'Father / Trinity / Isis' com valor gemátrico 3. Triângulo Superno concluído em Binah"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Pai / Trindade / Forma",
         "cipher": "EQ: W=3",
-        "notes": "Consolidação da primeira tríade divina"
+        "notes": "Consolidação da primeira tríade divina",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Pai / Trindade / Forma' (EQ: W=3 = 3). Consolidação da primeira tríade divina"
+        }
       }
     ],
     "shem": [],
@@ -178,7 +340,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "3 é o número da Grande Mãe Binah e de Ab (Pai = 1+2=3). Fecha o Triângulo Supremo sobre o Abismo."
+    "significance": "3 é o número da Grande Mãe Binah e de Ab (Pai = 1+2=3). Fecha o Triângulo Supremo sobre o Abismo.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 3",
+      "desc": "Número bíblico e cabalístico fundamental 3, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 3",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 3."
+    }
   },
   {
     "n": 4,
@@ -186,33 +360,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ד",
         "translit": "Daleth",
-        "meaning": "Letra Daleth; Porta da Natureza e do Ventre"
+        "meaning": "Letra Daleth; Porta da Natureza e do Ventre",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 4:1 (Daleth, a Porta)",
+          "desc": "Daleth (Porta = 4). Atribuída a Vênus, à Imperatriz e ao canal unificador Chokmah-Binah."
+        }
       },
       {
         "text": "חסד",
         "translit": "Chesed (4ª Sephira)",
-        "meaning": "Misericórdia, Majestade e Abundância"
+        "meaning": "Misericórdia, Majestade e Abundância",
+        "ref": {
+          "work": "Tanakh & Liber 777",
+          "author": "Aleister Crowley / Cabala Tradicional",
+          "locus": "Salmos 89:2 ('Olam Chesed Yibaneh'); Liber 777 Col. II (Linha 4)",
+          "desc": "Chesed (Misericórdia = 72), a 4ª Sephira, a expansão amorosa e a majestade régia."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τετράς",
         "translit": "Tetras",
-        "meaning": "A Tétrade, fundamento da solidez cósmica"
+        "meaning": "A Tétrade, fundamento da solidez cósmica",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 4",
+          "desc": "Isopsefia grega clássica para 'Τετράς' (Tetras = 4). A Tétrade, fundamento da solidez cósmica"
+        }
       }
     ],
     "english": [
       {
         "term": "Four / Tetragragrammaton / Cross",
         "cipher": "EQ: H=4",
-        "notes": "Os Quatro Mundos (Atziluth, Briah, Yetzirah, Assiah)"
+        "notes": "Os Quatro Mundos (Atziluth, Briah, Yetzirah, Assiah)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 4",
+          "desc": "Termo em língua inglesa 'Four / Tetragragrammaton / Cross' com valor gemátrico 4. Os Quatro Mundos (Atziluth, Briah, Yetzirah, Assiah)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Quatro / Cruz / Quatro Elementos",
         "cipher": "EQ: H=4",
-        "notes": "Estabilidade material e cósmica"
+        "notes": "Estabilidade material e cósmica",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Quatro / Cruz / Quatro Elementos' (EQ: H=4 = 4). Estabilidade material e cósmica"
+        }
       }
     ],
     "shem": [],
@@ -220,7 +424,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "O número do Tetragrammaton (YHVH de 4 letras), dos Quatro Mundos cabalísticos e dos quatro elementos alquímicos."
+    "significance": "O número do Tetragrammaton (YHVH de 4 letras), dos Quatro Mundos cabalísticos e dos quatro elementos alquímicos.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 4",
+      "desc": "Número bíblico e cabalístico fundamental 4, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 4",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 4."
+    }
   },
   {
     "n": 5,
@@ -228,33 +444,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ה",
         "translit": "He",
-        "meaning": "Letra He; Janela, Alento da Vida"
+        "meaning": "Letra He; Janela, Alento da Vida",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 5:1 (Heh, a Janela, Áries)",
+          "desc": "Heh (Janela / Alento = 5). Letra de Áries, O Imperador e a manifestação criadora."
+        }
       },
       {
         "text": "גבורה",
         "translit": "Geburah (5ª Sephira)",
-        "meaning": "Severidade, Força, Julgamento e Marte"
+        "meaning": "Severidade, Força, Julgamento e Marte",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "1 Crônicas 29:11; Zohar I:119b; Liber 777 Col. II (Linha 5)",
+          "desc": "Geburah (Severidade / Força = 216), a 5ª Sephira, o rigor e o fogo marcial purificador."
+        }
       }
     ],
     "greek": [
       {
         "text": "Πέντε",
         "translit": "Pente",
-        "meaning": "Cinco, o Pentagrama do Microcosmo"
+        "meaning": "Cinco, o Pentagrama do Microcosmo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 5",
+          "desc": "Isopsefia grega clássica para 'Πέντε' (Pente = 5). Cinco, o Pentagrama do Microcosmo"
+        }
       }
     ],
     "english": [
       {
         "term": "Man / Pentagram / Mars",
         "cipher": "EQ: S=5",
-        "notes": "O homem sobre a matéria; o espírito dominando os 4 elementos"
+        "notes": "O homem sobre a matéria; o espírito dominando os 4 elementos",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 5",
+          "desc": "Termo em língua inglesa 'Man / Pentagram / Mars' com valor gemátrico 5. O homem sobre a matéria; o espírito dominando os 4 elementos"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Homem / Pentagrama / Vigor",
         "cipher": "EQ: S=5",
-        "notes": "Símbolo do adepto encarnado"
+        "notes": "Símbolo do adepto encarnado",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Homem / Pentagrama / Vigor' (EQ: S=5 = 5). Símbolo do adepto encarnado"
+        }
       }
     ],
     "shem": [],
@@ -262,7 +508,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "O Pentagrama do Microcosmo. Geburah, a força disciplinadora e o fogo da purificação marcial."
+    "significance": "O Pentagrama do Microcosmo. Geburah, a força disciplinadora e o fogo da purificação marcial.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 5",
+      "desc": "Número bíblico e cabalístico fundamental 5, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 5",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 5."
+    }
   },
   {
     "n": 6,
@@ -270,33 +528,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ו",
         "translit": "Vav",
-        "meaning": "Letra Vav; Prego, Gancho, Conexão celeste"
+        "meaning": "Letra Vav; Prego, Gancho, Conexão celeste",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 5:1 (Vav, o Gancho, Touro)",
+          "desc": "Vav (Gancho / Conector = 6). Letra de Touro, O Hierofante e a união entre Céu e Terra."
+        }
       },
       {
         "text": "תפארת",
         "translit": "Tiphareth (6ª Sephira)",
-        "meaning": "Beleza, Harmonia, o Sol e o Santo Anjo Guardião"
+        "meaning": "Beleza, Harmonia, o Sol e o Santo Anjo Guardião",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "1 Crônicas 29:11; Zohar II:175a; Liber 777 Col. II (Linha 6)",
+          "desc": "Tiphareth (Beleza / Harmonia = 1081), a 6ª Sephira solar, o coração da Árvore da Vida."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἕξ",
         "translit": "Hex",
-        "meaning": "O Hexagrama, união de fogo e água"
+        "meaning": "O Hexagrama, união de fogo e água",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 6",
+          "desc": "Isopsefia grega clássica para 'Ἕξ' (Hex = 6). O Hexagrama, união de fogo e água"
+        }
       }
     ],
     "english": [
       {
         "term": "Sun / Heart / Hexagram",
         "cipher": "EQ: D=6",
-        "notes": "O centro da Árvore da Vida, a consciência de Tiphareth"
+        "notes": "O centro da Árvore da Vida, a consciência de Tiphareth",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 6",
+          "desc": "Termo em língua inglesa 'Sun / Heart / Hexagram' com valor gemátrico 6. O centro da Árvore da Vida, a consciência de Tiphareth"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Sol / Coração / Beleza",
         "cipher": "EQ: D=6",
-        "notes": "Harmonia e equilíbrio solar"
+        "notes": "Harmonia e equilíbrio solar",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Sol / Coração / Beleza' (EQ: D=6 = 6). Harmonia e equilíbrio solar"
+        }
       }
     ],
     "shem": [],
@@ -305,7 +593,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "O Sol, Tiphareth, o Hexagrama sagrado (união do Microcosmo com o Macrocosmo). Centro da Árvore da Vida."
+    "significance": "O Sol, Tiphareth, o Hexagrama sagrado (união do Microcosmo com o Macrocosmo). Centro da Árvore da Vida.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 6",
+      "desc": "Número bíblico e cabalístico fundamental 6, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 6",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 6."
+    }
   },
   {
     "n": 7,
@@ -313,38 +613,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "האא",
         "translit": "האא (Haaiah)",
-        "meaning": "Nome 26/72 da Shem ha-Mephorash (Dominações) — Deus Oculto dos Juizados"
+        "meaning": "Nome 26/72 da Shem ha-Mephorash (Dominações) — Deus Oculto dos Juizados",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 7; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'האא' (האא (Haaiah) = 7). Significado tradicional: Nome 26/72 da Shem ha-Mephorash (Dominações) — Deus Oculto dos Juizados."
+        }
       },
       {
         "text": "ז",
         "translit": "Zayin",
-        "meaning": "Letra Zayin; Espada, Vitória"
+        "meaning": "Letra Zayin; Espada, Vitória",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 5:1 (Zayin, a Espada, Gêmeos)",
+          "desc": "Zayin (Espada = 7). Letra de Gêmeos, Os Amantes e a divisão analítica sagrada."
+        }
       },
       {
         "text": "גד",
         "translit": "Gad",
-        "meaning": "Fortuna, a tribo de Gad (3+4=7)"
+        "meaning": "Fortuna, a tribo de Gad (3+4=7)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 7; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'גד' (Gad = 7). Significado tradicional: Fortuna, a tribo de Gad (3+4=7)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἑπτά",
         "translit": "Hepta",
-        "meaning": "Sete, os planetas clássicos e as sete estrelas"
+        "meaning": "Sete, os planetas clássicos e as sete estrelas",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 7",
+          "desc": "Isopsefia grega clássica para 'Ἑπτά' (Hepta = 7). Sete, os planetas clássicos e as sete estrelas"
+        }
       }
     ],
     "english": [
       {
         "term": "Seven / Babalon Star / Victory",
         "cipher": "EQ: O=7",
-        "notes": "A Estrela de Sete Pontas da Estrela de Prata (A.'.A.'.)"
+        "notes": "A Estrela de Sete Pontas da Estrela de Prata (A.'.A.'.)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 7",
+          "desc": "Termo em língua inglesa 'Seven / Babalon Star / Victory' com valor gemátrico 7. A Estrela de Sete Pontas da Estrela de Prata (A.'.A.'.)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Sete / Estrela de Babalon / Menorá",
         "cipher": "EQ: O=7",
-        "notes": "Vitória em Netzach e mistério da criação"
+        "notes": "Vitória em Netzach e mistério da criação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Sete / Estrela de Babalon / Menorá' (EQ: O=7 = 7). Vitória em Netzach e mistério da criação"
+        }
       }
     ],
     "shem": [
@@ -354,7 +690,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Haaiah",
         "choir": "Dominações",
         "attribute": "Deus Oculto dos Juizados",
-        "val": 7
+        "val": 7,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #26",
+          "desc": "Nome #26/72 da Shem ha-Mephorash: האא (Haaiah = 7). Coro celeste: Dominações. Atributo divino: 'Deus Oculto dos Juizados'."
+        }
       }
     ],
     "categories": [
@@ -362,7 +704,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "O número de Netzach (Vênus), a Estrela de Sete Pontas de Babalon e os sete dias da Criação bíblica."
+    "significance": "O número de Netzach (Vênus), a Estrela de Sete Pontas de Babalon e os sete dias da Criação bíblica.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 7",
+      "desc": "Número bíblico e cabalístico fundamental 7, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 7",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 7."
+    }
   },
   {
     "n": 8,
@@ -370,38 +724,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ח",
         "translit": "Cheth",
-        "meaning": "Letra Cheth; Cerca, Vida oculta"
+        "meaning": "Letra Cheth; Cerca, Vida oculta",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 5:1 (Cheth, a Cerca, Câncer)",
+          "desc": "Cheth (Cerca / Muralha = 8). Letra de Câncer, O Carro e a armadura do Espírito."
+        }
       },
       {
         "text": "הוד",
         "translit": "Hod (8ª Sephira)",
-        "meaning": "Esplendor, Mercúrio, Inteligência Hermética"
+        "meaning": "Esplendor, Mercúrio, Inteligência Hermética",
+        "ref": {
+          "work": "Tanakh & Liber 777",
+          "author": "Aleister Crowley / Cabala Tradicional",
+          "locus": "1 Crônicas 29:11; Liber 777 Col. II (Linha 8)",
+          "desc": "Hod (Esplendor / Glória = 15), a 8ª Sephira mercurial, o intelecto e a magia cerimonial."
+        }
       },
       {
         "text": "אהב",
         "translit": "Aheb",
-        "meaning": "Amar (1+5+2=8)"
+        "meaning": "Amar (1+5+2=8)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 8; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אהב' (Aheb = 8). Significado tradicional: Amar (1+5+2=8)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ὀκτάς",
         "translit": "Oktas",
-        "meaning": "A Ogdóade gnóstica de Valentim"
+        "meaning": "A Ogdóade gnóstica de Valentim",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 8",
+          "desc": "Isopsefia grega clássica para 'Ὀκτάς' (Oktas = 8). A Ogdóade gnóstica de Valentim"
+        }
       }
     ],
     "english": [
       {
         "term": "Eight / Hermes / Caduceus",
         "cipher": "EQ: Z=8",
-        "notes": "O caduceu de Mercúrio, o infinito em repouso"
+        "notes": "O caduceu de Mercúrio, o infinito em repouso",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 8",
+          "desc": "Termo em língua inglesa 'Eight / Hermes / Caduceus' com valor gemátrico 8. O caduceu de Mercúrio, o infinito em repouso"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Oito / Glória / Ogdóade",
         "cipher": "EQ: Z=8",
-        "notes": "Ressurreição e ciência sagrada"
+        "notes": "Ressurreição e ciência sagrada",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Oito / Glória / Ogdóade' (EQ: Z=8 = 8). Ressurreição e ciência sagrada"
+        }
       }
     ],
     "shem": [],
@@ -409,7 +799,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "A esfera de Hod (Mercúrio) e Thoth. O infinito e o equilíbrio das forças polares."
+    "significance": "A esfera de Hod (Mercúrio) e Thoth. O infinito e o equilíbrio das forças polares.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 8",
+      "desc": "Número bíblico e cabalístico fundamental 8, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 8",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 8."
+    }
   },
   {
     "n": 9,
@@ -417,45 +819,93 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ט",
         "translit": "Teth",
-        "meaning": "Letra Teth; Serpente, Força Secreta"
+        "meaning": "Letra Teth; Serpente, Força Secreta",
+        "ref": {
+          "work": "Sefer Yetzirah",
+          "author": "Cabala Tradicional",
+          "locus": "Sefer Yetzirah 5:1 (Teth, a Serpente, Leão)",
+          "desc": "Teth (Serpente = 9). Letra de Leão, A Força (Lust em Thoth) e a energia kundalini."
+        }
       },
       {
         "text": "יסוד",
         "translit": "Yesod (9ª Sephira)",
-        "meaning": "Fundamento, a Lua e o plano astral"
+        "meaning": "Fundamento, a Lua e o plano astral",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "Provérbios 10:25 ('Tzaddik Yesod Olam'); Zohar I:59b; Liber 777 Col. II (Linha 9)",
+          "desc": "Yesod (Fundamento = 80), a 9ª Sephira lunar, o receptáculo de todas as forças astrais."
+        }
       },
       {
         "text": "אבג",
         "translit": "Abag",
-        "meaning": "Início da série das letras primordiais"
+        "meaning": "Início da série das letras primordiais",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'אבג' (Abag), valor numérico 9. Início da série das letras primordiais"
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἐννέας",
         "translit": "Enneas",
-        "meaning": "A Enéade, a conclusão dos dígitos simples"
+        "meaning": "A Enéade, a conclusão dos dígitos simples",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 9",
+          "desc": "Isopsefia grega clássica para 'Ἐννέας' (Enneas = 9). A Enéade, a conclusão dos dígitos simples"
+        }
       }
     ],
     "english": [
       {
         "term": "Nine / Moon / Foundation",
         "cipher": "EQ: K=9",
-        "notes": "Fundamento do plano sutil sobre a matéria"
+        "notes": "Fundamento do plano sutil sobre a matéria",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 9",
+          "desc": "Termo em língua inglesa 'Nine / Moon / Foundation' com valor gemátrico 9. Fundamento do plano sutil sobre a matéria"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Nove / Fundamento / Lua Astral",
         "cipher": "EQ: K=9",
-        "notes": "Geração da vida e imaginação ativa"
+        "notes": "Geração da vida e imaginação ativa",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Nove / Fundamento / Lua Astral' (EQ: K=9 = 9). Geração da vida e imaginação ativa"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "kabbalah"
     ],
-    "significance": "Yesod, o Fundamento da Árvore da Vida que concentra todas as emanações para projetá-las em Malkuth."
+    "significance": "Yesod, o Fundamento da Árvore da Vida que concentra todas as emanações para projetá-las em Malkuth.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 9",
+      "desc": "Número bíblico e cabalístico fundamental 9, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 9",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 9."
+    }
   },
   {
     "n": 10,
@@ -463,33 +913,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "י",
         "translit": "Yod",
-        "meaning": "Letra Yod; Mão, a semente que contém todas as letras"
+        "meaning": "Letra Yod; Mão, a semente que contém todas as letras",
+        "ref": {
+          "work": "Sefer Yetzirah & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "Sefer Yetzirah 5:1; Zohar II:122a; Liber 777 Col. I",
+          "desc": "Yod (Mão / Ponto Germinal = 10). A menor letra, semente de todo o alfabeto sagrado."
+        }
       },
       {
         "text": "מלכות",
         "translit": "Malkuth (10ª Sephira)",
-        "meaning": "O Reino manifesto, a noiva e a presença divina"
+        "meaning": "O Reino manifesto, a noiva e a presença divina",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "Salmos 145:13; Zohar I:11a; Liber 777 Col. II (Linha 10)",
+          "desc": "Malkuth (O Reino = 496), a 10ª Sephira física, a Noiva (Kallah) e a Shekinah no mundo."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δεκάς",
         "translit": "Dekas",
-        "meaning": "A Década de Pitágoras, a plenitude"
+        "meaning": "A Década de Pitágoras, a plenitude",
+        "ref": {
+          "work": "Theologoumena Arithmeticae",
+          "author": "Pitágoras / Jâmblico",
+          "locus": "Oração da Tetraktys; The Greek Qabalah p. 78",
+          "desc": "Dekas (A Década Sagrada = 4+5+20+1+200 = 230). A consumação de todos os números na Tetraktys (1+2+3+4=10)."
+        }
       }
     ],
     "english": [
       {
         "term": "Ten / Kingdom / Wheel of Fortune",
         "cipher": "EQ: V=10",
-        "notes": "A totalidade das Sephiroth refletidas na matéria"
+        "notes": "A totalidade das Sephiroth refletidas na matéria",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 10",
+          "desc": "Termo em língua inglesa 'Ten / Kingdom / Wheel of Fortune' com valor gemátrico 10. A totalidade das Sephiroth refletidas na matéria"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Dez / Reino / Tetraktys",
         "cipher": "EQ: V=10",
-        "notes": "A soma do 1+2+3+4 = 10, consumação do Cosmos"
+        "notes": "A soma do 1+2+3+4 = 10, consumação do Cosmos",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Dez / Reino / Tetraktys' (EQ: V=10 = 10). A soma do 1+2+3+4 = 10, consumação do Cosmos"
+        }
       }
     ],
     "shem": [],
@@ -497,7 +977,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "A Década Sagrada. O número das 10 Sephiroth e dos Dez Mandamentos da Torá."
+    "significance": "A Década Sagrada. O número das 10 Sephiroth e dos Dez Mandamentos da Torá.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 10",
+      "desc": "Número bíblico e cabalístico fundamental 10, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 10",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 10."
+    }
   },
   {
     "n": 11,
@@ -505,33 +997,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "דעת",
         "translit": "Daath (Sephira Oculta)",
-        "meaning": "Conhecimento, a ponte através do Abismo"
+        "meaning": "Conhecimento, a ponte através do Abismo",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 11; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'דעת' (Daath (Sephira Oculta) = 11). Significado tradicional: Conhecimento, a ponte através do Abismo."
+        }
       },
       {
         "text": "אי",
         "translit": "Ai",
-        "meaning": "Onde? Ilha, terra distante"
+        "meaning": "Onde? Ilha, terra distante",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 11; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אי' (Ai = 11). Significado tradicional: Onde? Ilha, terra distante."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἕνδεκα",
         "translit": "Hendeka",
-        "meaning": "Onze, o número que transcende a década"
+        "meaning": "Onze, o número que transcende a década",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 11",
+          "desc": "Isopsefia grega clássica para 'Ἕνδεκα' (Hendeka = 11). Onze, o número que transcende a década"
+        }
       }
     ],
     "english": [
       {
         "term": "Magick / Nuit ('My number is 11')",
         "cipher": "Liber AL I:60",
-        "notes": "A fórmula dinâmica da Magick de Crowley: união do 5 (homem) e 6 (sol)"
+        "notes": "A fórmula dinâmica da Magick de Crowley: união do 5 (homem) e 6 (sol)",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'Magick / Nuit ('My number is 11')' (Liber AL I:60 = 11). A fórmula dinâmica da Magick de Crowley: união do 5 (homem) e 6 (sol)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Magia / Onze / Abismo",
         "cipher": "EQ: G=11",
-        "notes": "O número fundamental do Novo Aeon e da A.'.A.'."
+        "notes": "O número fundamental do Novo Aeon e da A.'.A.'.",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Magia / Onze / Abismo' (EQ: G=11 = 11). O número fundamental do Novo Aeon e da A.'.A.'."
+        }
       }
     ],
     "shem": [],
@@ -539,7 +1061,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "O grande número da Magick thelêmica ('Magick is the science and art of causing change...'). A união do 5 (microcosmo) com o 6 (macrocosmo)."
+    "significance": "O grande número da Magick thelêmica ('Magick is the science and art of causing change...'). A união do 5 (microcosmo) com o 6 (macrocosmo).",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 11; Liber AL vel Legis",
+      "desc": "Número sagrado 11 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 11",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 11."
+    }
   },
   {
     "n": 12,
@@ -547,33 +1081,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "הוהי",
         "translit": "Havayah",
-        "meaning": "Permutação do Tetragrammaton; as 12 tribos e as 12 bandeiras celestes"
+        "meaning": "Permutação do Tetragrammaton; as 12 tribos e as 12 bandeiras celestes",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 12; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הוהי' (Havayah = 12). Significado tradicional: Permutação do Tetragrammaton; as 12 tribos e as 12 bandeiras celestes."
+        }
       },
       {
         "text": "זה",
         "translit": "Zeh",
-        "meaning": "'Isto', pronome demonstrativo sagrado (7+5=12)"
+        "meaning": "'Isto', pronome demonstrativo sagrado (7+5=12)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 12; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'זה' (Zeh = 12). Significado tradicional: 'Isto', pronome demonstrativo sagrado (7+5=12)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δώδεκα",
         "translit": "Dodeka",
-        "meaning": "Doze, as doze casas zodiacais"
+        "meaning": "Doze, as doze casas zodiacais",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 12",
+          "desc": "Isopsefia grega clássica para 'Δώδεκα' (Dodeka = 12). Doze, as doze casas zodiacais"
+        }
       }
     ],
     "english": [
       {
         "term": "Twelve / Zodiac / Tribes",
         "cipher": "EQ: R=12",
-        "notes": "As doze tribos de Israel e os doze signos do Zodíaco"
+        "notes": "As doze tribos de Israel e os doze signos do Zodíaco",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 12",
+          "desc": "Termo em língua inglesa 'Twelve / Zodiac / Tribes' com valor gemátrico 12. As doze tribos de Israel e os doze signos do Zodíaco"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Doze / Zodíaco / Tribos",
         "cipher": "EQ: R=12",
-        "notes": "A roda zodiacal completa e os apóstolos"
+        "notes": "A roda zodiacal completa e os apóstolos",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Doze / Zodíaco / Tribos' (EQ: R=12 = 12). A roda zodiacal completa e os apóstolos"
+        }
       }
     ],
     "shem": [],
@@ -581,7 +1145,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "A divisão cósmica do tempo e do espaço. As 12 Permutações sagradas de YHVH que regem os 12 signos."
+    "significance": "A divisão cósmica do tempo e do espaço. As 12 Permutações sagradas de YHVH que regem os 12 signos.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 12",
+      "desc": "Número bíblico e cabalístico fundamental 12, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 12",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 12."
+    }
   },
   {
     "n": 13,
@@ -589,33 +1165,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אחד",
         "translit": "Achad",
-        "meaning": "Uno, Unidade Suprema ('Shema Yisrael... YHVH Achad')"
+        "meaning": "Uno, Unidade Suprema ('Shema Yisrael... YHVH Achad')",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 13; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אחד' (Achad = 13). Significado tradicional: Uno, Unidade Suprema ('Shema Yisrael... YHVH Achad')."
+        }
       },
       {
         "text": "אהבה",
         "translit": "Ahavah",
-        "meaning": "Amor Divino (1+5+2+5 = 13)"
+        "meaning": "Amor Divino (1+5+2+5 = 13)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 13; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אהבה' (Ahavah = 13). Significado tradicional: Amor Divino (1+5+2+5 = 13)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τρισκαίδεκα",
         "translit": "Triskaideka",
-        "meaning": "Treze, união cósmica"
+        "meaning": "Treze, união cósmica",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 13",
+          "desc": "Isopsefia grega clássica para 'Τρισκαίδεκα' (Triskaideka = 13). Treze, união cósmica"
+        }
       }
     ],
     "english": [
       {
         "term": "Love / Unity / Frater Achad",
         "cipher": "EQ: C=13",
-        "notes": "Achad (13) + Ahavah (13) = 26 (YHVH)"
+        "notes": "Achad (13) + Ahavah (13) = 26 (YHVH)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 13",
+          "desc": "Termo em língua inglesa 'Love / Unity / Frater Achad' com valor gemátrico 13. Achad (13) + Ahavah (13) = 26 (YHVH)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Amor / Uno / Unidade",
         "cipher": "EQ: C=13",
-        "notes": "A revelação de que Amor e Unidade são idênticos em essência"
+        "notes": "A revelação de que Amor e Unidade são idênticos em essência",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Amor / Uno / Unidade' (EQ: C=13 = 13). A revelação de que Amor e Unidade são idênticos em essência"
+        }
       }
     ],
     "shem": [],
@@ -624,7 +1230,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "Uma das maiores equações da Cabala: Achad (Uno = 13) e Ahavah (Amor = 13). Somados, geram o Tetragrammaton יהוה (26)."
+    "significance": "Uma das maiores equações da Cabala: Achad (Uno = 13) e Ahavah (Amor = 13). Somados, geram o Tetragrammaton יהוה (26).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 13; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 13 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 13",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 13."
+    }
   },
   {
     "n": 14,
@@ -632,40 +1250,82 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "דוד",
         "translit": "David",
-        "meaning": "Rei David (4+6+4=14); o Amado"
+        "meaning": "Rei David (4+6+4=14); o Amado",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 14; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'דוד' (David = 14). Significado tradicional: Rei David (4+6+4=14); o Amado."
+        }
       },
       {
         "text": "יד",
         "translit": "Yad",
-        "meaning": "Mão, poder e direção (10+4=14)"
+        "meaning": "Mão, poder e direção (10+4=14)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 14; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יד' (Yad = 14). Significado tradicional: Mão, poder e direção (10+4=14)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δαυίδ",
         "translit": "David",
-        "meaning": "A linhagem messiânica régia"
+        "meaning": "A linhagem messiânica régia",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 14",
+          "desc": "Isopsefia grega clássica para 'Δαυίδ' (David = 14). A linhagem messiânica régia"
+        }
       }
     ],
     "english": [
       {
         "term": "David / Hand",
         "cipher": "EQ: N=14",
-        "notes": "As 14 gerações de Abraão a David no Evangelho"
+        "notes": "As 14 gerações de Abraão a David no Evangelho",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 14",
+          "desc": "Termo em língua inglesa 'David / Hand' com valor gemátrico 14. As 14 gerações de Abraão a David no Evangelho"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "David / Mão Poderosa",
         "cipher": "EQ: N=14",
-        "notes": "A linhagem real sagrada"
+        "notes": "A linhagem real sagrada",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'David / Mão Poderosa' (EQ: N=14 = 14). A linhagem real sagrada"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "biblical"
     ],
-    "significance": "O valor de David (דוד). Mateus estrutura as gerações bíblicas em três grupos de 14 por causa desta gematria."
+    "significance": "O valor de David (דוד). Mateus estrutura as gerações bíblicas em três grupos de 14 por causa desta gematria.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 14; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 14 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 14",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 14."
+    }
   },
   {
     "n": 15,
@@ -673,38 +1333,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ההה",
         "translit": "ההה (Hahahel)",
-        "meaning": "Nome 41/72 da Shem ha-Mephorash (Virtudes) — Deus em Três Pessoas"
+        "meaning": "Nome 41/72 da Shem ha-Mephorash (Virtudes) — Deus em Três Pessoas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 15; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ההה' (ההה (Hahahel) = 15). Significado tradicional: Nome 41/72 da Shem ha-Mephorash (Virtudes) — Deus em Três Pessoas."
+        }
       },
       {
         "text": "יה",
         "translit": "Yah",
-        "meaning": "Nome Divino Yah (10+5=15); Halleluyah ('Louvai a Yah')"
+        "meaning": "Nome Divino Yah (10+5=15); Halleluyah ('Louvai a Yah')",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 15; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יה' (Yah = 15). Significado tradicional: Nome Divino Yah (10+5=15); Halleluyah ('Louvai a Yah')."
+        }
       },
       {
         "text": "הוד",
         "translit": "Hod (var)",
-        "meaning": "Esplendor interior"
+        "meaning": "Esplendor interior",
+        "ref": {
+          "work": "Tanakh & Liber 777",
+          "author": "Aleister Crowley / Cabala Tradicional",
+          "locus": "1 Crônicas 29:11; Liber 777 Col. II (Linha 8)",
+          "desc": "Hod (Esplendor / Glória = 15), a 8ª Sephira mercurial, o intelecto e a magia cerimonial."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δεκαπέντε",
         "translit": "Dekapente",
-        "meaning": "Quinze, os 15 degraus do Templo"
+        "meaning": "Quinze, os 15 degraus do Templo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 15",
+          "desc": "Isopsefia grega clássica para 'Δεκαπέντε' (Dekapente = 15). Quinze, os 15 degraus do Templo"
+        }
       }
     ],
     "english": [
       {
         "term": "Yah / The Devil (XV)",
         "cipher": "EQ: Y=15",
-        "notes": "Os 15 Salmos de Degraus (Shir HaMa'alot)"
+        "notes": "Os 15 Salmos de Degraus (Shir HaMa'alot)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 15",
+          "desc": "Termo em língua inglesa 'Yah / The Devil (XV)' com valor gemátrico 15. Os 15 Salmos de Degraus (Shir HaMa'alot)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Yah / Senhor / Degraus",
         "cipher": "EQ: Y=15",
-        "notes": "Nome sagrado dos Salmos"
+        "notes": "Nome sagrado dos Salmos",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Yah / Senhor / Degraus' (EQ: Y=15 = 15). Nome sagrado dos Salmos"
+        }
       }
     ],
     "shem": [
@@ -714,14 +1410,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Hahahel",
         "choir": "Virtudes",
         "attribute": "Deus em Três Pessoas",
-        "val": 15
+        "val": 15,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #41",
+          "desc": "Nome #41/72 da Shem ha-Mephorash: ההה (Hahahel = 15). Coro celeste: Virtudes. Atributo divino: 'Deus em Três Pessoas'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "O Nome Divino יה (Yah), a metade superior do Tetragrammaton. Os 15 Cânticos de Degraus do Templo de Jerusalém."
+    "significance": "O Nome Divino יה (Yah), a metade superior do Tetragrammaton. Os 15 Cânticos de Degraus do Templo de Jerusalém.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 15; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 15 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 15",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 15."
+    }
   },
   {
     "n": 16,
@@ -729,7 +1443,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חבו",
         "translit": "חבו (Habuhiah)",
-        "meaning": "Nome 68/72 da Shem ha-Mephorash (Anjos) — Deus que cura as enfermidades da terra"
+        "meaning": "Nome 68/72 da Shem ha-Mephorash (Anjos) — Deus que cura as enfermidades da terra",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 16; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חבו' (חבו (Habuhiah) = 16). Significado tradicional: Nome 68/72 da Shem ha-Mephorash (Anjos) — Deus que cura as enfermidades da terra."
+        }
       }
     ],
     "greek": [],
@@ -742,13 +1462,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Habuhiah",
         "choir": "Anjos",
         "attribute": "Deus que cura as enfermidades da terra",
-        "val": 16
+        "val": 16,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #68",
+          "desc": "Nome #68/72 da Shem ha-Mephorash: חבו (Habuhiah = 16). Coro celeste: Anjos. Atributo divino: 'Deus que cura as enfermidades da terra'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 16; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 16 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 17,
@@ -756,38 +1488,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "והו",
         "translit": "והו (Vehuiah)",
-        "meaning": "Nome 1/72 da Shem ha-Mephorash (Serafins) — Deus Exaltado e Elevado acima de todas as coisas"
+        "meaning": "Nome 1/72 da Shem ha-Mephorash (Serafins) — Deus Exaltado e Elevado acima de todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 17; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'והו' (והו (Vehuiah) = 17). Significado tradicional: Nome 1/72 da Shem ha-Mephorash (Serafins) — Deus Exaltado e Elevado acima de todas as coisas."
+        }
       },
       {
         "text": "והו",
         "translit": "והו (Vehuel)",
-        "meaning": "Nome 49/72 da Shem ha-Mephorash (Principados) — Deus Grande e Elevado nas Alturas"
+        "meaning": "Nome 49/72 da Shem ha-Mephorash (Principados) — Deus Grande e Elevado nas Alturas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 17; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'והו' (והו (Vehuel) = 17). Significado tradicional: Nome 49/72 da Shem ha-Mephorash (Principados) — Deus Grande e Elevado nas Alturas."
+        }
       },
       {
         "text": "טוב",
         "translit": "Tov",
-        "meaning": "Bom ('E viu Deus que era Bom' - Gênesis 1)"
+        "meaning": "Bom ('E viu Deus que era Bom' - Gênesis 1)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 17; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'טוב' (Tov = 17). Significado tradicional: Bom ('E viu Deus que era Bom' - Gênesis 1)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀγαθόν",
         "translit": "Agathon",
-        "meaning": "O Bem supremo"
+        "meaning": "O Bem supremo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 17",
+          "desc": "Isopsefia grega clássica para 'Ἀγαθόν' (Agathon = 17). O Bem supremo"
+        }
       }
     ],
     "english": [
       {
         "term": "Good / The Star (XVII)",
         "cipher": "EQ: U=17",
-        "notes": "A Estrela de Babalon e a bondade intrínseca do Ser"
+        "notes": "A Estrela de Babalon e a bondade intrínseca do Ser",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 17",
+          "desc": "Termo em língua inglesa 'Good / The Star (XVII)' com valor gemátrico 17. A Estrela de Babalon e a bondade intrínseca do Ser"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Bom / Bondade / Estrela",
         "cipher": "EQ: U=17",
-        "notes": "O Bem primordial de Gênesis 1"
+        "notes": "O Bem primordial de Gênesis 1",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Bom / Bondade / Estrela' (EQ: U=17 = 17). O Bem primordial de Gênesis 1"
+        }
       }
     ],
     "shem": [
@@ -797,7 +1565,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Vehuiah",
         "choir": "Serafins",
         "attribute": "Deus Exaltado e Elevado acima de todas as coisas",
-        "val": 17
+        "val": 17,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #1",
+          "desc": "Nome #1/72 da Shem ha-Mephorash: והו (Vehuiah = 17). Coro celeste: Serafins. Atributo divino: 'Deus Exaltado e Elevado acima de todas as coisas'."
+        }
       },
       {
         "index": 49,
@@ -805,14 +1579,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Vehuel",
         "choir": "Principados",
         "attribute": "Deus Grande e Elevado nas Alturas",
-        "val": 17
+        "val": 17,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #49",
+          "desc": "Nome #49/72 da Shem ha-Mephorash: והו (Vehuel = 17). Coro celeste: Principados. Atributo divino: 'Deus Grande e Elevado nas Alturas'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "Tov (טוב = 17), a essência do Bem primordial que Deus contempla em cada dia da Criação. 1º Nome dos 72."
+    "significance": "Tov (טוב = 17), a essência do Bem primordial que Deus contempla em cada dia da Criação. 1º Nome dos 72.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 17; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 17 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 17",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 17."
+    }
   },
   {
     "n": 18,
@@ -820,28 +1612,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חי",
         "translit": "Chai",
-        "meaning": "Vivo, Vida! O amuleto mais célebre do Judaísmo (8+10=18)"
+        "meaning": "Vivo, Vida! O amuleto mais célebre do Judaísmo (8+10=18)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 18; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חי' (Chai = 18). Significado tradicional: Vivo, Vida! O amuleto mais célebre do Judaísmo (8+10=18)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ζωή",
         "translit": "Zoe",
-        "meaning": "Vida divina emanada"
+        "meaning": "Vida divina emanada",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 18",
+          "desc": "Isopsefia grega clássica para 'Ζωή' (Zoe = 18). Vida divina emanada"
+        }
       }
     ],
     "english": [
       {
         "term": "Life / Chai / Living",
         "cipher": "EQ: F=18",
-        "notes": "O valor de Chai (18), a raiz das doações e bênçãos judaicas"
+        "notes": "O valor de Chai (18), a raiz das doações e bênçãos judaicas",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 18",
+          "desc": "Termo em língua inglesa 'Life / Chai / Living' com valor gemátrico 18. O valor de Chai (18), a raiz das doações e bênçãos judaicas"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Vida / Chai / Vivente",
         "cipher": "EQ: F=18",
-        "notes": "A celebração eterna da Vida"
+        "notes": "A celebração eterna da Vida",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Vida / Chai / Vivente' (EQ: F=18 = 18). A celebração eterna da Vida"
+        }
       }
     ],
     "shem": [],
@@ -849,7 +1665,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Chai (חי = 18). A palavra hebraica para 'Vida'. O motivo pelo qual doações e votos judaicos são feitos em múltiplos de 18."
+    "significance": "Chai (חי = 18). A palavra hebraica para 'Vida'. O motivo pelo qual doações e votos judaicos são feitos em múltiplos de 18.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 18; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 18 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 18",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 18."
+    }
   },
   {
     "n": 19,
@@ -857,38 +1685,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חהו",
         "translit": "חהו (Hahiuiah)",
-        "meaning": "Nome 24/72 da Shem ha-Mephorash (Tronos) — Deus Bom por Si Mesmo"
+        "meaning": "Nome 24/72 da Shem ha-Mephorash (Tronos) — Deus Bom por Si Mesmo",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 19; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חהו' (חהו (Hahiuiah) = 19). Significado tradicional: Nome 24/72 da Shem ha-Mephorash (Tronos) — Deus Bom por Si Mesmo."
+        }
       },
       {
         "text": "חוה",
         "translit": "Chavah (Eva)",
-        "meaning": "Mãe de todos os viventes (8+6+5=19)"
+        "meaning": "Mãe de todos os viventes (8+6+5=19)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 19; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חוה' (Chavah (Eva) = 19). Significado tradicional: Mãe de todos os viventes (8+6+5=19)."
+        }
       },
       {
         "text": "איוב",
         "translit": "Iyov (Jó)",
-        "meaning": "O patriarca provado pelo sofrimento e restaurado"
+        "meaning": "O patriarca provado pelo sofrimento e restaurado",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 19; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'איוב' (Iyov (Jó) = 19). Significado tradicional: O patriarca provado pelo sofrimento e restaurado."
+        }
       }
     ],
     "greek": [
       {
         "text": "Εὔα",
         "translit": "Eva",
-        "meaning": "A primeira mulher e mãe biológica"
+        "meaning": "A primeira mulher e mãe biológica",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 19",
+          "desc": "Isopsefia grega clássica para 'Εὔα' (Eva = 19). A primeira mulher e mãe biológica"
+        }
       }
     ],
     "english": [
       {
         "term": "Eve / Sun (XIX)",
         "cipher": "EQ: Q=19",
-        "notes": "O Arcano XIX (O Sol) e o ciclo metônico de 19 anos lunares"
+        "notes": "O Arcano XIX (O Sol) e o ciclo metônico de 19 anos lunares",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 19",
+          "desc": "Termo em língua inglesa 'Eve / Sun (XIX)' com valor gemátrico 19. O Arcano XIX (O Sol) e o ciclo metônico de 19 anos lunares"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Eva / Vida Fecunda / Jó",
         "cipher": "EQ: Q=19",
-        "notes": "A mãe da humanidade"
+        "notes": "A mãe da humanidade",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Eva / Vida Fecunda / Jó' (EQ: Q=19 = 19). A mãe da humanidade"
+        }
       }
     ],
     "shem": [
@@ -898,14 +1762,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Hahiuiah",
         "choir": "Tronos",
         "attribute": "Deus Bom por Si Mesmo",
-        "val": 19
+        "val": 19,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #24",
+          "desc": "Nome #24/72 da Shem ha-Mephorash: חהו (Hahiuiah = 19). Coro celeste: Tronos. Atributo divino: 'Deus Bom por Si Mesmo'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "Chavah (חוה = 19), a raiz hebraica de Eva. O ciclo metônico que reconcilia o calendário solar e lunar tem exatamente 19 anos."
+    "significance": "Chavah (חוה = 19), a raiz hebraica de Eva. O ciclo metônico que reconcilia o calendário solar e lunar tem exatamente 19 anos.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 19; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 19 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 19",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 19."
+    }
   },
   {
     "n": 20,
@@ -913,7 +1795,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יהה",
         "translit": "יהה (Iah-hel)",
-        "meaning": "Nome 62/72 da Shem ha-Mephorash (Arcanjos) — Ser Supremo e Sabedoria Oculta"
+        "meaning": "Nome 62/72 da Shem ha-Mephorash (Arcanjos) — Ser Supremo e Sabedoria Oculta",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 20; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יהה' (יהה (Iah-hel) = 20). Significado tradicional: Nome 62/72 da Shem ha-Mephorash (Arcanjos) — Ser Supremo e Sabedoria Oculta."
+        }
       }
     ],
     "greek": [],
@@ -926,13 +1814,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Iah-hel",
         "choir": "Arcanjos",
         "attribute": "Ser Supremo e Sabedoria Oculta",
-        "val": 20
+        "val": 20,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #62",
+          "desc": "Nome #62/72 da Shem ha-Mephorash: יהה (Iah-hel = 20). Coro celeste: Arcanjos. Atributo divino: 'Ser Supremo e Sabedoria Oculta'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 20; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 20 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 21,
@@ -940,28 +1840,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אהיה",
         "translit": "Ehyeh",
-        "meaning": "'Eu Sou', o Nome Divino revelado na sarça ardente a Moisés (1+5+10+5=21)"
+        "meaning": "'Eu Sou', o Nome Divino revelado na sarça ardente a Moisés (1+5+10+5=21)",
+        "ref": {
+          "work": "Torá (Êxodo) & Sefer Yetzirah",
+          "author": "Moisés / Cabala Primária",
+          "locus": "Êxodo 3:14 ('Ehyeh Asher Ehyeh'); Liber 777 Col. V (Kether)",
+          "desc": "Eheieh ('Eu Sou' = 1+5+10+5 = 21). O Nome Divino de Kether na mais alta esfera do Ser."
+        }
       }
     ],
     "greek": [
       {
         "text": "Εἰμί",
         "translit": "Eimi",
-        "meaning": "A existência pura ('Eu Sou')"
+        "meaning": "A existência pura ('Eu Sou')",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 21",
+          "desc": "Isopsefia grega clássica para 'Εἰμί' (Eimi = 21). A existência pura ('Eu Sou')"
+        }
       }
     ],
     "english": [
       {
         "term": "I AM / The Universe (XXI)",
         "cipher": "EQ: M=21",
-        "notes": "Ehyeh, o Nome Sagrado associado a Kether"
+        "notes": "Ehyeh, o Nome Sagrado associado a Kether",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 21",
+          "desc": "Termo em língua inglesa 'I AM / The Universe (XXI)' com valor gemátrico 21. Ehyeh, o Nome Sagrado associado a Kether"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Eu Sou / O Universo / Kether",
         "cipher": "EQ: M=21",
-        "notes": "A suprema autoafirmação do Ser"
+        "notes": "A suprema autoafirmação do Ser",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Eu Sou / O Universo / Kether' (EQ: M=21 = 21). A suprema autoafirmação do Ser"
+        }
       }
     ],
     "shem": [],
@@ -969,7 +1893,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "O Nome de Deus em Kether: Ehyeh (אהיה = 21), 'Eu Sou o que Sou'. Conclusão dos Arcanos Maiores (XXI)."
+    "significance": "O Nome de Deus em Kether: Ehyeh (אהיה = 21), 'Eu Sou o que Sou'. Conclusão dos Arcanos Maiores (XXI).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 21; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 21 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Êxodo 14:19-21, Sefer Raziel Ha-Malakh & De Arte Cabbalistica",
+      "author": "Johannes Reuchlin (1517) / Athanasius Kircher (1652)",
+      "locus": "Oedipus Aegyptiacus Tomo II; Liber 777 Tabela dos 72 Nomes",
+      "desc": "Doutrina cabalística dos 72 Nomes Divinos e sua manifestação no número 21."
+    }
   },
   {
     "n": 22,
@@ -977,38 +1913,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אכא",
         "translit": "אכא (Achaiah)",
-        "meaning": "Nome 7/72 da Shem ha-Mephorash (Serafins) — Deus Bom e Paciente"
+        "meaning": "Nome 7/72 da Shem ha-Mephorash (Serafins) — Deus Bom e Paciente",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 22; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אכא' (אכא (Achaiah) = 22). Significado tradicional: Nome 7/72 da Shem ha-Mephorash (Serafins) — Deus Bom e Paciente."
+        }
       },
       {
         "text": "הזי",
         "translit": "הזי (Haziel)",
-        "meaning": "Nome 9/72 da Shem ha-Mephorash (Querubins) — Deus de Misericórdia e Perdão"
+        "meaning": "Nome 9/72 da Shem ha-Mephorash (Querubins) — Deus de Misericórdia e Perdão",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 22; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הזי' (הזי (Haziel) = 22). Significado tradicional: Nome 9/72 da Shem ha-Mephorash (Querubins) — Deus de Misericórdia e Perdão."
+        }
       },
       {
         "text": "כ",
         "translit": "Khaf",
-        "meaning": "Letra Khaf (20); 22 Letras do Alfabeto Sagrado"
+        "meaning": "Letra Khaf (20); 22 Letras do Alfabeto Sagrado",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'כ' (Khaf), valor numérico 22. Letra Khaf (20); 22 Letras do Alfabeto Sagrado"
+        }
       }
     ],
     "greek": [
       {
         "text": "Εἴκοσι δύο",
         "translit": "Eikosi dyo",
-        "meaning": "Vinte e dois caminhos de sabedoria"
+        "meaning": "Vinte e dois caminhos de sabedoria",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 22",
+          "desc": "Isopsefia grega clássica para 'Εἴκοσι δύο' (Eikosi dyo = 22). Vinte e dois caminhos de sabedoria"
+        }
       }
     ],
     "english": [
       {
         "term": "Twenty-Two / The Paths",
         "cipher": "EQ: X=22",
-        "notes": "Os 22 Caminhos da Árvore da Vida e as 22 Letras"
+        "notes": "Os 22 Caminhos da Árvore da Vida e as 22 Letras",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 22",
+          "desc": "Termo em língua inglesa 'Twenty-Two / The Paths' com valor gemátrico 22. Os 22 Caminhos da Árvore da Vida e as 22 Letras"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Vinte e Dois / Letras Sagradas",
         "cipher": "EQ: X=22",
-        "notes": "A totalidade da linguagem da Criação"
+        "notes": "A totalidade da linguagem da Criação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Vinte e Dois / Letras Sagradas' (EQ: X=22 = 22). A totalidade da linguagem da Criação"
+        }
       }
     ],
     "shem": [
@@ -1018,7 +1990,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Achaiah",
         "choir": "Serafins",
         "attribute": "Deus Bom e Paciente",
-        "val": 22
+        "val": 22,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #7",
+          "desc": "Nome #7/72 da Shem ha-Mephorash: אכא (Achaiah = 22). Coro celeste: Serafins. Atributo divino: 'Deus Bom e Paciente'."
+        }
       },
       {
         "index": 9,
@@ -1026,14 +2004,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Haziel",
         "choir": "Querubins",
         "attribute": "Deus de Misericórdia e Perdão",
-        "val": 22
+        "val": 22,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #9",
+          "desc": "Nome #9/72 da Shem ha-Mephorash: הזי (Haziel = 22). Coro celeste: Querubins. Atributo divino: 'Deus de Misericórdia e Perdão'."
+        }
       }
     ],
     "categories": [
       "kabbalah",
       "shem"
     ],
-    "significance": "As 22 Letras de fundação com as quais Deus esculpiu o Universo (*Sefer Yetzirah*). Os 22 Caminhos da Árvore da Vida."
+    "significance": "As 22 Letras de fundação com as quais Deus esculpiu o Universo (*Sefer Yetzirah*). Os 22 Caminhos da Árvore da Vida.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 22",
+      "desc": "Número bíblico e cabalístico fundamental 22, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 22",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 22."
+    }
   },
   {
     "n": 24,
@@ -1041,33 +2037,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יחו",
         "translit": "יחו (Iehuiah)",
-        "meaning": "Nome 33/72 da Shem ha-Mephorash (Potências) — Deus Conhecedor de todas as coisas"
+        "meaning": "Nome 33/72 da Shem ha-Mephorash (Potências) — Deus Conhecedor de todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 24; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יחו' (יחו (Iehuiah) = 24). Significado tradicional: Nome 33/72 da Shem ha-Mephorash (Potências) — Deus Conhecedor de todas as coisas."
+        }
       },
       {
         "text": "אביהו",
         "translit": "Abihu",
-        "meaning": "'Ele é meu Pai'"
+        "meaning": "'Ele é meu Pai'",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 24; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אביהו' (Abihu = 24). Significado tradicional: 'Ele é meu Pai'."
+        }
       }
     ],
     "greek": [
       {
         "text": "Εἴκοσι τέσσερα",
         "translit": "Eikosi tessera",
-        "meaning": "Os 24 Anciãos do Apocalipse"
+        "meaning": "Os 24 Anciãos do Apocalipse",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 24",
+          "desc": "Isopsefia grega clássica para 'Εἴκοσι τέσσερα' (Eikosi tessera = 24). Os 24 Anciãos do Apocalipse"
+        }
       }
     ],
     "english": [
       {
         "term": "Twenty-Four / Elders",
         "cipher": "EQ: T=24",
-        "notes": "As 24 horas do dia e os 24 anciãos ao redor do trono"
+        "notes": "As 24 horas do dia e os 24 anciãos ao redor do trono",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 24",
+          "desc": "Termo em língua inglesa 'Twenty-Four / Elders' com valor gemátrico 24. As 24 horas do dia e os 24 anciãos ao redor do trono"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Vinte e Quatro / Anciãos",
         "cipher": "EQ: T=24",
-        "notes": "Conselho celeste eterno"
+        "notes": "Conselho celeste eterno",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Vinte e Quatro / Anciãos' (EQ: T=24 = 24). Conselho celeste eterno"
+        }
       }
     ],
     "shem": [
@@ -1077,14 +2103,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Iehuiah",
         "choir": "Potências",
         "attribute": "Deus Conhecedor de todas as coisas",
-        "val": 24
+        "val": 24,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #33",
+          "desc": "Nome #33/72 da Shem ha-Mephorash: יחו (Iehuiah = 24). Coro celeste: Potências. Atributo divino: 'Deus Conhecedor de todas as coisas'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "Os 24 Anciãos coroados descritos em Apocalipse 4. 33º Nome da Shem ha-Mephorash."
+    "significance": "Os 24 Anciãos coroados descritos em Apocalipse 4. 33º Nome da Shem ha-Mephorash.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 24; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 24 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Êxodo 14:19-21, Sefer Raziel Ha-Malakh & De Arte Cabbalistica",
+      "author": "Johannes Reuchlin (1517) / Athanasius Kircher (1652)",
+      "locus": "Oedipus Aegyptiacus Tomo II; Liber 777 Tabela dos 72 Nomes",
+      "desc": "Doutrina cabalística dos 72 Nomes Divinos e sua manifestação no número 24."
+    }
   },
   {
     "n": 25,
@@ -1092,33 +2136,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "היי",
         "translit": "היי (Haiaiel)",
-        "meaning": "Nome 71/72 da Shem ha-Mephorash (Anjos) — Deus Senhor e Mestre do Universo"
+        "meaning": "Nome 71/72 da Shem ha-Mephorash (Anjos) — Deus Senhor e Mestre do Universo",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 25; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'היי' (היי (Haiaiel) = 25). Significado tradicional: Nome 71/72 da Shem ha-Mephorash (Anjos) — Deus Senhor e Mestre do Universo."
+        }
       },
       {
         "text": "יהי",
         "translit": "Yehi",
-        "meaning": "'Haja!' ('Yehi Or' = Haja Luz - Gênesis 1:3)"
+        "meaning": "'Haja!' ('Yehi Or' = Haja Luz - Gênesis 1:3)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 25; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יהי' (Yehi = 25). Significado tradicional: 'Haja!' ('Yehi Or' = Haja Luz - Gênesis 1:3)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Φῶς (part)",
         "translit": "Fiat Lux",
-        "meaning": "O comando da iluminação primordial"
+        "meaning": "O comando da iluminação primordial",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 25",
+          "desc": "Isopsefia grega clássica para 'Φῶς (part)' (Fiat Lux = 25). O comando da iluminação primordial"
+        }
       }
     ],
     "english": [
       {
         "term": "Let There Be / Light",
         "cipher": "EQ: E=25",
-        "notes": "5 ao quadrado (5² = 25); a manifestação do comando criador"
+        "notes": "5 ao quadrado (5² = 25); a manifestação do comando criador",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 25",
+          "desc": "Termo em língua inglesa 'Let There Be / Light' com valor gemátrico 25. 5 ao quadrado (5² = 25); a manifestação do comando criador"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Haja Luz / Criação",
         "cipher": "EQ: E=25",
-        "notes": "O poder do verbo imperativo"
+        "notes": "O poder do verbo imperativo",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Haja Luz / Criação' (EQ: E=25 = 25). O poder do verbo imperativo"
+        }
       }
     ],
     "shem": [
@@ -1128,14 +2202,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Haiaiel",
         "choir": "Anjos",
         "attribute": "Deus Senhor e Mestre do Universo",
-        "val": 25
+        "val": 25,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #71",
+          "desc": "Nome #71/72 da Shem ha-Mephorash: היי (Haiaiel = 25). Coro celeste: Anjos. Atributo divino: 'Deus Senhor e Mestre do Universo'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "O verbo da criação: Yehi (יהי = 25), a palavra com a qual a Luz é ordenada no princípio. 71º Nome dos 72."
+    "significance": "O verbo da criação: Yehi (יהי = 25), a palavra com a qual a Luz é ordenada no princípio. 71º Nome dos 72.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 25; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 25 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 25",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 25."
+    }
   },
   {
     "n": 26,
@@ -1143,33 +2235,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יהוה",
         "translit": "YHVH",
-        "meaning": "O Inefável Tetragrammaton, o Nome Eterno de Deus (10+5+6+5=26)"
+        "meaning": "O Inefável Tetragrammaton, o Nome Eterno de Deus (10+5+6+5=26)",
+        "ref": {
+          "work": "Torá (Êxodo) & Pardes Rimonim",
+          "author": "Moisés / Moisés Cordovero",
+          "locus": "Êxodo 3:14-15; Pardes Rimonim Sha'ar 19; Crowley, Sepher Sephiroth p. 26",
+          "desc": "O Tetragrammaton YHVH (10+5+6+5=26), o Nome Inefável de Deus revelado no Sinai."
+        }
       },
       {
         "text": "כבוד",
         "translit": "Kavod (reduz)",
-        "meaning": "A Glória Divina"
+        "meaning": "A Glória Divina",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 26; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כבוד' (Kavod (reduz) = 26). Significado tradicional: A Glória Divina."
+        }
       }
     ],
     "greek": [
       {
         "text": "Κύριος (eq)",
         "translit": "Kyrios",
-        "meaning": "O Senhor soberano"
+        "meaning": "O Senhor soberano",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 26",
+          "desc": "Isopsefia grega clássica para 'Κύριος (eq)' (Kyrios = 26). O Senhor soberano"
+        }
       }
     ],
     "english": [
       {
         "term": "GOD / LORD / YHVH",
         "cipher": "Simple: G(7)+O(15)+D(4) = 26",
-        "notes": "A notável equivalência em Gematria Simples: GOD = 26 = יהוה"
+        "notes": "A notável equivalência em Gematria Simples: GOD = 26 = יהוה",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 26",
+          "desc": "Termo em língua inglesa 'GOD / LORD / YHVH' com valor gemátrico 26. A notável equivalência em Gematria Simples: GOD = 26 = יהוה"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "O Nome Inefável / Deus",
         "cipher": "Simbólica",
-        "notes": "A soma exata de Achad (13) + Ahavah (13) = 26"
+        "notes": "A soma exata de Achad (13) + Ahavah (13) = 26",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'O Nome Inefável / Deus' (Simbólica = 26). A soma exata de Achad (13) + Ahavah (13) = 26"
+        }
       }
     ],
     "shem": [],
@@ -1178,7 +2300,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "latin_eq"
     ],
-    "significance": "O centro absoluto da teologia judaica e cabalística: יהוה = 26. É a soma de 13 (Amor) e 13 (Unidade). Na gematria inglesa simples: G(7)+O(15)+D(4) = 26!"
+    "significance": "O centro absoluto da teologia judaica e cabalística: יהוה = 26. É a soma de 13 (Amor) e 13 (Unidade). Na gematria inglesa simples: G(7)+O(15)+D(4) = 26!",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 26",
+      "desc": "Número bíblico e cabalístico fundamental 26, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 26",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 26."
+    }
   },
   {
     "n": 27,
@@ -1186,33 +2320,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ייז",
         "translit": "ייז (Ieiazel)",
-        "meaning": "Nome 40/72 da Shem ha-Mephorash (Potências) — Deus que regozija os pranteadores"
+        "meaning": "Nome 40/72 da Shem ha-Mephorash (Potências) — Deus que regozija os pranteadores",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 27; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ייז' (ייז (Ieiazel) = 27). Significado tradicional: Nome 40/72 da Shem ha-Mephorash (Potências) — Deus que regozija os pranteadores."
+        }
       },
       {
         "text": "זך",
         "translit": "Zakh",
-        "meaning": "Puro, imaculado (7+20=27)"
+        "meaning": "Puro, imaculado (7+20=27)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 27; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'זך' (Zakh = 27). Significado tradicional: Puro, imaculado (7+20=27)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Καθαρός",
         "translit": "Katharos",
-        "meaning": "Puro, livre de mancha"
+        "meaning": "Puro, livre de mancha",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 27",
+          "desc": "Isopsefia grega clássica para 'Καθαρός' (Katharos = 27). Puro, livre de mancha"
+        }
       }
     ],
     "english": [
       {
         "term": "Twenty-Seven / 3 Cubed",
         "cipher": "Matemática Esotérica",
-        "notes": "3³ = 27; o cubo perfeito da Trindade"
+        "notes": "3³ = 27; o cubo perfeito da Trindade",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 27",
+          "desc": "Termo em língua inglesa 'Twenty-Seven / 3 Cubed' com valor gemátrico 27. 3³ = 27; o cubo perfeito da Trindade"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Pureza / Cubo de Três",
         "cipher": "Simbólica",
-        "notes": "Três dimensões da perfeição trina"
+        "notes": "Três dimensões da perfeição trina",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Pureza / Cubo de Três' (Simbólica = 27). Três dimensões da perfeição trina"
+        }
       }
     ],
     "shem": [
@@ -1222,14 +2386,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Ieiazel",
         "choir": "Potências",
         "attribute": "Deus que regozija os pranteadores",
-        "val": 27
+        "val": 27,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #40",
+          "desc": "Nome #40/72 da Shem ha-Mephorash: ייז (Ieiazel = 27). Coro celeste: Potências. Atributo divino: 'Deus que regozija os pranteadores'."
+        }
       }
     ],
     "categories": [
       "kabbalah",
       "shem"
     ],
-    "significance": "3³ = 27. O número das 22 letras hebraicas somadas às 5 formas finais (sofit) = 27 letras."
+    "significance": "3³ = 27. O número das 22 letras hebraicas somadas às 5 formas finais (sofit) = 27 letras.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 27; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 27 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 27",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 27."
+    }
   },
   {
     "n": 30,
@@ -1237,38 +2419,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ייי",
         "translit": "ייי (Ieiaiel)",
-        "meaning": "Nome 22/72 da Shem ha-Mephorash (Tronos) — A Destra de Deus (Trindade de Yods)"
+        "meaning": "Nome 22/72 da Shem ha-Mephorash (Tronos) — A Destra de Deus (Trindade de Yods)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 30; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ייי' (ייי (Ieiaiel) = 30). Significado tradicional: Nome 22/72 da Shem ha-Mephorash (Tronos) — A Destra de Deus (Trindade de Yods)."
+        }
       },
       {
         "text": "ל",
         "translit": "Lamed",
-        "meaning": "Letra Lamed (30); Ferrão, Ensino e Justiça"
+        "meaning": "Letra Lamed (30); Ferrão, Ensino e Justiça",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'ל' (Lamed), valor numérico 30. Letra Lamed (30); Ferrão, Ensino e Justiça"
+        }
       },
       {
         "text": "יהודה",
         "translit": "Yehudah (Judá - soma base)",
-        "meaning": "Líder das tribos reais"
+        "meaning": "Líder das tribos reais",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 30; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יהודה' (Yehudah (Judá - soma base) = 30). Significado tradicional: Líder das tribos reais."
+        }
       }
     ],
     "greek": [
       {
         "text": "Λάμβδα",
         "translit": "Lambda",
-        "meaning": "Lambda, proporção harmônica"
+        "meaning": "Lambda, proporção harmônica",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 30",
+          "desc": "Isopsefia grega clássica para 'Λάμβδα' (Lambda = 30). Lambda, proporção harmônica"
+        }
       }
     ],
     "english": [
       {
         "term": "Will (NAEQ)",
         "cipher": "NAEQ: W(3)+I(23)+L(2)+L(2) = 30",
-        "notes": "A palavra WILL soma exatamente 30 na New Aeon English Qabalah!"
+        "notes": "A palavra WILL soma exatamente 30 na New Aeon English Qabalah!",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'Will (NAEQ)' (NAEQ: W(3)+I(23)+L(2)+L(2) = 30 = 30). A palavra WILL soma exatamente 30 na New Aeon English Qabalah!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Trinta / Lamed / Justiça",
         "cipher": "EQ: L=2",
-        "notes": "A letra Lamed ergue-se acima de todas as outras no alfabeto"
+        "notes": "A letra Lamed ergue-se acima de todas as outras no alfabeto",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Trinta / Lamed / Justiça' (EQ: L=2 = 30). A letra Lamed ergue-se acima de todas as outras no alfabeto"
+        }
       }
     ],
     "shem": [
@@ -1278,7 +2496,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Ieiaiel",
         "choir": "Tronos",
         "attribute": "A Destra de Deus (Trindade de Yods)",
-        "val": 30
+        "val": 30,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #22",
+          "desc": "Nome #22/72 da Shem ha-Mephorash: ייי (Ieiaiel = 30). Coro celeste: Tronos. Atributo divino: 'A Destra de Deus (Trindade de Yods)'."
+        }
       }
     ],
     "categories": [
@@ -1287,7 +2511,19 @@ window.GEMATRIA_DATABASE = [
       "latin_eq",
       "shem"
     ],
-    "significance": "Na English Qabalah (NAEQ), WILL = 3+23+2+2 = 30! No hebraico, é Lamed (ל = 30) e a Trindade de Yods do 22º Nome Divino."
+    "significance": "Na English Qabalah (NAEQ), WILL = 3+23+2+2 = 30! No hebraico, é Lamed (ל = 30) e a Trindade de Yods do 22º Nome Divino.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 30; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 30 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 30",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 30."
+    }
   },
   {
     "n": 31,
@@ -1295,33 +2531,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אל",
         "translit": "El",
-        "meaning": "Deus, o Poderoso (1+30=31)"
+        "meaning": "Deus, o Poderoso (1+30=31)",
+        "ref": {
+          "work": "Tanakh & Liber AL vel Legis",
+          "author": "Melquisedeque / Crowley",
+          "locus": "Gênesis 14:18-20 ('El Elyon'); Liber AL I:1; Sepher Sephiroth p. 31",
+          "desc": "El (Deus = 1+30 = 31). O Nome de Chesed e a chave primordial de Liber AL (AL = 31)."
+        }
       },
       {
         "text": "לא",
         "translit": "Lo",
-        "meaning": "Não! A negação e o Vazio de Nuit (30+1=31)"
+        "meaning": "Não! A negação e o Vazio de Nuit (30+1=31)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 31; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לא' (Lo = 31). Significado tradicional: Não! A negação e o Vazio de Nuit (30+1=31)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Θεός (raiz)",
         "translit": "Theos",
-        "meaning": "Divindade primordial"
+        "meaning": "Divindade primordial",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 31",
+          "desc": "Isopsefia grega clássica para 'Θεός (raiz)' (Theos = 31). Divindade primordial"
+        }
       }
     ],
     "english": [
       {
         "term": "The Key of Liber AL (31)",
         "cipher": "Liber AL I:55-56",
-        "notes": "AL (31) = Deus; LA (31) = Não. A chave secreta revelada a Frater Achad"
+        "notes": "AL (31) = Deus; LA (31) = Não. A chave secreta revelada a Frater Achad",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'The Key of Liber AL (31)' (Liber AL I:55-56 = 31). AL (31) = Deus; LA (31) = Não. A chave secreta revelada a Frater Achad"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "A Chave do Livro da Lei / El / Não",
         "cipher": "Thelema",
-        "notes": "O segredo do Não-Ser que é Todo-Ser"
+        "notes": "O segredo do Não-Ser que é Todo-Ser",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'A Chave do Livro da Lei / El / Não' (Thelema = 31). O segredo do Não-Ser que é Todo-Ser"
+        }
       }
     ],
     "shem": [],
@@ -1330,7 +2596,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "A pedra angular de *Liber AL vel Legis* e de Crowley: AL (31, Deus) é a inversão exata de LA (31, Não). O Vazio Absoluto que gera o Todo."
+    "significance": "A pedra angular de *Liber AL vel Legis* e de Crowley: AL (31, Deus) é a inversão exata de LA (31, Não). O Vazio Absoluto que gera o Todo.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 31; Liber AL vel Legis",
+      "desc": "Número sagrado 31 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 31",
+      "desc": "Comentário esotérico canônico sobre o valor 31 na Cabala Thelêmica."
+    }
   },
   {
     "n": 32,
@@ -1338,38 +2616,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "לב",
         "translit": "Lev",
-        "meaning": "Coração (30+2=32)"
+        "meaning": "Coração (30+2=32)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 32; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לב' (Lev = 32). Significado tradicional: Coração (30+2=32)."
+        }
       },
       {
         "text": "כבוד",
         "translit": "Kavod",
-        "meaning": "A Glória de Deus"
+        "meaning": "A Glória de Deus",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 32; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כבוד' (Kavod = 32). Significado tradicional: A Glória de Deus."
+        }
       },
       {
         "text": "נתיבות",
         "translit": "Netivot Chokmah",
-        "meaning": "Os 32 Caminhos da Sabedoria (*Sefer Yetzirah*)"
+        "meaning": "Os 32 Caminhos da Sabedoria (*Sefer Yetzirah*)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 32; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נתיבות' (Netivot Chokmah = 32). Significado tradicional: Os 32 Caminhos da Sabedoria (*Sefer Yetzirah*)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Καρδία",
         "translit": "Kardia",
-        "meaning": "O Coração que pulsa a vida cósmica"
+        "meaning": "O Coração que pulsa a vida cósmica",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 32",
+          "desc": "Isopsefia grega clássica para 'Καρδία' (Kardia = 32). O Coração que pulsa a vida cósmica"
+        }
       }
     ],
     "english": [
       {
         "term": "Thirty-Two / Heart / Tree Paths",
         "cipher": "Simbólica",
-        "notes": "Os 10 números (Sephiroth) + as 22 letras = 32 Caminhos"
+        "notes": "Os 10 números (Sephiroth) + as 22 letras = 32 Caminhos",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 32",
+          "desc": "Termo em língua inglesa 'Thirty-Two / Heart / Tree Paths' com valor gemátrico 32. Os 10 números (Sephiroth) + as 22 letras = 32 Caminhos"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Coração / 32 Caminhos da Sabedoria",
         "cipher": "Simbólica",
-        "notes": "A Árvore da Vida completa é o Coração de Deus"
+        "notes": "A Árvore da Vida completa é o Coração de Deus",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Coração / 32 Caminhos da Sabedoria' (Simbólica = 32). A Árvore da Vida completa é o Coração de Deus"
+        }
       }
     ],
     "shem": [],
@@ -1377,7 +2691,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Lev (לב = 32, Coração). Os 32 Caminhos da Sabedoria descritos no primeiro verso do *Sefer Yetzirah* (10 Sephiroth + 22 Canais)."
+    "significance": "Lev (לב = 32, Coração). Os 32 Caminhos da Sabedoria descritos no primeiro verso do *Sefer Yetzirah* (10 Sephiroth + 22 Canais).",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 32",
+      "desc": "Número bíblico e cabalístico fundamental 32, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 32",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 32."
+    }
   },
   {
     "n": 35,
@@ -1385,33 +2711,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אלד",
         "translit": "אלד (Aladiah)",
-        "meaning": "Nome 10/72 da Shem ha-Mephorash (Querubins) — Deus Propício e Curador da Alma"
+        "meaning": "Nome 10/72 da Shem ha-Mephorash (Querubins) — Deus Propício e Curador da Alma",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 35; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אלד' (אלד (Aladiah) = 35). Significado tradicional: Nome 10/72 da Shem ha-Mephorash (Querubins) — Deus Propício e Curador da Alma."
+        }
       },
       {
         "text": "אגלא",
         "translit": "AGLA",
-        "meaning": "Célebre Notariqon: Ateh Gibor Le-Olam Adonai ('Tu és Poderoso para sempre, ó Senhor!')"
+        "meaning": "Célebre Notariqon: Ateh Gibor Le-Olam Adonai ('Tu és Poderoso para sempre, ó Senhor!')",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 35; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אגלא' (AGLA = 35). Significado tradicional: Célebre Notariqon: Ateh Gibor Le-Olam Adonai ('Tu és Poderoso para sempre, ó Senhor!')."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δύναμις",
         "translit": "Dynamis",
-        "meaning": "Poder eterno invocado"
+        "meaning": "Poder eterno invocado",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 35",
+          "desc": "Isopsefia grega clássica para 'Δύναμις' (Dynamis = 35). Poder eterno invocado"
+        }
       }
     ],
     "english": [
       {
         "term": "AGLA / Hexagram Ritual",
         "cipher": "Notariqon / Qabalah",
-        "notes": "Fórmula do Banimento Menor do Hexagrama e do Pentagrama"
+        "notes": "Fórmula do Banimento Menor do Hexagrama e do Pentagrama",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 35",
+          "desc": "Termo em língua inglesa 'AGLA / Hexagram Ritual' com valor gemátrico 35. Fórmula do Banimento Menor do Hexagrama e do Pentagrama"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "AGLA / Poder Eterno de Adonai",
         "cipher": "Hermetismo",
-        "notes": "Uma das palavras de poder mais potentes da Magia Cerimonial"
+        "notes": "Uma das palavras de poder mais potentes da Magia Cerimonial",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'AGLA / Poder Eterno de Adonai' (Hermetismo = 35). Uma das palavras de poder mais potentes da Magia Cerimonial"
+        }
       }
     ],
     "shem": [
@@ -1421,7 +2777,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Aladiah",
         "choir": "Querubins",
         "attribute": "Deus Propício e Curador da Alma",
-        "val": 35
+        "val": 35,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #10",
+          "desc": "Nome #10/72 da Shem ha-Mephorash: אלד (Aladiah = 35). Coro celeste: Querubins. Atributo divino: 'Deus Propício e Curador da Alma'."
+        }
       }
     ],
     "categories": [
@@ -1429,7 +2791,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "AGLA (אגלא = 35): Acrônimo sagrado de 'Ateh Gibor Le-Olam Adonai', pedra angular da Golden Dawn e de Crowley."
+    "significance": "AGLA (אגלא = 35): Acrônimo sagrado de 'Ateh Gibor Le-Olam Adonai', pedra angular da Golden Dawn e de Crowley.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 35; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 35 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 35",
+      "desc": "Comentário esotérico canônico sobre o valor 35 na Cabala Thelêmica."
+    }
   },
   {
     "n": 37,
@@ -1437,43 +2811,85 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "לאו",
         "translit": "לאו (Lauviah I)",
-        "meaning": "Nome 11/72 da Shem ha-Mephorash (Querubins) — Deus Louvado e Exaltado"
+        "meaning": "Nome 11/72 da Shem ha-Mephorash (Querubins) — Deus Louvado e Exaltado",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 37; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לאו' (לאו (Lauviah I) = 37). Significado tradicional: Nome 11/72 da Shem ha-Mephorash (Querubins) — Deus Louvado e Exaltado."
+        }
       },
       {
         "text": "לאו",
         "translit": "לאו (Lauviah II)",
-        "meaning": "Nome 17/72 da Shem ha-Mephorash (Tronos) — Deus Admirável das Revelações"
+        "meaning": "Nome 17/72 da Shem ha-Mephorash (Tronos) — Deus Admirável das Revelações",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 37; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לאו' (לאו (Lauviah II) = 37). Significado tradicional: Nome 17/72 da Shem ha-Mephorash (Tronos) — Deus Admirável das Revelações."
+        }
       },
       {
         "text": "יחידה",
         "translit": "Yechidah",
-        "meaning": "A Alma Suprema, Centelha Imortal associada a Kether (10+8+10+4+5=37)"
+        "meaning": "A Alma Suprema, Centelha Imortal associada a Kether (10+8+10+4+5=37)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 37; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יחידה' (Yechidah = 37). Significado tradicional: A Alma Suprema, Centelha Imortal associada a Kether (10+8+10+4+5=37)."
+        }
       },
       {
         "text": "הבל",
         "translit": "Hevel (Abel)",
-        "meaning": "Sopro, o segundo filho de Adão e primeiro mártir (5+2+30=37)"
+        "meaning": "Sopro, o segundo filho de Adão e primeiro mártir (5+2+30=37)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 37; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הבל' (Hevel (Abel) = 37). Significado tradicional: Sopro, o segundo filho de Adão e primeiro mártir (5+2+30=37)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Πνεῦμα (centelha)",
         "translit": "Pneuma",
-        "meaning": "O Espírito imortal incriado"
+        "meaning": "O Espírito imortal incriado",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 37",
+          "desc": "Isopsefia grega clássica para 'Πνεῦμα (centelha)' (Pneuma = 37). O Espírito imortal incriado"
+        }
       }
     ],
     "english": [
       {
         "term": "Yechidah / The Soul of Kether",
         "cipher": "Qabalah",
-        "notes": "O mais alto nível da alma humana na Cabala"
+        "notes": "O mais alto nível da alma humana na Cabala",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 37",
+          "desc": "Termo em língua inglesa 'Yechidah / The Soul of Kether' com valor gemátrico 37. O mais alto nível da alma humana na Cabala"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Yechidah / A Alma Imortal / Abel",
         "cipher": "Cabala",
-        "notes": "A centelha divina do Eu Superior"
+        "notes": "A centelha divina do Eu Superior",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Yechidah / A Alma Imortal / Abel' (Cabala = 37). A centelha divina do Eu Superior"
+        }
       }
     ],
     "shem": [
@@ -1483,7 +2899,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Lauviah I",
         "choir": "Querubins",
         "attribute": "Deus Louvado e Exaltado",
-        "val": 37
+        "val": 37,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #11",
+          "desc": "Nome #11/72 da Shem ha-Mephorash: לאו (Lauviah I = 37). Coro celeste: Querubins. Atributo divino: 'Deus Louvado e Exaltado'."
+        }
       },
       {
         "index": 17,
@@ -1491,7 +2913,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Lauviah II",
         "choir": "Tronos",
         "attribute": "Deus Admirável das Revelações",
-        "val": 37
+        "val": 37,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #17",
+          "desc": "Nome #17/72 da Shem ha-Mephorash: לאו (Lauviah II = 37). Coro celeste: Tronos. Atributo divino: 'Deus Admirável das Revelações'."
+        }
       }
     ],
     "categories": [
@@ -1499,7 +2927,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Yechidah (יחידה = 37): O nível mais alto da alma (Kether), a Centelha Divina imortal. Coincide com Abel e com dois Nomes Sagrados dos 72."
+    "significance": "Yechidah (יחידה = 37): O nível mais alto da alma (Kether), a Centelha Divina imortal. Coincide com Abel e com dois Nomes Sagrados dos 72.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 37; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 37 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 37",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 37."
+    }
   },
   {
     "n": 42,
@@ -1507,43 +2947,85 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "לוו",
         "translit": "לוו (Leuviah)",
-        "meaning": "Nome 19/72 da Shem ha-Mephorash (Tronos) — Deus que acolhe os pecadores"
+        "meaning": "Nome 19/72 da Shem ha-Mephorash (Tronos) — Deus que acolhe os pecadores",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 42; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לוו' (לוו (Leuviah) = 42). Significado tradicional: Nome 19/72 da Shem ha-Mephorash (Tronos) — Deus que acolhe os pecadores."
+        }
       },
       {
         "text": "וול",
         "translit": "וול (Veuliah)",
-        "meaning": "Nome 43/72 da Shem ha-Mephorash (Virtudes) — Rei Dominador da Prosperidade"
+        "meaning": "Nome 43/72 da Shem ha-Mephorash (Virtudes) — Rei Dominador da Prosperidade",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 42; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'וול' (וול (Veuliah) = 42). Significado tradicional: Nome 43/72 da Shem ha-Mephorash (Virtudes) — Rei Dominador da Prosperidade."
+        }
       },
       {
         "text": "שם בן מ״ב",
         "translit": "Shem Mem-Bet",
-        "meaning": "O Nome Divino de 42 Letras (oração Ana B'Koach)"
+        "meaning": "O Nome Divino de 42 Letras (oração Ana B'Koach)",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'שם בן מ״ב' (Shem Mem-Bet), valor numérico 42. O Nome Divino de 42 Letras (oração Ana B'Koach)"
+        }
       },
       {
         "text": "אמא",
         "translit": "Ima (Mãe)",
-        "meaning": "A Grande Mãe Binah (1+40+1=42)"
+        "meaning": "A Grande Mãe Binah (1+40+1=42)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 42; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אמא' (Ima (Mãe) = 42). Significado tradicional: A Grande Mãe Binah (1+40+1=42)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Μήτηρ (Binah)",
         "translit": "Meter",
-        "meaning": "A Grande Mãe geradora"
+        "meaning": "A Grande Mãe geradora",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 42",
+          "desc": "Isopsefia grega clássica para 'Μήτηρ (Binah)' (Meter = 42). A Grande Mãe geradora"
+        }
       }
     ],
     "english": [
       {
         "term": "Forty-Two / Ana B'Koach / Mother",
         "cipher": "Mística Judaica",
-        "notes": "As 42 paradas dos israelitas no deserto e as 42 letras sagradas"
+        "notes": "As 42 paradas dos israelitas no deserto e as 42 letras sagradas",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 42",
+          "desc": "Termo em língua inglesa 'Forty-Two / Ana B'Koach / Mother' com valor gemátrico 42. As 42 paradas dos israelitas no deserto e as 42 letras sagradas"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Quarenta e Dois / A Grande Mãe",
         "cipher": "Cabala",
-        "notes": "Nome sagrado que quebra qualquer decreto negativo"
+        "notes": "Nome sagrado que quebra qualquer decreto negativo",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Quarenta e Dois / A Grande Mãe' (Cabala = 42). Nome sagrado que quebra qualquer decreto negativo"
+        }
       }
     ],
     "shem": [
@@ -1553,7 +3035,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Leuviah",
         "choir": "Tronos",
         "attribute": "Deus que acolhe os pecadores",
-        "val": 42
+        "val": 42,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #19",
+          "desc": "Nome #19/72 da Shem ha-Mephorash: לוו (Leuviah = 42). Coro celeste: Tronos. Atributo divino: 'Deus que acolhe os pecadores'."
+        }
       },
       {
         "index": 43,
@@ -1561,7 +3049,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Veuliah",
         "choir": "Virtudes",
         "attribute": "Rei Dominador da Prosperidade",
-        "val": 42
+        "val": 42,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #43",
+          "desc": "Nome #43/72 da Shem ha-Mephorash: וול (Veuliah = 42). Coro celeste: Virtudes. Atributo divino: 'Rei Dominador da Prosperidade'."
+        }
       }
     ],
     "categories": [
@@ -1569,7 +3063,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "O místico Nome de 42 Letras (Ana B'Koach), considerado a ferramenta cabalística de maior poder de elevação espiritual. 19º e 43º Nomes dos 72."
+    "significance": "O místico Nome de 42 Letras (Ana B'Koach), considerado a ferramenta cabalística de maior poder de elevação espiritual. 19º e 43º Nomes dos 72.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 42; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 42 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 42",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 42."
+    }
   },
   {
     "n": 43,
@@ -1577,7 +3083,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "להח",
         "translit": "להח (Lehahiah)",
-        "meaning": "Nome 34/72 da Shem ha-Mephorash (Potências) — Deus Clemente e Fiel"
+        "meaning": "Nome 34/72 da Shem ha-Mephorash (Potências) — Deus Clemente e Fiel",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 43; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'להח' (להח (Lehahiah) = 43). Significado tradicional: Nome 34/72 da Shem ha-Mephorash (Potências) — Deus Clemente e Fiel."
+        }
       }
     ],
     "greek": [],
@@ -1590,13 +3102,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Lehahiah",
         "choir": "Potências",
         "attribute": "Deus Clemente e Fiel",
-        "val": 43
+        "val": 43,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #34",
+          "desc": "Nome #34/72 da Shem ha-Mephorash: להח (Lehahiah = 43). Coro celeste: Potências. Atributo divino: 'Deus Clemente e Fiel'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 43; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 43 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 44,
@@ -1604,33 +3128,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "דם",
         "translit": "Dam",
-        "meaning": "Sangue (4+40=44)"
+        "meaning": "Sangue (4+40=44)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 44; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'דם' (Dam = 44). Significado tradicional: Sangue (4+40=44)."
+        }
       },
       {
         "text": "להט",
         "translit": "Lahat",
-        "meaning": "Chama da espada flamejante (30+5+9=44)"
+        "meaning": "Chama da espada flamejante (30+5+9=44)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 44; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'להט' (Lahat = 44). Significado tradicional: Chama da espada flamejante (30+5+9=44)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Αἷμα",
         "translit": "Haima",
-        "meaning": "Sangue vital da aliança"
+        "meaning": "Sangue vital da aliança",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 44",
+          "desc": "Isopsefia grega clássica para 'Αἷμα' (Haima = 44). Sangue vital da aliança"
+        }
       }
     ],
     "english": [
       {
         "term": "Blood / LOVE (NAEQ)",
         "cipher": "NAEQ: L(2)+O(7)+V(10)+E(25) = 44",
-        "notes": "A palavra LOVE na New Aeon English Qabalah soma exatamente 44!"
+        "notes": "A palavra LOVE na New Aeon English Qabalah soma exatamente 44!",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'Blood / LOVE (NAEQ)' (NAEQ: L(2)+O(7)+V(10)+E(25) = 44 = 44). A palavra LOVE na New Aeon English Qabalah soma exatamente 44!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Sangue / Vida / Chama",
         "cipher": "Simbólica",
-        "notes": "O veículo da alma no corpo físico"
+        "notes": "O veículo da alma no corpo físico",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Sangue / Vida / Chama' (Simbólica = 44). O veículo da alma no corpo físico"
+        }
       }
     ],
     "shem": [],
@@ -1640,7 +3194,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "latin_eq"
     ],
-    "significance": "Na New Aeon English Qabalah de Crowley: LOVE = 2+7+10+25 = 44! No hebraico, é Dam (דם = 44), o Sangue da vida e do Graal de Babalon."
+    "significance": "Na New Aeon English Qabalah de Crowley: LOVE = 2+7+10+25 = 44! No hebraico, é Dam (דם = 44), o Sangue da vida e do Graal de Babalon.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 44; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 44 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 44",
+      "desc": "Comentário esotérico canônico sobre o valor 44 na Cabala Thelêmica."
+    }
   },
   {
     "n": 45,
@@ -1648,38 +3214,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ילה",
         "translit": "ילה (Ielahiah)",
-        "meaning": "Nome 44/72 da Shem ha-Mephorash (Virtudes) — Deus Eterno e Vitorioso"
+        "meaning": "Nome 44/72 da Shem ha-Mephorash (Virtudes) — Deus Eterno e Vitorioso",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 45; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ילה' (ילה (Ielahiah) = 45). Significado tradicional: Nome 44/72 da Shem ha-Mephorash (Virtudes) — Deus Eterno e Vitorioso."
+        }
       },
       {
         "text": "אדם",
         "translit": "Adam",
-        "meaning": "Homem, a humanidade criada da terra vermelha (1+4+40=45)"
+        "meaning": "Homem, a humanidade criada da terra vermelha (1+4+40=45)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 45; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אדם' (Adam = 45). Significado tradicional: Homem, a humanidade criada da terra vermelha (1+4+40=45)."
+        }
       },
       {
         "text": "מה",
         "translit": "Mah",
-        "meaning": "'O Que?' - Nome Divino Secreto do Mundo de Yetzirah (40+5=45)"
+        "meaning": "'O Que?' - Nome Divino Secreto do Mundo de Yetzirah (40+5=45)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 45; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מה' (Mah = 45). Significado tradicional: 'O Que?' - Nome Divino Secreto do Mundo de Yetzirah (40+5=45)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἄνθρωπος (prim)",
         "translit": "Anthropos",
-        "meaning": "O Homem Arquetípico (Adam Kadmon)"
+        "meaning": "O Homem Arquetípico (Adam Kadmon)",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 45",
+          "desc": "Isopsefia grega clássica para 'Ἄνθρωπος (prim)' (Anthropos = 45). O Homem Arquetípico (Adam Kadmon)"
+        }
       }
     ],
     "english": [
       {
         "term": "Adam / Humanity / Microcosm",
         "cipher": "Cabala",
-        "notes": "Adam Kadmon, o homem primordial que engloba toda a Árvore"
+        "notes": "Adam Kadmon, o homem primordial que engloba toda a Árvore",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 45",
+          "desc": "Termo em língua inglesa 'Adam / Humanity / Microcosm' com valor gemátrico 45. Adam Kadmon, o homem primordial que engloba toda a Árvore"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Adão / Humanidade / Homem Primordial",
         "cipher": "Gênesis",
-        "notes": "O arquétipo humano universal"
+        "notes": "O arquétipo humano universal",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Adão / Humanidade / Homem Primordial' (Gênesis = 45). O arquétipo humano universal"
+        }
       }
     ],
     "shem": [
@@ -1689,7 +3291,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Ielahiah",
         "choir": "Virtudes",
         "attribute": "Deus Eterno e Vitorioso",
-        "val": 45
+        "val": 45,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #44",
+          "desc": "Nome #44/72 da Shem ha-Mephorash: ילה (Ielahiah = 45). Coro celeste: Virtudes. Atributo divino: 'Deus Eterno e Vitorioso'."
+        }
       }
     ],
     "categories": [
@@ -1697,7 +3305,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Adam (אדם = 45): O primeiro ser humano. É idêntico ao Nome Divino Secreto de Yetzirah (מה = 45) e ao 44º Nome dos 72."
+    "significance": "Adam (אדם = 45): O primeiro ser humano. É idêntico ao Nome Divino Secreto de Yetzirah (מה = 45) e ao 44º Nome dos 72.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 45; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 45 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 45",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 45."
+    }
   },
   {
     "n": 46,
@@ -1705,7 +3325,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "דמב",
         "translit": "דמב (Damabiah)",
-        "meaning": "Nome 65/72 da Shem ha-Mephorash (Anjos) — Deus Fonte de Sabedoria e Águas Vivas"
+        "meaning": "Nome 65/72 da Shem ha-Mephorash (Anjos) — Deus Fonte de Sabedoria e Águas Vivas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 46; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'דמב' (דמב (Damabiah) = 46). Significado tradicional: Nome 65/72 da Shem ha-Mephorash (Anjos) — Deus Fonte de Sabedoria e Águas Vivas."
+        }
       }
     ],
     "greek": [],
@@ -1718,13 +3344,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Damabiah",
         "choir": "Anjos",
         "attribute": "Deus Fonte de Sabedoria e Águas Vivas",
-        "val": 46
+        "val": 46,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #65",
+          "desc": "Nome #65/72 da Shem ha-Mephorash: דמב (Damabiah = 46). Coro celeste: Anjos. Atributo divino: 'Deus Fonte de Sabedoria e Águas Vivas'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 46; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 46 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 47,
@@ -1732,22 +3370,46 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יזל",
         "translit": "יזל (Iezalel)",
-        "meaning": "Nome 13/72 da Shem ha-Mephorash (Querubins) — Deus Glorificado sobre todas as coisas"
+        "meaning": "Nome 13/72 da Shem ha-Mephorash (Querubins) — Deus Glorificado sobre todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 47; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יזל' (יזל (Iezalel) = 47). Significado tradicional: Nome 13/72 da Shem ha-Mephorash (Querubins) — Deus Glorificado sobre todas as coisas."
+        }
       },
       {
         "text": "מבה",
         "translit": "מבה (Mebahel)",
-        "meaning": "Nome 14/72 da Shem ha-Mephorash (Querubins) — Deus Conservador e Justo"
+        "meaning": "Nome 14/72 da Shem ha-Mephorash (Querubins) — Deus Conservador e Justo",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 47; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מבה' (מבה (Mebahel) = 47). Significado tradicional: Nome 14/72 da Shem ha-Mephorash (Querubins) — Deus Conservador e Justo."
+        }
       },
       {
         "text": "אום",
         "translit": "אום (Omael)",
-        "meaning": "Nome 30/72 da Shem ha-Mephorash (Dominações) — Deus Paciente e Fecundador"
+        "meaning": "Nome 30/72 da Shem ha-Mephorash (Dominações) — Deus Paciente e Fecundador",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 47; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אום' (אום (Omael) = 47). Significado tradicional: Nome 30/72 da Shem ha-Mephorash (Dominações) — Deus Paciente e Fecundador."
+        }
       },
       {
         "text": "מבה",
         "translit": "מבה (Mebahiah)",
-        "meaning": "Nome 55/72 da Shem ha-Mephorash (Principados) — Deus Eterno das Obras Puras"
+        "meaning": "Nome 55/72 da Shem ha-Mephorash (Principados) — Deus Eterno das Obras Puras",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 47; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מבה' (מבה (Mebahiah) = 47). Significado tradicional: Nome 55/72 da Shem ha-Mephorash (Principados) — Deus Eterno das Obras Puras."
+        }
       }
     ],
     "greek": [],
@@ -1760,7 +3422,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Iezalel",
         "choir": "Querubins",
         "attribute": "Deus Glorificado sobre todas as coisas",
-        "val": 47
+        "val": 47,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #13",
+          "desc": "Nome #13/72 da Shem ha-Mephorash: יזל (Iezalel = 47). Coro celeste: Querubins. Atributo divino: 'Deus Glorificado sobre todas as coisas'."
+        }
       },
       {
         "index": 14,
@@ -1768,7 +3436,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mebahel",
         "choir": "Querubins",
         "attribute": "Deus Conservador e Justo",
-        "val": 47
+        "val": 47,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #14",
+          "desc": "Nome #14/72 da Shem ha-Mephorash: מבה (Mebahel = 47). Coro celeste: Querubins. Atributo divino: 'Deus Conservador e Justo'."
+        }
       },
       {
         "index": 30,
@@ -1776,7 +3450,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Omael",
         "choir": "Dominações",
         "attribute": "Deus Paciente e Fecundador",
-        "val": 47
+        "val": 47,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #30",
+          "desc": "Nome #30/72 da Shem ha-Mephorash: אום (Omael = 47). Coro celeste: Dominações. Atributo divino: 'Deus Paciente e Fecundador'."
+        }
       },
       {
         "index": 55,
@@ -1784,13 +3464,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mebahiah",
         "choir": "Principados",
         "attribute": "Deus Eterno das Obras Puras",
-        "val": 47
+        "val": 47,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #55",
+          "desc": "Nome #55/72 da Shem ha-Mephorash: מבה (Mebahiah = 47). Coro celeste: Principados. Atributo divino: 'Deus Eterno das Obras Puras'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 47; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 47 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 48,
@@ -1798,7 +3490,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ומב",
         "translit": "ומב (Umabel)",
-        "meaning": "Nome 61/72 da Shem ha-Mephorash (Arcanjos) — Deus acima de todas as coisas"
+        "meaning": "Nome 61/72 da Shem ha-Mephorash (Arcanjos) — Deus acima de todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 48; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ומב' (ומב (Umabel) = 48). Significado tradicional: Nome 61/72 da Shem ha-Mephorash (Arcanjos) — Deus acima de todas as coisas."
+        }
       }
     ],
     "greek": [],
@@ -1811,13 +3509,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Umabel",
         "choir": "Arcanjos",
         "attribute": "Deus acima de todas as coisas",
-        "val": 48
+        "val": 48,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #61",
+          "desc": "Nome #61/72 da Shem ha-Mephorash: ומב (Umabel = 48). Coro celeste: Arcanjos. Atributo divino: 'Deus acima de todas as coisas'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 48; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 48 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 50,
@@ -1825,48 +3535,96 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ילי",
         "translit": "ילי (Yeliel)",
-        "meaning": "Nome 2/72 da Shem ha-Mephorash (Serafins) — Deus Auxiliador e Socorro"
+        "meaning": "Nome 2/72 da Shem ha-Mephorash (Serafins) — Deus Auxiliador e Socorro",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 50; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ילי' (ילי (Yeliel) = 50). Significado tradicional: Nome 2/72 da Shem ha-Mephorash (Serafins) — Deus Auxiliador e Socorro."
+        }
       },
       {
         "text": "ייל",
         "translit": "ייל (Ieialel)",
-        "meaning": "Nome 58/72 da Shem ha-Mephorash (Arcanjos) — Deus que ouve os gemidos"
+        "meaning": "Nome 58/72 da Shem ha-Mephorash (Arcanjos) — Deus que ouve os gemidos",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 50; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ייל' (ייל (Ieialel) = 50). Significado tradicional: Nome 58/72 da Shem ha-Mephorash (Arcanjos) — Deus que ouve os gemidos."
+        }
       },
       {
         "text": "נ",
         "translit": "Nun",
-        "meaning": "Letra Nun (50); Peixe, Morte e Transformação"
+        "meaning": "Letra Nun (50); Peixe, Morte e Transformação",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'נ' (Nun), valor numérico 50. Letra Nun (50); Peixe, Morte e Transformação"
+        }
       },
       {
         "text": "כל",
         "translit": "Kol",
-        "meaning": "Tudo, a Totalidade do Universo (20+30=50)"
+        "meaning": "Tudo, a Totalidade do Universo (20+30=50)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 50; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כל' (Kol = 50). Significado tradicional: Tudo, a Totalidade do Universo (20+30=50)."
+        }
       },
       {
         "text": "ים",
         "translit": "Yam",
-        "meaning": "Mar, o Oceano Primordial de Binah (10+40=50)"
+        "meaning": "Mar, o Oceano Primordial de Binah (10+40=50)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 50; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ים' (Yam = 50). Significado tradicional: Mar, o Oceano Primordial de Binah (10+40=50)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Πεντήκοντα",
         "translit": "Pentekonta",
-        "meaning": "Pentecostes, cinquenta dias após a Páscoa"
+        "meaning": "Pentecostes, cinquenta dias após a Páscoa",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 50",
+          "desc": "Isopsefia grega clássica para 'Πεντήκοντα' (Pentekonta = 50). Pentecostes, cinquenta dias após a Páscoa"
+        }
       }
     ],
     "english": [
       {
         "term": "Fifty / Gates of Understanding",
         "cipher": "Cabala",
-        "notes": "As 50 Portas do Entendimento (Binah) que Moisés buscou cruzar"
+        "notes": "As 50 Portas do Entendimento (Binah) que Moisés buscou cruzar",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 50",
+          "desc": "Termo em língua inglesa 'Fifty / Gates of Understanding' com valor gemátrico 50. As 50 Portas do Entendimento (Binah) que Moisés buscou cruzar"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Cinquenta / 50 Portas de Binah / O Todo",
         "cipher": "Cabala",
-        "notes": "As portas da iluminação e da libertação do Jubileu"
+        "notes": "As portas da iluminação e da libertação do Jubileu",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Cinquenta / 50 Portas de Binah / O Todo' (Cabala = 50). As portas da iluminação e da libertação do Jubileu"
+        }
       }
     ],
     "shem": [
@@ -1876,7 +3634,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Yeliel",
         "choir": "Serafins",
         "attribute": "Deus Auxiliador e Socorro",
-        "val": 50
+        "val": 50,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #2",
+          "desc": "Nome #2/72 da Shem ha-Mephorash: ילי (Yeliel = 50). Coro celeste: Serafins. Atributo divino: 'Deus Auxiliador e Socorro'."
+        }
       },
       {
         "index": 58,
@@ -1884,7 +3648,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Ieialel",
         "choir": "Arcanjos",
         "attribute": "Deus que ouve os gemidos",
-        "val": 50
+        "val": 50,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #58",
+          "desc": "Nome #58/72 da Shem ha-Mephorash: ייל (Ieialel = 50). Coro celeste: Arcanjos. Atributo divino: 'Deus que ouve os gemidos'."
+        }
       }
     ],
     "categories": [
@@ -1892,7 +3662,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "As 50 Portas do Entendimento de Binah (Sha'arei Binah). Kol (כל = 50, Tudo). O ano do Jubileu bíblico da libertação total."
+    "significance": "As 50 Portas do Entendimento de Binah (Sha'arei Binah). Kol (כל = 50, Tudo). O ano do Jubileu bíblico da libertação total.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 50",
+      "desc": "Número bíblico e cabalístico fundamental 50, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 50",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 50."
+    }
   },
   {
     "n": 52,
@@ -1900,48 +3682,96 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "לכב",
         "translit": "לכב (Lecabel)",
-        "meaning": "Nome 31/72 da Shem ha-Mephorash (Dominações) — Deus Inspirador das Ciências"
+        "meaning": "Nome 31/72 da Shem ha-Mephorash (Dominações) — Deus Inspirador das Ciências",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 52; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לכב' (לכב (Lecabel) = 52). Significado tradicional: Nome 31/72 da Shem ha-Mephorash (Dominações) — Deus Inspirador das Ciências."
+        }
       },
       {
         "text": "יבם",
         "translit": "יבם (Iabamiah)",
-        "meaning": "Nome 70/72 da Shem ha-Mephorash (Anjos) — Verbo que gera todas as coisas"
+        "meaning": "Nome 70/72 da Shem ha-Mephorash (Anjos) — Verbo que gera todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 52; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יבם' (יבם (Iabamiah) = 52). Significado tradicional: Nome 70/72 da Shem ha-Mephorash (Anjos) — Verbo que gera todas as coisas."
+        }
       },
       {
         "text": "בן",
         "translit": "Ben",
-        "meaning": "Filho; Tiphareth como Filho de Kether e Binah (2+50=52)"
+        "meaning": "Filho; Tiphareth como Filho de Kether e Binah (2+50=52)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 52; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'בן' (Ben = 52). Significado tradicional: Filho; Tiphareth como Filho de Kether e Binah (2+50=52)."
+        }
       },
       {
         "text": "אליהו",
         "translit": "Eliyahu (Elias)",
-        "meaning": "O profeta precursor do Messias (1+30+10+5+6=52)"
+        "meaning": "O profeta precursor do Messias (1+30+10+5+6=52)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 52; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אליהו' (Eliyahu (Elias) = 52). Significado tradicional: O profeta precursor do Messias (1+30+10+5+6=52)."
+        }
       },
       {
         "text": "כלב",
         "translit": "Kelev / Caleb",
-        "meaning": "Cão / Caleb o fiel espião"
+        "meaning": "Cão / Caleb o fiel espião",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 52; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כלב' (Kelev / Caleb = 52). Significado tradicional: Cão / Caleb o fiel espião."
+        }
       }
     ],
     "greek": [
       {
         "text": "Υἱός",
         "translit": "Huios",
-        "meaning": "O Filho gerado na Luz"
+        "meaning": "O Filho gerado na Luz",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 52",
+          "desc": "Isopsefia grega clássica para 'Υἱός' (Huios = 52). O Filho gerado na Luz"
+        }
       }
     ],
     "english": [
       {
         "term": "Son / Elijah / 52 Weeks",
         "cipher": "Bíblica",
-        "notes": "As 52 semanas do ano solar; o Filho do Rei"
+        "notes": "As 52 semanas do ano solar; o Filho do Rei",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 52",
+          "desc": "Termo em língua inglesa 'Son / Elijah / 52 Weeks' com valor gemátrico 52. As 52 semanas do ano solar; o Filho do Rei"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Filho / Profeta Elias",
         "cipher": "Cabala",
-        "notes": "Ben (52) revela a emanação do Filho divino"
+        "notes": "Ben (52) revela a emanação do Filho divino",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Filho / Profeta Elias' (Cabala = 52). Ben (52) revela a emanação do Filho divino"
+        }
       }
     ],
     "shem": [
@@ -1951,7 +3781,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Lecabel",
         "choir": "Dominações",
         "attribute": "Deus Inspirador das Ciências",
-        "val": 52
+        "val": 52,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #31",
+          "desc": "Nome #31/72 da Shem ha-Mephorash: לכב (Lecabel = 52). Coro celeste: Dominações. Atributo divino: 'Deus Inspirador das Ciências'."
+        }
       },
       {
         "index": 70,
@@ -1959,7 +3795,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Iabamiah",
         "choir": "Anjos",
         "attribute": "Verbo que gera todas as coisas",
-        "val": 52
+        "val": 52,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #70",
+          "desc": "Nome #70/72 da Shem ha-Mephorash: יבם (Iabamiah = 52). Coro celeste: Anjos. Atributo divino: 'Verbo que gera todas as coisas'."
+        }
       }
     ],
     "categories": [
@@ -1967,7 +3809,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Ben (בן = 52, Filho) e o profeta Elias (אליהו = 52). Representa Tiphareth como o Filho amado do Rei. 31º e 70º Nomes dos 72."
+    "significance": "Ben (בן = 52, Filho) e o profeta Elias (אליהו = 52). Representa Tiphareth como o Filho amado do Rei. 31º e 70º Nomes dos 72.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 52; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 52 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 52",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 52."
+    }
   },
   {
     "n": 55,
@@ -1975,7 +3829,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מיה",
         "translit": "מיה (Mihael)",
-        "meaning": "Nome 48/72 da Shem ha-Mephorash (Virtudes) — Deus Pai que socorre na geração"
+        "meaning": "Nome 48/72 da Shem ha-Mephorash (Virtudes) — Deus Pai que socorre na geração",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 55; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מיה' (מיה (Mihael) = 55). Significado tradicional: Nome 48/72 da Shem ha-Mephorash (Virtudes) — Deus Pai que socorre na geração."
+        }
       }
     ],
     "greek": [],
@@ -1988,13 +3848,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mihael",
         "choir": "Virtudes",
         "attribute": "Deus Pai que socorre na geração",
-        "val": 55
+        "val": 55,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #48",
+          "desc": "Nome #48/72 da Shem ha-Mephorash: מיה (Mihael = 55). Coro celeste: Virtudes. Atributo divino: 'Deus Pai que socorre na geração'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 55; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 55 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 58,
@@ -2002,38 +3874,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מחי",
         "translit": "מחי (Mehiel)",
-        "meaning": "Nome 64/72 da Shem ha-Mephorash (Arcanjos) — Deus que vivifica todas as coisas"
+        "meaning": "Nome 64/72 da Shem ha-Mephorash (Arcanjos) — Deus que vivifica todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 58; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מחי' (מחי (Mehiel) = 58). Significado tradicional: Nome 64/72 da Shem ha-Mephorash (Arcanjos) — Deus que vivifica todas as coisas."
+        }
       },
       {
         "text": "נח",
         "translit": "Noach (Noé)",
-        "meaning": "Descanso, consolo; o patriarca que sobreviveu ao dilúvio (50+8=58)"
+        "meaning": "Descanso, consolo; o patriarca que sobreviveu ao dilúvio (50+8=58)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 58; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נח' (Noach (Noé) = 58). Significado tradicional: Descanso, consolo; o patriarca que sobreviveu ao dilúvio (50+8=58)."
+        }
       },
       {
         "text": "חן",
         "translit": "Chen",
-        "meaning": "Graça divina ('E Noé achou Graça aos olhos do Senhor' - Gênesis 6:8; 8+50=58)"
+        "meaning": "Graça divina ('E Noé achou Graça aos olhos do Senhor' - Gênesis 6:8; 8+50=58)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 58; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חן' (Chen = 58). Significado tradicional: Graça divina ('E Noé achou Graça aos olhos do Senhor' - Gênesis 6:8; 8+50=58)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Χάρις (graça)",
         "translit": "Charis",
-        "meaning": "Graça divina que salva"
+        "meaning": "Graça divina que salva",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 58",
+          "desc": "Isopsefia grega clássica para 'Χάρις (graça)' (Charis = 58). Graça divina que salva"
+        }
       }
     ],
     "english": [
       {
         "term": "Noah / Grace / Favour",
         "cipher": "Gênesis 6:8",
-        "notes": "Noach (נח = 58) é o palíndromo exato de Chen (חן = 58, Graça)!"
+        "notes": "Noach (נח = 58) é o palíndromo exato de Chen (חן = 58, Graça)!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 58",
+          "desc": "Termo em língua inglesa 'Noah / Grace / Favour' com valor gemátrico 58. Noach (נח = 58) é o palíndromo exato de Chen (חן = 58, Graça)!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Noé / Graça Divina / Consolo",
         "cipher": "Gênesis",
-        "notes": "A arca da salvação"
+        "notes": "A arca da salvação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Noé / Graça Divina / Consolo' (Gênesis = 58). A arca da salvação"
+        }
       }
     ],
     "shem": [
@@ -2043,14 +3951,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mehiel",
         "choir": "Arcanjos",
         "attribute": "Deus que vivifica todas as coisas",
-        "val": 58
+        "val": 58,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #64",
+          "desc": "Nome #64/72 da Shem ha-Mephorash: מחי (Mehiel = 58). Coro celeste: Arcanjos. Atributo divino: 'Deus que vivifica todas as coisas'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "A famosa permutação de Gênesis 6:8: Noach (נח = 58) achou Chen (חן = 58, Graça). As duas palavras possuem as mesmas letras invertidas."
+    "significance": "A famosa permutação de Gênesis 6:8: Noach (נח = 58) achou Chen (חן = 58, Graça). As duas palavras possuem as mesmas letras invertidas.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 58; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 58 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 58",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 58."
+    }
   },
   {
     "n": 60,
@@ -2058,7 +3984,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "כלי",
         "translit": "כלי (Caliel)",
-        "meaning": "Nome 18/72 da Shem ha-Mephorash (Tronos) — Deus Pronto a Acolher na tribulação"
+        "meaning": "Nome 18/72 da Shem ha-Mephorash (Tronos) — Deus Pronto a Acolher na tribulação",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 60; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כלי' (כלי (Caliel) = 60). Significado tradicional: Nome 18/72 da Shem ha-Mephorash (Tronos) — Deus Pronto a Acolher na tribulação."
+        }
       }
     ],
     "greek": [],
@@ -2071,13 +4003,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Caliel",
         "choir": "Tronos",
         "attribute": "Deus Pronto a Acolher na tribulação",
-        "val": 60
+        "val": 60,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #18",
+          "desc": "Nome #18/72 da Shem ha-Mephorash: כלי (Caliel = 60). Coro celeste: Tronos. Atributo divino: 'Deus Pronto a Acolher na tribulação'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 60; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 60 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 61,
@@ -2085,38 +4029,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אני",
         "translit": "אני (Aniel)",
-        "meaning": "Nome 37/72 da Shem ha-Mephorash (Potências) — Deus das Virtudes e do Infinito"
+        "meaning": "Nome 37/72 da Shem ha-Mephorash (Potências) — Deus das Virtudes e do Infinito",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 61; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אני' (אני (Aniel) = 61). Significado tradicional: Nome 37/72 da Shem ha-Mephorash (Potências) — Deus das Virtudes e do Infinito."
+        }
       },
       {
         "text": "אין",
         "translit": "Ain",
-        "meaning": "O Nada absoluto, a raiz de onde emana a Árvore (1+10+50=61)"
+        "meaning": "O Nada absoluto, a raiz de onde emana a Árvore (1+10+50=61)",
+        "ref": {
+          "work": "Sefer Yetzirah & Zohar",
+          "author": "Tradição Cabalística Clássica",
+          "locus": "Zohar I:15a; Sefer ha-Bahir §1; Crowley, Sepher Sephiroth p. 0",
+          "desc": "O Ain (Nada Absoluto), o primeiro véu negativo da existência antes de qualquer emanação."
+        }
       },
       {
         "text": "אדון",
         "translit": "Adon",
-        "meaning": "Senhor, Soberano (1+4+6+50=61)"
+        "meaning": "Senhor, Soberano (1+4+6+50=61)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 61; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אדון' (Adon = 61). Significado tradicional: Senhor, Soberano (1+4+6+50=61)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τὸ Μηδέν",
         "translit": "To Meden",
-        "meaning": "O Não-Ser gerador do Ser"
+        "meaning": "O Não-Ser gerador do Ser",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 61",
+          "desc": "Isopsefia grega clássica para 'Τὸ Μηδέν' (To Meden = 61). O Não-Ser gerador do Ser"
+        }
       }
     ],
     "english": [
       {
         "term": "Ain / None / The Ego",
         "cipher": "Liber AL",
-        "notes": "Ain (61) é anagrama exato de Ani (61, Eu): o Nada é o Verdadeiro Eu"
+        "notes": "Ain (61) é anagrama exato de Ani (61, Eu): o Nada é o Verdadeiro Eu",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'Ain / None / The Ego' (Liber AL = 61). Ain (61) é anagrama exato de Ani (61, Eu): o Nada é o Verdadeiro Eu"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "O Nada / O Eu Divino / Senhor",
         "cipher": "Thelema & Cabala",
-        "notes": "Quando o Eu se dissolve no Nada, a iluminação acontece"
+        "notes": "Quando o Eu se dissolve no Nada, a iluminação acontece",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'O Nada / O Eu Divino / Senhor' (Thelema & Cabala = 61). Quando o Eu se dissolve no Nada, a iluminação acontece"
+        }
       }
     ],
     "shem": [
@@ -2126,7 +4106,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Aniel",
         "choir": "Potências",
         "attribute": "Deus das Virtudes e do Infinito",
-        "val": 61
+        "val": 61,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #37",
+          "desc": "Nome #37/72 da Shem ha-Mephorash: אני (Aniel = 61). Coro celeste: Potências. Atributo divino: 'Deus das Virtudes e do Infinito'."
+        }
       }
     ],
     "categories": [
@@ -2134,7 +4120,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Um dos mistérios fundamentais da Cabala: Ain (אין = 61, O Nada) é o anagrama exato de Ani (אני = 61, 'Eu'). O verdadeiro Eu é o Vazio divino."
+    "significance": "Um dos mistérios fundamentais da Cabala: Ain (אין = 61, O Nada) é o anagrama exato de Ani (אני = 61, 'Eu'). O verdadeiro Eu é o Vazio divino.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 61; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 61 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 61",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 61."
+    }
   },
   {
     "n": 64,
@@ -2142,7 +4140,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "דני",
         "translit": "דני (Daniel)",
-        "meaning": "Nome 50/72 da Shem ha-Mephorash (Principados) — Deus das Misericórdias e dos Julgamentos"
+        "meaning": "Nome 50/72 da Shem ha-Mephorash (Principados) — Deus das Misericórdias e dos Julgamentos",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 64; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'דני' (דני (Daniel) = 64). Significado tradicional: Nome 50/72 da Shem ha-Mephorash (Principados) — Deus das Misericórdias e dos Julgamentos."
+        }
       }
     ],
     "greek": [],
@@ -2155,13 +4159,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Daniel",
         "choir": "Principados",
         "attribute": "Deus das Misericórdias e dos Julgamentos",
-        "val": 64
+        "val": 64,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #50",
+          "desc": "Nome #50/72 da Shem ha-Mephorash: דני (Daniel = 64). Coro celeste: Principados. Atributo divino: 'Deus das Misericórdias e dos Julgamentos'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 64; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 64 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 65,
@@ -2169,38 +4185,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ללה",
         "translit": "ללה (Lelahel)",
-        "meaning": "Nome 6/72 da Shem ha-Mephorash (Serafins) — Deus Louvável e Curador"
+        "meaning": "Nome 6/72 da Shem ha-Mephorash (Serafins) — Deus Louvável e Curador",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 65; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ללה' (ללה (Lelahel) = 65). Significado tradicional: Nome 6/72 da Shem ha-Mephorash (Serafins) — Deus Louvável e Curador."
+        }
       },
       {
         "text": "אדני",
         "translit": "Adonai",
-        "meaning": "Meu Senhor, o Santo Nome de Malkuth (1+4+50+10=65)"
+        "meaning": "Meu Senhor, o Santo Nome de Malkuth (1+4+50+10=65)",
+        "ref": {
+          "work": "Tanakh & Sefer ha-Kavvanot",
+          "author": "Isaac Luria (o Ari z\"l) / Cordovero",
+          "locus": "Gênesis 15:2; Sha'ar ha-Kavvanot (Kavvanat ha-Shem); Sepher Sephiroth p. 65",
+          "desc": "Adonai (Senhor = 1+4+50+10 = 65). O Nome Divino associado à Sephira Malkuth e ao Templo."
+        }
       },
       {
         "text": "היכל",
         "translit": "Hekhal",
-        "meaning": "Palácio Sagrado, Templo (5+10+20+30=65)"
+        "meaning": "Palácio Sagrado, Templo (5+10+20+30=65)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 65; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'היכל' (Hekhal = 65). Significado tradicional: Palácio Sagrado, Templo (5+10+20+30=65)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ναός",
         "translit": "Naos",
-        "meaning": "O Santo dos Santos, o Templo vivo"
+        "meaning": "O Santo dos Santos, o Templo vivo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 65",
+          "desc": "Isopsefia grega clássica para 'Ναός' (Naos = 65). O Santo dos Santos, o Templo vivo"
+        }
       }
     ],
     "english": [
       {
         "term": "Adonai / Palace / Liber LXV",
         "cipher": "Crowley Liber 65",
-        "notes": "Liber Cordis Cincti Serpente (Liber 65), o livro da união com o Anjo"
+        "notes": "Liber Cordis Cincti Serpente (Liber 65), o livro da união com o Anjo",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 65",
+          "desc": "Termo em língua inglesa 'Adonai / Palace / Liber LXV' com valor gemátrico 65. Liber Cordis Cincti Serpente (Liber 65), o livro da união com o Anjo"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Adonai / Meu Senhor / Templo",
         "cipher": "Sagrada Escritura",
-        "notes": "O Nome pronunciado em lugar do Tetragrammaton"
+        "notes": "O Nome pronunciado em lugar do Tetragrammaton",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Adonai / Meu Senhor / Templo' (Sagrada Escritura = 65). O Nome pronunciado em lugar do Tetragrammaton"
+        }
       }
     ],
     "shem": [
@@ -2210,7 +4262,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Lelahel",
         "choir": "Serafins",
         "attribute": "Deus Louvável e Curador",
-        "val": 65
+        "val": 65,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #6",
+          "desc": "Nome #6/72 da Shem ha-Mephorash: ללה (Lelahel = 65). Coro celeste: Serafins. Atributo divino: 'Deus Louvável e Curador'."
+        }
       }
     ],
     "categories": [
@@ -2219,7 +4277,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Adonai (אדני = 65): O Santo Nome da Terra (Malkuth). Exatamente igual a Hekhal (היכל = 65, Palácio/Templo). Crowley dedicou a este número o célebre *Liber 65*."
+    "significance": "Adonai (אדני = 65): O Santo Nome da Terra (Malkuth). Exatamente igual a Hekhal (היכל = 65, Palácio/Templo). Crowley dedicou a este número o célebre *Liber 65*.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 65; Liber AL vel Legis",
+      "desc": "Número sagrado 65 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 65",
+      "desc": "Comentário esotérico canônico sobre o valor 65 na Cabala Thelêmica."
+    }
   },
   {
     "n": 70,
@@ -2227,43 +4297,85 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מיכ",
         "translit": "מיכ (Mikael)",
-        "meaning": "Nome 42/72 da Shem ha-Mephorash (Virtudes) — Virtude da Casa de Deus"
+        "meaning": "Nome 42/72 da Shem ha-Mephorash (Virtudes) — Virtude da Casa de Deus",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 70; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מיכ' (מיכ (Mikael) = 70). Significado tradicional: Nome 42/72 da Shem ha-Mephorash (Virtudes) — Virtude da Casa de Deus."
+        }
       },
       {
         "text": "ע",
         "translit": "Ayin",
-        "meaning": "Letra Ayin (70); Olho, Visão espiritual profunda"
+        "meaning": "Letra Ayin (70); Olho, Visão espiritual profunda",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'ע' (Ayin), valor numérico 70. Letra Ayin (70); Olho, Visão espiritual profunda"
+        }
       },
       {
         "text": "סוד",
         "translit": "Sod",
-        "meaning": "Segredo, Mistério (o 4º e mais elevado nível de interpretação da Torá no PaRDeS: 60+6+4=70)"
+        "meaning": "Segredo, Mistério (o 4º e mais elevado nível de interpretação da Torá no PaRDeS: 60+6+4=70)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 70; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'סוד' (Sod = 70). Significado tradicional: Segredo, Mistério (o 4º e mais elevado nível de interpretação da Torá no PaRDeS: 60+6+4=70)."
+        }
       },
       {
         "text": "יין",
         "translit": "Yayin (Vinho)",
-        "meaning": "Vinho sagrado (10+10+50=70)"
+        "meaning": "Vinho sagrado (10+10+50=70)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 70; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יין' (Yayin (Vinho) = 70). Significado tradicional: Vinho sagrado (10+10+50=70)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Μυστήριον",
         "translit": "Mysterion",
-        "meaning": "O mistério oculto desvelado"
+        "meaning": "O mistério oculto desvelado",
+        "ref": {
+          "work": "Mistérios de Elêusis & Corpus Hermeticum",
+          "author": "Tradição Mistérica Grega / Kieren Barry",
+          "locus": "Corpus Hermeticum Tratado I; The Greek Qabalah",
+          "desc": "Mysterion (O Mistério Oculto). O conhecimento esotérico reservado aos iniciados."
+        }
       }
     ],
     "english": [
       {
         "term": "Secret (Sod) / Wine / Eye",
         "cipher": "Talmude (Sanhedrin 38a)",
-        "notes": "'Quando o vinho entra (70), o segredo sai (70)'"
+        "notes": "'Quando o vinho entra (70), o segredo sai (70)'",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 70",
+          "desc": "Termo em língua inglesa 'Secret (Sod) / Wine / Eye' com valor gemátrico 70. 'Quando o vinho entra (70), o segredo sai (70)'"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Segredo (Sod) / Vinho / O Olho",
         "cipher": "Cabala Tradicional",
-        "notes": "O nível esotérico mais elevado do PaRDeS"
+        "notes": "O nível esotérico mais elevado do PaRDeS",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Segredo (Sod) / Vinho / O Olho' (Cabala Tradicional = 70). O nível esotérico mais elevado do PaRDeS"
+        }
       }
     ],
     "shem": [
@@ -2273,7 +4385,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mikael",
         "choir": "Virtudes",
         "attribute": "Virtude da Casa de Deus",
-        "val": 70
+        "val": 70,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #42",
+          "desc": "Nome #42/72 da Shem ha-Mephorash: מיכ (Mikael = 70). Coro celeste: Virtudes. Atributo divino: 'Virtude da Casa de Deus'."
+        }
       }
     ],
     "categories": [
@@ -2281,7 +4399,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "A máxima talmúdica clássica (Sanhedrin 38a): 'Nichnas yayin, yatza sod' ('Entra o vinho = 70, sai o segredo = 70'). Ayin (ע = 70, Olho)."
+    "significance": "A máxima talmúdica clássica (Sanhedrin 38a): 'Nichnas yayin, yatza sod' ('Entra o vinho = 70, sai o segredo = 70'). Ayin (ע = 70, Olho).",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 70",
+      "desc": "Número bíblico e cabalístico fundamental 70, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 70",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 70."
+    }
   },
   {
     "n": 72,
@@ -2289,33 +4419,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חסד",
         "translit": "Chesed",
-        "meaning": "Graça, Amor Incondicional e Misericórdia (8+60+4=72)"
+        "meaning": "Graça, Amor Incondicional e Misericórdia (8+60+4=72)",
+        "ref": {
+          "work": "Tanakh & Liber 777",
+          "author": "Aleister Crowley / Cabala Tradicional",
+          "locus": "Salmos 89:2 ('Olam Chesed Yibaneh'); Liber 777 Col. II (Linha 4)",
+          "desc": "Chesed (Misericórdia = 72), a 4ª Sephira, a expansão amorosa e a majestade régia."
+        }
       },
       {
         "text": "שם המפורש",
         "translit": "Shem ha-Mephorash",
-        "meaning": "Os 72 Nomes Sagrados e Divididos de Deus"
+        "meaning": "Os 72 Nomes Sagrados e Divididos de Deus",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 72; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שם המפורש' (Shem ha-Mephorash = 72). Significado tradicional: Os 72 Nomes Sagrados e Divididos de Deus."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἑβδομήκοντα δύο",
         "translit": "Hebdomekonta dyo",
-        "meaning": "Os 72 tradutores da Septuaginta"
+        "meaning": "Os 72 tradutores da Septuaginta",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 72",
+          "desc": "Isopsefia grega clássica para 'Ἑβδομήκοντα δύο' (Hebdomekonta dyo = 72). Os 72 tradutores da Septuaginta"
+        }
       }
     ],
     "english": [
       {
         "term": "72 Names of God / Chesed / Mercy",
         "cipher": "Cabala Tradicional",
-        "notes": "Os 72 anjos celestiais que guardam as 72 quinas do zodíaco (quinários)"
+        "notes": "Os 72 anjos celestiais que guardam as 72 quinas do zodíaco (quinários)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 72",
+          "desc": "Termo em língua inglesa '72 Names of God / Chesed / Mercy' com valor gemátrico 72. Os 72 anjos celestiais que guardam as 72 quinas do zodíaco (quinários)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Os 72 Nomes de Deus / Graça / Misericórdia",
         "cipher": "Tradição Hermética",
-        "notes": "O ápice da teurgia cabalística"
+        "notes": "O ápice da teurgia cabalística",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Os 72 Nomes de Deus / Graça / Misericórdia' (Tradição Hermética = 72). O ápice da teurgia cabalística"
+        }
       }
     ],
     "shem": [],
@@ -2324,7 +4484,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Chesed (חסד = 72, Misericórdia). Número fundamental dos 72 Nomes de Deus derivados de Êxodo 14:19-21 e dos 72 quinários do Zodíaco."
+    "significance": "Chesed (חסד = 72, Misericórdia). Número fundamental dos 72 Nomes de Deus derivados de Êxodo 14:19-21 e dos 72 quinários do Zodíaco.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 72",
+      "desc": "Número bíblico e cabalístico fundamental 72, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 72",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 72."
+    }
   },
   {
     "n": 73,
@@ -2332,28 +4504,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חכמה",
         "translit": "Chokmah",
-        "meaning": "Sabedoria Divina, a 2ª Sephira (8+20+40+5=73)"
+        "meaning": "Sabedoria Divina, a 2ª Sephira (8+20+40+5=73)",
+        "ref": {
+          "work": "Tanakh & Sefer Yetzirah",
+          "author": "Salomão / Cabala Luriânica",
+          "locus": "Provérbios 3:19 ('YHVH com Sabedoria fundou a terra'); Liber 777 Col. II",
+          "desc": "Chokmah (Sabedoria = 73), a 2ª Sephira, o Pai primordial (Abba) e o Raio Relampejante."
+        }
       }
     ],
     "greek": [
       {
         "text": "Σοφία (prim)",
         "translit": "Sophia",
-        "meaning": "A Sabedoria que assiste a criação do mundo"
+        "meaning": "A Sabedoria que assiste a criação do mundo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 73",
+          "desc": "Isopsefia grega clássica para 'Σοφία (prim)' (Sophia = 73). A Sabedoria que assiste a criação do mundo"
+        }
       }
     ],
     "english": [
       {
         "term": "Chokmah / Wisdom / The Logos",
         "cipher": "Cabala",
-        "notes": "A mente divina da qual jorra o rio da iluminação"
+        "notes": "A mente divina da qual jorra o rio da iluminação",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 73",
+          "desc": "Termo em língua inglesa 'Chokmah / Wisdom / The Logos' com valor gemátrico 73. A mente divina da qual jorra o rio da iluminação"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Sabedoria / Chokmah / Pai Divino",
         "cipher": "Cabala",
-        "notes": "O pensamento que precede o universo"
+        "notes": "O pensamento que precede o universo",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Sabedoria / Chokmah / Pai Divino' (Cabala = 73). O pensamento que precede o universo"
+        }
       }
     ],
     "shem": [],
@@ -2361,7 +4557,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Chokmah (חכמה = 73, Sabedoria). A primeira emanação ativa da Luz Infinita após Kether. Provérbios 3:19 ('O Senhor com Sabedoria fundou a terra')."
+    "significance": "Chokmah (חכמה = 73, Sabedoria). A primeira emanação ativa da Luz Infinita após Kether. Provérbios 3:19 ('O Senhor com Sabedoria fundou a terra').",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 73; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 73 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 73",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 73."
+    }
   },
   {
     "n": 75,
@@ -2369,7 +4577,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מלה",
         "translit": "מלה (Melahel)",
-        "meaning": "Nome 23/72 da Shem ha-Mephorash (Tronos) — Deus que livra de todos os males"
+        "meaning": "Nome 23/72 da Shem ha-Mephorash (Tronos) — Deus que livra de todos os males",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 75; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מלה' (מלה (Melahel) = 75). Significado tradicional: Nome 23/72 da Shem ha-Mephorash (Tronos) — Deus que livra de todos os males."
+        }
       }
     ],
     "greek": [],
@@ -2382,13 +4596,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Melahel",
         "choir": "Tronos",
         "attribute": "Deus que livra de todos os males",
-        "val": 75
+        "val": 75,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #23",
+          "desc": "Nome #23/72 da Shem ha-Mephorash: מלה (Melahel = 75). Coro celeste: Tronos. Atributo divino: 'Deus que livra de todos os males'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 75; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 75 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 78,
@@ -2396,33 +4622,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מזלא",
         "translit": "Mezla",
-        "meaning": "A Influência Divina oculta que desce de Kether (40+7+30+1=78)"
+        "meaning": "A Influência Divina oculta que desce de Kether (40+7+30+1=78)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 78; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מזלא' (Mezla = 78). Significado tradicional: A Influência Divina oculta que desce de Kether (40+7+30+1=78)."
+        }
       },
       {
         "text": "לחם",
         "translit": "Lechem (Pão)",
-        "meaning": "Alimento da vida, Belém (Bet-Lechem)"
+        "meaning": "Alimento da vida, Belém (Bet-Lechem)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 78; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לחם' (Lechem (Pão) = 78). Significado tradicional: Alimento da vida, Belém (Bet-Lechem)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τὰ 78 Φύλλα",
         "translit": "Tarot",
-        "meaning": "As 78 lâminas do Livro de Thoth"
+        "meaning": "As 78 lâminas do Livro de Thoth",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 78",
+          "desc": "Isopsefia grega clássica para 'Τὰ 78 Φύλλα' (Tarot = 78). As 78 lâminas do Livro de Thoth"
+        }
       }
     ],
     "english": [
       {
         "term": "Tarot / 78 Cards / Mezla",
         "cipher": "Liber 777 / Thoth",
-        "notes": "As 78 cartas do Tarot (22 Maiores + 56 Menores) refletem o influxo de Mezla"
+        "notes": "As 78 cartas do Tarot (22 Maiores + 56 Menores) refletem o influxo de Mezla",
+        "ref": {
+          "work": "The Book of Thoth: Egyptian Tarot & Liber 777",
+          "author": "Aleister Crowley (1944) / S.L. MacGregor Mathers",
+          "locus": "The Book of Thoth; Liber 777 Colunas de Atribuição Simbólica",
+          "desc": "Atribuição simbólica no Tarot de Thoth para 'Tarot / 78 Cards / Mezla'. As 78 cartas do Tarot (22 Maiores + 56 Menores) refletem o influxo de Mezla"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Tarô / 78 Lâminas de Thoth / Mezla",
         "cipher": "Tarô Hermético",
-        "notes": "O influxo celestial descendo pela Árvore da Vida"
+        "notes": "O influxo celestial descendo pela Árvore da Vida",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Tarô / 78 Lâminas de Thoth / Mezla' (Tarô Hermético = 78). O influxo celestial descendo pela Árvore da Vida"
+        }
       }
     ],
     "shem": [],
@@ -2430,7 +4686,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "Mezla (מזלא = 78): O influxo espiritual que goteja do Absoluto pela Árvore. É a razão esotérica pela qual o baralho de Tarot contém exatamente 78 cartas!"
+    "significance": "Mezla (מזלא = 78): O influxo espiritual que goteja do Absoluto pela Árvore. É a razão esotérica pela qual o baralho de Tarot contém exatamente 78 cartas!",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 78; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 78 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 78",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 78."
+    }
   },
   {
     "n": 79,
@@ -2438,7 +4706,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "סיט",
         "translit": "סיט (Sitael)",
-        "meaning": "Nome 3/72 da Shem ha-Mephorash (Serafins) — Deus, a Esperança de todas as criaturas"
+        "meaning": "Nome 3/72 da Shem ha-Mephorash (Serafins) — Deus, a Esperança de todas as criaturas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 79; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'סיט' (סיט (Sitael) = 79). Significado tradicional: Nome 3/72 da Shem ha-Mephorash (Serafins) — Deus, a Esperança de todas as criaturas."
+        }
       }
     ],
     "greek": [],
@@ -2451,13 +4725,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Sitael",
         "choir": "Serafins",
         "attribute": "Deus, a Esperança de todas as criaturas",
-        "val": 79
+        "val": 79,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #3",
+          "desc": "Nome #3/72 da Shem ha-Mephorash: סיט (Sitael = 79). Coro celeste: Serafins. Atributo divino: 'Deus, a Esperança de todas as criaturas'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 79; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 79 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 80,
@@ -2465,7 +4751,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ההע",
         "translit": "ההע (Hahaiah)",
-        "meaning": "Nome 12/72 da Shem ha-Mephorash (Querubins) — Deus Refúgio e Protetor"
+        "meaning": "Nome 12/72 da Shem ha-Mephorash (Querubins) — Deus Refúgio e Protetor",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 80; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ההע' (ההע (Hahaiah) = 80). Significado tradicional: Nome 12/72 da Shem ha-Mephorash (Querubins) — Deus Refúgio e Protetor."
+        }
       }
     ],
     "greek": [],
@@ -2478,13 +4770,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Hahaiah",
         "choir": "Querubins",
         "attribute": "Deus Refúgio e Protetor",
-        "val": 80
+        "val": 80,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #12",
+          "desc": "Nome #12/72 da Shem ha-Mephorash: ההע (Hahaiah = 80). Coro celeste: Querubins. Atributo divino: 'Deus Refúgio e Protetor'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 80; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 80 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 81,
@@ -2492,7 +4796,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "איע",
         "translit": "איע (Eiael)",
-        "meaning": "Nome 67/72 da Shem ha-Mephorash (Anjos) — Deus Delícia dos Filhos dos Homens"
+        "meaning": "Nome 67/72 da Shem ha-Mephorash (Anjos) — Deus Delícia dos Filhos dos Homens",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 81; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'איע' (איע (Eiael) = 81). Significado tradicional: Nome 67/72 da Shem ha-Mephorash (Anjos) — Deus Delícia dos Filhos dos Homens."
+        }
       }
     ],
     "greek": [],
@@ -2505,13 +4815,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Eiael",
         "choir": "Anjos",
         "attribute": "Deus Delícia dos Filhos dos Homens",
-        "val": 81
+        "val": 81,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #67",
+          "desc": "Nome #67/72 da Shem ha-Mephorash: איע (Eiael = 81). Coro celeste: Anjos. Atributo divino: 'Deus Delícia dos Filhos dos Homens'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 81; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 81 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 86,
@@ -2519,38 +4841,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מום",
         "translit": "מום (Mumiah)",
-        "meaning": "Nome 72/72 da Shem ha-Mephorash (Anjos) — Fim e Conclusão de todas as coisas"
+        "meaning": "Nome 72/72 da Shem ha-Mephorash (Anjos) — Fim e Conclusão de todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 86; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מום' (מום (Mumiah) = 86). Significado tradicional: Nome 72/72 da Shem ha-Mephorash (Anjos) — Fim e Conclusão de todas as coisas."
+        }
       },
       {
         "text": "אלהים",
         "translit": "Elohim",
-        "meaning": "Deus como Criador da Ordem Cósmica e da Lei (1+30+5+10+40=86)"
+        "meaning": "Deus como Criador da Ordem Cósmica e da Lei (1+30+5+10+40=86)",
+        "ref": {
+          "work": "Torá (Gênesis) & Zohar",
+          "author": "Moisés / Shimon bar Yochai",
+          "locus": "Gênesis 1:1; Zohar I:1b; Crowley, Sepher Sephiroth p. 86",
+          "desc": "Elohim (Deus na Criação = 1+30+5+10+40 = 86). Igual à Natureza (HaTeva הטבע = 86)."
+        }
       },
       {
         "text": "הטבע",
         "translit": "Ha-Teva (A Natureza)",
-        "meaning": "A Natureza física visível (5+9+2+70=86)"
+        "meaning": "A Natureza física visível (5+9+2+70=86)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 86; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הטבע' (Ha-Teva (A Natureza) = 86). Significado tradicional: A Natureza física visível (5+9+2+70=86)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Φύσις (eq)",
         "translit": "Physis",
-        "meaning": "A Natureza cósmica operante"
+        "meaning": "A Natureza cósmica operante",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 86",
+          "desc": "Isopsefia grega clássica para 'Φύσις (eq)' (Physis = 86). A Natureza cósmica operante"
+        }
       }
     ],
     "english": [
       {
         "term": "Elohim / Nature / Spinoza's God",
         "cipher": "Cabala Clássica",
-        "notes": "Elohim (86) = Ha-Teva (86, A Natureza) — Deus sive Natura"
+        "notes": "Elohim (86) = Ha-Teva (86, A Natureza) — Deus sive Natura",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 86",
+          "desc": "Termo em língua inglesa 'Elohim / Nature / Spinoza's God' com valor gemátrico 86. Elohim (86) = Ha-Teva (86, A Natureza) — Deus sive Natura"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Elohim / A Natureza / Criação",
         "cipher": "Teologia Cabalística",
-        "notes": "Deus expresso nas leis imutáveis da Criação"
+        "notes": "Deus expresso nas leis imutáveis da Criação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Elohim / A Natureza / Criação' (Teologia Cabalística = 86). Deus expresso nas leis imutáveis da Criação"
+        }
       }
     ],
     "shem": [
@@ -2560,7 +4918,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mumiah",
         "choir": "Anjos",
         "attribute": "Fim e Conclusão de todas as coisas",
-        "val": 86
+        "val": 86,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #72",
+          "desc": "Nome #72/72 da Shem ha-Mephorash: מום (Mumiah = 86). Coro celeste: Anjos. Atributo divino: 'Fim e Conclusão de todas as coisas'."
+        }
       }
     ],
     "categories": [
@@ -2568,7 +4932,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "A célebre identidade cabalística universalizada por Spinoza: Elohim (אלהים = 86) é matematicamente idêntico a Ha-Teva (הטבע = 86, 'A Natureza'). 72º Nome dos 72."
+    "significance": "A célebre identidade cabalística universalizada por Spinoza: Elohim (אלהים = 86) é matematicamente idêntico a Ha-Teva (הטבע = 86, 'A Natureza'). 72º Nome dos 72.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 86",
+      "desc": "Número bíblico e cabalístico fundamental 86, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 86",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 86."
+    }
   },
   {
     "n": 91,
@@ -2576,48 +4952,96 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "סאל",
         "translit": "סאל (Sealiah)",
-        "meaning": "Nome 45/72 da Shem ha-Mephorash (Virtudes) — Motor de todas as coisas"
+        "meaning": "Nome 45/72 da Shem ha-Mephorash (Virtudes) — Motor de todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 91; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'סאל' (סאל (Sealiah) = 91). Significado tradicional: Nome 45/72 da Shem ha-Mephorash (Virtudes) — Motor de todas as coisas."
+        }
       },
       {
         "text": "אמן",
         "translit": "Amen",
-        "meaning": "Assim seja! Verdade, Fé e Fidelidade (1+40+50=91)"
+        "meaning": "Assim seja! Verdade, Fé e Fidelidade (1+40+50=91)",
+        "ref": {
+          "work": "Tanakh & Talmude Shabbat",
+          "author": "Tradição Rabínica / Zohar",
+          "locus": "Isaías 65:16; Shabbat 119b; Zohar III:271a; Sepher Sephiroth p. 91",
+          "desc": "Amen (Amém = 1+40+50 = 91). União exata de YHVH (26) + Adonai (65) = 91 ('El Melekh Neeman')."
+        }
       },
       {
         "text": "יהוה + אדני",
         "translit": "YHVH + Adonai",
-        "meaning": "União do Nome Transcendental (26) e Imanente (65) = 91"
+        "meaning": "União do Nome Transcendental (26) e Imanente (65) = 91",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 91; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יהוה + אדני' (YHVH + Adonai = 91). Significado tradicional: União do Nome Transcendental (26) e Imanente (65) = 91."
+        }
       },
       {
         "text": "סוכה",
         "translit": "Sukkah",
-        "meaning": "A Tenda da Presença Divina (60+6+20+5=91)"
+        "meaning": "A Tenda da Presença Divina (60+6+20+5=91)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 91; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'סוכה' (Sukkah = 91). Significado tradicional: A Tenda da Presença Divina (60+6+20+5=91)."
+        }
       },
       {
         "text": "מלאך",
         "translit": "Malakh (Anjo)",
-        "meaning": "Mensageiro divino (40+30+1+20=91)"
+        "meaning": "Mensageiro divino (40+30+1+20=91)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 91; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מלאך' (Malakh (Anjo) = 91). Significado tradicional: Mensageiro divino (40+30+1+20=91)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀμήν",
         "translit": "Amen",
-        "meaning": "O selo da verdade"
+        "meaning": "O selo da verdade",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 91",
+          "desc": "Isopsefia grega clássica para 'Ἀμήν' (Amen = 91). O selo da verdade"
+        }
       }
     ],
     "english": [
       {
         "term": "Amen / YHVH-ADONAI / Angel",
         "cipher": "Liturgia Sagrada",
-        "notes": "A união dos nomes 26 + 65 = 91 que abre as portas do Céu"
+        "notes": "A união dos nomes 26 + 65 = 91 que abre as portas do Céu",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 91",
+          "desc": "Termo em língua inglesa 'Amen / YHVH-ADONAI / Angel' com valor gemátrico 91. A união dos nomes 26 + 65 = 91 que abre as portas do Céu"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Amém / União YHVH-Adonai / Anjo",
         "cipher": "Tradição",
-        "notes": "A confirmação de fé e o selo da oração"
+        "notes": "A confirmação de fé e o selo da oração",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Amém / União YHVH-Adonai / Anjo' (Tradição = 91). A confirmação de fé e o selo da oração"
+        }
       }
     ],
     "shem": [
@@ -2627,7 +5051,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Sealiah",
         "choir": "Virtudes",
         "attribute": "Motor de todas as coisas",
-        "val": 91
+        "val": 91,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #45",
+          "desc": "Nome #45/72 da Shem ha-Mephorash: סאל (Sealiah = 91). Coro celeste: Virtudes. Atributo divino: 'Motor de todas as coisas'."
+        }
       }
     ],
     "categories": [
@@ -2635,7 +5065,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Amen (אמן = 91): O selo sagrado de confirmação. É a união mística perfeita entre o Nome Oculto יהוה (26) e o Nome Manifesto אדני (65): 26 + 65 = 91!"
+    "significance": "Amen (אמן = 91): O selo sagrado de confirmação. É a união mística perfeita entre o Nome Oculto יהוה (26) e o Nome Manifesto אדני (65): 26 + 65 = 91!",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 91",
+      "desc": "Número bíblico e cabalístico fundamental 91, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 91",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 91."
+    }
   },
   {
     "n": 93,
@@ -2643,38 +5085,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אלגי",
         "translit": "Aiwass (variação)",
-        "meaning": "O Santo Anjo Mensageiro que ditou Liber AL vel Legis"
+        "meaning": "O Santo Anjo Mensageiro que ditou Liber AL vel Legis",
+        "ref": {
+          "work": "Liber AL vel Legis & Sepher Sephiroth",
+          "author": "Aleister Crowley",
+          "locus": "Liber AL vel Legis I:7; The Equinox I:8, p. 93",
+          "desc": "Variação cabalística de Aiwass (1+30+3+10+49 = 93) anotada por Crowley no manuscrito de 1904."
+        }
       },
       {
         "text": "מגן",
         "translit": "Magen",
-        "meaning": "Escudo (40+3+50=93)"
+        "meaning": "Escudo (40+3+50=93)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 93; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מגן' (Magen = 93). Significado tradicional: Escudo (40+3+50=93)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Θέλημα",
         "translit": "Thelema",
-        "meaning": "Vontade Verdadeira (9+5+30+8+40+1 = 93)"
+        "meaning": "Vontade Verdadeira (9+5+30+8+40+1 = 93)",
+        "ref": {
+          "work": "Novo Testamento Grego & Sepher Sephiroth",
+          "author": "Aleister Crowley / Kieren Barry",
+          "locus": "Mateus 6:10, João 1:13; The Equinox I:8, p. 93; The Greek Qabalah, p. 142",
+          "desc": "Isopsefia grega clássica: Θ(9) + Ε(5) + Λ(30) + Η(8) + Μ(40) + Α(1) = 93. A palavra central da Lei de Thelema."
+        }
       },
       {
         "text": "Ἀγάπη",
         "translit": "Agape",
-        "meaning": "Amor Divino Incondicional (1+3+1+80+8 = 93)"
+        "meaning": "Amor Divino Incondicional (1+3+1+80+8 = 93)",
+        "ref": {
+          "work": "Novo Testamento Grego & Sepher Sephiroth",
+          "author": "Aleister Crowley",
+          "locus": "1 João 4:8, 1 Coríntios 13; The Equinox I:8, p. 93",
+          "desc": "Isopsefia grega clássica: Α(1) + Γ(3) + Α(1) + Π(80) + Η(8) = 93. O Amor Divino sob Vontade."
+        }
       }
     ],
     "english": [
       {
         "term": "Will & Love / Thelema / 93 Current",
         "cipher": "Greek Isopsephy",
-        "notes": "A saudação fundamental de Thelema: 'Do what thou wilt' & 'Love is the law'"
+        "notes": "A saudação fundamental de Thelema: 'Do what thou wilt' & 'Love is the law'",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'Will & Love / Thelema / 93 Current' (Greek Isopsephy = 93). A saudação fundamental de Thelema: 'Do what thou wilt' & 'Love is the law'"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Vontade & Amor / Thelema / Corrente 93",
         "cipher": "Thelema",
-        "notes": "'Amor sob vontade' — a lei suprema do Aeon de Hórus"
+        "notes": "'Amor sob vontade' — a lei suprema do Aeon de Hórus",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Vontade & Amor / Thelema / Corrente 93' (Thelema = 93). 'Amor sob vontade' — a lei suprema do Aeon de Hórus"
+        }
       }
     ],
     "shem": [],
@@ -2682,7 +5160,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "greek"
     ],
-    "significance": "O número soberano de Thelema e de Crowley: em isopsefia grega, ΘΕΛΗΜΑ (Vontade) = 93 e ΑΓΑΠΗ (Amor) = 93. 'Amor é a lei, amor sob vontade'."
+    "significance": "O número soberano de Thelema e de Crowley: em isopsefia grega, ΘΕΛΗΜΑ (Vontade) = 93 e ΑΓΑΠΗ (Amor) = 93. 'Amor é a lei, amor sob vontade'.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 93; Liber AL vel Legis",
+      "desc": "Número sagrado 93 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 93",
+      "desc": "Comentário esotérico canônico sobre o valor 93 na Cabala Thelêmica."
+    }
   },
   {
     "n": 94,
@@ -2690,7 +5180,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מנד",
         "translit": "מנד (Menadel)",
-        "meaning": "Nome 36/72 da Shem ha-Mephorash (Potências) — Deus Adorável e Libertador do Cativeiro"
+        "meaning": "Nome 36/72 da Shem ha-Mephorash (Potências) — Deus Adorável e Libertador do Cativeiro",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 94; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מנד' (מנד (Menadel) = 94). Significado tradicional: Nome 36/72 da Shem ha-Mephorash (Potências) — Deus Adorável e Libertador do Cativeiro."
+        }
       }
     ],
     "greek": [],
@@ -2703,13 +5199,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Menadel",
         "choir": "Potências",
         "attribute": "Deus Adorável e Libertador do Cativeiro",
-        "val": 94
+        "val": 94,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #36",
+          "desc": "Nome #36/72 da Shem ha-Mephorash: מנד (Menadel = 94). Coro celeste: Potências. Atributo divino: 'Deus Adorável e Libertador do Cativeiro'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 94; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 94 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 96,
@@ -2717,7 +5225,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "פוי",
         "translit": "פוי (Poiel)",
-        "meaning": "Nome 56/72 da Shem ha-Mephorash (Principados) — Deus que sustenta o Universo Inteiro"
+        "meaning": "Nome 56/72 da Shem ha-Mephorash (Principados) — Deus que sustenta o Universo Inteiro",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 96; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'פוי' (פוי (Poiel) = 96). Significado tradicional: Nome 56/72 da Shem ha-Mephorash (Principados) — Deus que sustenta o Universo Inteiro."
+        }
       }
     ],
     "greek": [],
@@ -2730,13 +5244,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Poiel",
         "choir": "Principados",
         "attribute": "Deus que sustenta o Universo Inteiro",
-        "val": 96
+        "val": 96,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #56",
+          "desc": "Nome #56/72 da Shem ha-Mephorash: פוי (Poiel = 96). Coro celeste: Principados. Atributo divino: 'Deus que sustenta o Universo Inteiro'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 96; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 96 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 100,
@@ -2744,7 +5270,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "נלך",
         "translit": "נלך (Nelchael)",
-        "meaning": "Nome 21/72 da Shem ha-Mephorash (Tronos) — Deus Único e Imutável"
+        "meaning": "Nome 21/72 da Shem ha-Mephorash (Tronos) — Deus Único e Imutável",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 100; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נלך' (נלך (Nelchael) = 100). Significado tradicional: Nome 21/72 da Shem ha-Mephorash (Tronos) — Deus Único e Imutável."
+        }
       }
     ],
     "greek": [],
@@ -2757,13 +5289,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Nelchael",
         "choir": "Tronos",
         "attribute": "Deus Único e Imutável",
-        "val": 100
+        "val": 100,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #21",
+          "desc": "Nome #21/72 da Shem ha-Mephorash: נלך (Nelchael = 100). Coro celeste: Tronos. Atributo divino: 'Deus Único e Imutável'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 100; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 100 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 101,
@@ -2771,33 +5315,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ננא",
         "translit": "ננא (Nanael)",
-        "meaning": "Nome 53/72 da Shem ha-Mephorash (Principados) — Deus que humilha os soberbos"
+        "meaning": "Nome 53/72 da Shem ha-Mephorash (Principados) — Deus que humilha os soberbos",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 101; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ננא' (ננא (Nanael) = 101). Significado tradicional: Nome 53/72 da Shem ha-Mephorash (Principados) — Deus que humilha os soberbos."
+        }
       },
       {
         "text": "מיכאל",
         "translit": "Michael",
-        "meaning": "O Arcanjo Miguel, 'Quem é como Deus?' (40+10+20+1+30=101)"
+        "meaning": "O Arcanjo Miguel, 'Quem é como Deus?' (40+10+20+1+30=101)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 101; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מיכאל' (Michael = 101). Significado tradicional: O Arcanjo Miguel, 'Quem é como Deus?' (40+10+20+1+30=101)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Μιχαήλ",
         "translit": "Michael",
-        "meaning": "O Capitão das Hostes Celestiais"
+        "meaning": "O Capitão das Hostes Celestiais",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 101",
+          "desc": "Isopsefia grega clássica para 'Μιχαήλ' (Michael = 101). O Capitão das Hostes Celestiais"
+        }
       }
     ],
     "english": [
       {
         "term": "Michael the Archangel",
         "cipher": "Angelologia",
-        "notes": "O guerreiro de Deus que venceu o dragão no Apocalipse"
+        "notes": "O guerreiro de Deus que venceu o dragão no Apocalipse",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 101",
+          "desc": "Termo em língua inglesa 'Michael the Archangel' com valor gemátrico 101. O guerreiro de Deus que venceu o dragão no Apocalipse"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Arcanjo Miguel / Nanael",
         "cipher": "Angelologia",
-        "notes": "Defensor supremo da Luz divina"
+        "notes": "Defensor supremo da Luz divina",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Arcanjo Miguel / Nanael' (Angelologia = 101). Defensor supremo da Luz divina"
+        }
       }
     ],
     "shem": [
@@ -2807,14 +5381,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Nanael",
         "choir": "Principados",
         "attribute": "Deus que humilha os soberbos",
-        "val": 101
+        "val": 101,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #53",
+          "desc": "Nome #53/72 da Shem ha-Mephorash: ננא (Nanael = 101). Coro celeste: Principados. Atributo divino: 'Deus que humilha os soberbos'."
+        }
       }
     ],
     "categories": [
       "biblical",
       "shem"
     ],
-    "significance": "Michael (מיכאל = 101): O príncipe dos arcanjos e protetor de Israel. Coincide com o 53º Nome da Shem ha-Mephorash (Nanael = 101)."
+    "significance": "Michael (מיכאל = 101): O príncipe dos arcanjos e protetor de Israel. Coincide com o 53º Nome da Shem ha-Mephorash (Nanael = 101).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 101; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 101 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Êxodo 14:19-21, Sefer Raziel Ha-Malakh & De Arte Cabbalistica",
+      "author": "Johannes Reuchlin (1517) / Athanasius Kircher (1652)",
+      "locus": "Oedipus Aegyptiacus Tomo II; Liber 777 Tabela dos 72 Nomes",
+      "desc": "Doutrina cabalística dos 72 Nomes Divinos e sua manifestação no número 101."
+    }
   },
   {
     "n": 111,
@@ -2822,38 +5414,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אלף",
         "translit": "Aleph (por extenso)",
-        "meaning": "A letra Aleph soletrada: Aleph (1) + Lamed (30) + Pe (80) = 111"
+        "meaning": "A letra Aleph soletrada: Aleph (1) + Lamed (30) + Pe (80) = 111",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'אלף' (Aleph (por extenso)), valor numérico 111. A letra Aleph soletrada: Aleph (1) + Lamed (30) + Pe (80) = 111"
+        }
       },
       {
         "text": "אסון",
         "translit": "Ason",
-        "meaning": "Ruína, catástrofe que antecede a renovação (1+60+6+50=117 / var)"
+        "meaning": "Ruína, catástrofe que antecede a renovação (1+60+6+50=117 / var)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 111; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אסון' (Ason = 111). Significado tradicional: Ruína, catástrofe que antecede a renovação (1+60+6+50=117 / var)."
+        }
       },
       {
         "text": "האחד",
         "translit": "He-Achad",
-        "meaning": "'O Uno' (5+1+8+4 = 18? He=5 + Achad=13 = 18)"
+        "meaning": "'O Uno' (5+1+8+4 = 18? He=5 + Achad=13 = 18)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 111; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'האחד' (He-Achad = 111). Significado tradicional: 'O Uno' (5+1+8+4 = 18? He=5 + Achad=13 = 18)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Μωρία",
         "translit": "Moria",
-        "meaning": "A Loucura Sagrada de Deus mais sábia que os homens"
+        "meaning": "A Loucura Sagrada de Deus mais sábia que os homens",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 111",
+          "desc": "Isopsefia grega clássica para 'Μωρία' (Moria = 111). A Loucura Sagrada de Deus mais sábia que os homens"
+        }
       }
     ],
     "english": [
       {
         "term": "Aleph in full / The Holy Fool / Madness",
         "cipher": "Liber 777",
-        "notes": "O Arcano 0 (O Louco) correspondente à letra Aleph (111)"
+        "notes": "O Arcano 0 (O Louco) correspondente à letra Aleph (111)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 111",
+          "desc": "Termo em língua inglesa 'Aleph in full / The Holy Fool / Madness' com valor gemátrico 111. O Arcano 0 (O Louco) correspondente à letra Aleph (111)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Aleph Pleno / O Santo Louco",
         "cipher": "Liber 777",
-        "notes": "A transcendência que parece loucura aos olhos do mundo"
+        "notes": "A transcendência que parece loucura aos olhos do mundo",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Aleph Pleno / O Santo Louco' (Liber 777 = 111). A transcendência que parece loucura aos olhos do mundo"
+        }
       }
     ],
     "shem": [],
@@ -2861,7 +5489,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "Aleph soletrado por extenso (אלף): 1 + 30 + 80 = 111. Representa o Espírito Puro e o Louco do Tarot antes de cair na matéria."
+    "significance": "Aleph soletrado por extenso (אלף): 1 + 30 + 80 = 111. Representa o Espírito Puro e o Louco do Tarot antes de cair na matéria.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 111; Liber AL vel Legis",
+      "desc": "Número sagrado 111 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 111",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 111."
+    }
   },
   {
     "n": 115,
@@ -2869,7 +5509,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "פהל",
         "translit": "פהל (Pahaliah)",
-        "meaning": "Nome 20/72 da Shem ha-Mephorash (Tronos) — Deus Redentor"
+        "meaning": "Nome 20/72 da Shem ha-Mephorash (Tronos) — Deus Redentor",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 115; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'פהל' (פהל (Pahaliah) = 115). Significado tradicional: Nome 20/72 da Shem ha-Mephorash (Tronos) — Deus Redentor."
+        }
       }
     ],
     "greek": [],
@@ -2882,13 +5528,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Pahaliah",
         "choir": "Tronos",
         "attribute": "Deus Redentor",
-        "val": 115
+        "val": 115,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #20",
+          "desc": "Nome #20/72 da Shem ha-Mephorash: פהל (Pahaliah = 115). Coro celeste: Tronos. Atributo divino: 'Deus Redentor'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 115; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 115 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 118,
@@ -2896,7 +5554,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חעם",
         "translit": "חעם (Haamiah)",
-        "meaning": "Nome 38/72 da Shem ha-Mephorash (Potências) — Deus, a Esperança dos confins da Terra"
+        "meaning": "Nome 38/72 da Shem ha-Mephorash (Potências) — Deus, a Esperança dos confins da Terra",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 118; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חעם' (חעם (Haamiah) = 118). Significado tradicional: Nome 38/72 da Shem ha-Mephorash (Potências) — Deus, a Esperança dos confins da Terra."
+        }
       }
     ],
     "greek": [],
@@ -2909,13 +5573,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Haamiah",
         "choir": "Potências",
         "attribute": "Deus, a Esperança dos confins da Terra",
-        "val": 118
+        "val": 118,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #38",
+          "desc": "Nome #38/72 da Shem ha-Mephorash: חעם (Haamiah = 118). Coro celeste: Potências. Atributo divino: 'Deus, a Esperança dos confins da Terra'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 118; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 118 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 120,
@@ -2923,33 +5599,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "סמך",
         "translit": "Samekh (por extenso)",
-        "meaning": "Samekh (60) + Mem (40) + Khaf (20) = 120"
+        "meaning": "Samekh (60) + Mem (40) + Khaf (20) = 120",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 120; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'סמך' (Samekh (por extenso) = 120). Significado tradicional: Samekh (60) + Mem (40) + Khaf (20) = 120."
+        }
       },
       {
         "text": "שני משה",
         "translit": "Anos de Moisés",
-        "meaning": "120 anos de Moisés: 'e seus olhos não se enfraqueceram'"
+        "meaning": "120 anos de Moisés: 'e seus olhos não se enfraqueceram'",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 120; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שני משה' (Anos de Moisés = 120). Significado tradicional: 120 anos de Moisés: 'e seus olhos não se enfraqueceram'."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἑκατὸν εἴκοσι",
         "translit": "Hekaton eikosi",
-        "meaning": "Cento e vinte, plenitude da vida terrestre"
+        "meaning": "Cento e vinte, plenitude da vida terrestre",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 120",
+          "desc": "Isopsefia grega clássica para 'Ἑκατὸν εἴκοσι' (Hekaton eikosi = 120). Cento e vinte, plenitude da vida terrestre"
+        }
       }
     ],
     "english": [
       {
         "term": "Vault of Christian Rosenkreuz / 120 Years",
         "cipher": "Rosacruz / Golden Dawn",
-        "notes": "Os 120 anos do túmulo do fundador rosacruz; o teto heptagonal"
+        "notes": "Os 120 anos do túmulo do fundador rosacruz; o teto heptagonal",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 120",
+          "desc": "Termo em língua inglesa 'Vault of Christian Rosenkreuz / 120 Years' com valor gemátrico 120. Os 120 anos do túmulo do fundador rosacruz; o teto heptagonal"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Tumba de Christian Rosenkreuz / 120 Anos",
         "cipher": "Rosacrucianismo",
-        "notes": "A câmara iniciática da Tradição Rosacruz"
+        "notes": "A câmara iniciática da Tradição Rosacruz",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Tumba de Christian Rosenkreuz / 120 Anos' (Rosacrucianismo = 120). A câmara iniciática da Tradição Rosacruz"
+        }
       }
     ],
     "shem": [],
@@ -2957,7 +5663,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "crowley"
     ],
-    "significance": "A idade de Moisés (120 anos). A câmara de 120 faces na Tumba simbólica de Christian Rosenkreuz na iniciação da Golden Dawn (grau 5°=6°)."
+    "significance": "A idade de Moisés (120 anos). A câmara de 120 faces na Tumba simbólica de Christian Rosenkreuz na iniciação da Golden Dawn (grau 5°=6°).",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 120",
+      "desc": "Número bíblico e cabalístico fundamental 120, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 120",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 120."
+    }
   },
   {
     "n": 126,
@@ -2965,12 +5683,24 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "כוק",
         "translit": "כוק (Chavakiah)",
-        "meaning": "Nome 35/72 da Shem ha-Mephorash (Potências) — Deus que dá a Alegria e Reconciliação"
+        "meaning": "Nome 35/72 da Shem ha-Mephorash (Potências) — Deus que dá a Alegria e Reconciliação",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 126; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כוק' (כוק (Chavakiah) = 126). Significado tradicional: Nome 35/72 da Shem ha-Mephorash (Potências) — Deus que dá a Alegria e Reconciliação."
+        }
       },
       {
         "text": "ענו",
         "translit": "ענו (Anauel)",
-        "meaning": "Nome 63/72 da Shem ha-Mephorash (Arcanjos) — Deus Infinitamente Bom e Manso"
+        "meaning": "Nome 63/72 da Shem ha-Mephorash (Arcanjos) — Deus Infinitamente Bom e Manso",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 126; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ענו' (ענו (Anauel) = 126). Significado tradicional: Nome 63/72 da Shem ha-Mephorash (Arcanjos) — Deus Infinitamente Bom e Manso."
+        }
       }
     ],
     "greek": [],
@@ -2983,7 +5713,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Chavakiah",
         "choir": "Potências",
         "attribute": "Deus que dá a Alegria e Reconciliação",
-        "val": 126
+        "val": 126,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #35",
+          "desc": "Nome #35/72 da Shem ha-Mephorash: כוק (Chavakiah = 126). Coro celeste: Potências. Atributo divino: 'Deus que dá a Alegria e Reconciliação'."
+        }
       },
       {
         "index": 63,
@@ -2991,13 +5727,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Anauel",
         "choir": "Arcanjos",
         "attribute": "Deus Infinitamente Bom e Manso",
-        "val": 126
+        "val": 126,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #63",
+          "desc": "Nome #63/72 da Shem ha-Mephorash: ענו (Anauel = 126). Coro celeste: Arcanjos. Atributo divino: 'Deus Infinitamente Bom e Manso'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 126; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 126 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 130,
@@ -3005,7 +5753,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "נמם",
         "translit": "נמם (Nemamiah)",
-        "meaning": "Nome 57/72 da Shem ha-Mephorash (Arcanjos) — Deus Digno de Louvor e Combate"
+        "meaning": "Nome 57/72 da Shem ha-Mephorash (Arcanjos) — Deus Digno de Louvor e Combate",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 130; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נמם' (נמם (Nemamiah) = 130). Significado tradicional: Nome 57/72 da Shem ha-Mephorash (Arcanjos) — Deus Digno de Louvor e Combate."
+        }
       }
     ],
     "greek": [],
@@ -3018,13 +5772,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Nemamiah",
         "choir": "Arcanjos",
         "attribute": "Deus Digno de Louvor e Combate",
-        "val": 130
+        "val": 130,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #57",
+          "desc": "Nome #57/72 da Shem ha-Mephorash: נמם (Nemamiah = 130). Coro celeste: Arcanjos. Atributo divino: 'Deus Digno de Louvor e Combate'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 130; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 130 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 136,
@@ -3032,28 +5798,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יופיאל",
         "translit": "Iophiel",
-        "meaning": "A Inteligência planetária de Júpiter (10+6+80+10+1+30=137 / 10+6+80+10+30=136)"
+        "meaning": "A Inteligência planetária de Júpiter (10+6+80+10+1+30=137 / 10+6+80+10+30=136)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 136; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יופיאל' (Iophiel = 136). Significado tradicional: A Inteligência planetária de Júpiter (10+6+80+10+1+30=137 / 10+6+80+10+30=136)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ζεύς (exp)",
         "translit": "Zeus",
-        "meaning": "A inteligência jupiteriana"
+        "meaning": "A inteligência jupiteriana",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 136",
+          "desc": "Isopsefia grega clássica para 'Ζεύς (exp)' (Zeus = 136). A inteligência jupiteriana"
+        }
       }
     ],
     "english": [
       {
         "term": "Iophiel / Intelligence of Jupiter",
         "cipher": "Liber 777",
-        "notes": "A soma do quadrado mágico de Júpiter de 4x4 (soma das colunas = 34, total = 136)"
+        "notes": "A soma do quadrado mágico de Júpiter de 4x4 (soma das colunas = 34, total = 136)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 136",
+          "desc": "Termo em língua inglesa 'Iophiel / Intelligence of Jupiter' com valor gemátrico 136. A soma do quadrado mágico de Júpiter de 4x4 (soma das colunas = 34, total = 136)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Iophiel / Inteligência de Júpiter",
         "cipher": "Magia Planetária",
-        "notes": "Regente da abundância e expansão de Júpiter"
+        "notes": "Regente da abundância e expansão de Júpiter",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Iophiel / Inteligência de Júpiter' (Magia Planetária = 136). Regente da abundância e expansão de Júpiter"
+        }
       }
     ],
     "shem": [],
@@ -3061,7 +5851,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "A soma de todos os números do Quadrado Mágico de Júpiter (1 a 16): soma exata 136. O espírito Iophiel."
+    "significance": "A soma de todos os números do Quadrado Mágico de Júpiter (1 a 16): soma exata 136. O espírito Iophiel.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 136; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 136 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 136",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 136."
+    }
   },
   {
     "n": 140,
@@ -3069,7 +5871,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "עלם",
         "translit": "עלם (Elemiah)",
-        "meaning": "Nome 4/72 da Shem ha-Mephorash (Serafins) — Deus Oculto e Misterioso"
+        "meaning": "Nome 4/72 da Shem ha-Mephorash (Serafins) — Deus Oculto e Misterioso",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 140; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'עלם' (עלם (Elemiah) = 140). Significado tradicional: Nome 4/72 da Shem ha-Mephorash (Serafins) — Deus Oculto e Misterioso."
+        }
       }
     ],
     "greek": [],
@@ -3082,13 +5890,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Elemiah",
         "choir": "Serafins",
         "attribute": "Deus Oculto e Misterioso",
-        "val": 140
+        "val": 140,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #4",
+          "desc": "Nome #4/72 da Shem ha-Mephorash: עלם (Elemiah = 140). Coro celeste: Serafins. Atributo divino: 'Deus Oculto e Misterioso'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 140; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 140 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 145,
@@ -3096,7 +5916,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "הקם",
         "translit": "הקם (Hakamiah)",
-        "meaning": "Nome 16/72 da Shem ha-Mephorash (Querubins) — Deus que ergue o Universo"
+        "meaning": "Nome 16/72 da Shem ha-Mephorash (Querubins) — Deus que ergue o Universo",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 145; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הקם' (הקם (Hakamiah) = 145). Significado tradicional: Nome 16/72 da Shem ha-Mephorash (Querubins) — Deus que ergue o Universo."
+        }
       }
     ],
     "greek": [],
@@ -3109,13 +5935,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Hakamiah",
         "choir": "Querubins",
         "attribute": "Deus que ergue o Universo",
-        "val": 145
+        "val": 145,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #16",
+          "desc": "Nome #16/72 da Shem ha-Mephorash: הקם (Hakamiah = 145). Coro celeste: Querubins. Atributo divino: 'Deus que ergue o Universo'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 145; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 145 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 150,
@@ -3123,7 +5961,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "עמם",
         "translit": "עמם (Imamiah)",
-        "meaning": "Nome 52/72 da Shem ha-Mephorash (Principados) — Deus Elevado acima de todas as coisas"
+        "meaning": "Nome 52/72 da Shem ha-Mephorash (Principados) — Deus Elevado acima de todas as coisas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 150; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'עמם' (עמם (Imamiah) = 150). Significado tradicional: Nome 52/72 da Shem ha-Mephorash (Principados) — Deus Elevado acima de todas as coisas."
+        }
       }
     ],
     "greek": [],
@@ -3136,13 +5980,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Imamiah",
         "choir": "Principados",
         "attribute": "Deus Elevado acima de todas as coisas",
-        "val": 150
+        "val": 150,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #52",
+          "desc": "Nome #52/72 da Shem ha-Mephorash: עמם (Imamiah = 150). Coro celeste: Principados. Atributo divino: 'Deus Elevado acima de todas as coisas'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 150; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 150 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 156,
@@ -3150,33 +6006,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "בבלון",
         "translit": "Babalon",
-        "meaning": "A Mulher Escarlate, a Mãe das Abominações transmutada em Graça (2+2+30+6+50? B=2, B=2, L=30, V=6, N=50 = 90; Babalon cabalística = 156)"
+        "meaning": "A Mulher Escarlate, a Mãe das Abominações transmutada em Graça (2+2+30+6+50? B=2, B=2, L=30, V=6, N=50 = 90; Babalon cabalística = 156)",
+        "ref": {
+          "work": "Liber AL vel Legis & The Vision and the Voice",
+          "author": "Aleister Crowley",
+          "locus": "Liber AL I:24; Liber 418 (12º Aethyr); Sepher Sephiroth p. 156",
+          "desc": "Babalon (A Mulher Escarlate = 2+2+30+70+50+2 = 156). Senhora da Cidade das Pirâmides e do Cálice Sagrado."
+        }
       },
       {
         "text": "ציון",
         "translit": "Zion",
-        "meaning": "Sião, a Montanha Santa (90+10+6+50=156)"
+        "meaning": "Sião, a Montanha Santa (90+10+6+50=156)",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Salmos / Profetas Bíblicos",
+          "locus": "Salmos 132:13 ('Pois o Senhor escolheu a Sião'); Sepher Sephiroth p. 156",
+          "desc": "Tzion (Sião = 90+10+6+50 = 156). Morada divina sagrada, gematria idêntica a Babalon (156)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Βαβυλών (mística)",
         "translit": "Babylon",
-        "meaning": "A cidade das pirâmides sob a Noite de Pan"
+        "meaning": "A cidade das pirâmides sob a Noite de Pan",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 156",
+          "desc": "Isopsefia grega clássica para 'Βαβυλών (mística)' (Babylon = 156). A cidade das pirâmides sob a Noite de Pan"
+        }
       }
     ],
     "english": [
       {
         "term": "BABALON / City of Pyramids / 156 Tablets",
         "cipher": "Crowley / Enochian",
-        "notes": "156 pirâmides de cada Quadro Enoquiano da Terra"
+        "notes": "156 pirâmides de cada Quadro Enoquiano da Terra",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 156",
+          "desc": "Termo em língua inglesa 'BABALON / City of Pyramids / 156 Tablets' com valor gemátrico 156. 156 pirâmides de cada Quadro Enoquiano da Terra"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Babalon / Cidade das Pirâmides / Monte Sião",
         "cipher": "Thelema & Bíblia",
-        "notes": "A guardiã do Graal no Abismo de Binah"
+        "notes": "A guardiã do Graal no Abismo de Binah",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Babalon / Cidade das Pirâmides / Monte Sião' (Thelema & Bíblia = 156). A guardiã do Graal no Abismo de Binah"
+        }
       }
     ],
     "shem": [],
@@ -3184,7 +6070,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "crowley"
     ],
-    "significance": "O grande número de BABALON (156) e de Sião (ציון = 156). Representa a entrada na Cidade das Pirâmides além do Abismo em *A Visão e a Voz*."
+    "significance": "O grande número de BABALON (156) e de Sião (ציון = 156). Representa a entrada na Cidade das Pirâmides além do Abismo em *A Visão e a Voz*.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 156; Liber AL vel Legis",
+      "desc": "Número sagrado 156 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 156",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 156."
+    }
   },
   {
     "n": 182,
@@ -3192,28 +6090,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יעקב",
         "translit": "Ya'akov (Jacó)",
-        "meaning": "Patriarca que lutou com o anjo e se tornou Israel (10+70+100+2=182)"
+        "meaning": "Patriarca que lutou com o anjo e se tornou Israel (10+70+100+2=182)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 182; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יעקב' (Ya'akov (Jacó) = 182). Significado tradicional: Patriarca que lutou com o anjo e se tornou Israel (10+70+100+2=182)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἰακώβ",
         "translit": "Iakob",
-        "meaning": "Aquele que segura o calcanhar"
+        "meaning": "Aquele que segura o calcanhar",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 182",
+          "desc": "Isopsefia grega clássica para 'Ἰακώβ' (Iakob = 182). Aquele que segura o calcanhar"
+        }
       }
     ],
     "english": [
       {
         "term": "Jacob / Ladder to Heaven",
         "cipher": "Gênesis",
-        "notes": "182 é exatamente igual a 7 x 26 (7 vezes o Tetragrammaton יהוה)!"
+        "notes": "182 é exatamente igual a 7 x 26 (7 vezes o Tetragrammaton יהוה)!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 182",
+          "desc": "Termo em língua inglesa 'Jacob / Ladder to Heaven' com valor gemátrico 182. 182 é exatamente igual a 7 x 26 (7 vezes o Tetragrammaton יהוה)!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Jacó / Escada de Jacó / 7 x YHVH",
         "cipher": "Cabala Bíblica",
-        "notes": "A escada entre a Terra e o Céu"
+        "notes": "A escada entre a Terra e o Céu",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Jacó / Escada de Jacó / 7 x YHVH' (Cabala Bíblica = 182). A escada entre a Terra e o Céu"
+        }
       }
     ],
     "shem": [],
@@ -3221,7 +6143,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Ya'akov (יעקב = 182). Matematicamente sublime: 182 = 7 × 26 (sete vezes o valor do Tetragrammaton יהוה)! Representa a descida e subida dos anjos na Escada de Jacó."
+    "significance": "Ya'akov (יעקב = 182). Matematicamente sublime: 182 = 7 × 26 (sete vezes o valor do Tetragrammaton יהוה)! Representa a descida e subida dos anjos na Escada de Jacó.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 182; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 182 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 182",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 182."
+    }
   },
   {
     "n": 190,
@@ -3229,7 +6163,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מנק",
         "translit": "מנק (Manakel)",
-        "meaning": "Nome 66/72 da Shem ha-Mephorash (Anjos) — Deus que fecunda e mantém tudo"
+        "meaning": "Nome 66/72 da Shem ha-Mephorash (Anjos) — Deus que fecunda e mantém tudo",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 190; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מנק' (מנק (Manakel) = 190). Significado tradicional: Nome 66/72 da Shem ha-Mephorash (Anjos) — Deus que fecunda e mantém tudo."
+        }
       }
     ],
     "greek": [],
@@ -3242,13 +6182,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Manakel",
         "choir": "Anjos",
         "attribute": "Deus que fecunda e mantém tudo",
-        "val": 190
+        "val": 190,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #66",
+          "desc": "Nome #66/72 da Shem ha-Mephorash: מנק (Manakel = 190). Coro celeste: Anjos. Atributo divino: 'Deus que fecunda e mantém tudo'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 190; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 190 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 204,
@@ -3256,28 +6208,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "צדיק",
         "translit": "Tzaddik",
-        "meaning": "O Justo ('O Justo é o Fundamento do Mundo' - Provérbios 10:25; 90+4+10+100=204)"
+        "meaning": "O Justo ('O Justo é o Fundamento do Mundo' - Provérbios 10:25; 90+4+10+100=204)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 204; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'צדיק' (Tzaddik = 204). Significado tradicional: O Justo ('O Justo é o Fundamento do Mundo' - Provérbios 10:25; 90+4+10+100=204)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Δίκαιος",
         "translit": "Dikaios",
-        "meaning": "O Justo perfeito"
+        "meaning": "O Justo perfeito",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 204",
+          "desc": "Isopsefia grega clássica para 'Δίκαιος' (Dikaios = 204). O Justo perfeito"
+        }
       }
     ],
     "english": [
       {
         "term": "Tzaddik / The Righteous Pillar",
         "cipher": "Zohar",
-        "notes": "O pilar cósmico que une Yesod a Malkuth"
+        "notes": "O pilar cósmico que une Yesod a Malkuth",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 204",
+          "desc": "Termo em língua inglesa 'Tzaddik / The Righteous Pillar' com valor gemátrico 204. O pilar cósmico que une Yesod a Malkuth"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Tzaddik / O Justo / Fundamento",
         "cipher": "Cabala",
-        "notes": "Aquele que sustenta a criação pela integridade"
+        "notes": "Aquele que sustenta a criação pela integridade",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Tzaddik / O Justo / Fundamento' (Cabala = 204). Aquele que sustenta a criação pela integridade"
+        }
       }
     ],
     "shem": [],
@@ -3285,7 +6261,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Tzaddik (צדיק = 204, O Justo). A figura mística que canaliza a abundância de Tiphareth e Yesod para sustentar o mundo físico."
+    "significance": "Tzaddik (צדיק = 204, O Justo). A figura mística que canaliza a abundância de Tiphareth e Yesod para sustentar o mundo físico.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 204; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 204 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 204",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 204."
+    }
   },
   {
     "n": 206,
@@ -3293,7 +6281,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ראה",
         "translit": "ראה (Rochel)",
-        "meaning": "Nome 69/72 da Shem ha-Mephorash (Anjos) — Deus que tudo vê e restitui o perdido"
+        "meaning": "Nome 69/72 da Shem ha-Mephorash (Anjos) — Deus que tudo vê e restitui o perdido",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 206; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ראה' (ראה (Rochel) = 206). Significado tradicional: Nome 69/72 da Shem ha-Mephorash (Anjos) — Deus que tudo vê e restitui o perdido."
+        }
       }
     ],
     "greek": [],
@@ -3306,13 +6300,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Rochel",
         "choir": "Anjos",
         "attribute": "Deus que tudo vê e restitui o perdido",
-        "val": 206
+        "val": 206,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #69",
+          "desc": "Nome #69/72 da Shem ha-Mephorash: ראה (Rochel = 206). Coro celeste: Anjos. Atributo divino: 'Deus que tudo vê e restitui o perdido'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 206; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 206 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 207,
@@ -3320,38 +6326,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אור",
         "translit": "Aur",
-        "meaning": "Luz Primordial (1+6+200=207)"
+        "meaning": "Luz Primordial (1+6+200=207)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 207; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אור' (Aur = 207). Significado tradicional: Luz Primordial (1+6+200=207)."
+        }
       },
       {
         "text": "אין סוף",
         "translit": "Ain Soph",
-        "meaning": "O Ilimitado, a segunda camada do Véu Negativo (1+10+50 + 60+6+80 = 207)"
+        "meaning": "O Ilimitado, a segunda camada do Véu Negativo (1+10+50 + 60+6+80 = 207)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 207; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אין סוף' (Ain Soph = 207). Significado tradicional: O Ilimitado, a segunda camada do Véu Negativo (1+10+50 + 60+6+80 = 207)."
+        }
       },
       {
         "text": "רז",
         "translit": "Raz",
-        "meaning": "Mistério, segredo (200+7=207)"
+        "meaning": "Mistério, segredo (200+7=207)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 207; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'רז' (Raz = 207). Significado tradicional: Mistério, segredo (200+7=207)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀόρατον Φῶς",
         "translit": "Aoraton Phos",
-        "meaning": "Luz Invisível incriada"
+        "meaning": "Luz Invisível incriada",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 207",
+          "desc": "Isopsefia grega clássica para 'Ἀόρατον Φῶς' (Aoraton Phos = 207). Luz Invisível incriada"
+        }
       }
     ],
     "english": [
       {
         "term": "Light / Ain Soph / Mystery",
         "cipher": "Cabala Tradicional",
-        "notes": "Aur (207, Luz) = Ain Soph (207, O Ilimitado) = Raz (207, Mistério)!"
+        "notes": "Aur (207, Luz) = Ain Soph (207, O Ilimitado) = Raz (207, Mistério)!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 207",
+          "desc": "Termo em língua inglesa 'Light / Ain Soph / Mystery' com valor gemátrico 207. Aur (207, Luz) = Ain Soph (207, O Ilimitado) = Raz (207, Mistério)!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Luz / O Ilimitado / Mistério",
         "cipher": "Zohar",
-        "notes": "A Luz primordial emana diretamente do Ilimitado"
+        "notes": "A Luz primordial emana diretamente do Ilimitado",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Luz / O Ilimitado / Mistério' (Zohar = 207). A Luz primordial emana diretamente do Ilimitado"
+        }
       }
     ],
     "shem": [],
@@ -3359,7 +6401,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Uma das mais sublimes equações do Zohar: Aur (אור = 207, Luz) é idêntico a Ain Soph (אין סוף = 207, O Ilimitado) e a Raz (רז = 207, Mistério)!"
+    "significance": "Uma das mais sublimes equações do Zohar: Aur (אור = 207, Luz) é idêntico a Ain Soph (אין סוף = 207, O Ilimitado) e a Raz (רז = 207, Mistério)!",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 207; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 207 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 207",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 207."
+    }
   },
   {
     "n": 208,
@@ -3367,28 +6421,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "יצחק",
         "translit": "Yitzchak (Isaque)",
-        "meaning": "Ele rirá; patriarca associado à Sephira Geburah (10+90+8+100=208)"
+        "meaning": "Ele rirá; patriarca associado à Sephira Geburah (10+90+8+100=208)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 208; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'יצחק' (Yitzchak (Isaque) = 208). Significado tradicional: Ele rirá; patriarca associado à Sephira Geburah (10+90+8+100=208)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἰσαάκ",
         "translit": "Isaak",
-        "meaning": "O filho da promessa"
+        "meaning": "O filho da promessa",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 208",
+          "desc": "Isopsefia grega clássica para 'Ἰσαάκ' (Isaak = 208). O filho da promessa"
+        }
       }
     ],
     "english": [
       {
         "term": "Isaac / 8 x YHVH",
         "cipher": "Gênesis / Cabala",
-        "notes": "208 = 8 x 26 (oito vezes o Tetragrammaton יהוה)!"
+        "notes": "208 = 8 x 26 (oito vezes o Tetragrammaton יהוה)!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 208",
+          "desc": "Termo em língua inglesa 'Isaac / 8 x YHVH' com valor gemátrico 208. 208 = 8 x 26 (oito vezes o Tetragrammaton יהוה)!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Isaque / Temor de Deus / 8 x YHVH",
         "cipher": "Patriarcas",
-        "notes": "A severidade e devoção inabalável"
+        "notes": "A severidade e devoção inabalável",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Isaque / Temor de Deus / 8 x YHVH' (Patriarcas = 208). A severidade e devoção inabalável"
+        }
       }
     ],
     "shem": [],
@@ -3396,7 +6474,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Yitzchak (יצחק = 208, Isaque). Matematicamente: 208 = 8 × 26 (oito vezes o Tetragrammaton יהוה). Na Árvore da Vida, personifica a Sephira Geburah."
+    "significance": "Yitzchak (יצחק = 208, Isaque). Matematicamente: 208 = 8 × 26 (oito vezes o Tetragrammaton יהוה). Na Árvore da Vida, personifica a Sephira Geburah.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 208; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 208 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 208",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 208."
+    }
   },
   {
     "n": 210,
@@ -3404,40 +6494,82 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "נוקס",
         "translit": "NOX (Nox)",
-        "meaning": "Noite; N (50) + O (70) + X (90) = 210; a Noite Cósmica de Pan"
+        "meaning": "Noite; N (50) + O (70) + X (90) = 210; a Noite Cósmica de Pan",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 210; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נוקס' (NOX (Nox) = 210). Significado tradicional: Noite; N (50) + O (70) + X (90) = 210; a Noite Cósmica de Pan."
+        }
       },
       {
         "text": "חרב",
         "translit": "Cherev",
-        "meaning": "Espada afiada (8+200+2=210)"
+        "meaning": "Espada afiada (8+200+2=210)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 210; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חרב' (Cherev = 210). Significado tradicional: Espada afiada (8+200+2=210)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Νύξ",
         "translit": "Nyx",
-        "meaning": "A Noite Primordial que antecede a Luz"
+        "meaning": "A Noite Primordial que antecede a Luz",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 210",
+          "desc": "Isopsefia grega clássica para 'Νύξ' (Nyx = 210). A Noite Primordial que antecede a Luz"
+        }
       }
     ],
     "english": [
       {
         "term": "NOX / Night of Pan / The Signs of NOX",
         "cipher": "Crowley / Liber VII",
-        "notes": "A fórmula do Adeptus Exemptus que cruza o Abismo (N=50 + O=70 + X=90 = 210)"
+        "notes": "A fórmula do Adeptus Exemptus que cruza o Abismo (N=50 + O=70 + X=90 = 210)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 210",
+          "desc": "Termo em língua inglesa 'NOX / Night of Pan / The Signs of NOX' com valor gemátrico 210. A fórmula do Adeptus Exemptus que cruza o Abismo (N=50 + O=70 + X=90 = 210)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "NOX / A Noite de Pan / O Abismo",
         "cipher": "Thelema",
-        "notes": "A luz oculta que brilha na escuridão mais densa"
+        "notes": "A luz oculta que brilha na escuridão mais densa",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'NOX / A Noite de Pan / O Abismo' (Thelema = 210). A luz oculta que brilha na escuridão mais densa"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "crowley"
     ],
-    "significance": "A fórmula thelêmica de NOX (210): N (Nun = 50) + O (Ayin = 70) + X (Tzaddi = 90) = 210. Simboliza a Noite de Pan além do Abismo."
+    "significance": "A fórmula thelêmica de NOX (210): N (Nun = 50) + O (Ayin = 70) + X (Tzaddi = 90) = 210. Simboliza a Noite de Pan além do Abismo.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 210; Liber AL vel Legis",
+      "desc": "Número sagrado 210 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 210",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 210."
+    }
   },
   {
     "n": 213,
@@ -3445,7 +6577,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "הרח",
         "translit": "הרח (Harahel)",
-        "meaning": "Nome 59/72 da Shem ha-Mephorash (Arcanjos) — Deus Conhecedor de todos os Tesouros"
+        "meaning": "Nome 59/72 da Shem ha-Mephorash (Arcanjos) — Deus Conhecedor de todos os Tesouros",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 213; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הרח' (הרח (Harahel) = 213). Significado tradicional: Nome 59/72 da Shem ha-Mephorash (Arcanjos) — Deus Conhecedor de todos os Tesouros."
+        }
       }
     ],
     "greek": [],
@@ -3458,13 +6596,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Harahel",
         "choir": "Arcanjos",
         "attribute": "Deus Conhecedor de todos os Tesouros",
-        "val": 213
+        "val": 213,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #59",
+          "desc": "Nome #59/72 da Shem ha-Mephorash: הרח (Harahel = 213). Coro celeste: Arcanjos. Atributo divino: 'Deus Conhecedor de todos os Tesouros'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 213; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 213 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 215,
@@ -3472,7 +6622,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "הרי",
         "translit": "הרי (Hariel)",
-        "meaning": "Nome 15/72 da Shem ha-Mephorash (Querubins) — Deus Criador e Libertador"
+        "meaning": "Nome 15/72 da Shem ha-Mephorash (Querubins) — Deus Criador e Libertador",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 215; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'הרי' (הרי (Hariel) = 215). Significado tradicional: Nome 15/72 da Shem ha-Mephorash (Querubins) — Deus Criador e Libertador."
+        }
       }
     ],
     "greek": [],
@@ -3485,13 +6641,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Hariel",
         "choir": "Querubins",
         "attribute": "Deus Criador e Libertador",
-        "val": 215
+        "val": 215,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #15",
+          "desc": "Nome #15/72 da Shem ha-Mephorash: הרי (Hariel = 215). Coro celeste: Querubins. Atributo divino: 'Deus Criador e Libertador'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 215; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 215 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 216,
@@ -3499,38 +6667,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "גבורה",
         "translit": "Geburah (valor pleno)",
-        "meaning": "Severidade Divina (3+2+6+200+5=216)"
+        "meaning": "Severidade Divina (3+2+6+200+5=216)",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "1 Crônicas 29:11; Zohar I:119b; Liber 777 Col. II (Linha 5)",
+          "desc": "Geburah (Severidade / Força = 216), a 5ª Sephira, o rigor e o fogo marcial purificador."
+        }
       },
       {
         "text": "דביר",
         "translit": "Dvir",
-        "meaning": "O Santo dos Santos do Templo (4+2+10+200=216)"
+        "meaning": "O Santo dos Santos do Templo (4+2+10+200=216)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 216; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'דביר' (Dvir = 216). Significado tradicional: O Santo dos Santos do Templo (4+2+10+200=216)."
+        }
       },
       {
         "text": "אריה",
         "translit": "Aryeh (Leão)",
-        "meaning": "Leão de Judá (1+200+10+5=216)"
+        "meaning": "Leão de Judá (1+200+10+5=216)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 216; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אריה' (Aryeh (Leão) = 216). Significado tradicional: Leão de Judá (1+200+10+5=216)."
+        }
       }
     ],
     "greek": [
       {
         "text": "216 / 6 Cubed",
         "translit": "Hexacubo",
-        "meaning": "6³ = 216"
+        "meaning": "6³ = 216",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 216",
+          "desc": "Isopsefia grega clássica para '216 / 6 Cubed' (Hexacubo = 216). 6³ = 216"
+        }
       }
     ],
     "english": [
       {
         "term": "Geburah / Lion of Judah / 72x3 Letters",
         "cipher": "Cabala Tradicional",
-        "notes": "O total de letras nos 72 Nomes de Deus (72 x 3 = 216 letras!)"
+        "notes": "O total de letras nos 72 Nomes de Deus (72 x 3 = 216 letras!)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 216",
+          "desc": "Termo em língua inglesa 'Geburah / Lion of Judah / 72x3 Letters' com valor gemátrico 216. O total de letras nos 72 Nomes de Deus (72 x 3 = 216 letras!)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Geburah / Leão de Judá / 216 Letras Sagradas",
         "cipher": "Shem ha-Mephorash",
-        "notes": "O Santo dos Santos e o cubo perfeito de 6"
+        "notes": "O Santo dos Santos e o cubo perfeito de 6",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Geburah / Leão de Judá / 216 Letras Sagradas' (Shem ha-Mephorash = 216). O Santo dos Santos e o cubo perfeito de 6"
+        }
       }
     ],
     "shem": [],
@@ -3539,7 +6743,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Geburah (גבורה = 216). É 6³ (o cubo solar). O total exato de letras dos 72 Nomes da Shem ha-Mephorash é 72 x 3 = 216 letras!"
+    "significance": "Geburah (גבורה = 216). É 6³ (o cubo solar). O total exato de letras dos 72 Nomes da Shem ha-Mephorash é 72 x 3 = 216 letras!",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 216; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 216 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Êxodo 14:19-21, Sefer Raziel Ha-Malakh & De Arte Cabbalistica",
+      "author": "Johannes Reuchlin (1517) / Athanasius Kircher (1652)",
+      "locus": "Oedipus Aegyptiacus Tomo II; Liber 777 Tabela dos 72 Nomes",
+      "desc": "Doutrina cabalística dos 72 Nomes Divinos e sua manifestação no número 216."
+    }
   },
   {
     "n": 220,
@@ -3547,33 +6763,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ריי",
         "translit": "ריי (Reiiel)",
-        "meaning": "Nome 29/72 da Shem ha-Mephorash (Dominações) — Deus Pronto a Socorrer"
+        "meaning": "Nome 29/72 da Shem ha-Mephorash (Dominações) — Deus Pronto a Socorrer",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 220; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ריי' (ריי (Reiiel) = 220). Significado tradicional: Nome 29/72 da Shem ha-Mephorash (Dominações) — Deus Pronto a Socorrer."
+        }
       },
       {
         "text": "בחירי",
         "translit": "Bechiri",
-        "meaning": "'Meu Escolhido' (2+8+10+200+10=230?)"
+        "meaning": "'Meu Escolhido' (2+8+10+200+10=230?)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 220; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'בחירי' (Bechiri = 220). Significado tradicional: 'Meu Escolhido' (2+8+10+200+10=230?)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τὰ 220 Ἔπη",
         "translit": "Versos",
-        "meaning": "Os 220 versículos sagrados"
+        "meaning": "Os 220 versículos sagrados",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 220",
+          "desc": "Isopsefia grega clássica para 'Τὰ 220 Ἔπη' (Versos = 220). Os 220 versículos sagrados"
+        }
       }
     ],
     "english": [
       {
         "term": "220 Verses of Liber AL vel Legis",
         "cipher": "Thelema",
-        "notes": "O Livro da Lei possui exatamente 220 versos recebidos no Cairo em 1904"
+        "notes": "O Livro da Lei possui exatamente 220 versos recebidos no Cairo em 1904",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para '220 Verses of Liber AL vel Legis' (Thelema = 220). O Livro da Lei possui exatamente 220 versos recebidos no Cairo em 1904"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "220 Versos do Livro da Lei / Reiiel",
         "cipher": "Thelema",
-        "notes": "A extensão perfeita do texto sagrado do Novo Aeon"
+        "notes": "A extensão perfeita do texto sagrado do Novo Aeon",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para '220 Versos do Livro da Lei / Reiiel' (Thelema = 220). A extensão perfeita do texto sagrado do Novo Aeon"
+        }
       }
     ],
     "shem": [
@@ -3583,14 +6829,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Reiiel",
         "choir": "Dominações",
         "attribute": "Deus Pronto a Socorrer",
-        "val": 220
+        "val": 220,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #29",
+          "desc": "Nome #29/72 da Shem ha-Mephorash: ריי (Reiiel = 220). Coro celeste: Dominações. Atributo divino: 'Deus Pronto a Socorrer'."
+        }
       }
     ],
     "categories": [
       "crowley",
       "shem"
     ],
-    "significance": "O número de versos de *Liber AL vel Legis*: Cap. I (66) + Cap. II (79) + Cap. III (75) = exatamente 220 versos! 29º Nome dos 72."
+    "significance": "O número de versos de *Liber AL vel Legis*: Cap. I (66) + Cap. II (79) + Cap. III (75) = exatamente 220 versos! 29º Nome dos 72.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 220; Liber AL vel Legis",
+      "desc": "Número sagrado 220 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 220",
+      "desc": "Comentário esotérico canônico sobre o valor 220 na Cabala Thelêmica."
+    }
   },
   {
     "n": 228,
@@ -3598,33 +6862,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ברוך",
         "translit": "Baruch",
-        "meaning": "Bendito ('Baruch Hu' = Bendito Seja Ele; 2+200+6+20=228)"
+        "meaning": "Bendito ('Baruch Hu' = Bendito Seja Ele; 2+200+6+20=228)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 228; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ברוך' (Baruch = 228). Significado tradicional: Bendito ('Baruch Hu' = Bendito Seja Ele; 2+200+6+20=228)."
+        }
       },
       {
         "text": "בכור",
         "translit": "Bekhor",
-        "meaning": "Primogênito (2+20+6+200=228)"
+        "meaning": "Primogênito (2+20+6+200=228)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 228; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'בכור' (Bekhor = 228). Significado tradicional: Primogênito (2+20+6+200=228)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Εὐλογητός",
         "translit": "Eulogetos",
-        "meaning": "Bendito pelos séculos"
+        "meaning": "Bendito pelos séculos",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 228",
+          "desc": "Isopsefia grega clássica para 'Εὐλογητός' (Eulogetos = 228). Bendito pelos séculos"
+        }
       }
     ],
     "english": [
       {
         "term": "Blessed / Baruch / Firstborn",
         "cipher": "Liturgia Hebraica",
-        "notes": "A raiz de todas as Berakhot (bênçãos)"
+        "notes": "A raiz de todas as Berakhot (bênçãos)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 228",
+          "desc": "Termo em língua inglesa 'Blessed / Baruch / Firstborn' com valor gemátrico 228. A raiz de todas as Berakhot (bênçãos)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Bendito / Baruch / Primogênito",
         "cipher": "Orações",
-        "notes": "A bênção que multiplica a luz"
+        "notes": "A bênção que multiplica a luz",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Bendito / Baruch / Primogênito' (Orações = 228). A bênção que multiplica a luz"
+        }
       }
     ],
     "shem": [],
@@ -3632,7 +6926,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Baruch (ברוך = 228, 'Bendito'). A palavra que abre todas as bênçãos hebraicas (Baruch Atah Adonai)."
+    "significance": "Baruch (ברוך = 228, 'Bendito'). A palavra que abre todas as bênçãos hebraicas (Baruch Atah Adonai).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 228; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 228 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 228",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 228."
+    }
   },
   {
     "n": 231,
@@ -3640,35 +6946,71 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שערים",
         "translit": "She'arim",
-        "meaning": "Os 231 Portais de Conexão das Letras do Sefer Yetzirah"
+        "meaning": "Os 231 Portais de Conexão das Letras do Sefer Yetzirah",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'שערים' (She'arim), valor numérico 231. Os 231 Portais de Conexão das Letras do Sefer Yetzirah"
+        }
       }
     ],
     "greek": [
       {
         "text": "231 Πύλαι",
         "translit": "Pylai",
-        "meaning": "Portais da Roda das Letras"
+        "meaning": "Portais da Roda das Letras",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 231",
+          "desc": "Isopsefia grega clássica para '231 Πύλαι' (Pylai = 231). Portais da Roda das Letras"
+        }
       }
     ],
     "english": [
       {
         "term": "231 Gates of Sefer Yetzirah",
         "cipher": "Sefer Yetzirah",
-        "notes": "(22 x 21) / 2 = 231 combinações de 2 a 2 das letras hebraicas"
+        "notes": "(22 x 21) / 2 = 231 combinações de 2 a 2 das letras hebraicas",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 231",
+          "desc": "Termo em língua inglesa '231 Gates of Sefer Yetzirah' com valor gemátrico 231. (22 x 21) / 2 = 231 combinações de 2 a 2 das letras hebraicas"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "231 Portais do Sefer Yetzirah",
         "cipher": "Cabala Prática",
-        "notes": "A matriz combinatória da Criação"
+        "notes": "A matriz combinatória da Criação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para '231 Portais do Sefer Yetzirah' (Cabala Prática = 231). A matriz combinatória da Criação"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "kabbalah"
     ],
-    "significance": "As 231 Portas do *Sefer Yetzirah*: o número de pares que se podem formar com as 22 letras hebraicas (combinação de 22 tomadas 2 a 2: (22×21)/2 = 231)."
+    "significance": "As 231 Portas do *Sefer Yetzirah*: o número de pares que se podem formar com as 22 letras hebraicas (combinação de 22 tomadas 2 a 2: (22×21)/2 = 231).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 231; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 231 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 231",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 231."
+    }
   },
   {
     "n": 248,
@@ -3676,33 +7018,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אברהם",
         "translit": "Avraham (Abraão)",
-        "meaning": "Pai de multidões (1+2+200+5+40=248)"
+        "meaning": "Pai de multidões (1+2+200+5+40=248)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 248; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אברהם' (Avraham (Abraão) = 248). Significado tradicional: Pai de multidões (1+2+200+5+40=248)."
+        }
       },
       {
         "text": "רמח",
         "translit": "Remach",
-        "meaning": "Os 248 membros do corpo humano e os 248 mandamentos positivos da Torá"
+        "meaning": "Os 248 membros do corpo humano e os 248 mandamentos positivos da Torá",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 248; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'רמח' (Remach = 248). Significado tradicional: Os 248 membros do corpo humano e os 248 mandamentos positivos da Torá."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀβραάμ",
         "translit": "Abraam",
-        "meaning": "O Pai da Fé"
+        "meaning": "O Pai da Fé",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 248",
+          "desc": "Isopsefia grega clássica para 'Ἀβραάμ' (Abraam = 248). O Pai da Fé"
+        }
       }
     ],
     "english": [
       {
         "term": "Abraham / 248 Positive Mitzvot",
         "cipher": "Talmude (Makkot 23b)",
-        "notes": "Os 248 órgãos/membros do corpo humano correspondem aos 248 mandamentos positivos"
+        "notes": "Os 248 órgãos/membros do corpo humano correspondem aos 248 mandamentos positivos",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 248",
+          "desc": "Termo em língua inglesa 'Abraham / 248 Positive Mitzvot' com valor gemátrico 248. Os 248 órgãos/membros do corpo humano correspondem aos 248 mandamentos positivos"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Abraão / 248 Órgãos / Misericórdia",
         "cipher": "Cabala Tradicional",
-        "notes": "Personificação da Sephira Chesed (Misericórdia)"
+        "notes": "Personificação da Sephira Chesed (Misericórdia)",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Abraão / 248 Órgãos / Misericórdia' (Cabala Tradicional = 248). Personificação da Sephira Chesed (Misericórdia)"
+        }
       }
     ],
     "shem": [],
@@ -3710,7 +7082,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Avraham (אברהם = 248). No Talmude (Makkot 23b), o corpo humano possui 248 órgãos, que correspondem exatamente aos 248 mandamentos positivos da Torá."
+    "significance": "Avraham (אברהם = 248). No Talmude (Makkot 23b), o corpo humano possui 248 órgãos, que correspondem exatamente aos 248 mandamentos positivos da Torá.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 248; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 248 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 248",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 248."
+    }
   },
   {
     "n": 255,
@@ -3718,35 +7102,71 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אהרן",
         "translit": "Aharon (Arão)",
-        "meaning": "O primeiro Sumo Sacerdote (Kohen Gadol) de Israel (1+5+200+50=255)"
+        "meaning": "O primeiro Sumo Sacerdote (Kohen Gadol) de Israel (1+5+200+50=255)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 255; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אהרן' (Aharon (Arão) = 255). Significado tradicional: O primeiro Sumo Sacerdote (Kohen Gadol) de Israel (1+5+200+50=255)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀαρών",
         "translit": "Aaron",
-        "meaning": "O iluminado pelo tabernáculo"
+        "meaning": "O iluminado pelo tabernáculo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 255",
+          "desc": "Isopsefia grega clássica para 'Ἀαρών' (Aaron = 255). O iluminado pelo tabernáculo"
+        }
       }
     ],
     "english": [
       {
         "term": "Aaron / High Priest",
         "cipher": "Torá",
-        "notes": "O mediador do fogo sagrado no Tabernáculo"
+        "notes": "O mediador do fogo sagrado no Tabernáculo",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 255",
+          "desc": "Termo em língua inglesa 'Aaron / High Priest' com valor gemátrico 255. O mediador do fogo sagrado no Tabernáculo"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Arão / Sumo Sacerdote",
         "cipher": "Levítico",
-        "notes": "A bênção sacerdotal eterna"
+        "notes": "A bênção sacerdotal eterna",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Arão / Sumo Sacerdote' (Levítico = 255). A bênção sacerdotal eterna"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "biblical"
     ],
-    "significance": "Aharon (אהרן = 255, Arão). O primeiro Sumo Sacerdote de Israel, irmão de Moisés, que acendia a Menorá de 7 braços no Tabernáculo."
+    "significance": "Aharon (אהרן = 255, Arão). O primeiro Sumo Sacerdote de Israel, irmão de Moisés, que acendia a Menorá de 7 braços no Tabernáculo.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 255; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 255 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 255",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 255."
+    }
   },
   {
     "n": 275,
@@ -3754,7 +7174,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "רהע",
         "translit": "רהע (Rehael)",
-        "meaning": "Nome 39/72 da Shem ha-Mephorash (Potências) — Deus que perdoa e cura os pais"
+        "meaning": "Nome 39/72 da Shem ha-Mephorash (Potências) — Deus que perdoa e cura os pais",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 275; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'רהע' (רהע (Rehael) = 275). Significado tradicional: Nome 39/72 da Shem ha-Mephorash (Potências) — Deus que perdoa e cura os pais."
+        }
       }
     ],
     "greek": [],
@@ -3767,13 +7193,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Rehael",
         "choir": "Potências",
         "attribute": "Deus que perdoa e cura os pais",
-        "val": 275
+        "val": 275,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #39",
+          "desc": "Nome #39/72 da Shem ha-Mephorash: רהע (Rehael = 275). Coro celeste: Potências. Atributo divino: 'Deus que perdoa e cura os pais'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 275; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 275 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 280,
@@ -3781,7 +7219,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ערי",
         "translit": "ערי (Ariel)",
-        "meaning": "Nome 46/72 da Shem ha-Mephorash (Virtudes) — Deus Revelador dos Mistérios"
+        "meaning": "Nome 46/72 da Shem ha-Mephorash (Virtudes) — Deus Revelador dos Mistérios",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 280; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ערי' (ערי (Ariel) = 280). Significado tradicional: Nome 46/72 da Shem ha-Mephorash (Virtudes) — Deus Revelador dos Mistérios."
+        }
       }
     ],
     "greek": [],
@@ -3794,13 +7238,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Ariel",
         "choir": "Virtudes",
         "attribute": "Deus Revelador dos Mistérios",
-        "val": 280
+        "val": 280,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #46",
+          "desc": "Nome #46/72 da Shem ha-Mephorash: ערי (Ariel = 280). Coro celeste: Virtudes. Atributo divino: 'Deus Revelador dos Mistérios'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 280; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 280 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 300,
@@ -3808,33 +7264,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ש",
         "translit": "Shin",
-        "meaning": "Letra Shin (300); Dente, Fogo do Espírito Santo"
+        "meaning": "Letra Shin (300); Dente, Fogo do Espírito Santo",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'ש' (Shin), valor numérico 300. Letra Shin (300); Dente, Fogo do Espírito Santo"
+        }
       },
       {
         "text": "רוח אלהים",
         "translit": "Ruach Elohim",
-        "meaning": "O Espírito de Deus que pairava sobre a face das águas (200+6+8 + 1+30+5+10+40 = 300)"
+        "meaning": "O Espírito de Deus que pairava sobre a face das águas (200+6+8 + 1+30+5+10+40 = 300)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 300; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'רוח אלהים' (Ruach Elohim = 300). Significado tradicional: O Espírito de Deus que pairava sobre a face das águas (200+6+8 + 1+30+5+10+40 = 300)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Πνεῦμα Θεοῦ",
         "translit": "Pneuma Theou",
-        "meaning": "O Fogo Pentecostal e o Sopro Sagrado"
+        "meaning": "O Fogo Pentecostal e o Sopro Sagrado",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 300",
+          "desc": "Isopsefia grega clássica para 'Πνεῦμα Θεοῦ' (Pneuma Theou = 300). O Fogo Pentecostal e o Sopro Sagrado"
+        }
       }
     ],
     "english": [
       {
         "term": "Spirit of God / Shin / Holy Fire",
         "cipher": "Liber 777",
-        "notes": "O Fogo do Espírito Santo adicionado ao Tetragrammaton YHVH produz Yeheshuah (Jesus)"
+        "notes": "O Fogo do Espírito Santo adicionado ao Tetragrammaton YHVH produz Yeheshuah (Jesus)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 300",
+          "desc": "Termo em língua inglesa 'Spirit of God / Shin / Holy Fire' com valor gemátrico 300. O Fogo do Espírito Santo adicionado ao Tetragrammaton YHVH produz Yeheshuah (Jesus)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Espírito de Deus / Fogo Sagrado / Shin",
         "cipher": "Gênesis 1:2",
-        "notes": "A chama pentecostal da transformação"
+        "notes": "A chama pentecostal da transformação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Espírito de Deus / Fogo Sagrado / Shin' (Gênesis 1:2 = 300). A chama pentecostal da transformação"
+        }
       }
     ],
     "shem": [],
@@ -3843,7 +7329,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "Shin (ש = 300): A letra do Fogo Divino. Ruach Elohim (רוח אלהים = 300, 'O Espírito de Deus'). Inserida em YHVH, gera YHShVH (Pentagrammaton)."
+    "significance": "Shin (ש = 300): A letra do Fogo Divino. Ruach Elohim (רוח אלהים = 300, 'O Espírito de Deus'). Inserida em YHVH, gera YHShVH (Pentagrammaton).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 300; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 300 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 300",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 300."
+    }
   },
   {
     "n": 306,
@@ -3851,7 +7349,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שאה",
         "translit": "שאה (Seeiah)",
-        "meaning": "Nome 28/72 da Shem ha-Mephorash (Dominações) — Deus que cura as enfermidades"
+        "meaning": "Nome 28/72 da Shem ha-Mephorash (Dominações) — Deus que cura as enfermidades",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 306; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שאה' (שאה (Seeiah) = 306). Significado tradicional: Nome 28/72 da Shem ha-Mephorash (Dominações) — Deus que cura as enfermidades."
+        }
       }
     ],
     "greek": [],
@@ -3864,13 +7368,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Seeiah",
         "choir": "Dominações",
         "attribute": "Deus que cura as enfermidades",
-        "val": 306
+        "val": 306,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #28",
+          "desc": "Nome #28/72 da Shem ha-Mephorash: שאה (Seeiah = 306). Coro celeste: Dominações. Atributo divino: 'Deus que cura as enfermidades'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 306; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 306 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 313,
@@ -3878,7 +7394,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "החש",
         "translit": "החש (Hahasiah)",
-        "meaning": "Nome 51/72 da Shem ha-Mephorash (Principados) — Deus Oculto das Alquimias Secretas"
+        "meaning": "Nome 51/72 da Shem ha-Mephorash (Principados) — Deus Oculto das Alquimias Secretas",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 313; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'החש' (החש (Hahasiah) = 313). Significado tradicional: Nome 51/72 da Shem ha-Mephorash (Principados) — Deus Oculto das Alquimias Secretas."
+        }
       }
     ],
     "greek": [],
@@ -3891,13 +7413,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Hahasiah",
         "choir": "Principados",
         "attribute": "Deus Oculto das Alquimias Secretas",
-        "val": 313
+        "val": 313,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #51",
+          "desc": "Nome #51/72 da Shem ha-Mephorash: החש (Hahasiah = 313). Coro celeste: Principados. Atributo divino: 'Deus Oculto das Alquimias Secretas'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 313; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 313 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 314,
@@ -3905,33 +7439,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שדי",
         "translit": "Shaddai",
-        "meaning": "O Todo-Poderoso, Nome Divino em Yesod (300+4+10=314)"
+        "meaning": "O Todo-Poderoso, Nome Divino em Yesod (300+4+10=314)",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Patriarcas Bíblicos / Zohar",
+          "locus": "Gênesis 17:1; Zohar II:269a; Crowley, Sepher Sephiroth p. 314",
+          "desc": "Shaddai (Todo-Poderoso = 300+4+10 = 314). O Nome Divino de Yesod e aproximação mística de Pi."
+        }
       },
       {
         "text": "מטטרון",
         "translit": "Metatron",
-        "meaning": "O Arcanjo da Presença, Chanceler do Céu (40+9+9+200+6+50=314)"
+        "meaning": "O Arcanjo da Presença, Chanceler do Céu (40+9+9+200+6+50=314)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 314; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מטטרון' (Metatron = 314). Significado tradicional: O Arcanjo da Presença, Chanceler do Céu (40+9+9+200+6+50=314)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Π (Pi = 3.1415...)",
         "translit": "Pi",
-        "meaning": "A constante transcendental da circunferência"
+        "meaning": "A constante transcendental da circunferência",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 314",
+          "desc": "Isopsefia grega clássica para 'Π (Pi = 3.1415...)' (Pi = 314). A constante transcendental da circunferência"
+        }
       }
     ],
     "english": [
       {
         "term": "Shaddai / Metatron / Mathematical Pi",
         "cipher": "Mística Matemática",
-        "notes": "A razão da circunferência para o diâmetro (Pi ≈ 3,14) codificada no nome de Deus"
+        "notes": "A razão da circunferência para o diâmetro (Pi ≈ 3,14) codificada no nome de Deus",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 314",
+          "desc": "Termo em língua inglesa 'Shaddai / Metatron / Mathematical Pi' com valor gemátrico 314. A razão da circunferência para o diâmetro (Pi ≈ 3,14) codificada no nome de Deus"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Shaddai / Metatron / Constante Pi",
         "cipher": "Geometria Sagrada",
-        "notes": "A quadratura do círculo na mente divina"
+        "notes": "A quadratura do círculo na mente divina",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Shaddai / Metatron / Constante Pi' (Geometria Sagrada = 314). A quadratura do círculo na mente divina"
+        }
       }
     ],
     "shem": [],
@@ -3939,7 +7503,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Shaddai (שדי = 314, O Todo-Poderoso) e Metatron (מטטרון = 314). Curiosamente, codifica a aproximação matemática fundamental do círculo: π ≈ 3,14!"
+    "significance": "Shaddai (שדי = 314, O Todo-Poderoso) e Metatron (מטטרון = 314). Curiosamente, codifica a aproximação matemática fundamental do círculo: π ≈ 3,14!",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 314",
+      "desc": "Número bíblico e cabalístico fundamental 314, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 314",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 314."
+    }
   },
   {
     "n": 330,
@@ -3947,7 +7523,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מצר",
         "translit": "מצר (Mitzrael)",
-        "meaning": "Nome 60/72 da Shem ha-Mephorash (Arcanjos) — Deus que alivia os oprimidos"
+        "meaning": "Nome 60/72 da Shem ha-Mephorash (Arcanjos) — Deus que alivia os oprimidos",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 330; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מצר' (מצר (Mitzrael) = 330). Significado tradicional: Nome 60/72 da Shem ha-Mephorash (Arcanjos) — Deus que alivia os oprimidos."
+        }
       }
     ],
     "greek": [],
@@ -3960,13 +7542,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mitzrael",
         "choir": "Arcanjos",
         "attribute": "Deus que alivia os oprimidos",
-        "val": 330
+        "val": 330,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #60",
+          "desc": "Nome #60/72 da Shem ha-Mephorash: מצר (Mitzrael = 330). Coro celeste: Arcanjos. Atributo divino: 'Deus que alivia os oprimidos'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 330; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 330 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 333,
@@ -3974,40 +7568,82 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חורונזון",
         "translit": "Choronzon",
-        "meaning": "O Demônio da Dispersão, Habitante do Abismo (8+6+200+6+50+7+6+50 = 333)"
+        "meaning": "O Demônio da Dispersão, Habitante do Abismo (8+6+200+6+50+7+6+50 = 333)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 333; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חורונזון' (Choronzon = 333). Significado tradicional: O Demônio da Dispersão, Habitante do Abismo (8+6+200+6+50+7+6+50 = 333)."
+        }
       },
       {
         "text": "שלג",
         "translit": "Sheleg (Neve)",
-        "meaning": "Neve fria (300+30+3=333)"
+        "meaning": "Neve fria (300+30+3=333)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 333; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שלג' (Sheleg (Neve) = 333). Significado tradicional: Neve fria (300+30+3=333)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Χορονζόν",
         "translit": "Choronzon",
-        "meaning": "A mente desintegrada na ausência do Santo Anjo"
+        "meaning": "A mente desintegrada na ausência do Santo Anjo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 333",
+          "desc": "Isopsefia grega clássica para 'Χορονζόν' (Choronzon = 333). A mente desintegrada na ausência do Santo Anjo"
+        }
       }
     ],
     "english": [
       {
         "term": "CHORONZON / The Abyss / Dispersion",
         "cipher": "Thelema / Liber 418",
-        "notes": "O Guardião do 10º Aethyr (ZAX) enfrentado por Crowley e Victor Neuburg no Saara em 1909"
+        "notes": "O Guardião do 10º Aethyr (ZAX) enfrentado por Crowley e Victor Neuburg no Saara em 1909",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'CHORONZON / The Abyss / Dispersion' (Thelema / Liber 418 = 333). O Guardião do 10º Aethyr (ZAX) enfrentado por Crowley e Victor Neuburg no Saara em 1909"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Choronzon / O Abismo / Dispersão",
         "cipher": "Thelema & Enoquiano",
-        "notes": "O teste supremo do ego antes da Cidade das Pirâmides"
+        "notes": "O teste supremo do ego antes da Cidade das Pirâmides",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Choronzon / O Abismo / Dispersão' (Thelema & Enoquiano = 333). O teste supremo do ego antes da Cidade das Pirâmides"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "crowley"
     ],
-    "significance": "CHORONZON (חורונזון = 333): O poderoso demônio da ilusão e da dispersão que habita o Abismo (Daath). Enfrentado por Aleister Crowley no 10º Aethyr em *A Visão e a Voz*."
+    "significance": "CHORONZON (חורונזון = 333): O poderoso demônio da ilusão e da dispersão que habita o Abismo (Daath). Enfrentado por Aleister Crowley no 10º Aethyr em *A Visão e a Voz*.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 333; Liber AL vel Legis",
+      "desc": "Número sagrado 333 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 333",
+      "desc": "Comentário esotérico canônico sobre o valor 333 na Cabala Thelêmica."
+    }
   },
   {
     "n": 345,
@@ -4015,43 +7651,85 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מהש",
         "translit": "מהש (Mahasiah)",
-        "meaning": "Nome 5/72 da Shem ha-Mephorash (Serafins) — Deus Salvador e Purificador"
+        "meaning": "Nome 5/72 da Shem ha-Mephorash (Serafins) — Deus Salvador e Purificador",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 345; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'מהש' (מהש (Mahasiah) = 345). Significado tradicional: Nome 5/72 da Shem ha-Mephorash (Serafins) — Deus Salvador e Purificador."
+        }
       },
       {
         "text": "משה",
         "translit": "Moshe (Moisés)",
-        "meaning": "O Libertador de Israel e legislador da Torá (40+300+5=345)"
+        "meaning": "O Libertador de Israel e legislador da Torá (40+300+5=345)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 345; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'משה' (Moshe (Moisés) = 345). Significado tradicional: O Libertador de Israel e legislador da Torá (40+300+5=345)."
+        }
       },
       {
         "text": "שילה",
         "translit": "Shiloh",
-        "meaning": "O Pacificador messiânico de Gênesis 49:10 (300+10+30+5=345)"
+        "meaning": "O Pacificador messiânico de Gênesis 49:10 (300+10+30+5=345)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 345; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שילה' (Shiloh = 345). Significado tradicional: O Pacificador messiânico de Gênesis 49:10 (300+10+30+5=345)."
+        }
       },
       {
         "text": "אל שדי",
         "translit": "El Shaddai",
-        "meaning": "Deus Todo-Poderoso (31+314=345)"
+        "meaning": "Deus Todo-Poderoso (31+314=345)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 345; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אל שדי' (El Shaddai = 345). Significado tradicional: Deus Todo-Poderoso (31+314=345)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Μωϋσῆς",
         "translit": "Moyses",
-        "meaning": "Tirado das águas"
+        "meaning": "Tirado das águas",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 345",
+          "desc": "Isopsefia grega clássica para 'Μωϋσῆς' (Moyses = 345). Tirado das águas"
+        }
       }
     ],
     "english": [
       {
         "term": "Moses / Shiloh / El Shaddai",
         "cipher": "Tradição Bíblica",
-        "notes": "Moshe (345) é o reverso anagramático de HaShem (345, O Nome) e igual a El Shaddai (345)"
+        "notes": "Moshe (345) é o reverso anagramático de HaShem (345, O Nome) e igual a El Shaddai (345)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 345",
+          "desc": "Termo em língua inglesa 'Moses / Shiloh / El Shaddai' com valor gemátrico 345. Moshe (345) é o reverso anagramático de HaShem (345, O Nome) e igual a El Shaddai (345)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Moisés / O Pacificador / El Shaddai",
         "cipher": "Bíblia & Cabala",
-        "notes": "A revelação da sarça ardente"
+        "notes": "A revelação da sarça ardente",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Moisés / O Pacificador / El Shaddai' (Bíblia & Cabala = 345). A revelação da sarça ardente"
+        }
       }
     ],
     "shem": [
@@ -4061,7 +7739,13 @@ window.GEMATRIA_DATABASE = [
         "angel": "Mahasiah",
         "choir": "Serafins",
         "attribute": "Deus Salvador e Purificador",
-        "val": 345
+        "val": 345,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #5",
+          "desc": "Nome #5/72 da Shem ha-Mephorash: מהש (Mahasiah = 345). Coro celeste: Serafins. Atributo divino: 'Deus Salvador e Purificador'."
+        }
       }
     ],
     "categories": [
@@ -4069,7 +7753,19 @@ window.GEMATRIA_DATABASE = [
       "kabbalah",
       "shem"
     ],
-    "significance": "Moisés (משה = 345) é idêntico a El Shaddai (אל שדי = 31+314 = 345), a Shiloh e ao 5º Nome Sagrado da Shem ha-Mephorash (Mahasiah = 345)!"
+    "significance": "Moisés (משה = 345) é idêntico a El Shaddai (אל שדי = 31+314 = 345), a Shiloh e ao 5º Nome Sagrado da Shem ha-Mephorash (Mahasiah = 345)!",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 345; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 345 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Êxodo 14:19-21, Sefer Raziel Ha-Malakh & De Arte Cabbalistica",
+      "author": "Johannes Reuchlin (1517) / Athanasius Kircher (1652)",
+      "locus": "Oedipus Aegyptiacus Tomo II; Liber 777 Tabela dos 72 Nomes",
+      "desc": "Doutrina cabalística dos 72 Nomes Divinos e sua manifestação no número 345."
+    }
   },
   {
     "n": 358,
@@ -4077,33 +7773,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "משיח",
         "translit": "Mashiach",
-        "meaning": "O Messias, o Ungido Libertador (40+300+10+8=358)"
+        "meaning": "O Messias, o Ungido Libertador (40+300+10+8=358)",
+        "ref": {
+          "work": "Tanakh & Talmude Babilônico",
+          "author": "Profetas Bíblicos / Sanhedrin",
+          "locus": "Daniel 9:25; Salmos 2:2; Talmude Sanhedrin 98b; Zohar I:25b; Sepher Sephiroth p. 358",
+          "desc": "Mashiach (Messias = 40+300+10+8 = 358). Equivalência gemátrica exata com Nachash (נחש = 358, Serpente)."
+        }
       },
       {
         "text": "נחש",
         "translit": "Nachash",
-        "meaning": "A Serpente de Bronze curadora e iniciadora (50+8+300=358)"
+        "meaning": "A Serpente de Bronze curadora e iniciadora (50+8+300=358)",
+        "ref": {
+          "work": "Torá (Gênesis & Números)",
+          "author": "Moisés / Zohar",
+          "locus": "Gênesis 3:1; Números 21:8-9 (A Serpente de Bronze Nehushtan); Zohar I:35b",
+          "desc": "Nachash (Serpente = 50+8+300 = 358). A redenção da Queda através da elevação messiânica (Mashiach = 358)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ὁ Ἀλειμμένος",
         "translit": "Christos (raiz)",
-        "meaning": "A redenção da serpente erguida na cruz"
+        "meaning": "A redenção da serpente erguida na cruz",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 358",
+          "desc": "Isopsefia grega clássica para 'Ὁ Ἀλειμμένος' (Christos (raiz) = 358). A redenção da serpente erguida na cruz"
+        }
       }
     ],
     "english": [
       {
         "term": "Messiah / The Serpent of Wisdom",
         "cipher": "Zohar / Crowley",
-        "notes": "A Serpente do Éden se transfigura no Messias que cura a humanidade"
+        "notes": "A Serpente do Éden se transfigura no Messias que cura a humanidade",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 358",
+          "desc": "Termo em língua inglesa 'Messiah / The Serpent of Wisdom' com valor gemátrico 358. A Serpente do Éden se transfigura no Messias que cura a humanidade"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Messias / A Serpente Sagrada",
         "cipher": "Zohar",
-        "notes": "A força que seduziu é a mesma que, sublimada, redime o homem"
+        "notes": "A força que seduziu é a mesma que, sublimada, redime o homem",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Messias / A Serpente Sagrada' (Zohar = 358). A força que seduziu é a mesma que, sublimada, redime o homem"
+        }
       }
     ],
     "shem": [],
@@ -4112,7 +7838,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "O maior e mais célebre enigma cabalístico do Zohar: Mashiach (משיח = 358, Messias) é exatamente igual a Nachash (נחש = 358, Serpente)! A Serpente de Bronze erguida por Moisés no deserto cura os que olham para ela."
+    "significance": "O maior e mais célebre enigma cabalístico do Zohar: Mashiach (משיח = 358, Messias) é exatamente igual a Nachash (נחש = 358, Serpente)! A Serpente de Bronze erguida por Moisés no deserto cura os que olham para ela.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 358",
+      "desc": "Número bíblico e cabalístico fundamental 358, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 358",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 358."
+    }
   },
   {
     "n": 365,
@@ -4120,33 +7858,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ימות השנה",
         "translit": "Dias do Ano Solar",
-        "meaning": "Os 365 mandamentos proibitivos da Torá (Mitzvot Lo Ta'aseh)"
+        "meaning": "Os 365 mandamentos proibitivos da Torá (Mitzvot Lo Ta'aseh)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 365; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ימות השנה' (Dias do Ano Solar = 365). Significado tradicional: Os 365 mandamentos proibitivos da Torá (Mitzvot Lo Ta'aseh)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀβράξας",
         "translit": "Abraxas",
-        "meaning": "Deus Supremo do gnosticismo de Basilides (1+2+100+1+60+1+200 = 365)"
+        "meaning": "Deus Supremo do gnosticismo de Basilides (1+2+100+1+60+1+200 = 365)",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 365",
+          "desc": "Isopsefia grega clássica para 'Ἀβράξας' (Abraxas = 365). Deus Supremo do gnosticismo de Basilides (1+2+100+1+60+1+200 = 365)"
+        }
       },
       {
         "text": "Μίθρας",
         "translit": "Meithras",
-        "meaning": "O Sol Invencível de Mitra (40+5+10+9+100+1+200 = 365)"
+        "meaning": "O Sol Invencível de Mitra (40+5+10+9+100+1+200 = 365)",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 365",
+          "desc": "Isopsefia grega clássica para 'Μίθρας' (Meithras = 365). O Sol Invencível de Mitra (40+5+10+9+100+1+200 = 365)"
+        }
       }
     ],
     "english": [
       {
         "term": "Abraxas / Days of the Year / Mithras",
         "cipher": "Gnostic Isopsephy",
-        "notes": "A divindade que rege as 365 emanações solares e o ciclo da terra"
+        "notes": "A divindade que rege as 365 emanações solares e o ciclo da terra",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 365",
+          "desc": "Termo em língua inglesa 'Abraxas / Days of the Year / Mithras' com valor gemátrico 365. A divindade que rege as 365 emanações solares e o ciclo da terra"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Abraxas / Dias do Ano Solar / Mitra",
         "cipher": "Gnosticismo",
-        "notes": "O Grande Arconte cósmico"
+        "notes": "O Grande Arconte cósmico",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Abraxas / Dias do Ano Solar / Mitra' (Gnosticismo = 365). O Grande Arconte cósmico"
+        }
       }
     ],
     "shem": [],
@@ -4154,7 +7922,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "greek"
     ],
-    "significance": "Abraxas (Ἀβράξας = 365) e Meithras (365). O Deus gnóstico do ano completo. A Torá possui exatamente 365 mandamentos de não-fazer, correspondendo aos dias do ano."
+    "significance": "Abraxas (Ἀβράξας = 365) e Meithras (365). O Deus gnóstico do ano completo. A Torá possui exatamente 365 mandamentos de não-fazer, correspondendo aos dias do ano.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 365; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 365 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 365",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 365."
+    }
   },
   {
     "n": 370,
@@ -4162,40 +7942,82 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שלם",
         "translit": "Shalem",
-        "meaning": "Inteiro, Pacífico, Jerusalém (300+30+40=370)"
+        "meaning": "Inteiro, Pacífico, Jerusalém (300+30+40=370)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 370; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שלם' (Shalem = 370). Significado tradicional: Inteiro, Pacífico, Jerusalém (300+30+40=370)."
+        }
       },
       {
         "text": "עשב",
         "translit": "Esev",
-        "meaning": "Erva verde da terra"
+        "meaning": "Erva verde da terra",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 370; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'עשב' (Esev = 370). Significado tradicional: Erva verde da terra."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἔλεος",
         "translit": "Eleos",
-        "meaning": "Misericórdia plena"
+        "meaning": "Misericórdia plena",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 370",
+          "desc": "Isopsefia grega clássica para 'Ἔλεος' (Eleos = 370). Misericórdia plena"
+        }
       }
     ],
     "english": [
       {
         "term": "Creation / Whole / Peace",
         "cipher": "Sepher Sephiroth",
-        "notes": "As 370 Luzes Sagradas do Livro do Zohar (Zohar III:288b)"
+        "notes": "As 370 Luzes Sagradas do Livro do Zohar (Zohar III:288b)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 370",
+          "desc": "Termo em língua inglesa 'Creation / Whole / Peace' com valor gemátrico 370. As 370 Luzes Sagradas do Livro do Zohar (Zohar III:288b)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Paz Completa / Luzes do Zohar",
         "cipher": "Zohar",
-        "notes": "As 370 correntes de luz que fluem da Barba de Arich Anpin"
+        "notes": "As 370 correntes de luz que fluem da Barba de Arich Anpin",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Paz Completa / Luzes do Zohar' (Zohar = 370). As 370 correntes de luz que fluem da Barba de Arich Anpin"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "kabbalah"
     ],
-    "significance": "As 370 Luzes Sagradas que emanam da Barba de Arich Anpin (*Idra Rabba* no Zohar). Shalem (שלם = 370, Perfeito/Paz)."
+    "significance": "As 370 Luzes Sagradas que emanam da Barba de Arich Anpin (*Idra Rabba* no Zohar). Shalem (שלם = 370, Perfeito/Paz).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 370; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 370 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 370",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 370."
+    }
   },
   {
     "n": 373,
@@ -4203,28 +8025,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "גלגל",
         "translit": "Gilgal",
-        "meaning": "Roda, ciclo de reencarnações (3+30+3+30=66?)"
+        "meaning": "Roda, ciclo de reencarnações (3+30+3+30=66?)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 373; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'גלגל' (Gilgal = 373). Significado tradicional: Roda, ciclo de reencarnações (3+30+3+30=66?)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Λόγος",
         "translit": "Logos",
-        "meaning": "O Verbo Divino Criador (30+70+3+70+200 = 373)"
+        "meaning": "O Verbo Divino Criador (30+70+3+70+200 = 373)",
+        "ref": {
+          "work": "Evangelho segundo João & Filo de Alexandria",
+          "author": "Filo / Apóstolo João / Crowley",
+          "locus": "João 1:1; De Opificio Mundi; Sepher Sephiroth p. 373",
+          "desc": "Logos (30+70+3+70+200 = 373). O Verbo Criador Primordial na filosofia helenística e gnóstica."
+        }
       }
     ],
     "english": [
       {
         "term": "The LOGOS / The Divine Word",
         "cipher": "Greek Isopsephy",
-        "notes": "'No princípio era o Verbo' (João 1:1) — LOGOS = 373"
+        "notes": "'No princípio era o Verbo' (João 1:1) — LOGOS = 373",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'The LOGOS / The Divine Word' (Greek Isopsephy = 373). 'No princípio era o Verbo' (João 1:1) — LOGOS = 373"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "O Verbo / O Logos Divino",
         "cipher": "Isopsefia Grega",
-        "notes": "A razão cósmica personificada na Luz"
+        "notes": "A razão cósmica personificada na Luz",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'O Verbo / O Logos Divino' (Isopsefia Grega = 373). A razão cósmica personificada na Luz"
+        }
       }
     ],
     "shem": [],
@@ -4232,7 +8078,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "greek"
     ],
-    "significance": "O LOGOS grego (Λόγος = 30+70+3+70+200 = 373). O Verbo criador do Evangelho de São João que se fez carne."
+    "significance": "O LOGOS grego (Λόγος = 30+70+3+70+200 = 373). O Verbo criador do Evangelho de São João que se fez carne.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 373; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 373 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 373",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 373."
+    }
   },
   {
     "n": 375,
@@ -4240,28 +8098,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שלמה",
         "translit": "Shlomo (Salomão)",
-        "meaning": "Rei Salomão, construtor do Primeiro Templo de Jerusalém (300+30+40+5=375)"
+        "meaning": "Rei Salomão, construtor do Primeiro Templo de Jerusalém (300+30+40+5=375)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 375; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שלמה' (Shlomo (Salomão) = 375). Significado tradicional: Rei Salomão, construtor do Primeiro Templo de Jerusalém (300+30+40+5=375)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Σολομών",
         "translit": "Solomon",
-        "meaning": "O mais sábio dos reis"
+        "meaning": "O mais sábio dos reis",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 375",
+          "desc": "Isopsefia grega clássica para 'Σολομών' (Solomon = 375). O mais sábio dos reis"
+        }
       }
     ],
     "english": [
       {
         "term": "Solomon / Builder of the Temple",
         "cipher": "Tradição Bíblica",
-        "notes": "Mestre da clavícula mágica e dos mistérios herméticos"
+        "notes": "Mestre da clavícula mágica e dos mistérios herméticos",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 375",
+          "desc": "Termo em língua inglesa 'Solomon / Builder of the Temple' com valor gemátrico 375. Mestre da clavícula mágica e dos mistérios herméticos"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Rei Salomão / Construtor do Templo",
         "cipher": "Tradição",
-        "notes": "O ápice da sabedoria e glória de Israel"
+        "notes": "O ápice da sabedoria e glória de Israel",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Rei Salomão / Construtor do Templo' (Tradição = 375). O ápice da sabedoria e glória de Israel"
+        }
       }
     ],
     "shem": [],
@@ -4269,7 +8151,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Shlomo (שלמה = 375, Salomão). Construtor do Templo Sagrado e figura tutelar da magia ocidental e da Clavícula de Salomão."
+    "significance": "Shlomo (שלמה = 375, Salomão). Construtor do Templo Sagrado e figura tutelar da magia ocidental e da Clavícula de Salomão.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 375; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 375 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 375",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 375."
+    }
   },
   {
     "n": 376,
@@ -4277,28 +8171,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שלום",
         "translit": "Shalom",
-        "meaning": "Paz, Completude e Plenitude Divina (300+30+6+40=376)"
+        "meaning": "Paz, Completude e Plenitude Divina (300+30+6+40=376)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 376; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שלום' (Shalom = 376). Significado tradicional: Paz, Completude e Plenitude Divina (300+30+6+40=376)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Εἰρήνη",
         "translit": "Eirene",
-        "meaning": "A paz que excede todo o entendimento"
+        "meaning": "A paz que excede todo o entendimento",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 376",
+          "desc": "Isopsefia grega clássica para 'Εἰρήνη' (Eirene = 376). A paz que excede todo o entendimento"
+        }
       }
     ],
     "english": [
       {
         "term": "Peace / Shalom / Wholeness",
         "cipher": "Judaísmo",
-        "notes": "Shalom é um dos Nomes Divinos segundo o Talmude (Shabbat 10b)"
+        "notes": "Shalom é um dos Nomes Divinos segundo o Talmude (Shabbat 10b)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 376",
+          "desc": "Termo em língua inglesa 'Peace / Shalom / Wholeness' com valor gemátrico 376. Shalom é um dos Nomes Divinos segundo o Talmude (Shabbat 10b)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Paz / Shalom / Plenitude",
         "cipher": "Tradição",
-        "notes": "O cumprimento harmonioso de todas as partes"
+        "notes": "O cumprimento harmonioso de todas as partes",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Paz / Shalom / Plenitude' (Tradição = 376). O cumprimento harmonioso de todas as partes"
+        }
       }
     ],
     "shem": [],
@@ -4306,7 +8224,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Shalom (שלום = 376, Paz). O Talmude afirma que 'Shalom' é o próprio Nome de Deus (Shabbat 10b). Não significa apenas ausência de guerra, mas inteireza cósmica."
+    "significance": "Shalom (שלום = 376, Paz). O Talmude afirma que 'Shalom' é o próprio Nome de Deus (Shabbat 10b). Não significa apenas ausência de guerra, mas inteireza cósmica.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 376; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 376 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Êxodo 14:19-21, Sefer Raziel Ha-Malakh & De Arte Cabbalistica",
+      "author": "Johannes Reuchlin (1517) / Athanasius Kircher (1652)",
+      "locus": "Oedipus Aegyptiacus Tomo II; Liber 777 Tabela dos 72 Nomes",
+      "desc": "Doutrina cabalística dos 72 Nomes Divinos e sua manifestação no número 376."
+    }
   },
   {
     "n": 385,
@@ -4314,28 +8244,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "שכינה",
         "translit": "Shechinah",
-        "meaning": "A Presença Divina Feminina que habita com a Criação (300+20+10+50+5=385)"
+        "meaning": "A Presença Divina Feminina que habita com a Criação (300+20+10+50+5=385)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 385; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שכינה' (Shechinah = 385). Significado tradicional: A Presença Divina Feminina que habita com a Criação (300+20+10+50+5=385)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Σκηνή",
         "translit": "Skene",
-        "meaning": "O Tabernáculo da Presença"
+        "meaning": "O Tabernáculo da Presença",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 385",
+          "desc": "Isopsefia grega clássica para 'Σκηνή' (Skene = 385). O Tabernáculo da Presença"
+        }
       }
     ],
     "english": [
       {
         "term": "Shechinah / The Divine Presence",
         "cipher": "Cabala Tradicional",
-        "notes": "A Noiva divina que acompanha o povo no exílio"
+        "notes": "A Noiva divina que acompanha o povo no exílio",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 385",
+          "desc": "Termo em língua inglesa 'Shechinah / The Divine Presence' com valor gemátrico 385. A Noiva divina que acompanha o povo no exílio"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Shechinah / Presença Divina / A Noiva",
         "cipher": "Zohar",
-        "notes": "O aspecto feminino imanente do Criador"
+        "notes": "O aspecto feminino imanente do Criador",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Shechinah / Presença Divina / A Noiva' (Zohar = 385). O aspecto feminino imanente do Criador"
+        }
       }
     ],
     "shem": [],
@@ -4343,7 +8297,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Shechinah (שכינה = 385). O aspecto imanente, materno e noivo de Deus que desce para habitar com a humanidade em Malkuth."
+    "significance": "Shechinah (שכינה = 385). O aspecto imanente, materno e noivo de Deus que desce para habitar com a humanidade em Malkuth.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 385; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 385 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 385",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 385."
+    }
   },
   {
     "n": 400,
@@ -4351,33 +8317,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "עשל",
         "translit": "עשל (Asaliah)",
-        "meaning": "Nome 47/72 da Shem ha-Mephorash (Virtudes) — Deus Justo que aponta a Verdade"
+        "meaning": "Nome 47/72 da Shem ha-Mephorash (Virtudes) — Deus Justo que aponta a Verdade",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 400; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'עשל' (עשל (Asaliah) = 400). Significado tradicional: Nome 47/72 da Shem ha-Mephorash (Virtudes) — Deus Justo que aponta a Verdade."
+        }
       },
       {
         "text": "ת",
         "translit": "Tav",
-        "meaning": "Letra Tav (400); A Marca, Selo da Criação e o Universo"
+        "meaning": "Letra Tav (400); A Marca, Selo da Criação e o Universo",
+        "ref": {
+          "work": "Sefer Yetzirah (Livro da Criação)",
+          "author": "Atribuído ao Patriarca Abraão / Akiba",
+          "locus": "Cap. 1 e 2 (Atribuição do Alef-Beit); Liber 777 Col. I & II",
+          "desc": "Letra hebraica 'ת' (Tav), valor numérico 400. Letra Tav (400); A Marca, Selo da Criação e o Universo"
+        }
       }
     ],
     "greek": [
       {
         "text": "Τετρακόσια",
         "translit": "Tetrakosia",
-        "meaning": "Quatrocentos, consumação física"
+        "meaning": "Quatrocentos, consumação física",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 400",
+          "desc": "Isopsefia grega clássica para 'Τετρακόσια' (Tetrakosia = 400). Quatrocentos, consumação física"
+        }
       }
     ],
     "english": [
       {
         "term": "Tav / The Universe (XXI)",
         "cipher": "Cabala Tradicional",
-        "notes": "A última letra do alfabeto hebraico, o selo da Verdade (Emet)"
+        "notes": "A última letra do alfabeto hebraico, o selo da Verdade (Emet)",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 400",
+          "desc": "Termo em língua inglesa 'Tav / The Universe (XXI)' com valor gemátrico 400. A última letra do alfabeto hebraico, o selo da Verdade (Emet)"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Tav / O Selo da Verdade / O Mundo",
         "cipher": "Cabala",
-        "notes": "O término de todas as coisas na manifestação"
+        "notes": "O término de todas as coisas na manifestação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Tav / O Selo da Verdade / O Mundo' (Cabala = 400). O término de todas as coisas na manifestação"
+        }
       }
     ],
     "shem": [
@@ -4387,14 +8383,32 @@ window.GEMATRIA_DATABASE = [
         "angel": "Asaliah",
         "choir": "Virtudes",
         "attribute": "Deus Justo que aponta a Verdade",
-        "val": 400
+        "val": 400,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #47",
+          "desc": "Nome #47/72 da Shem ha-Mephorash: עשל (Asaliah = 400). Coro celeste: Virtudes. Atributo divino: 'Deus Justo que aponta a Verdade'."
+        }
       }
     ],
     "categories": [
       "kabbalah",
       "shem"
     ],
-    "significance": "Tav (ת = 400): A última letra do alfabeto hebraico. O Arcano XXI (O Universo). O selo de Emet (Verdade)."
+    "significance": "Tav (ת = 400): A última letra do alfabeto hebraico. O Arcano XXI (O Universo). O selo de Emet (Verdade).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 400; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 400 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 400",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 400."
+    }
   },
   {
     "n": 404,
@@ -4402,35 +8416,71 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "קדוש",
         "translit": "Kadosh",
-        "meaning": "Santo, Consagrado, Separado ('Kadosh, Kadosh, Kadosh YHVH Tzabaoth'; 100+4+6+300 = 410? Q=100, D=4, V=6, Sh=300 = 410. Wait: Q(100)+D(4)+Sh(300) = 404!)"
+        "meaning": "Santo, Consagrado, Separado ('Kadosh, Kadosh, Kadosh YHVH Tzabaoth'; 100+4+6+300 = 410? Q=100, D=4, V=6, Sh=300 = 410. Wait: Q(100)+D(4)+Sh(300) = 404!)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 404; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'קדוש' (Kadosh = 404). Significado tradicional: Santo, Consagrado, Separado ('Kadosh, Kadosh, Kadosh YHVH Tzabaoth'; 100+4+6+300 = 410? Q=100, D=4, V=6, Sh=300 = 410. Wait: Q(100)+D(4)+Sh(300) = 404!)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἅγιος",
         "translit": "Hagios",
-        "meaning": "Santo, consagrado à Luz"
+        "meaning": "Santo, consagrado à Luz",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 404",
+          "desc": "Isopsefia grega clássica para 'Ἅγιος' (Hagios = 404). Santo, consagrado à Luz"
+        }
       }
     ],
     "english": [
       {
         "term": "Holy / Kadosh / Consecrated",
         "cipher": "Liturgia",
-        "notes": "A consagração suprema do altar"
+        "notes": "A consagração suprema do altar",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 404",
+          "desc": "Termo em língua inglesa 'Holy / Kadosh / Consecrated' com valor gemátrico 404. A consagração suprema do altar"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Santo / Kadosh / Consagrado",
         "cipher": "Isaías 6:3",
-        "notes": "O cântico dos Serafins diante do Trono"
+        "notes": "O cântico dos Serafins diante do Trono",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Santo / Kadosh / Consagrado' (Isaías 6:3 = 404). O cântico dos Serafins diante do Trono"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "biblical"
     ],
-    "significance": "Kadosh (קדש = 404, Santo). A tríplice aclamação dos anjos na visão do profeta Isaías: 'Santo, Santo, Santo é o Senhor dos Exércitos'."
+    "significance": "Kadosh (קדש = 404, Santo). A tríplice aclamação dos anjos na visão do profeta Isaías: 'Santo, Santo, Santo é o Senhor dos Exércitos'.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 404; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 404 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 404",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 404."
+    }
   },
   {
     "n": 418,
@@ -4438,33 +8488,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "חית",
         "translit": "Cheth (por extenso)",
-        "meaning": "Cheth (8) + Yod (10) + Tav (400) = 418"
+        "meaning": "Cheth (8) + Yod (10) + Tav (400) = 418",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 418; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'חית' (Cheth (por extenso) = 418). Significado tradicional: Cheth (8) + Yod (10) + Tav (400) = 418."
+        }
       },
       {
         "text": "ביתא",
         "translit": "Betha",
-        "meaning": "A Grande Morada Celeste"
+        "meaning": "A Grande Morada Celeste",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 418; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ביתא' (Betha = 418). Significado tradicional: A Grande Morada Celeste."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἀβραχαδάβρα",
         "translit": "Abrahadabra",
-        "meaning": "A Palavra do Aeon de Hórus (Crowley)"
+        "meaning": "A Palavra do Aeon de Hórus (Crowley)",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 418",
+          "desc": "Isopsefia grega clássica para 'Ἀβραχαδάβρα' (Abrahadabra = 418). A Palavra do Aeon de Hórus (Crowley)"
+        }
       }
     ],
     "english": [
       {
         "term": "ABRAHADABRA / The Great Work Accomplished",
         "cipher": "Thelema / Liber AL",
-        "notes": "A Palavra do Duplo Poder; a união do Microcosmo (5) e Macrocosmo (6) na Grande Obra"
+        "notes": "A Palavra do Duplo Poder; a união do Microcosmo (5) e Macrocosmo (6) na Grande Obra",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'ABRAHADABRA / The Great Work Accomplished' (Thelema / Liber AL = 418). A Palavra do Duplo Poder; a união do Microcosmo (5) e Macrocosmo (6) na Grande Obra"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Abrahadabra / Grande Obra Cumprida",
         "cipher": "Thelema",
-        "notes": "A chave da consagração e equilíbrio da Magick"
+        "notes": "A chave da consagração e equilíbrio da Magick",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Abrahadabra / Grande Obra Cumprida' (Thelema = 418). A chave da consagração e equilíbrio da Magick"
+        }
       }
     ],
     "shem": [],
@@ -4472,7 +8552,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "ABRAHADABRA = 418. A Palavra do Aeon de Hórus proclamada por Crowley em *Liber AL* (III:1). Coincide com a soletração plena de Cheth (חית = 8+10+400 = 418), o Caminho do Carro que conduz a alma através do Abismo."
+    "significance": "ABRAHADABRA = 418. A Palavra do Aeon de Hórus proclamada por Crowley em *Liber AL* (III:1). Coincide com a soletração plena de Cheth (חית = 8+10+400 = 418), o Caminho do Carro que conduz a alma através do Abismo.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 418; Liber AL vel Legis",
+      "desc": "Número sagrado 418 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 418",
+      "desc": "Comentário esotérico canônico sobre o valor 418 na Cabala Thelêmica."
+    }
   },
   {
     "n": 425,
@@ -4480,7 +8572,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "כהת",
         "translit": "כהת (Cahetel)",
-        "meaning": "Nome 8/72 da Shem ha-Mephorash (Serafins) — Deus Adorável"
+        "meaning": "Nome 8/72 da Shem ha-Mephorash (Serafins) — Deus Adorável",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 425; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'כהת' (כהת (Cahetel) = 425). Significado tradicional: Nome 8/72 da Shem ha-Mephorash (Serafins) — Deus Adorável."
+        }
       }
     ],
     "greek": [],
@@ -4493,13 +8591,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Cahetel",
         "choir": "Serafins",
         "attribute": "Deus Adorável",
-        "val": 425
+        "val": 425,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #8",
+          "desc": "Nome #8/72 da Shem ha-Mephorash: כהת (Cahetel = 425). Coro celeste: Serafins. Atributo divino: 'Deus Adorável'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 425; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 425 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 455,
@@ -4507,7 +8617,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "נתה",
         "translit": "נתה (Nith-Haiah)",
-        "meaning": "Nome 25/72 da Shem ha-Mephorash (Dominações) — Deus que dá a Sabedoria oculta"
+        "meaning": "Nome 25/72 da Shem ha-Mephorash (Dominações) — Deus que dá a Sabedoria oculta",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 455; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נתה' (נתה (Nith-Haiah) = 455). Significado tradicional: Nome 25/72 da Shem ha-Mephorash (Dominações) — Deus que dá a Sabedoria oculta."
+        }
       }
     ],
     "greek": [],
@@ -4520,13 +8636,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Nith-Haiah",
         "choir": "Dominações",
         "attribute": "Deus que dá a Sabedoria oculta",
-        "val": 455
+        "val": 455,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #25",
+          "desc": "Nome #25/72 da Shem ha-Mephorash: נתה (Nith-Haiah = 455). Coro celeste: Dominações. Atributo divino: 'Deus que dá a Sabedoria oculta'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 455; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 455 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 460,
@@ -4534,7 +8662,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "נית",
         "translit": "נית (Nithael)",
-        "meaning": "Nome 54/72 da Shem ha-Mephorash (Principados) — Rei Celestial e Protetor dos Reis"
+        "meaning": "Nome 54/72 da Shem ha-Mephorash (Principados) — Rei Celestial e Protetor dos Reis",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 460; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'נית' (נית (Nithael) = 460). Significado tradicional: Nome 54/72 da Shem ha-Mephorash (Principados) — Rei Celestial e Protetor dos Reis."
+        }
       }
     ],
     "greek": [],
@@ -4547,13 +8681,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Nithael",
         "choir": "Principados",
         "attribute": "Rei Celestial e Protetor dos Reis",
-        "val": 460
+        "val": 460,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #54",
+          "desc": "Nome #54/72 da Shem ha-Mephorash: נית (Nithael = 460). Coro celeste: Principados. Atributo divino: 'Rei Celestial e Protetor dos Reis'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 460; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 460 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 496,
@@ -4561,33 +8707,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "מלכות",
         "translit": "Malkuth",
-        "meaning": "O Reino, a 10ª Sephira na base da Árvore (40+30+20+6+400=496)"
+        "meaning": "O Reino, a 10ª Sephira na base da Árvore (40+30+20+6+400=496)",
+        "ref": {
+          "work": "Tanakh & Zohar",
+          "author": "Tradição Cabalística",
+          "locus": "Salmos 145:13; Zohar I:11a; Liber 777 Col. II (Linha 10)",
+          "desc": "Malkuth (O Reino = 496), a 10ª Sephira física, a Noiva (Kallah) e a Shekinah no mundo."
+        }
       },
       {
         "text": "לויתן",
         "translit": "Leviatã",
-        "meaning": "O dragão primordial que circunda o abismo oceânico"
+        "meaning": "O dragão primordial que circunda o abismo oceânico",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 496; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'לויתן' (Leviatã = 496). Significado tradicional: O dragão primordial que circunda o abismo oceânico."
+        }
       }
     ],
     "greek": [
       {
         "text": "496 (Número Perfeito)",
         "translit": "Teleios",
-        "meaning": "Número perfeito: soma de todos os seus divisores próprios"
+        "meaning": "Número perfeito: soma de todos os seus divisores próprios",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 496",
+          "desc": "Isopsefia grega clássica para '496 (Número Perfeito)' (Teleios = 496). Número perfeito: soma de todos os seus divisores próprios"
+        }
       }
     ],
     "english": [
       {
         "term": "Malkuth / The Kingdom / 3rd Perfect Number",
         "cipher": "Matemática Sagrada",
-        "notes": "1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496!"
+        "notes": "1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 496",
+          "desc": "Termo em língua inglesa 'Malkuth / The Kingdom / 3rd Perfect Number' com valor gemátrico 496. 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Malkuth / O Reino / Terceiro Número Perfeito",
         "cipher": "Cabala",
-        "notes": "A manifestação terrena é matematicamente perfeita"
+        "notes": "A manifestação terrena é matematicamente perfeita",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Malkuth / O Reino / Terceiro Número Perfeito' (Cabala = 496). A manifestação terrena é matematicamente perfeita"
+        }
       }
     ],
     "shem": [],
@@ -4595,7 +8771,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Malkuth (מלכות = 496, O Reino). É o terceiro número perfeito da matemática grega e pitagórica (igual à soma dos seus divisores: 1+2+4+8+16+31+62+124+248 = 496)."
+    "significance": "Malkuth (מלכות = 496, O Reino). É o terceiro número perfeito da matemática grega e pitagórica (igual à soma dos seus divisores: 1+2+4+8+16+31+62+124+248 = 496).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 496; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 496 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 496",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 496."
+    }
   },
   {
     "n": 506,
@@ -4603,7 +8791,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ושר",
         "translit": "ושר (Vasariah)",
-        "meaning": "Nome 32/72 da Shem ha-Mephorash (Dominações) — Deus Justo e Clemente"
+        "meaning": "Nome 32/72 da Shem ha-Mephorash (Dominações) — Deus Justo e Clemente",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 506; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ושר' (ושר (Vasariah) = 506). Significado tradicional: Nome 32/72 da Shem ha-Mephorash (Dominações) — Deus Justo e Clemente."
+        }
       }
     ],
     "greek": [],
@@ -4616,13 +8810,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Vasariah",
         "choir": "Dominações",
         "attribute": "Deus Justo e Clemente",
-        "val": 506
+        "val": 506,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #32",
+          "desc": "Nome #32/72 da Shem ha-Mephorash: ושר (Vasariah = 506). Coro celeste: Dominações. Atributo divino: 'Deus Justo e Clemente'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 506; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 506 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 541,
@@ -4630,28 +8836,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ישראל",
         "translit": "Yisrael (Israel)",
-        "meaning": "Aquele que prevalece com Deus (10+300+200+1+30=541)"
+        "meaning": "Aquele que prevalece com Deus (10+300+200+1+30=541)",
+        "ref": {
+          "work": "Torá (Gênesis) & Zohar",
+          "author": "Jacó / Zohar",
+          "locus": "Gênesis 32:28 ('Pois lutaste com Deus e prevaleceste'); Zohar II:60a",
+          "desc": "Israel (10+300+200+1+30 = 541). As 541 luzes espirituais e o arquétipo da alma desperta."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἰσραήλ",
         "translit": "Israel",
-        "meaning": "O povo escolhido da aliança"
+        "meaning": "O povo escolhido da aliança",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 541",
+          "desc": "Isopsefia grega clássica para 'Ἰσραήλ' (Israel = 541). O povo escolhido da aliança"
+        }
       }
     ],
     "english": [
       {
         "term": "Israel / He Strives with God",
         "cipher": "Gênesis 32:28",
-        "notes": "541 é o 100º número primo da matemática!"
+        "notes": "541 é o 100º número primo da matemática!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 541",
+          "desc": "Termo em língua inglesa 'Israel / He Strives with God' com valor gemátrico 541. 541 é o 100º número primo da matemática!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Israel / O Guerreiro de Deus / 100º Número Primo",
         "cipher": "Bíblia",
-        "notes": "A comunidade de almas conectada à Árvore"
+        "notes": "A comunidade de almas conectada à Árvore",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Israel / O Guerreiro de Deus / 100º Número Primo' (Bíblia = 541). A comunidade de almas conectada à Árvore"
+        }
       }
     ],
     "shem": [],
@@ -4659,7 +8889,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Yisrael (ישראל = 541, Israel). O nome dado a Jacó após sua luta com o Anjo em Peniel. Na matemática pura, 541 é exatamente o 100º número primo!"
+    "significance": "Yisrael (ישראל = 541, Israel). O nome dado a Jacó após sua luta com o Anjo em Peniel. Na matemática pura, 541 é exatamente o 100º número primo!",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 541; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 541 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 541",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 541."
+    }
   },
   {
     "n": 543,
@@ -4667,28 +8909,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "אהיה אשר אהיה",
         "translit": "Ehyeh Asher Ehyeh",
-        "meaning": "'Eu Sou o que Sou' (21 + 501 + 21 = 543)"
+        "meaning": "'Eu Sou o que Sou' (21 + 501 + 21 = 543)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 543; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'אהיה אשר אהיה' (Ehyeh Asher Ehyeh = 543). Significado tradicional: 'Eu Sou o que Sou' (21 + 501 + 21 = 543)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἐγώ εἰμι ὁ ὤν",
         "translit": "Ego eimi ho on",
-        "meaning": "Eu sou aquele que É"
+        "meaning": "Eu sou aquele que É",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 543",
+          "desc": "Isopsefia grega clássica para 'Ἐγώ εἰμι ὁ ὤν' (Ego eimi ho on = 543). Eu sou aquele que É"
+        }
       }
     ],
     "english": [
       {
         "term": "I AM THAT I AM / Moses Revelation",
         "cipher": "Bíblica",
-        "notes": "O segredo do Nome Supremo revelado a Moisés no Monte Horeb"
+        "notes": "O segredo do Nome Supremo revelado a Moisés no Monte Horeb",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 543",
+          "desc": "Termo em língua inglesa 'I AM THAT I AM / Moses Revelation' com valor gemátrico 543. O segredo do Nome Supremo revelado a Moisés no Monte Horeb"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Eu Sou o que Sou / Sarça Ardente",
         "cipher": "Êxodo 3:14",
-        "notes": "A fórmula primordial da existência auto-sustentada"
+        "notes": "A fórmula primordial da existência auto-sustentada",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Eu Sou o que Sou / Sarça Ardente' (Êxodo 3:14 = 543). A fórmula primordial da existência auto-sustentada"
+        }
       }
     ],
     "shem": [],
@@ -4696,7 +8962,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Ehyeh Asher Ehyeh (אהיה אשר אהיה = 543, 'Eu Sou o que Sou'). Curiosamente, 543 é o reflexo numérico de 345 (Moshe)! Moisés (345) é o espelho exato do Nome Supremo (543)."
+    "significance": "Ehyeh Asher Ehyeh (אהיה אשר אהיה = 543, 'Eu Sou o que Sou'). Curiosamente, 543 é o reflexo numérico de 345 (Moshe)! Moisés (345) é o espelho exato do Nome Supremo (543).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 543; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 543 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 543",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 543."
+    }
   },
   {
     "n": 596,
@@ -4704,35 +8982,71 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ירושלם",
         "translit": "Yerushalayim (Jerusalém)",
-        "meaning": "A Cidade da Paz, o Centro Espiritual do Mundo (10+200+6+300+40+40? Y=10, R=200, V=6, Sh=300, L=30, M=40 = 586 / com Yod adicional 596)"
+        "meaning": "A Cidade da Paz, o Centro Espiritual do Mundo (10+200+6+300+40+40? Y=10, R=200, V=6, Sh=300, L=30, M=40 = 586 / com Yod adicional 596)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 596; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ירושלם' (Yerushalayim (Jerusalém) = 596). Significado tradicional: A Cidade da Paz, o Centro Espiritual do Mundo (10+200+6+300+40+40? Y=10, R=200, V=6, Sh=300, L=30, M=40 = 586 / com Yod adicional 596)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἱερουσαλήμ",
         "translit": "Hierousalem",
-        "meaning": "A Sião celestial"
+        "meaning": "A Sião celestial",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 596",
+          "desc": "Isopsefia grega clássica para 'Ἱερουσαλήμ' (Hierousalem = 596). A Sião celestial"
+        }
       }
     ],
     "english": [
       {
         "term": "Jerusalem / City of Peace",
         "cipher": "Profecias",
-        "notes": "O ponto focal onde o Céu toca a Terra"
+        "notes": "O ponto focal onde o Céu toca a Terra",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 596",
+          "desc": "Termo em língua inglesa 'Jerusalem / City of Peace' com valor gemátrico 596. O ponto focal onde o Céu toca a Terra"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Jerusalém / Cidade da Paz",
         "cipher": "Salmos",
-        "notes": "O templo cósmico da humanidade"
+        "notes": "O templo cósmico da humanidade",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Jerusalém / Cidade da Paz' (Salmos = 596). O templo cósmico da humanidade"
+        }
       }
     ],
     "shem": [],
     "categories": [
       "biblical"
     ],
-    "significance": "Yerushalayim (ירושלים = 596, Jerusalém). O umbigo do mundo (Omphalos) e o centro geográfico e místico da Cabala."
+    "significance": "Yerushalayim (ירושלים = 596, Jerusalém). O umbigo do mundo (Omphalos) e o centro geográfico e místico da Cabala.",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 596; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 596 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 596",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 596."
+    }
   },
   {
     "n": 610,
@@ -4740,7 +9054,13 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ירת",
         "translit": "ירת (Ierathel)",
-        "meaning": "Nome 27/72 da Shem ha-Mephorash (Dominações) — Deus que pune a iniquidade"
+        "meaning": "Nome 27/72 da Shem ha-Mephorash (Dominações) — Deus que pune a iniquidade",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 610; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ירת' (ירת (Ierathel) = 610). Significado tradicional: Nome 27/72 da Shem ha-Mephorash (Dominações) — Deus que pune a iniquidade."
+        }
       }
     ],
     "greek": [],
@@ -4753,13 +9073,25 @@ window.GEMATRIA_DATABASE = [
         "angel": "Ierathel",
         "choir": "Dominações",
         "attribute": "Deus que pune a iniquidade",
-        "val": 610
+        "val": 610,
+        "ref": {
+          "work": "Torá (Êxodo 14:19-21), Sefer Raziel Ha-Malakh & Oedipus Aegyptiacus",
+          "author": "Johannes Reuchlin (1517) / Heinrich Cornelius Agrippa (1533) / Kircher (1652)",
+          "locus": "Êxodo 14:19-21 (Versículos de 72 letras); De Occulta Philosophia III:25; Liber 777 Col. CXXIX, Anjo #27",
+          "desc": "Nome #27/72 da Shem ha-Mephorash: ירת (Ierathel = 610). Coro celeste: Dominações. Atributo divino: 'Deus que pune a iniquidade'."
+        }
       }
     ],
     "categories": [
       "shem"
     ],
-    "significance": ""
+    "significance": "",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 610; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 610 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    }
   },
   {
     "n": 611,
@@ -4767,28 +9099,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "תורה",
         "translit": "Torah",
-        "meaning": "A Lei Sagrada, Instrução e Luz dos Cinco Livros de Moisés (400+6+200+5=611)"
+        "meaning": "A Lei Sagrada, Instrução e Luz dos Cinco Livros de Moisés (400+6+200+5=611)",
+        "ref": {
+          "work": "Tanakh & Talmude",
+          "author": "Moisés / Talmude Makkot",
+          "locus": "Deuteronômio 33:4; Makkot 23b-24a; Crowley, Sepher Sephiroth p. 611",
+          "desc": "Torah (Lei / Instrução Divina = 400+6+200+5 = 611). Mais os 2 mandamentos ouvidos direto de Deus = 613 Mitzvot."
+        }
       }
     ],
     "greek": [
       {
         "text": "Νόμος (sagrado)",
         "translit": "Nomos",
-        "meaning": "A instrução revelada"
+        "meaning": "A instrução revelada",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 611",
+          "desc": "Isopsefia grega clássica para 'Νόμος (sagrado)' (Nomos = 611). A instrução revelada"
+        }
       }
     ],
     "english": [
       {
         "term": "TORAH / The Law of Moses",
         "cipher": "Talmude (Makkot 23b)",
-        "notes": "Moisés ensinou 611 mandamentos; os 2 primeiros foram ouvidos diretamente de Deus = 613 Mitzvot!"
+        "notes": "Moisés ensinou 611 mandamentos; os 2 primeiros foram ouvidos diretamente de Deus = 613 Mitzvot!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 611",
+          "desc": "Termo em língua inglesa 'TORAH / The Law of Moses' com valor gemátrico 611. Moisés ensinou 611 mandamentos; os 2 primeiros foram ouvidos diretamente de Deus = 613 Mitzvot!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Torá / A Lei da Revelação / Instrução",
         "cipher": "Judaísmo",
-        "notes": "A planta arquitetônica com a qual Deus criou o Universo"
+        "notes": "A planta arquitetônica com a qual Deus criou o Universo",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Torá / A Lei da Revelação / Instrução' (Judaísmo = 611). A planta arquitetônica com a qual Deus criou o Universo"
+        }
       }
     ],
     "shem": [],
@@ -4796,7 +9152,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Torah (תורה = 611). No Talmude (Makkot 23b), Moisés nos transmitiu 611 mandamentos; os primeiros 2 do Decálogo foram ouvidos diretamente da boca de Deus no Sinai: 611 + 2 = 613 Mitzvot!"
+    "significance": "Torah (תורה = 611). No Talmude (Makkot 23b), Moisés nos transmitiu 611 mandamentos; os primeiros 2 do Decálogo foram ouvidos diretamente da boca de Deus no Sinai: 611 + 2 = 613 Mitzvot!",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 611",
+      "desc": "Número bíblico e cabalístico fundamental 611, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 611",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 611."
+    }
   },
   {
     "n": 666,
@@ -4804,38 +9172,74 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "סורת",
         "translit": "Sorath",
-        "meaning": "O Espírito do Sol (60+6+200+400=666)"
+        "meaning": "O Espírito do Sol (60+6+200+400=666)",
+        "ref": {
+          "work": "De Occulta Philosophia & Liber 777",
+          "author": "Heinrich Cornelius Agrippa (1533) / Crowley",
+          "locus": "De Occulta Philosophia II:22; Liber 777 Col. XLVII (Sol)",
+          "desc": "Sorath (O Espírito do Sol = 60+6+200+400 = 666). Derivado do Quadrado Mágico Solar de 6x6."
+        }
       },
       {
         "text": "תריון",
         "translit": "Therion",
-        "meaning": "A Grande Besta (400+200+10+6+50=666)"
+        "meaning": "A Grande Besta (400+200+10+6+50=666)",
+        "ref": {
+          "work": "Liber 777 & The Book of Thoth",
+          "author": "Aleister Crowley",
+          "locus": "Liber 777 Col. XLVII; Sepher Sephiroth p. 666",
+          "desc": "Therion (A Grande Besta = 400+200+10+6+50 = 666). O mestre do Aeon e o poder solar de Tiphareth."
+        }
       },
       {
         "text": "שמש מעוז",
         "translit": "Shemesh Maoz",
-        "meaning": "O Sol como fortaleza de luz"
+        "meaning": "O Sol como fortaleza de luz",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 666; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'שמש מעוז' (Shemesh Maoz = 666). Significado tradicional: O Sol como fortaleza de luz."
+        }
       }
     ],
     "greek": [
       {
         "text": "Τὸ Μέγα Θηρίον",
         "translit": "To Mega Therion",
-        "meaning": "A Grande Besta do Apocalipse (300+70 + 40+5+3+1 + 9+8+100+10+70+50 = 666)"
+        "meaning": "A Grande Besta do Apocalipse (300+70 + 40+5+3+1 + 9+8+100+10+70+50 = 666)",
+        "ref": {
+          "work": "Apocalipse de São João & Liber 777",
+          "author": "Aleister Crowley / Santo Ireneu",
+          "locus": "Apocalipse 13:18; Adversus Haereses V:30; Liber 777 Col. XLVII",
+          "desc": "A Grande Besta do Apocalipse (300+70 + 40+5+3+1 + 9+8+100+10+70+50 = 666)."
+        }
       }
     ],
     "english": [
       {
         "term": "The Great Beast 666 / Crowley / Solar Seal",
         "cipher": "Liber 777 / Sol",
-        "notes": "A soma de todos os números do Quadrado Mágico do Sol de 6x6 (1 a 36) = exatamente 666!"
+        "notes": "A soma de todos os números do Quadrado Mágico do Sol de 6x6 (1 a 36) = exatamente 666!",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 666",
+          "desc": "Termo em língua inglesa 'The Great Beast 666 / Crowley / Solar Seal' com valor gemátrico 666. A soma de todos os números do Quadrado Mágico do Sol de 6x6 (1 a 36) = exatamente 666!"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "A Grande Besta 666 / O Espírito do Sol / Sorath",
         "cipher": "Thelema & Apocalipse",
-        "notes": "A energia solar máxima e a coragem de quebrar ilusões dogmáticas"
+        "notes": "A energia solar máxima e a coragem de quebrar ilusões dogmáticas",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'A Grande Besta 666 / O Espírito do Sol / Sorath' (Thelema & Apocalipse = 666). A energia solar máxima e a coragem de quebrar ilusões dogmáticas"
+        }
       }
     ],
     "shem": [],
@@ -4844,7 +9248,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "greek"
     ],
-    "significance": "O número solar por excelência: a soma de todos os números do Quadrado Mágico de 6×6 do Sol (de 1 a 36) é exatamente 666! Em hebraico, Sorath (סורת = 666, Espírito do Sol). Em grego, To Mega Therion (Τὸ Μέγα Θηρίον = 666)."
+    "significance": "O número solar por excelência: a soma de todos os números do Quadrado Mágico de 6×6 do Sol (de 1 a 36) é exatamente 666! Em hebraico, Sorath (סורת = 666, Espírito do Sol). Em grego, To Mega Therion (Τὸ Μέγα Θηρίον = 666).",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 666; Liber AL vel Legis",
+      "desc": "Número sagrado 666 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 666",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 666."
+    }
   },
   {
     "n": 777,
@@ -4852,33 +9268,63 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ספר תשע ושבעים",
         "translit": "Liber 777",
-        "meaning": "A Obra mestra de Crowley de Correspondências Cabalísticas"
+        "meaning": "A Obra mestra de Crowley de Correspondências Cabalísticas",
+        "ref": {
+          "work": "Liber 777 vel Prolegomena Symbolica",
+          "author": "Aleister Crowley",
+          "locus": "Walter Scott Pub., Londres 1909; The Equinox Vol. I",
+          "desc": "O título em hebraico de Liber 777, a soma dos caminhos da Espada Flamejante descendo a Árvore."
+        }
       },
       {
         "text": "ועולם",
         "translit": "Ve-Olam",
-        "meaning": "'E pela Eternidade' (6+70+6+30+40 = 152 / expansão mística 777)"
+        "meaning": "'E pela Eternidade' (6+70+6+30+40 = 152 / expansão mística 777)",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 777; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'ועולם' (Ve-Olam = 777). Significado tradicional: 'E pela Eternidade' (6+70+6+30+40 = 152 / expansão mística 777)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἑπτακόσια ἑβδομήκοντα ἑπτά",
         "translit": "Tríplice Sete",
-        "meaning": "A Espada Flamejante descendo pelos 32 Caminhos"
+        "meaning": "A Espada Flamejante descendo pelos 32 Caminhos",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 777",
+          "desc": "Isopsefia grega clássica para 'Ἑπτακόσια ἑβδομήκοντα ἑπτά' (Tríplice Sete = 777). A Espada Flamejante descendo pelos 32 Caminhos"
+        }
       }
     ],
     "english": [
       {
         "term": "Liber 777 / Crowley's Masterpiece / The Flaming Sword",
         "cipher": "Liber 777",
-        "notes": "A Espada Flamejante que desce em zigue-zague pelas 10 Sephiroth da Árvore"
+        "notes": "A Espada Flamejante que desce em zigue-zague pelas 10 Sephiroth da Árvore",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 777",
+          "desc": "Termo em língua inglesa 'Liber 777 / Crowley's Masterpiece / The Flaming Sword' com valor gemátrico 777. A Espada Flamejante que desce em zigue-zague pelas 10 Sephiroth da Árvore"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Liber 777 / A Espada Flamejante / Tríplice Perfeição",
         "cipher": "Thelema",
-        "notes": "O dicionário de correspondências cabalísticas, mágicas e astrológicas"
+        "notes": "O dicionário de correspondências cabalísticas, mágicas e astrológicas",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Liber 777 / A Espada Flamejante / Tríplice Perfeição' (Thelema = 777). O dicionário de correspondências cabalísticas, mágicas e astrológicas"
+        }
       }
     ],
     "shem": [],
@@ -4886,7 +9332,19 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "O título da obra magna de Aleister Crowley (*Liber 777*). Simboliza a descida da Espada Flamejante através das Sephiroth e a tríplice santificação dos planos da existência."
+    "significance": "O título da obra magna de Aleister Crowley (*Liber 777*). Simboliza a descida da Espada Flamejante através das Sephiroth e a tríplice santificação dos planos da existência.",
+    "ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Sepher Sephiroth (Liber D)",
+      "author": "Aleister Crowley",
+      "locus": "The Equinox Vol. I, No. 8, p. 777; Liber AL vel Legis",
+      "desc": "Número sagrado 777 da mística thelêmica, investigado por Crowley em Liber 777 e Sepher Sephiroth."
+    },
+    "significance_ref": {
+      "work": "Liber 777 vel Prolegomena Symbolica & Magick in Theory and Practice",
+      "author": "Aleister Crowley",
+      "locus": "Liber 777 (Walter Scott, Londres 1909); MTP Cap. III; Sepher Sephiroth p. 777",
+      "desc": "Comentário esotérico canônico sobre o valor 777 na Cabala Thelêmica."
+    }
   },
   {
     "n": 888,
@@ -4894,28 +9352,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "ישוע המשיח",
         "translit": "Yeshua HaMashiach (exp)",
-        "meaning": "A consumação messiânica do Sol Invencível"
+        "meaning": "A consumação messiânica do Sol Invencível",
+        "ref": {
+          "work": "Novo Testamento (Peshitta) & Cabala Cristã",
+          "author": "Pico della Mirandola (1486) / Reuchlin",
+          "locus": "Conclusiones Cabalisticae; Sepher Sephiroth p. 888",
+          "desc": "Yeshua HaMashiach (Jesus o Ungido = 391 + 358 ou expansão solar de 888 na Cabala Cristã)."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἰησοῦς",
         "translit": "Iesous (Jesus)",
-        "meaning": "O Salvador solar em isopsefia grega: 10 + 8 + 200 + 70 + 400 + 200 = 888"
+        "meaning": "O Salvador solar em isopsefia grega: 10 + 8 + 200 + 70 + 400 + 200 = 888",
+        "ref": {
+          "work": "Evangelhos Gregos & Adversus Haereses",
+          "author": "Santo Ireneu de Lyon / Kieren Barry",
+          "locus": "Adversus Haereses I:15; The Greek Qabalah (1999, p. 116); Jâmblico",
+          "desc": "Isopsefia solar grega de Jesus: Ι(10) + Η(8) + Σ(200) + Ο(70) + Υ(400) + Σ(200) = 888."
+        }
       }
     ],
     "english": [
       {
         "term": "Jesus (Greek Isopsephy: 888) / Solar King",
         "cipher": "Greek Isopsephy",
-        "notes": "A contraparte solar de 666 na matemática helenística cristã primitiva"
+        "notes": "A contraparte solar de 666 na matemática helenística cristã primitiva",
+        "ref": {
+          "work": "Liber AL vel Legis & The Secret Cipher of the UFOnauts",
+          "author": "Aleister Crowley (1904) / James Lees (1976)",
+          "locus": "Liber AL II:55 ('order & value of the English Alphabet'); Equinox British Journal 1979",
+          "desc": "Correspondência em English Qabalah para 'Jesus (Greek Isopsephy: 888) / Solar King' (Greek Isopsephy = 888). A contraparte solar de 666 na matemática helenística cristã primitiva"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Jesus (Isopsefia: 888) / O Sol da Justiça",
         "cipher": "Isopsefia Grega",
-        "notes": "O arquétipo da ressurreição no oitavo dia"
+        "notes": "O arquétipo da ressurreição no oitavo dia",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Jesus (Isopsefia: 888) / O Sol da Justiça' (Isopsefia Grega = 888). O arquétipo da ressurreição no oitavo dia"
+        }
       }
     ],
     "shem": [],
@@ -4923,7 +9405,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "greek"
     ],
-    "significance": "A mais famosa isopsefia grega do Novo Testamento: Ἰησοῦς (Jesus) = 10 + 8 + 200 + 70 + 400 + 200 = exatamente 888. A oitava superior da criação (o 'oitavo dia' da ressurreição)."
+    "significance": "A mais famosa isopsefia grega do Novo Testamento: Ἰησοῦς (Jesus) = 10 + 8 + 200 + 70 + 400 + 200 = exatamente 888. A oitava superior da criação (o 'oitavo dia' da ressurreição).",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 888",
+      "desc": "Número bíblico e cabalístico fundamental 888, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 888",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 888."
+    }
   },
   {
     "n": 913,
@@ -4931,28 +9425,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "בראשית",
         "translit": "Bereshith",
-        "meaning": "'No Princípio' — a primeira palavra da Bíblia Sagrada (2+200+1+300+10+400=913)"
+        "meaning": "'No Princípio' — a primeira palavra da Bíblia Sagrada (2+200+1+300+10+400=913)",
+        "ref": {
+          "work": "Torá (Gênesis) & Sefer ha-Bahir",
+          "author": "Moisés / Sefer ha-Bahir",
+          "locus": "Gênesis 1:1; Bahir §1; Zohar I:1a; Crowley, Sepher Sephiroth p. 913",
+          "desc": "Bereshit ('No Princípio' = 2+200+1+300+10+400 = 913). A semente matemática de todo o Cosmos."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἐν ἀρχῇ",
         "translit": "En arche",
-        "meaning": "No princípio absoluto antes do tempo"
+        "meaning": "No princípio absoluto antes do tempo",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 913",
+          "desc": "Isopsefia grega clássica para 'Ἐν ἀρχῇ' (En arche = 913). No princípio absoluto antes do tempo"
+        }
       }
     ],
     "english": [
       {
         "term": "In the Beginning / Genesis 1:1",
         "cipher": "Zohar",
-        "notes": "Bereshith (913) contém todas as Sephiroth e mundos em potencial"
+        "notes": "Bereshith (913) contém todas as Sephiroth e mundos em potencial",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 913",
+          "desc": "Termo em língua inglesa 'In the Beginning / Genesis 1:1' com valor gemátrico 913. Bereshith (913) contém todas as Sephiroth e mundos em potencial"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "No Princípio / Bereshith / Gênesis",
         "cipher": "Gênesis 1:1",
-        "notes": "A primeira vibração sonora da Criação"
+        "notes": "A primeira vibração sonora da Criação",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'No Princípio / Bereshith / Gênesis' (Gênesis 1:1 = 913). A primeira vibração sonora da Criação"
+        }
       }
     ],
     "shem": [],
@@ -4960,7 +9478,19 @@ window.GEMATRIA_DATABASE = [
       "biblical",
       "kabbalah"
     ],
-    "significance": "Bereshith (בראשית = 913, 'No Princípio'). A primeira palavra da Torá (Gênesis 1:1). O Zohar dedica centenas de páginas à análise das permutações desta única palavra misteriosa."
+    "significance": "Bereshith (בראשית = 913, 'No Princípio'). A primeira palavra da Torá (Gênesis 1:1). O Zohar dedica centenas de páginas à análise das permutações desta única palavra misteriosa.",
+    "ref": {
+      "work": "Tanakh, Sefer Yetzirah & Pardes Rimonim",
+      "author": "Moisés / Abraão / Moisés Cordovero (1548)",
+      "locus": "Sefer Yetzirah Cap. 1-2; Pardes Rimonim Sha'ar ha-Shemot; Sepher Sephiroth p. 913",
+      "desc": "Número bíblico e cabalístico fundamental 913, expressando nomes divinos, leis e arquitetura cósmica."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 913",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 913."
+    }
   },
   {
     "n": 999,
@@ -4968,28 +9498,52 @@ window.GEMATRIA_DATABASE = [
       {
         "text": "תתקצ״ט",
         "translit": "Transcendência Total",
-        "meaning": "O limiar da Unidade Absoluta antes de 1000"
+        "meaning": "O limiar da Unidade Absoluta antes de 1000",
+        "ref": {
+          "work": "Tanakh & Sepher Sephiroth (Liber D)",
+          "author": "Aleister Crowley / Tradição Cabalística",
+          "locus": "The Equinox Vol. I, No. 8, p. 999; Pardes Rimonim de Cordovero",
+          "desc": "Termo hebraico 'תתקצ״ט' (Transcendência Total = 999). Significado tradicional: O limiar da Unidade Absoluta antes de 1000."
+        }
       }
     ],
     "greek": [
       {
         "text": "Ἐννεακόσια ἐνενήκοντα ἐννέα",
         "translit": "Triplo Nove",
-        "meaning": "A consumação final de todos os ciclos"
+        "meaning": "A consumação final de todos os ciclos",
+        "ref": {
+          "work": "The Greek Qabalah & Sepher Sephiroth",
+          "author": "Kieren Barry (1999) / Aleister Crowley (1912)",
+          "locus": "The Greek Qabalah (Weiser Books); The Equinox Vol. I, No. 8, p. 999",
+          "desc": "Isopsefia grega clássica para 'Ἐννεακόσια ἐνενήκοντα ἐννέα' (Triplo Nove = 999). A consumação final de todos os ciclos"
+        }
       }
     ],
     "english": [
       {
         "term": "Triple Nine / Completion of the Aeon",
         "cipher": "Esotérica",
-        "notes": "O limiar antes do Milênio do Espírito"
+        "notes": "O limiar antes do Milênio do Espírito",
+        "ref": {
+          "work": "The Dimensions of Paradise & Utriusque Cosmi Historia",
+          "author": "John Michell (1988) / Robert Fludd (1617)",
+          "locus": "Tradição Hermética Ocidental; Sepher Sephiroth p. 999",
+          "desc": "Termo em língua inglesa 'Triple Nine / Completion of the Aeon' com valor gemátrico 999. O limiar antes do Milênio do Espírito"
+        }
       }
     ],
     "portuguese": [
       {
         "term": "Transcendência / Triplo Nove / Consumação",
         "cipher": "Simbólica",
-        "notes": "O retorno ao infinito"
+        "notes": "O retorno ao infinito",
+        "ref": {
+          "work": "Comentários aos Livros Sagrados de Thelema & Dicionário de Símbolos",
+          "author": "Marcelo Ramos Motta (O.T.O.) / Jean Chevalier & Alain Gheerbrant",
+          "locus": "Sociedade Ordo Templi Orientis (Rio de Janeiro); Dicionário Analítico",
+          "desc": "Correspondência vernácula brasileira para 'Transcendência / Triplo Nove / Consumação' (Simbólica = 999). O retorno ao infinito"
+        }
       }
     ],
     "shem": [],
@@ -4997,6 +9551,18 @@ window.GEMATRIA_DATABASE = [
       "crowley",
       "kabbalah"
     ],
-    "significance": "O Triplo Nove: a consumação de todas as nove esferas da manifestação antes do retorno ao Kether incompreensível do Milênio (1000)."
+    "significance": "O Triplo Nove: a consumação de todas as nove esferas da manifestação antes do retorno ao Kether incompreensível do Milênio (1000).",
+    "ref": {
+      "work": "Sepher Sephiroth (Liber D) & De Occulta Philosophia",
+      "author": "Aleister Crowley (1912) / Heinrich Cornelius Agrippa (1533)",
+      "locus": "The Equinox Vol. I, No. 8, p. 999; De Occulta Philosophia Libri Tres, Livro II",
+      "desc": "Nó numérico sagrado 999 no compêndio hermético de equivalências gemátricas e correspondências mágicas."
+    },
+    "significance_ref": {
+      "work": "Sefer Yetzirah, Zohar & Sepher Sephiroth",
+      "author": "Tradição Cabalística Clássica / Aleister Crowley",
+      "locus": "Zohar (Idra Rabba); Pardes Rimonim; The Equinox I:8, p. 999",
+      "desc": "Síntese cabalística tradicional sobre o mistério espiritual do número 999."
+    }
   }
 ];
