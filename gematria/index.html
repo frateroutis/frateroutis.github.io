@@ -1,0 +1,160 @@
+---
+layout: default
+title: Gematria Hermética
+description: Dicionário comparado e grande tabela de gematria com os 72 Nomes de Deus (Shem ha-Mephorash), termos bíblicos, correlações de Crowley e Liber 777, isopsefia grega e English Qabalah.
+extra_css:
+  - /css/gematria.css
+extra_js:
+  - /js/gematria-data.js
+  - /js/gematria.js
+---
+
+<div class="gematria-shell">
+    <header class="gematria-hero">
+        <div class="gematria-eyebrow">
+            <span>🜏</span> Cabala Hermética · Sefer ha-Gematrioth
+        </div>
+        <h1>Gematria Hermética</h1>
+        <p class="gematria-hero-lead">
+            Dicionário numérico comparado e grande tabela cabalística de equivalências. Explore os <strong>72 Nomes de Deus (<em>Shem ha-Mephorash</em>)</strong>, nomes e conceitos fundamentais do Judaísmo e da Bíblia, as correlações mágicas descobertas por Aleister Crowley no <em>Liber 777</em> e <em>Sepher Sephiroth</em>, a isopsefia grega clássica e a <em>English Qabalah</em> (NAEQ) para os alfabetos latino e vernáculo.
+        </p>
+    </header>
+
+    <!-- Interactive Live Gematria Calculator -->
+    <section class="gematria-calculator-card" aria-label="Calculadora de Gematria Multilíngue">
+        <div class="calc-header">
+            <span class="calc-title">
+                <span>⚡</span> Calculadora de Gematria em Tempo Real
+            </span>
+            <span class="calc-hint">Digite em Hebraico, Grego, Inglês ou Português</span>
+        </div>
+
+        <div class="calc-input-wrap">
+            <input
+                type="text"
+                id="calcInput"
+                class="calc-input"
+                placeholder="Digite qualquer palavra ou frase (ex: משיח, Thelema, 93, Amor, YHVH, Babalon)..."
+                autocomplete="off"
+                spellcheck="false"
+                aria-label="Entrada de texto para cálculo de gematria"
+            >
+            <button type="button" id="btnFilterCalc" class="calc-btn-filter" title="Localizar este valor na tabela abaixo">
+                🔍 Localizar na Tabela
+            </button>
+        </div>
+
+        <div class="calc-results-grid">
+            <div class="calc-result-box">
+                <div class="calc-res-label">
+                    <span>Hebraico</span>
+                    <span class="calc-res-cipher-tag">Padrão</span>
+                </div>
+                <div class="calc-res-value" id="resHebrewVal">0</div>
+                <div class="calc-res-breakdown" id="resHebrewBreak">Aguardando texto...</div>
+            </div>
+
+            <div class="calc-result-box">
+                <div class="calc-res-label">
+                    <span>Grego</span>
+                    <span class="calc-res-cipher-tag">Isopsefia</span>
+                </div>
+                <div class="calc-res-value" id="resGreekVal">0</div>
+                <div class="calc-res-breakdown" id="resGreekBreak">Aguardando texto...</div>
+            </div>
+
+            <div class="calc-result-box">
+                <div class="calc-res-label">
+                    <span>English Qabalah</span>
+                    <span class="calc-res-cipher-tag">NAEQ (ALW)</span>
+                </div>
+                <div class="calc-res-value" id="resNaeqVal">0</div>
+                <div class="calc-res-breakdown" id="resNaeqBreak">Aguardando texto...</div>
+            </div>
+
+            <div class="calc-result-box">
+                <div class="calc-res-label">
+                    <span>Latim / Vernáculo</span>
+                    <span class="calc-res-cipher-tag">Simples (1–26)</span>
+                </div>
+                <div class="calc-res-value" id="resSimpleVal">0</div>
+                <div class="calc-res-breakdown" id="resSimpleBreak">Aguardando texto...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Filters and Search Bar -->
+    <section class="gematria-controls" aria-label="Filtros e Controles da Tabela de Gematria">
+        <div class="controls-row-top">
+            <div class="search-input-wrap">
+                <input
+                    type="search"
+                    id="tableSearchInput"
+                    class="table-search-input"
+                    placeholder="Filtrar por número (ex: 26, 93, 358, 666), palavra hebraica, grega, inglesa, portuguesa ou termo..."
+                    aria-label="Campo de pesquisa da tabela"
+                >
+            </div>
+            <select id="sortSelect" class="sort-select" aria-label="Ordenar resultados">
+                <option value="asc">Ordem Numérica Crescente (0 → 999)</option>
+                <option value="desc">Ordem Numérica Decrescente (999 → 0)</option>
+            </select>
+        </div>
+
+        <div class="controls-row-categories" role="group" aria-label="Filtro de Categorias">
+            <span class="cat-filter-label">Tradições:</span>
+            <button type="button" class="cat-pill is-active" data-cat="all">
+                Todos <span class="cat-count">0</span>
+            </button>
+            <button type="button" class="cat-pill" data-cat="shem">
+                72 Nomes de Deus <span class="cat-count">0</span>
+            </button>
+            <button type="button" class="cat-pill" data-cat="biblical">
+                Bíblico &amp; Judaísmo <span class="cat-count">0</span>
+            </button>
+            <button type="button" class="cat-pill" data-cat="crowley">
+                Crowley &amp; Thelema <span class="cat-count">0</span>
+            </button>
+            <button type="button" class="cat-pill" data-cat="greek">
+                Isopsefia Grega <span class="cat-count">0</span>
+            </button>
+            <button type="button" class="cat-pill" data-cat="kabbalah">
+                Cabala Hermética <span class="cat-count">0</span>
+            </button>
+        </div>
+
+        <div class="controls-status-strip">
+            <span id="statusCount">Carregando nós numéricos...</span>
+            <button type="button" id="btnResetFilters" class="btn-reset-filters">Limpar filtros</button>
+        </div>
+    </section>
+
+    <!-- Massive Gematria Table -->
+    <div class="gematria-table-container" tabindex="0" aria-label="Tabela Mestra de Gematria">
+        <table class="gematria-table">
+            <thead>
+                <tr>
+                    <th class="col-num">Nº</th>
+                    <th class="col-heb">Hebraico</th>
+                    <th class="col-grk">Grego (Isopsefia)</th>
+                    <th class="col-eng">Inglês (EQ / Crowley)</th>
+                    <th class="col-pt">Português (Vernáculo)</th>
+                    <th class="col-notes">Correspondência &amp; Significado Esotérico</th>
+                </tr>
+            </thead>
+            <tbody id="gematriaTableBody">
+                <!-- Dynamically populated by js/gematria.js -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal / Detail Drawer for In-depth Number Inspection -->
+<div id="gematriaModal" class="gematria-modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="gematria-modal-card">
+        <button type="button" id="modalCloseBtn" class="modal-close-btn" aria-label="Fechar janela de detalhes">✕</button>
+        <div id="gematriaModalContent">
+            <!-- Populated dynamically -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4995 @@
+[
+  {
+    "n": 0,
+    "hebrew": [
+      {
+        "text": "אין",
+        "translit": "Ain",
+        "meaning": "O Nada Primordial, o Ilimitado antes de toda emanação"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Οὐδέν",
+        "translit": "Ouden",
+        "meaning": "Nada, o Vazio absoluto"
+      }
+    ],
+    "english": [
+      {
+        "term": "Nothing / The Fool (0)",
+        "cipher": "Simbólica / Tarot",
+        "notes": "Kether antes de se manifestar; a fonte oculta de Nuit"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "O Nada / O Louco (0)",
+        "cipher": "Simbólica",
+        "notes": "Origem silenciosa e incriada"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "Ain — O Véu Negativo Supremo da Existência. Em Thelema, corresponde a Nuit e ao Arcano 0 (O Louco)."
+  },
+  {
+    "n": 1,
+    "hebrew": [
+      {
+        "text": "א",
+        "translit": "Aleph",
+        "meaning": "Letra Aleph; Boi, Líder Primordial"
+      },
+      {
+        "text": "כתר",
+        "translit": "Kether (1ª Sephira)",
+        "meaning": "A Coroa Suprema, a mônada divina"
+      },
+      {
+        "text": "הוא",
+        "translit": "Hu",
+        "meaning": "'Ele', o Inominável"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἕν",
+        "translit": "Hen",
+        "meaning": "O Uno de Plotino"
+      }
+    ],
+    "english": [
+      {
+        "term": "One / Monad / Hadit",
+        "cipher": "EQ: A=1",
+        "notes": "O ponto primordial de Hadit no coração de cada estrela"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Um / Coroa / Mônada",
+        "cipher": "EQ: A=1",
+        "notes": "O princípio supremo do universo"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "A Unidade primordial da qual todos os números emanam. Kether na Árvore da Vida. O ponto matemático de Hadit."
+  },
+  {
+    "n": 2,
+    "hebrew": [
+      {
+        "text": "ב",
+        "translit": "Beth",
+        "meaning": "Letra Beth; Casa, Dualidade manifesta"
+      },
+      {
+        "text": "חכמה",
+        "translit": "Chokmah (2ª Sephira)",
+        "meaning": "Sabedoria criativa primordial, o Pai (Abba)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δυάς",
+        "translit": "Dyas",
+        "meaning": "A Díade, a primeira polarização da luz"
+      }
+    ],
+    "english": [
+      {
+        "term": "Two / The Magus (I)",
+        "cipher": "EQ: L=2",
+        "notes": "A primeira manifestação da dualidade e do reflexo"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Dois / O Mago / Espelho",
+        "cipher": "EQ: L=2",
+        "notes": "Dualidade cósmica criativa"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "A Díade, o início da diferenciação. O Mago que projeta a ilusão do universo (Maya) a partir do Uno."
+  },
+  {
+    "n": 3,
+    "hebrew": [
+      {
+        "text": "ג",
+        "translit": "Gimel",
+        "meaning": "Letra Gimel; Camelo, travessia do Abismo"
+      },
+      {
+        "text": "אב",
+        "translit": "Ab",
+        "meaning": "Pai; a raiz primordial da paternidade divina"
+      },
+      {
+        "text": "בינה",
+        "translit": "Binah (3ª Sephira)",
+        "meaning": "Compreensão, a Grande Mãe (Aima)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τριάς",
+        "translit": "Trias",
+        "meaning": "A Tríade primordial, conclusão das Supernas"
+      }
+    ],
+    "english": [
+      {
+        "term": "Father / Trinity / Isis",
+        "cipher": "EQ: W=3",
+        "notes": "Triângulo Superno concluído em Binah"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Pai / Trindade / Forma",
+        "cipher": "EQ: W=3",
+        "notes": "Consolidação da primeira tríade divina"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "3 é o número da Grande Mãe Binah e de Ab (Pai = 1+2=3). Fecha o Triângulo Supremo sobre o Abismo."
+  },
+  {
+    "n": 4,
+    "hebrew": [
+      {
+        "text": "ד",
+        "translit": "Daleth",
+        "meaning": "Letra Daleth; Porta da Natureza e do Ventre"
+      },
+      {
+        "text": "חסד",
+        "translit": "Chesed (4ª Sephira)",
+        "meaning": "Misericórdia, Majestade e Abundância"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τετράς",
+        "translit": "Tetras",
+        "meaning": "A Tétrade, fundamento da solidez cósmica"
+      }
+    ],
+    "english": [
+      {
+        "term": "Four / Tetragragrammaton / Cross",
+        "cipher": "EQ: H=4",
+        "notes": "Os Quatro Mundos (Atziluth, Briah, Yetzirah, Assiah)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Quatro / Cruz / Quatro Elementos",
+        "cipher": "EQ: H=4",
+        "notes": "Estabilidade material e cósmica"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "O número do Tetragrammaton (YHVH de 4 letras), dos Quatro Mundos cabalísticos e dos quatro elementos alquímicos."
+  },
+  {
+    "n": 5,
+    "hebrew": [
+      {
+        "text": "ה",
+        "translit": "He",
+        "meaning": "Letra He; Janela, Alento da Vida"
+      },
+      {
+        "text": "גבורה",
+        "translit": "Geburah (5ª Sephira)",
+        "meaning": "Severidade, Força, Julgamento e Marte"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Πέντε",
+        "translit": "Pente",
+        "meaning": "Cinco, o Pentagrama do Microcosmo"
+      }
+    ],
+    "english": [
+      {
+        "term": "Man / Pentagram / Mars",
+        "cipher": "EQ: S=5",
+        "notes": "O homem sobre a matéria; o espírito dominando os 4 elementos"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Homem / Pentagrama / Vigor",
+        "cipher": "EQ: S=5",
+        "notes": "Símbolo do adepto encarnado"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "O Pentagrama do Microcosmo. Geburah, a força disciplinadora e o fogo da purificação marcial."
+  },
+  {
+    "n": 6,
+    "hebrew": [
+      {
+        "text": "ו",
+        "translit": "Vav",
+        "meaning": "Letra Vav; Prego, Gancho, Conexão celeste"
+      },
+      {
+        "text": "תפארת",
+        "translit": "Tiphareth (6ª Sephira)",
+        "meaning": "Beleza, Harmonia, o Sol e o Santo Anjo Guardião"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἕξ",
+        "translit": "Hex",
+        "meaning": "O Hexagrama, união de fogo e água"
+      }
+    ],
+    "english": [
+      {
+        "term": "Sun / Heart / Hexagram",
+        "cipher": "EQ: D=6",
+        "notes": "O centro da Árvore da Vida, a consciência de Tiphareth"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Sol / Coração / Beleza",
+        "cipher": "EQ: D=6",
+        "notes": "Harmonia e equilíbrio solar"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "O Sol, Tiphareth, o Hexagrama sagrado (união do Microcosmo com o Macrocosmo). Centro da Árvore da Vida."
+  },
+  {
+    "n": 7,
+    "hebrew": [
+      {
+        "text": "האא",
+        "translit": "האא (Haaiah)",
+        "meaning": "Nome 26/72 da Shem ha-Mephorash (Dominações) — Deus Oculto dos Juizados"
+      },
+      {
+        "text": "ז",
+        "translit": "Zayin",
+        "meaning": "Letra Zayin; Espada, Vitória"
+      },
+      {
+        "text": "גד",
+        "translit": "Gad",
+        "meaning": "Fortuna, a tribo de Gad (3+4=7)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἑπτά",
+        "translit": "Hepta",
+        "meaning": "Sete, os planetas clássicos e as sete estrelas"
+      }
+    ],
+    "english": [
+      {
+        "term": "Seven / Babalon Star / Victory",
+        "cipher": "EQ: O=7",
+        "notes": "A Estrela de Sete Pontas da Estrela de Prata (A.'.A.'.)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Sete / Estrela de Babalon / Menorá",
+        "cipher": "EQ: O=7",
+        "notes": "Vitória em Netzach e mistério da criação"
+      }
+    ],
+    "shem": [
+      {
+        "index": 26,
+        "letters": "האא",
+        "angel": "Haaiah",
+        "choir": "Dominações",
+        "attribute": "Deus Oculto dos Juizados",
+        "val": 7
+      }
+    ],
+    "categories": [
+      "crowley",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "O número de Netzach (Vênus), a Estrela de Sete Pontas de Babalon e os sete dias da Criação bíblica."
+  },
+  {
+    "n": 8,
+    "hebrew": [
+      {
+        "text": "ח",
+        "translit": "Cheth",
+        "meaning": "Letra Cheth; Cerca, Vida oculta"
+      },
+      {
+        "text": "הוד",
+        "translit": "Hod (8ª Sephira)",
+        "meaning": "Esplendor, Mercúrio, Inteligência Hermética"
+      },
+      {
+        "text": "אהב",
+        "translit": "Aheb",
+        "meaning": "Amar (1+5+2=8)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ὀκτάς",
+        "translit": "Oktas",
+        "meaning": "A Ogdóade gnóstica de Valentim"
+      }
+    ],
+    "english": [
+      {
+        "term": "Eight / Hermes / Caduceus",
+        "cipher": "EQ: Z=8",
+        "notes": "O caduceu de Mercúrio, o infinito em repouso"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Oito / Glória / Ogdóade",
+        "cipher": "EQ: Z=8",
+        "notes": "Ressurreição e ciência sagrada"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "A esfera de Hod (Mercúrio) e Thoth. O infinito e o equilíbrio das forças polares."
+  },
+  {
+    "n": 9,
+    "hebrew": [
+      {
+        "text": "ט",
+        "translit": "Teth",
+        "meaning": "Letra Teth; Serpente, Força Secreta"
+      },
+      {
+        "text": "יסוד",
+        "translit": "Yesod (9ª Sephira)",
+        "meaning": "Fundamento, a Lua e o plano astral"
+      },
+      {
+        "text": "אבג",
+        "translit": "Abag",
+        "meaning": "Início da série das letras primordiais"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἐννέας",
+        "translit": "Enneas",
+        "meaning": "A Enéade, a conclusão dos dígitos simples"
+      }
+    ],
+    "english": [
+      {
+        "term": "Nine / Moon / Foundation",
+        "cipher": "EQ: K=9",
+        "notes": "Fundamento do plano sutil sobre a matéria"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Nove / Fundamento / Lua Astral",
+        "cipher": "EQ: K=9",
+        "notes": "Geração da vida e imaginação ativa"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "kabbalah"
+    ],
+    "significance": "Yesod, o Fundamento da Árvore da Vida que concentra todas as emanações para projetá-las em Malkuth."
+  },
+  {
+    "n": 10,
+    "hebrew": [
+      {
+        "text": "י",
+        "translit": "Yod",
+        "meaning": "Letra Yod; Mão, a semente que contém todas as letras"
+      },
+      {
+        "text": "מלכות",
+        "translit": "Malkuth (10ª Sephira)",
+        "meaning": "O Reino manifesto, a noiva e a presença divina"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δεκάς",
+        "translit": "Dekas",
+        "meaning": "A Década de Pitágoras, a plenitude"
+      }
+    ],
+    "english": [
+      {
+        "term": "Ten / Kingdom / Wheel of Fortune",
+        "cipher": "EQ: V=10",
+        "notes": "A totalidade das Sephiroth refletidas na matéria"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Dez / Reino / Tetraktys",
+        "cipher": "EQ: V=10",
+        "notes": "A soma do 1+2+3+4 = 10, consumação do Cosmos"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "A Década Sagrada. O número das 10 Sephiroth e dos Dez Mandamentos da Torá."
+  },
+  {
+    "n": 11,
+    "hebrew": [
+      {
+        "text": "דעת",
+        "translit": "Daath (Sephira Oculta)",
+        "meaning": "Conhecimento, a ponte através do Abismo"
+      },
+      {
+        "text": "אי",
+        "translit": "Ai",
+        "meaning": "Onde? Ilha, terra distante"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἕνδεκα",
+        "translit": "Hendeka",
+        "meaning": "Onze, o número que transcende a década"
+      }
+    ],
+    "english": [
+      {
+        "term": "Magick / Nuit ('My number is 11')",
+        "cipher": "Liber AL I:60",
+        "notes": "A fórmula dinâmica da Magick de Crowley: união do 5 (homem) e 6 (sol)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Magia / Onze / Abismo",
+        "cipher": "EQ: G=11",
+        "notes": "O número fundamental do Novo Aeon e da A.'.A.'."
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "O grande número da Magick thelêmica ('Magick is the science and art of causing change...'). A união do 5 (microcosmo) com o 6 (macrocosmo)."
+  },
+  {
+    "n": 12,
+    "hebrew": [
+      {
+        "text": "הוהי",
+        "translit": "Havayah",
+        "meaning": "Permutação do Tetragrammaton; as 12 tribos e as 12 bandeiras celestes"
+      },
+      {
+        "text": "זה",
+        "translit": "Zeh",
+        "meaning": "'Isto', pronome demonstrativo sagrado (7+5=12)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δώδεκα",
+        "translit": "Dodeka",
+        "meaning": "Doze, as doze casas zodiacais"
+      }
+    ],
+    "english": [
+      {
+        "term": "Twelve / Zodiac / Tribes",
+        "cipher": "EQ: R=12",
+        "notes": "As doze tribos de Israel e os doze signos do Zodíaco"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Doze / Zodíaco / Tribos",
+        "cipher": "EQ: R=12",
+        "notes": "A roda zodiacal completa e os apóstolos"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "A divisão cósmica do tempo e do espaço. As 12 Permutações sagradas de YHVH que regem os 12 signos."
+  },
+  {
+    "n": 13,
+    "hebrew": [
+      {
+        "text": "אחד",
+        "translit": "Achad",
+        "meaning": "Uno, Unidade Suprema ('Shema Yisrael... YHVH Achad')"
+      },
+      {
+        "text": "אהבה",
+        "translit": "Ahavah",
+        "meaning": "Amor Divino (1+5+2+5 = 13)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τρισκαίδεκα",
+        "translit": "Triskaideka",
+        "meaning": "Treze, união cósmica"
+      }
+    ],
+    "english": [
+      {
+        "term": "Love / Unity / Frater Achad",
+        "cipher": "EQ: C=13",
+        "notes": "Achad (13) + Ahavah (13) = 26 (YHVH)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Amor / Uno / Unidade",
+        "cipher": "EQ: C=13",
+        "notes": "A revelação de que Amor e Unidade são idênticos em essência"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "Uma das maiores equações da Cabala: Achad (Uno = 13) e Ahavah (Amor = 13). Somados, geram o Tetragrammaton יהוה (26)."
+  },
+  {
+    "n": 14,
+    "hebrew": [
+      {
+        "text": "דוד",
+        "translit": "David",
+        "meaning": "Rei David (4+6+4=14); o Amado"
+      },
+      {
+        "text": "יד",
+        "translit": "Yad",
+        "meaning": "Mão, poder e direção (10+4=14)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δαυίδ",
+        "translit": "David",
+        "meaning": "A linhagem messiânica régia"
+      }
+    ],
+    "english": [
+      {
+        "term": "David / Hand",
+        "cipher": "EQ: N=14",
+        "notes": "As 14 gerações de Abraão a David no Evangelho"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "David / Mão Poderosa",
+        "cipher": "EQ: N=14",
+        "notes": "A linhagem real sagrada"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical"
+    ],
+    "significance": "O valor de David (דוד). Mateus estrutura as gerações bíblicas em três grupos de 14 por causa desta gematria."
+  },
+  {
+    "n": 15,
+    "hebrew": [
+      {
+        "text": "ההה",
+        "translit": "ההה (Hahahel)",
+        "meaning": "Nome 41/72 da Shem ha-Mephorash (Virtudes) — Deus em Três Pessoas"
+      },
+      {
+        "text": "יה",
+        "translit": "Yah",
+        "meaning": "Nome Divino Yah (10+5=15); Halleluyah ('Louvai a Yah')"
+      },
+      {
+        "text": "הוד",
+        "translit": "Hod (var)",
+        "meaning": "Esplendor interior"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δεκαπέντε",
+        "translit": "Dekapente",
+        "meaning": "Quinze, os 15 degraus do Templo"
+      }
+    ],
+    "english": [
+      {
+        "term": "Yah / The Devil (XV)",
+        "cipher": "EQ: Y=15",
+        "notes": "Os 15 Salmos de Degraus (Shir HaMa'alot)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Yah / Senhor / Degraus",
+        "cipher": "EQ: Y=15",
+        "notes": "Nome sagrado dos Salmos"
+      }
+    ],
+    "shem": [
+      {
+        "index": 41,
+        "letters": "ההה",
+        "angel": "Hahahel",
+        "choir": "Virtudes",
+        "attribute": "Deus em Três Pessoas",
+        "val": 15
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "O Nome Divino יה (Yah), a metade superior do Tetragrammaton. Os 15 Cânticos de Degraus do Templo de Jerusalém."
+  },
+  {
+    "n": 16,
+    "hebrew": [
+      {
+        "text": "חבו",
+        "translit": "חבו (Habuhiah)",
+        "meaning": "Nome 68/72 da Shem ha-Mephorash (Anjos) — Deus que cura as enfermidades da terra"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 68,
+        "letters": "חבו",
+        "angel": "Habuhiah",
+        "choir": "Anjos",
+        "attribute": "Deus que cura as enfermidades da terra",
+        "val": 16
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 17,
+    "hebrew": [
+      {
+        "text": "והו",
+        "translit": "והו (Vehuiah)",
+        "meaning": "Nome 1/72 da Shem ha-Mephorash (Serafins) — Deus Exaltado e Elevado acima de todas as coisas"
+      },
+      {
+        "text": "והו",
+        "translit": "והו (Vehuel)",
+        "meaning": "Nome 49/72 da Shem ha-Mephorash (Principados) — Deus Grande e Elevado nas Alturas"
+      },
+      {
+        "text": "טוב",
+        "translit": "Tov",
+        "meaning": "Bom ('E viu Deus que era Bom' - Gênesis 1)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀγαθόν",
+        "translit": "Agathon",
+        "meaning": "O Bem supremo"
+      }
+    ],
+    "english": [
+      {
+        "term": "Good / The Star (XVII)",
+        "cipher": "EQ: U=17",
+        "notes": "A Estrela de Babalon e a bondade intrínseca do Ser"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Bom / Bondade / Estrela",
+        "cipher": "EQ: U=17",
+        "notes": "O Bem primordial de Gênesis 1"
+      }
+    ],
+    "shem": [
+      {
+        "index": 1,
+        "letters": "והו",
+        "angel": "Vehuiah",
+        "choir": "Serafins",
+        "attribute": "Deus Exaltado e Elevado acima de todas as coisas",
+        "val": 17
+      },
+      {
+        "index": 49,
+        "letters": "והו",
+        "angel": "Vehuel",
+        "choir": "Principados",
+        "attribute": "Deus Grande e Elevado nas Alturas",
+        "val": 17
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "Tov (טוב = 17), a essência do Bem primordial que Deus contempla em cada dia da Criação. 1º Nome dos 72."
+  },
+  {
+    "n": 18,
+    "hebrew": [
+      {
+        "text": "חי",
+        "translit": "Chai",
+        "meaning": "Vivo, Vida! O amuleto mais célebre do Judaísmo (8+10=18)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ζωή",
+        "translit": "Zoe",
+        "meaning": "Vida divina emanada"
+      }
+    ],
+    "english": [
+      {
+        "term": "Life / Chai / Living",
+        "cipher": "EQ: F=18",
+        "notes": "O valor de Chai (18), a raiz das doações e bênçãos judaicas"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Vida / Chai / Vivente",
+        "cipher": "EQ: F=18",
+        "notes": "A celebração eterna da Vida"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Chai (חי = 18). A palavra hebraica para 'Vida'. O motivo pelo qual doações e votos judaicos são feitos em múltiplos de 18."
+  },
+  {
+    "n": 19,
+    "hebrew": [
+      {
+        "text": "חהו",
+        "translit": "חהו (Hahiuiah)",
+        "meaning": "Nome 24/72 da Shem ha-Mephorash (Tronos) — Deus Bom por Si Mesmo"
+      },
+      {
+        "text": "חוה",
+        "translit": "Chavah (Eva)",
+        "meaning": "Mãe de todos os viventes (8+6+5=19)"
+      },
+      {
+        "text": "איוב",
+        "translit": "Iyov (Jó)",
+        "meaning": "O patriarca provado pelo sofrimento e restaurado"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Εὔα",
+        "translit": "Eva",
+        "meaning": "A primeira mulher e mãe biológica"
+      }
+    ],
+    "english": [
+      {
+        "term": "Eve / Sun (XIX)",
+        "cipher": "EQ: Q=19",
+        "notes": "O Arcano XIX (O Sol) e o ciclo metônico de 19 anos lunares"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Eva / Vida Fecunda / Jó",
+        "cipher": "EQ: Q=19",
+        "notes": "A mãe da humanidade"
+      }
+    ],
+    "shem": [
+      {
+        "index": 24,
+        "letters": "חהו",
+        "angel": "Hahiuiah",
+        "choir": "Tronos",
+        "attribute": "Deus Bom por Si Mesmo",
+        "val": 19
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "Chavah (חוה = 19), a raiz hebraica de Eva. O ciclo metônico que reconcilia o calendário solar e lunar tem exatamente 19 anos."
+  },
+  {
+    "n": 20,
+    "hebrew": [
+      {
+        "text": "יהה",
+        "translit": "יהה (Iah-hel)",
+        "meaning": "Nome 62/72 da Shem ha-Mephorash (Arcanjos) — Ser Supremo e Sabedoria Oculta"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 62,
+        "letters": "יהה",
+        "angel": "Iah-hel",
+        "choir": "Arcanjos",
+        "attribute": "Ser Supremo e Sabedoria Oculta",
+        "val": 20
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 21,
+    "hebrew": [
+      {
+        "text": "אהיה",
+        "translit": "Ehyeh",
+        "meaning": "'Eu Sou', o Nome Divino revelado na sarça ardente a Moisés (1+5+10+5=21)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Εἰμί",
+        "translit": "Eimi",
+        "meaning": "A existência pura ('Eu Sou')"
+      }
+    ],
+    "english": [
+      {
+        "term": "I AM / The Universe (XXI)",
+        "cipher": "EQ: M=21",
+        "notes": "Ehyeh, o Nome Sagrado associado a Kether"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Eu Sou / O Universo / Kether",
+        "cipher": "EQ: M=21",
+        "notes": "A suprema autoafirmação do Ser"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "O Nome de Deus em Kether: Ehyeh (אהיה = 21), 'Eu Sou o que Sou'. Conclusão dos Arcanos Maiores (XXI)."
+  },
+  {
+    "n": 22,
+    "hebrew": [
+      {
+        "text": "אכא",
+        "translit": "אכא (Achaiah)",
+        "meaning": "Nome 7/72 da Shem ha-Mephorash (Serafins) — Deus Bom e Paciente"
+      },
+      {
+        "text": "הזי",
+        "translit": "הזי (Haziel)",
+        "meaning": "Nome 9/72 da Shem ha-Mephorash (Querubins) — Deus de Misericórdia e Perdão"
+      },
+      {
+        "text": "כ",
+        "translit": "Khaf",
+        "meaning": "Letra Khaf (20); 22 Letras do Alfabeto Sagrado"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Εἴκοσι δύο",
+        "translit": "Eikosi dyo",
+        "meaning": "Vinte e dois caminhos de sabedoria"
+      }
+    ],
+    "english": [
+      {
+        "term": "Twenty-Two / The Paths",
+        "cipher": "EQ: X=22",
+        "notes": "Os 22 Caminhos da Árvore da Vida e as 22 Letras"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Vinte e Dois / Letras Sagradas",
+        "cipher": "EQ: X=22",
+        "notes": "A totalidade da linguagem da Criação"
+      }
+    ],
+    "shem": [
+      {
+        "index": 7,
+        "letters": "אכא",
+        "angel": "Achaiah",
+        "choir": "Serafins",
+        "attribute": "Deus Bom e Paciente",
+        "val": 22
+      },
+      {
+        "index": 9,
+        "letters": "הזי",
+        "angel": "Haziel",
+        "choir": "Querubins",
+        "attribute": "Deus de Misericórdia e Perdão",
+        "val": 22
+      }
+    ],
+    "categories": [
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "As 22 Letras de fundação com as quais Deus esculpiu o Universo (*Sefer Yetzirah*). Os 22 Caminhos da Árvore da Vida."
+  },
+  {
+    "n": 24,
+    "hebrew": [
+      {
+        "text": "יחו",
+        "translit": "יחו (Iehuiah)",
+        "meaning": "Nome 33/72 da Shem ha-Mephorash (Potências) — Deus Conhecedor de todas as coisas"
+      },
+      {
+        "text": "אביהו",
+        "translit": "Abihu",
+        "meaning": "'Ele é meu Pai'"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Εἴκοσι τέσσερα",
+        "translit": "Eikosi tessera",
+        "meaning": "Os 24 Anciãos do Apocalipse"
+      }
+    ],
+    "english": [
+      {
+        "term": "Twenty-Four / Elders",
+        "cipher": "EQ: T=24",
+        "notes": "As 24 horas do dia e os 24 anciãos ao redor do trono"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Vinte e Quatro / Anciãos",
+        "cipher": "EQ: T=24",
+        "notes": "Conselho celeste eterno"
+      }
+    ],
+    "shem": [
+      {
+        "index": 33,
+        "letters": "יחו",
+        "angel": "Iehuiah",
+        "choir": "Potências",
+        "attribute": "Deus Conhecedor de todas as coisas",
+        "val": 24
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "Os 24 Anciãos coroados descritos em Apocalipse 4. 33º Nome da Shem ha-Mephorash."
+  },
+  {
+    "n": 25,
+    "hebrew": [
+      {
+        "text": "היי",
+        "translit": "היי (Haiaiel)",
+        "meaning": "Nome 71/72 da Shem ha-Mephorash (Anjos) — Deus Senhor e Mestre do Universo"
+      },
+      {
+        "text": "יהי",
+        "translit": "Yehi",
+        "meaning": "'Haja!' ('Yehi Or' = Haja Luz - Gênesis 1:3)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Φῶς (part)",
+        "translit": "Fiat Lux",
+        "meaning": "O comando da iluminação primordial"
+      }
+    ],
+    "english": [
+      {
+        "term": "Let There Be / Light",
+        "cipher": "EQ: E=25",
+        "notes": "5 ao quadrado (5² = 25); a manifestação do comando criador"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Haja Luz / Criação",
+        "cipher": "EQ: E=25",
+        "notes": "O poder do verbo imperativo"
+      }
+    ],
+    "shem": [
+      {
+        "index": 71,
+        "letters": "היי",
+        "angel": "Haiaiel",
+        "choir": "Anjos",
+        "attribute": "Deus Senhor e Mestre do Universo",
+        "val": 25
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "O verbo da criação: Yehi (יהי = 25), a palavra com a qual a Luz é ordenada no princípio. 71º Nome dos 72."
+  },
+  {
+    "n": 26,
+    "hebrew": [
+      {
+        "text": "יהוה",
+        "translit": "YHVH",
+        "meaning": "O Inefável Tetragrammaton, o Nome Eterno de Deus (10+5+6+5=26)"
+      },
+      {
+        "text": "כבוד",
+        "translit": "Kavod (reduz)",
+        "meaning": "A Glória Divina"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Κύριος (eq)",
+        "translit": "Kyrios",
+        "meaning": "O Senhor soberano"
+      }
+    ],
+    "english": [
+      {
+        "term": "GOD / LORD / YHVH",
+        "cipher": "Simple: G(7)+O(15)+D(4) = 26",
+        "notes": "A notável equivalência em Gematria Simples: GOD = 26 = יהוה"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "O Nome Inefável / Deus",
+        "cipher": "Simbólica",
+        "notes": "A soma exata de Achad (13) + Ahavah (13) = 26"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "latin_eq"
+    ],
+    "significance": "O centro absoluto da teologia judaica e cabalística: יהוה = 26. É a soma de 13 (Amor) e 13 (Unidade). Na gematria inglesa simples: G(7)+O(15)+D(4) = 26!"
+  },
+  {
+    "n": 27,
+    "hebrew": [
+      {
+        "text": "ייז",
+        "translit": "ייז (Ieiazel)",
+        "meaning": "Nome 40/72 da Shem ha-Mephorash (Potências) — Deus que regozija os pranteadores"
+      },
+      {
+        "text": "זך",
+        "translit": "Zakh",
+        "meaning": "Puro, imaculado (7+20=27)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Καθαρός",
+        "translit": "Katharos",
+        "meaning": "Puro, livre de mancha"
+      }
+    ],
+    "english": [
+      {
+        "term": "Twenty-Seven / 3 Cubed",
+        "cipher": "Matemática Esotérica",
+        "notes": "3³ = 27; o cubo perfeito da Trindade"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Pureza / Cubo de Três",
+        "cipher": "Simbólica",
+        "notes": "Três dimensões da perfeição trina"
+      }
+    ],
+    "shem": [
+      {
+        "index": 40,
+        "letters": "ייז",
+        "angel": "Ieiazel",
+        "choir": "Potências",
+        "attribute": "Deus que regozija os pranteadores",
+        "val": 27
+      }
+    ],
+    "categories": [
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "3³ = 27. O número das 22 letras hebraicas somadas às 5 formas finais (sofit) = 27 letras."
+  },
+  {
+    "n": 30,
+    "hebrew": [
+      {
+        "text": "ייי",
+        "translit": "ייי (Ieiaiel)",
+        "meaning": "Nome 22/72 da Shem ha-Mephorash (Tronos) — A Destra de Deus (Trindade de Yods)"
+      },
+      {
+        "text": "ל",
+        "translit": "Lamed",
+        "meaning": "Letra Lamed (30); Ferrão, Ensino e Justiça"
+      },
+      {
+        "text": "יהודה",
+        "translit": "Yehudah (Judá - soma base)",
+        "meaning": "Líder das tribos reais"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Λάμβδα",
+        "translit": "Lambda",
+        "meaning": "Lambda, proporção harmônica"
+      }
+    ],
+    "english": [
+      {
+        "term": "Will (NAEQ)",
+        "cipher": "NAEQ: W(3)+I(23)+L(2)+L(2) = 30",
+        "notes": "A palavra WILL soma exatamente 30 na New Aeon English Qabalah!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Trinta / Lamed / Justiça",
+        "cipher": "EQ: L=2",
+        "notes": "A letra Lamed ergue-se acima de todas as outras no alfabeto"
+      }
+    ],
+    "shem": [
+      {
+        "index": 22,
+        "letters": "ייי",
+        "angel": "Ieiaiel",
+        "choir": "Tronos",
+        "attribute": "A Destra de Deus (Trindade de Yods)",
+        "val": 30
+      }
+    ],
+    "categories": [
+      "crowley",
+      "kabbalah",
+      "latin_eq",
+      "shem"
+    ],
+    "significance": "Na English Qabalah (NAEQ), WILL = 3+23+2+2 = 30! No hebraico, é Lamed (ל = 30) e a Trindade de Yods do 22º Nome Divino."
+  },
+  {
+    "n": 31,
+    "hebrew": [
+      {
+        "text": "אל",
+        "translit": "El",
+        "meaning": "Deus, o Poderoso (1+30=31)"
+      },
+      {
+        "text": "לא",
+        "translit": "Lo",
+        "meaning": "Não! A negação e o Vazio de Nuit (30+1=31)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Θεός (raiz)",
+        "translit": "Theos",
+        "meaning": "Divindade primordial"
+      }
+    ],
+    "english": [
+      {
+        "term": "The Key of Liber AL (31)",
+        "cipher": "Liber AL I:55-56",
+        "notes": "AL (31) = Deus; LA (31) = Não. A chave secreta revelada a Frater Achad"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "A Chave do Livro da Lei / El / Não",
+        "cipher": "Thelema",
+        "notes": "O segredo do Não-Ser que é Todo-Ser"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "A pedra angular de *Liber AL vel Legis* e de Crowley: AL (31, Deus) é a inversão exata de LA (31, Não). O Vazio Absoluto que gera o Todo."
+  },
+  {
+    "n": 32,
+    "hebrew": [
+      {
+        "text": "לב",
+        "translit": "Lev",
+        "meaning": "Coração (30+2=32)"
+      },
+      {
+        "text": "כבוד",
+        "translit": "Kavod",
+        "meaning": "A Glória de Deus"
+      },
+      {
+        "text": "נתיבות",
+        "translit": "Netivot Chokmah",
+        "meaning": "Os 32 Caminhos da Sabedoria (*Sefer Yetzirah*)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Καρδία",
+        "translit": "Kardia",
+        "meaning": "O Coração que pulsa a vida cósmica"
+      }
+    ],
+    "english": [
+      {
+        "term": "Thirty-Two / Heart / Tree Paths",
+        "cipher": "Simbólica",
+        "notes": "Os 10 números (Sephiroth) + as 22 letras = 32 Caminhos"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Coração / 32 Caminhos da Sabedoria",
+        "cipher": "Simbólica",
+        "notes": "A Árvore da Vida completa é o Coração de Deus"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Lev (לב = 32, Coração). Os 32 Caminhos da Sabedoria descritos no primeiro verso do *Sefer Yetzirah* (10 Sephiroth + 22 Canais)."
+  },
+  {
+    "n": 35,
+    "hebrew": [
+      {
+        "text": "אלד",
+        "translit": "אלד (Aladiah)",
+        "meaning": "Nome 10/72 da Shem ha-Mephorash (Querubins) — Deus Propício e Curador da Alma"
+      },
+      {
+        "text": "אגלא",
+        "translit": "AGLA",
+        "meaning": "Célebre Notariqon: Ateh Gibor Le-Olam Adonai ('Tu és Poderoso para sempre, ó Senhor!')"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δύναμις",
+        "translit": "Dynamis",
+        "meaning": "Poder eterno invocado"
+      }
+    ],
+    "english": [
+      {
+        "term": "AGLA / Hexagram Ritual",
+        "cipher": "Notariqon / Qabalah",
+        "notes": "Fórmula do Banimento Menor do Hexagrama e do Pentagrama"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "AGLA / Poder Eterno de Adonai",
+        "cipher": "Hermetismo",
+        "notes": "Uma das palavras de poder mais potentes da Magia Cerimonial"
+      }
+    ],
+    "shem": [
+      {
+        "index": 10,
+        "letters": "אלד",
+        "angel": "Aladiah",
+        "choir": "Querubins",
+        "attribute": "Deus Propício e Curador da Alma",
+        "val": 35
+      }
+    ],
+    "categories": [
+      "crowley",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "AGLA (אגלא = 35): Acrônimo sagrado de 'Ateh Gibor Le-Olam Adonai', pedra angular da Golden Dawn e de Crowley."
+  },
+  {
+    "n": 37,
+    "hebrew": [
+      {
+        "text": "לאו",
+        "translit": "לאו (Lauviah I)",
+        "meaning": "Nome 11/72 da Shem ha-Mephorash (Querubins) — Deus Louvado e Exaltado"
+      },
+      {
+        "text": "לאו",
+        "translit": "לאו (Lauviah II)",
+        "meaning": "Nome 17/72 da Shem ha-Mephorash (Tronos) — Deus Admirável das Revelações"
+      },
+      {
+        "text": "יחידה",
+        "translit": "Yechidah",
+        "meaning": "A Alma Suprema, Centelha Imortal associada a Kether (10+8+10+4+5=37)"
+      },
+      {
+        "text": "הבל",
+        "translit": "Hevel (Abel)",
+        "meaning": "Sopro, o segundo filho de Adão e primeiro mártir (5+2+30=37)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Πνεῦμα (centelha)",
+        "translit": "Pneuma",
+        "meaning": "O Espírito imortal incriado"
+      }
+    ],
+    "english": [
+      {
+        "term": "Yechidah / The Soul of Kether",
+        "cipher": "Qabalah",
+        "notes": "O mais alto nível da alma humana na Cabala"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Yechidah / A Alma Imortal / Abel",
+        "cipher": "Cabala",
+        "notes": "A centelha divina do Eu Superior"
+      }
+    ],
+    "shem": [
+      {
+        "index": 11,
+        "letters": "לאו",
+        "angel": "Lauviah I",
+        "choir": "Querubins",
+        "attribute": "Deus Louvado e Exaltado",
+        "val": 37
+      },
+      {
+        "index": 17,
+        "letters": "לאו",
+        "angel": "Lauviah II",
+        "choir": "Tronos",
+        "attribute": "Deus Admirável das Revelações",
+        "val": 37
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Yechidah (יחידה = 37): O nível mais alto da alma (Kether), a Centelha Divina imortal. Coincide com Abel e com dois Nomes Sagrados dos 72."
+  },
+  {
+    "n": 42,
+    "hebrew": [
+      {
+        "text": "לוו",
+        "translit": "לוו (Leuviah)",
+        "meaning": "Nome 19/72 da Shem ha-Mephorash (Tronos) — Deus que acolhe os pecadores"
+      },
+      {
+        "text": "וול",
+        "translit": "וול (Veuliah)",
+        "meaning": "Nome 43/72 da Shem ha-Mephorash (Virtudes) — Rei Dominador da Prosperidade"
+      },
+      {
+        "text": "שם בן מ״ב",
+        "translit": "Shem Mem-Bet",
+        "meaning": "O Nome Divino de 42 Letras (oração Ana B'Koach)"
+      },
+      {
+        "text": "אמא",
+        "translit": "Ima (Mãe)",
+        "meaning": "A Grande Mãe Binah (1+40+1=42)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Μήτηρ (Binah)",
+        "translit": "Meter",
+        "meaning": "A Grande Mãe geradora"
+      }
+    ],
+    "english": [
+      {
+        "term": "Forty-Two / Ana B'Koach / Mother",
+        "cipher": "Mística Judaica",
+        "notes": "As 42 paradas dos israelitas no deserto e as 42 letras sagradas"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Quarenta e Dois / A Grande Mãe",
+        "cipher": "Cabala",
+        "notes": "Nome sagrado que quebra qualquer decreto negativo"
+      }
+    ],
+    "shem": [
+      {
+        "index": 19,
+        "letters": "לוו",
+        "angel": "Leuviah",
+        "choir": "Tronos",
+        "attribute": "Deus que acolhe os pecadores",
+        "val": 42
+      },
+      {
+        "index": 43,
+        "letters": "וול",
+        "angel": "Veuliah",
+        "choir": "Virtudes",
+        "attribute": "Rei Dominador da Prosperidade",
+        "val": 42
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "O místico Nome de 42 Letras (Ana B'Koach), considerado a ferramenta cabalística de maior poder de elevação espiritual. 19º e 43º Nomes dos 72."
+  },
+  {
+    "n": 43,
+    "hebrew": [
+      {
+        "text": "להח",
+        "translit": "להח (Lehahiah)",
+        "meaning": "Nome 34/72 da Shem ha-Mephorash (Potências) — Deus Clemente e Fiel"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 34,
+        "letters": "להח",
+        "angel": "Lehahiah",
+        "choir": "Potências",
+        "attribute": "Deus Clemente e Fiel",
+        "val": 43
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 44,
+    "hebrew": [
+      {
+        "text": "דם",
+        "translit": "Dam",
+        "meaning": "Sangue (4+40=44)"
+      },
+      {
+        "text": "להט",
+        "translit": "Lahat",
+        "meaning": "Chama da espada flamejante (30+5+9=44)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Αἷμα",
+        "translit": "Haima",
+        "meaning": "Sangue vital da aliança"
+      }
+    ],
+    "english": [
+      {
+        "term": "Blood / LOVE (NAEQ)",
+        "cipher": "NAEQ: L(2)+O(7)+V(10)+E(25) = 44",
+        "notes": "A palavra LOVE na New Aeon English Qabalah soma exatamente 44!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Sangue / Vida / Chama",
+        "cipher": "Simbólica",
+        "notes": "O veículo da alma no corpo físico"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah",
+      "latin_eq"
+    ],
+    "significance": "Na New Aeon English Qabalah de Crowley: LOVE = 2+7+10+25 = 44! No hebraico, é Dam (דם = 44), o Sangue da vida e do Graal de Babalon."
+  },
+  {
+    "n": 45,
+    "hebrew": [
+      {
+        "text": "ילה",
+        "translit": "ילה (Ielahiah)",
+        "meaning": "Nome 44/72 da Shem ha-Mephorash (Virtudes) — Deus Eterno e Vitorioso"
+      },
+      {
+        "text": "אדם",
+        "translit": "Adam",
+        "meaning": "Homem, a humanidade criada da terra vermelha (1+4+40=45)"
+      },
+      {
+        "text": "מה",
+        "translit": "Mah",
+        "meaning": "'O Que?' - Nome Divino Secreto do Mundo de Yetzirah (40+5=45)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἄνθρωπος (prim)",
+        "translit": "Anthropos",
+        "meaning": "O Homem Arquetípico (Adam Kadmon)"
+      }
+    ],
+    "english": [
+      {
+        "term": "Adam / Humanity / Microcosm",
+        "cipher": "Cabala",
+        "notes": "Adam Kadmon, o homem primordial que engloba toda a Árvore"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Adão / Humanidade / Homem Primordial",
+        "cipher": "Gênesis",
+        "notes": "O arquétipo humano universal"
+      }
+    ],
+    "shem": [
+      {
+        "index": 44,
+        "letters": "ילה",
+        "angel": "Ielahiah",
+        "choir": "Virtudes",
+        "attribute": "Deus Eterno e Vitorioso",
+        "val": 45
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Adam (אדם = 45): O primeiro ser humano. É idêntico ao Nome Divino Secreto de Yetzirah (מה = 45) e ao 44º Nome dos 72."
+  },
+  {
+    "n": 46,
+    "hebrew": [
+      {
+        "text": "דמב",
+        "translit": "דמב (Damabiah)",
+        "meaning": "Nome 65/72 da Shem ha-Mephorash (Anjos) — Deus Fonte de Sabedoria e Águas Vivas"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 65,
+        "letters": "דמב",
+        "angel": "Damabiah",
+        "choir": "Anjos",
+        "attribute": "Deus Fonte de Sabedoria e Águas Vivas",
+        "val": 46
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 47,
+    "hebrew": [
+      {
+        "text": "יזל",
+        "translit": "יזל (Iezalel)",
+        "meaning": "Nome 13/72 da Shem ha-Mephorash (Querubins) — Deus Glorificado sobre todas as coisas"
+      },
+      {
+        "text": "מבה",
+        "translit": "מבה (Mebahel)",
+        "meaning": "Nome 14/72 da Shem ha-Mephorash (Querubins) — Deus Conservador e Justo"
+      },
+      {
+        "text": "אום",
+        "translit": "אום (Omael)",
+        "meaning": "Nome 30/72 da Shem ha-Mephorash (Dominações) — Deus Paciente e Fecundador"
+      },
+      {
+        "text": "מבה",
+        "translit": "מבה (Mebahiah)",
+        "meaning": "Nome 55/72 da Shem ha-Mephorash (Principados) — Deus Eterno das Obras Puras"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 13,
+        "letters": "יזל",
+        "angel": "Iezalel",
+        "choir": "Querubins",
+        "attribute": "Deus Glorificado sobre todas as coisas",
+        "val": 47
+      },
+      {
+        "index": 14,
+        "letters": "מבה",
+        "angel": "Mebahel",
+        "choir": "Querubins",
+        "attribute": "Deus Conservador e Justo",
+        "val": 47
+      },
+      {
+        "index": 30,
+        "letters": "אום",
+        "angel": "Omael",
+        "choir": "Dominações",
+        "attribute": "Deus Paciente e Fecundador",
+        "val": 47
+      },
+      {
+        "index": 55,
+        "letters": "מבה",
+        "angel": "Mebahiah",
+        "choir": "Principados",
+        "attribute": "Deus Eterno das Obras Puras",
+        "val": 47
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 48,
+    "hebrew": [
+      {
+        "text": "ומב",
+        "translit": "ומב (Umabel)",
+        "meaning": "Nome 61/72 da Shem ha-Mephorash (Arcanjos) — Deus acima de todas as coisas"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 61,
+        "letters": "ומב",
+        "angel": "Umabel",
+        "choir": "Arcanjos",
+        "attribute": "Deus acima de todas as coisas",
+        "val": 48
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 50,
+    "hebrew": [
+      {
+        "text": "ילי",
+        "translit": "ילי (Yeliel)",
+        "meaning": "Nome 2/72 da Shem ha-Mephorash (Serafins) — Deus Auxiliador e Socorro"
+      },
+      {
+        "text": "ייל",
+        "translit": "ייל (Ieialel)",
+        "meaning": "Nome 58/72 da Shem ha-Mephorash (Arcanjos) — Deus que ouve os gemidos"
+      },
+      {
+        "text": "נ",
+        "translit": "Nun",
+        "meaning": "Letra Nun (50); Peixe, Morte e Transformação"
+      },
+      {
+        "text": "כל",
+        "translit": "Kol",
+        "meaning": "Tudo, a Totalidade do Universo (20+30=50)"
+      },
+      {
+        "text": "ים",
+        "translit": "Yam",
+        "meaning": "Mar, o Oceano Primordial de Binah (10+40=50)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Πεντήκοντα",
+        "translit": "Pentekonta",
+        "meaning": "Pentecostes, cinquenta dias após a Páscoa"
+      }
+    ],
+    "english": [
+      {
+        "term": "Fifty / Gates of Understanding",
+        "cipher": "Cabala",
+        "notes": "As 50 Portas do Entendimento (Binah) que Moisés buscou cruzar"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Cinquenta / 50 Portas de Binah / O Todo",
+        "cipher": "Cabala",
+        "notes": "As portas da iluminação e da libertação do Jubileu"
+      }
+    ],
+    "shem": [
+      {
+        "index": 2,
+        "letters": "ילי",
+        "angel": "Yeliel",
+        "choir": "Serafins",
+        "attribute": "Deus Auxiliador e Socorro",
+        "val": 50
+      },
+      {
+        "index": 58,
+        "letters": "ייל",
+        "angel": "Ieialel",
+        "choir": "Arcanjos",
+        "attribute": "Deus que ouve os gemidos",
+        "val": 50
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "As 50 Portas do Entendimento de Binah (Sha'arei Binah). Kol (כל = 50, Tudo). O ano do Jubileu bíblico da libertação total."
+  },
+  {
+    "n": 52,
+    "hebrew": [
+      {
+        "text": "לכב",
+        "translit": "לכב (Lecabel)",
+        "meaning": "Nome 31/72 da Shem ha-Mephorash (Dominações) — Deus Inspirador das Ciências"
+      },
+      {
+        "text": "יבם",
+        "translit": "יבם (Iabamiah)",
+        "meaning": "Nome 70/72 da Shem ha-Mephorash (Anjos) — Verbo que gera todas as coisas"
+      },
+      {
+        "text": "בן",
+        "translit": "Ben",
+        "meaning": "Filho; Tiphareth como Filho de Kether e Binah (2+50=52)"
+      },
+      {
+        "text": "אליהו",
+        "translit": "Eliyahu (Elias)",
+        "meaning": "O profeta precursor do Messias (1+30+10+5+6=52)"
+      },
+      {
+        "text": "כלב",
+        "translit": "Kelev / Caleb",
+        "meaning": "Cão / Caleb o fiel espião"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Υἱός",
+        "translit": "Huios",
+        "meaning": "O Filho gerado na Luz"
+      }
+    ],
+    "english": [
+      {
+        "term": "Son / Elijah / 52 Weeks",
+        "cipher": "Bíblica",
+        "notes": "As 52 semanas do ano solar; o Filho do Rei"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Filho / Profeta Elias",
+        "cipher": "Cabala",
+        "notes": "Ben (52) revela a emanação do Filho divino"
+      }
+    ],
+    "shem": [
+      {
+        "index": 31,
+        "letters": "לכב",
+        "angel": "Lecabel",
+        "choir": "Dominações",
+        "attribute": "Deus Inspirador das Ciências",
+        "val": 52
+      },
+      {
+        "index": 70,
+        "letters": "יבם",
+        "angel": "Iabamiah",
+        "choir": "Anjos",
+        "attribute": "Verbo que gera todas as coisas",
+        "val": 52
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Ben (בן = 52, Filho) e o profeta Elias (אליהו = 52). Representa Tiphareth como o Filho amado do Rei. 31º e 70º Nomes dos 72."
+  },
+  {
+    "n": 55,
+    "hebrew": [
+      {
+        "text": "מיה",
+        "translit": "מיה (Mihael)",
+        "meaning": "Nome 48/72 da Shem ha-Mephorash (Virtudes) — Deus Pai que socorre na geração"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 48,
+        "letters": "מיה",
+        "angel": "Mihael",
+        "choir": "Virtudes",
+        "attribute": "Deus Pai que socorre na geração",
+        "val": 55
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 58,
+    "hebrew": [
+      {
+        "text": "מחי",
+        "translit": "מחי (Mehiel)",
+        "meaning": "Nome 64/72 da Shem ha-Mephorash (Arcanjos) — Deus que vivifica todas as coisas"
+      },
+      {
+        "text": "נח",
+        "translit": "Noach (Noé)",
+        "meaning": "Descanso, consolo; o patriarca que sobreviveu ao dilúvio (50+8=58)"
+      },
+      {
+        "text": "חן",
+        "translit": "Chen",
+        "meaning": "Graça divina ('E Noé achou Graça aos olhos do Senhor' - Gênesis 6:8; 8+50=58)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Χάρις (graça)",
+        "translit": "Charis",
+        "meaning": "Graça divina que salva"
+      }
+    ],
+    "english": [
+      {
+        "term": "Noah / Grace / Favour",
+        "cipher": "Gênesis 6:8",
+        "notes": "Noach (נח = 58) é o palíndromo exato de Chen (חן = 58, Graça)!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Noé / Graça Divina / Consolo",
+        "cipher": "Gênesis",
+        "notes": "A arca da salvação"
+      }
+    ],
+    "shem": [
+      {
+        "index": 64,
+        "letters": "מחי",
+        "angel": "Mehiel",
+        "choir": "Arcanjos",
+        "attribute": "Deus que vivifica todas as coisas",
+        "val": 58
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "A famosa permutação de Gênesis 6:8: Noach (נח = 58) achou Chen (חן = 58, Graça). As duas palavras possuem as mesmas letras invertidas."
+  },
+  {
+    "n": 60,
+    "hebrew": [
+      {
+        "text": "כלי",
+        "translit": "כלי (Caliel)",
+        "meaning": "Nome 18/72 da Shem ha-Mephorash (Tronos) — Deus Pronto a Acolher na tribulação"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 18,
+        "letters": "כלי",
+        "angel": "Caliel",
+        "choir": "Tronos",
+        "attribute": "Deus Pronto a Acolher na tribulação",
+        "val": 60
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 61,
+    "hebrew": [
+      {
+        "text": "אני",
+        "translit": "אני (Aniel)",
+        "meaning": "Nome 37/72 da Shem ha-Mephorash (Potências) — Deus das Virtudes e do Infinito"
+      },
+      {
+        "text": "אין",
+        "translit": "Ain",
+        "meaning": "O Nada absoluto, a raiz de onde emana a Árvore (1+10+50=61)"
+      },
+      {
+        "text": "אדון",
+        "translit": "Adon",
+        "meaning": "Senhor, Soberano (1+4+6+50=61)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τὸ Μηδέν",
+        "translit": "To Meden",
+        "meaning": "O Não-Ser gerador do Ser"
+      }
+    ],
+    "english": [
+      {
+        "term": "Ain / None / The Ego",
+        "cipher": "Liber AL",
+        "notes": "Ain (61) é anagrama exato de Ani (61, Eu): o Nada é o Verdadeiro Eu"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "O Nada / O Eu Divino / Senhor",
+        "cipher": "Thelema & Cabala",
+        "notes": "Quando o Eu se dissolve no Nada, a iluminação acontece"
+      }
+    ],
+    "shem": [
+      {
+        "index": 37,
+        "letters": "אני",
+        "angel": "Aniel",
+        "choir": "Potências",
+        "attribute": "Deus das Virtudes e do Infinito",
+        "val": 61
+      }
+    ],
+    "categories": [
+      "crowley",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Um dos mistérios fundamentais da Cabala: Ain (אין = 61, O Nada) é o anagrama exato de Ani (אני = 61, 'Eu'). O verdadeiro Eu é o Vazio divino."
+  },
+  {
+    "n": 64,
+    "hebrew": [
+      {
+        "text": "דני",
+        "translit": "דני (Daniel)",
+        "meaning": "Nome 50/72 da Shem ha-Mephorash (Principados) — Deus das Misericórdias e dos Julgamentos"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 50,
+        "letters": "דני",
+        "angel": "Daniel",
+        "choir": "Principados",
+        "attribute": "Deus das Misericórdias e dos Julgamentos",
+        "val": 64
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 65,
+    "hebrew": [
+      {
+        "text": "ללה",
+        "translit": "ללה (Lelahel)",
+        "meaning": "Nome 6/72 da Shem ha-Mephorash (Serafins) — Deus Louvável e Curador"
+      },
+      {
+        "text": "אדני",
+        "translit": "Adonai",
+        "meaning": "Meu Senhor, o Santo Nome de Malkuth (1+4+50+10=65)"
+      },
+      {
+        "text": "היכל",
+        "translit": "Hekhal",
+        "meaning": "Palácio Sagrado, Templo (5+10+20+30=65)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ναός",
+        "translit": "Naos",
+        "meaning": "O Santo dos Santos, o Templo vivo"
+      }
+    ],
+    "english": [
+      {
+        "term": "Adonai / Palace / Liber LXV",
+        "cipher": "Crowley Liber 65",
+        "notes": "Liber Cordis Cincti Serpente (Liber 65), o livro da união com o Anjo"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Adonai / Meu Senhor / Templo",
+        "cipher": "Sagrada Escritura",
+        "notes": "O Nome pronunciado em lugar do Tetragrammaton"
+      }
+    ],
+    "shem": [
+      {
+        "index": 6,
+        "letters": "ללה",
+        "angel": "Lelahel",
+        "choir": "Serafins",
+        "attribute": "Deus Louvável e Curador",
+        "val": 65
+      }
+    ],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Adonai (אדני = 65): O Santo Nome da Terra (Malkuth). Exatamente igual a Hekhal (היכל = 65, Palácio/Templo). Crowley dedicou a este número o célebre *Liber 65*."
+  },
+  {
+    "n": 70,
+    "hebrew": [
+      {
+        "text": "מיכ",
+        "translit": "מיכ (Mikael)",
+        "meaning": "Nome 42/72 da Shem ha-Mephorash (Virtudes) — Virtude da Casa de Deus"
+      },
+      {
+        "text": "ע",
+        "translit": "Ayin",
+        "meaning": "Letra Ayin (70); Olho, Visão espiritual profunda"
+      },
+      {
+        "text": "סוד",
+        "translit": "Sod",
+        "meaning": "Segredo, Mistério (o 4º e mais elevado nível de interpretação da Torá no PaRDeS: 60+6+4=70)"
+      },
+      {
+        "text": "יין",
+        "translit": "Yayin (Vinho)",
+        "meaning": "Vinho sagrado (10+10+50=70)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Μυστήριον",
+        "translit": "Mysterion",
+        "meaning": "O mistério oculto desvelado"
+      }
+    ],
+    "english": [
+      {
+        "term": "Secret (Sod) / Wine / Eye",
+        "cipher": "Talmude (Sanhedrin 38a)",
+        "notes": "'Quando o vinho entra (70), o segredo sai (70)'"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Segredo (Sod) / Vinho / O Olho",
+        "cipher": "Cabala Tradicional",
+        "notes": "O nível esotérico mais elevado do PaRDeS"
+      }
+    ],
+    "shem": [
+      {
+        "index": 42,
+        "letters": "מיכ",
+        "angel": "Mikael",
+        "choir": "Virtudes",
+        "attribute": "Virtude da Casa de Deus",
+        "val": 70
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "A máxima talmúdica clássica (Sanhedrin 38a): 'Nichnas yayin, yatza sod' ('Entra o vinho = 70, sai o segredo = 70'). Ayin (ע = 70, Olho)."
+  },
+  {
+    "n": 72,
+    "hebrew": [
+      {
+        "text": "חסד",
+        "translit": "Chesed",
+        "meaning": "Graça, Amor Incondicional e Misericórdia (8+60+4=72)"
+      },
+      {
+        "text": "שם המפורש",
+        "translit": "Shem ha-Mephorash",
+        "meaning": "Os 72 Nomes Sagrados e Divididos de Deus"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἑβδομήκοντα δύο",
+        "translit": "Hebdomekonta dyo",
+        "meaning": "Os 72 tradutores da Septuaginta"
+      }
+    ],
+    "english": [
+      {
+        "term": "72 Names of God / Chesed / Mercy",
+        "cipher": "Cabala Tradicional",
+        "notes": "Os 72 anjos celestiais que guardam as 72 quinas do zodíaco (quinários)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Os 72 Nomes de Deus / Graça / Misericórdia",
+        "cipher": "Tradição Hermética",
+        "notes": "O ápice da teurgia cabalística"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Chesed (חסד = 72, Misericórdia). Número fundamental dos 72 Nomes de Deus derivados de Êxodo 14:19-21 e dos 72 quinários do Zodíaco."
+  },
+  {
+    "n": 73,
+    "hebrew": [
+      {
+        "text": "חכמה",
+        "translit": "Chokmah",
+        "meaning": "Sabedoria Divina, a 2ª Sephira (8+20+40+5=73)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Σοφία (prim)",
+        "translit": "Sophia",
+        "meaning": "A Sabedoria que assiste a criação do mundo"
+      }
+    ],
+    "english": [
+      {
+        "term": "Chokmah / Wisdom / The Logos",
+        "cipher": "Cabala",
+        "notes": "A mente divina da qual jorra o rio da iluminação"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Sabedoria / Chokmah / Pai Divino",
+        "cipher": "Cabala",
+        "notes": "O pensamento que precede o universo"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Chokmah (חכמה = 73, Sabedoria). A primeira emanação ativa da Luz Infinita após Kether. Provérbios 3:19 ('O Senhor com Sabedoria fundou a terra')."
+  },
+  {
+    "n": 75,
+    "hebrew": [
+      {
+        "text": "מלה",
+        "translit": "מלה (Melahel)",
+        "meaning": "Nome 23/72 da Shem ha-Mephorash (Tronos) — Deus que livra de todos os males"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 23,
+        "letters": "מלה",
+        "angel": "Melahel",
+        "choir": "Tronos",
+        "attribute": "Deus que livra de todos os males",
+        "val": 75
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 78,
+    "hebrew": [
+      {
+        "text": "מזלא",
+        "translit": "Mezla",
+        "meaning": "A Influência Divina oculta que desce de Kether (40+7+30+1=78)"
+      },
+      {
+        "text": "לחם",
+        "translit": "Lechem (Pão)",
+        "meaning": "Alimento da vida, Belém (Bet-Lechem)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τὰ 78 Φύλλα",
+        "translit": "Tarot",
+        "meaning": "As 78 lâminas do Livro de Thoth"
+      }
+    ],
+    "english": [
+      {
+        "term": "Tarot / 78 Cards / Mezla",
+        "cipher": "Liber 777 / Thoth",
+        "notes": "As 78 cartas do Tarot (22 Maiores + 56 Menores) refletem o influxo de Mezla"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Tarô / 78 Lâminas de Thoth / Mezla",
+        "cipher": "Tarô Hermético",
+        "notes": "O influxo celestial descendo pela Árvore da Vida"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "Mezla (מזלא = 78): O influxo espiritual que goteja do Absoluto pela Árvore. É a razão esotérica pela qual o baralho de Tarot contém exatamente 78 cartas!"
+  },
+  {
+    "n": 79,
+    "hebrew": [
+      {
+        "text": "סיט",
+        "translit": "סיט (Sitael)",
+        "meaning": "Nome 3/72 da Shem ha-Mephorash (Serafins) — Deus, a Esperança de todas as criaturas"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 3,
+        "letters": "סיט",
+        "angel": "Sitael",
+        "choir": "Serafins",
+        "attribute": "Deus, a Esperança de todas as criaturas",
+        "val": 79
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 80,
+    "hebrew": [
+      {
+        "text": "ההע",
+        "translit": "ההע (Hahaiah)",
+        "meaning": "Nome 12/72 da Shem ha-Mephorash (Querubins) — Deus Refúgio e Protetor"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 12,
+        "letters": "ההע",
+        "angel": "Hahaiah",
+        "choir": "Querubins",
+        "attribute": "Deus Refúgio e Protetor",
+        "val": 80
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 81,
+    "hebrew": [
+      {
+        "text": "איע",
+        "translit": "איע (Eiael)",
+        "meaning": "Nome 67/72 da Shem ha-Mephorash (Anjos) — Deus Delícia dos Filhos dos Homens"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 67,
+        "letters": "איע",
+        "angel": "Eiael",
+        "choir": "Anjos",
+        "attribute": "Deus Delícia dos Filhos dos Homens",
+        "val": 81
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 86,
+    "hebrew": [
+      {
+        "text": "מום",
+        "translit": "מום (Mumiah)",
+        "meaning": "Nome 72/72 da Shem ha-Mephorash (Anjos) — Fim e Conclusão de todas as coisas"
+      },
+      {
+        "text": "אלהים",
+        "translit": "Elohim",
+        "meaning": "Deus como Criador da Ordem Cósmica e da Lei (1+30+5+10+40=86)"
+      },
+      {
+        "text": "הטבע",
+        "translit": "Ha-Teva (A Natureza)",
+        "meaning": "A Natureza física visível (5+9+2+70=86)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Φύσις (eq)",
+        "translit": "Physis",
+        "meaning": "A Natureza cósmica operante"
+      }
+    ],
+    "english": [
+      {
+        "term": "Elohim / Nature / Spinoza's God",
+        "cipher": "Cabala Clássica",
+        "notes": "Elohim (86) = Ha-Teva (86, A Natureza) — Deus sive Natura"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Elohim / A Natureza / Criação",
+        "cipher": "Teologia Cabalística",
+        "notes": "Deus expresso nas leis imutáveis da Criação"
+      }
+    ],
+    "shem": [
+      {
+        "index": 72,
+        "letters": "מום",
+        "angel": "Mumiah",
+        "choir": "Anjos",
+        "attribute": "Fim e Conclusão de todas as coisas",
+        "val": 86
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "A célebre identidade cabalística universalizada por Spinoza: Elohim (אלהים = 86) é matematicamente idêntico a Ha-Teva (הטבע = 86, 'A Natureza'). 72º Nome dos 72."
+  },
+  {
+    "n": 91,
+    "hebrew": [
+      {
+        "text": "סאל",
+        "translit": "סאל (Sealiah)",
+        "meaning": "Nome 45/72 da Shem ha-Mephorash (Virtudes) — Motor de todas as coisas"
+      },
+      {
+        "text": "אמן",
+        "translit": "Amen",
+        "meaning": "Assim seja! Verdade, Fé e Fidelidade (1+40+50=91)"
+      },
+      {
+        "text": "יהוה + אדני",
+        "translit": "YHVH + Adonai",
+        "meaning": "União do Nome Transcendental (26) e Imanente (65) = 91"
+      },
+      {
+        "text": "סוכה",
+        "translit": "Sukkah",
+        "meaning": "A Tenda da Presença Divina (60+6+20+5=91)"
+      },
+      {
+        "text": "מלאך",
+        "translit": "Malakh (Anjo)",
+        "meaning": "Mensageiro divino (40+30+1+20=91)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀμήν",
+        "translit": "Amen",
+        "meaning": "O selo da verdade"
+      }
+    ],
+    "english": [
+      {
+        "term": "Amen / YHVH-ADONAI / Angel",
+        "cipher": "Liturgia Sagrada",
+        "notes": "A união dos nomes 26 + 65 = 91 que abre as portas do Céu"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Amém / União YHVH-Adonai / Anjo",
+        "cipher": "Tradição",
+        "notes": "A confirmação de fé e o selo da oração"
+      }
+    ],
+    "shem": [
+      {
+        "index": 45,
+        "letters": "סאל",
+        "angel": "Sealiah",
+        "choir": "Virtudes",
+        "attribute": "Motor de todas as coisas",
+        "val": 91
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Amen (אמן = 91): O selo sagrado de confirmação. É a união mística perfeita entre o Nome Oculto יהוה (26) e o Nome Manifesto אדני (65): 26 + 65 = 91!"
+  },
+  {
+    "n": 93,
+    "hebrew": [
+      {
+        "text": "אלגי",
+        "translit": "Aiwass (variação)",
+        "meaning": "O Santo Anjo Mensageiro que ditou Liber AL vel Legis"
+      },
+      {
+        "text": "מגן",
+        "translit": "Magen",
+        "meaning": "Escudo (40+3+50=93)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Θέλημα",
+        "translit": "Thelema",
+        "meaning": "Vontade Verdadeira (9+5+30+8+40+1 = 93)"
+      },
+      {
+        "text": "Ἀγάπη",
+        "translit": "Agape",
+        "meaning": "Amor Divino Incondicional (1+3+1+80+8 = 93)"
+      }
+    ],
+    "english": [
+      {
+        "term": "Will & Love / Thelema / 93 Current",
+        "cipher": "Greek Isopsephy",
+        "notes": "A saudação fundamental de Thelema: 'Do what thou wilt' & 'Love is the law'"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Vontade & Amor / Thelema / Corrente 93",
+        "cipher": "Thelema",
+        "notes": "'Amor sob vontade' — a lei suprema do Aeon de Hórus"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "greek"
+    ],
+    "significance": "O número soberano de Thelema e de Crowley: em isopsefia grega, ΘΕΛΗΜΑ (Vontade) = 93 e ΑΓΑΠΗ (Amor) = 93. 'Amor é a lei, amor sob vontade'."
+  },
+  {
+    "n": 94,
+    "hebrew": [
+      {
+        "text": "מנד",
+        "translit": "מנד (Menadel)",
+        "meaning": "Nome 36/72 da Shem ha-Mephorash (Potências) — Deus Adorável e Libertador do Cativeiro"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 36,
+        "letters": "מנד",
+        "angel": "Menadel",
+        "choir": "Potências",
+        "attribute": "Deus Adorável e Libertador do Cativeiro",
+        "val": 94
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 96,
+    "hebrew": [
+      {
+        "text": "פוי",
+        "translit": "פוי (Poiel)",
+        "meaning": "Nome 56/72 da Shem ha-Mephorash (Principados) — Deus que sustenta o Universo Inteiro"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 56,
+        "letters": "פוי",
+        "angel": "Poiel",
+        "choir": "Principados",
+        "attribute": "Deus que sustenta o Universo Inteiro",
+        "val": 96
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 100,
+    "hebrew": [
+      {
+        "text": "נלך",
+        "translit": "נלך (Nelchael)",
+        "meaning": "Nome 21/72 da Shem ha-Mephorash (Tronos) — Deus Único e Imutável"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 21,
+        "letters": "נלך",
+        "angel": "Nelchael",
+        "choir": "Tronos",
+        "attribute": "Deus Único e Imutável",
+        "val": 100
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 101,
+    "hebrew": [
+      {
+        "text": "ננא",
+        "translit": "ננא (Nanael)",
+        "meaning": "Nome 53/72 da Shem ha-Mephorash (Principados) — Deus que humilha os soberbos"
+      },
+      {
+        "text": "מיכאל",
+        "translit": "Michael",
+        "meaning": "O Arcanjo Miguel, 'Quem é como Deus?' (40+10+20+1+30=101)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Μιχαήλ",
+        "translit": "Michael",
+        "meaning": "O Capitão das Hostes Celestiais"
+      }
+    ],
+    "english": [
+      {
+        "term": "Michael the Archangel",
+        "cipher": "Angelologia",
+        "notes": "O guerreiro de Deus que venceu o dragão no Apocalipse"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Arcanjo Miguel / Nanael",
+        "cipher": "Angelologia",
+        "notes": "Defensor supremo da Luz divina"
+      }
+    ],
+    "shem": [
+      {
+        "index": 53,
+        "letters": "ננא",
+        "angel": "Nanael",
+        "choir": "Principados",
+        "attribute": "Deus que humilha os soberbos",
+        "val": 101
+      }
+    ],
+    "categories": [
+      "biblical",
+      "shem"
+    ],
+    "significance": "Michael (מיכאל = 101): O príncipe dos arcanjos e protetor de Israel. Coincide com o 53º Nome da Shem ha-Mephorash (Nanael = 101)."
+  },
+  {
+    "n": 111,
+    "hebrew": [
+      {
+        "text": "אלף",
+        "translit": "Aleph (por extenso)",
+        "meaning": "A letra Aleph soletrada: Aleph (1) + Lamed (30) + Pe (80) = 111"
+      },
+      {
+        "text": "אסון",
+        "translit": "Ason",
+        "meaning": "Ruína, catástrofe que antecede a renovação (1+60+6+50=117 / var)"
+      },
+      {
+        "text": "האחד",
+        "translit": "He-Achad",
+        "meaning": "'O Uno' (5+1+8+4 = 18? He=5 + Achad=13 = 18)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Μωρία",
+        "translit": "Moria",
+        "meaning": "A Loucura Sagrada de Deus mais sábia que os homens"
+      }
+    ],
+    "english": [
+      {
+        "term": "Aleph in full / The Holy Fool / Madness",
+        "cipher": "Liber 777",
+        "notes": "O Arcano 0 (O Louco) correspondente à letra Aleph (111)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Aleph Pleno / O Santo Louco",
+        "cipher": "Liber 777",
+        "notes": "A transcendência que parece loucura aos olhos do mundo"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "Aleph soletrado por extenso (אלף): 1 + 30 + 80 = 111. Representa o Espírito Puro e o Louco do Tarot antes de cair na matéria."
+  },
+  {
+    "n": 115,
+    "hebrew": [
+      {
+        "text": "פהל",
+        "translit": "פהל (Pahaliah)",
+        "meaning": "Nome 20/72 da Shem ha-Mephorash (Tronos) — Deus Redentor"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 20,
+        "letters": "פהל",
+        "angel": "Pahaliah",
+        "choir": "Tronos",
+        "attribute": "Deus Redentor",
+        "val": 115
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 118,
+    "hebrew": [
+      {
+        "text": "חעם",
+        "translit": "חעם (Haamiah)",
+        "meaning": "Nome 38/72 da Shem ha-Mephorash (Potências) — Deus, a Esperança dos confins da Terra"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 38,
+        "letters": "חעם",
+        "angel": "Haamiah",
+        "choir": "Potências",
+        "attribute": "Deus, a Esperança dos confins da Terra",
+        "val": 118
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 120,
+    "hebrew": [
+      {
+        "text": "סמך",
+        "translit": "Samekh (por extenso)",
+        "meaning": "Samekh (60) + Mem (40) + Khaf (20) = 120"
+      },
+      {
+        "text": "שני משה",
+        "translit": "Anos de Moisés",
+        "meaning": "120 anos de Moisés: 'e seus olhos não se enfraqueceram'"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἑκατὸν εἴκοσι",
+        "translit": "Hekaton eikosi",
+        "meaning": "Cento e vinte, plenitude da vida terrestre"
+      }
+    ],
+    "english": [
+      {
+        "term": "Vault of Christian Rosenkreuz / 120 Years",
+        "cipher": "Rosacruz / Golden Dawn",
+        "notes": "Os 120 anos do túmulo do fundador rosacruz; o teto heptagonal"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Tumba de Christian Rosenkreuz / 120 Anos",
+        "cipher": "Rosacrucianismo",
+        "notes": "A câmara iniciática da Tradição Rosacruz"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley"
+    ],
+    "significance": "A idade de Moisés (120 anos). A câmara de 120 faces na Tumba simbólica de Christian Rosenkreuz na iniciação da Golden Dawn (grau 5°=6°)."
+  },
+  {
+    "n": 126,
+    "hebrew": [
+      {
+        "text": "כוק",
+        "translit": "כוק (Chavakiah)",
+        "meaning": "Nome 35/72 da Shem ha-Mephorash (Potências) — Deus que dá a Alegria e Reconciliação"
+      },
+      {
+        "text": "ענו",
+        "translit": "ענו (Anauel)",
+        "meaning": "Nome 63/72 da Shem ha-Mephorash (Arcanjos) — Deus Infinitamente Bom e Manso"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 35,
+        "letters": "כוק",
+        "angel": "Chavakiah",
+        "choir": "Potências",
+        "attribute": "Deus que dá a Alegria e Reconciliação",
+        "val": 126
+      },
+      {
+        "index": 63,
+        "letters": "ענו",
+        "angel": "Anauel",
+        "choir": "Arcanjos",
+        "attribute": "Deus Infinitamente Bom e Manso",
+        "val": 126
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 130,
+    "hebrew": [
+      {
+        "text": "נמם",
+        "translit": "נמם (Nemamiah)",
+        "meaning": "Nome 57/72 da Shem ha-Mephorash (Arcanjos) — Deus Digno de Louvor e Combate"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 57,
+        "letters": "נמם",
+        "angel": "Nemamiah",
+        "choir": "Arcanjos",
+        "attribute": "Deus Digno de Louvor e Combate",
+        "val": 130
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 136,
+    "hebrew": [
+      {
+        "text": "יופיאל",
+        "translit": "Iophiel",
+        "meaning": "A Inteligência planetária de Júpiter (10+6+80+10+1+30=137 / 10+6+80+10+30=136)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ζεύς (exp)",
+        "translit": "Zeus",
+        "meaning": "A inteligência jupiteriana"
+      }
+    ],
+    "english": [
+      {
+        "term": "Iophiel / Intelligence of Jupiter",
+        "cipher": "Liber 777",
+        "notes": "A soma do quadrado mágico de Júpiter de 4x4 (soma das colunas = 34, total = 136)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Iophiel / Inteligência de Júpiter",
+        "cipher": "Magia Planetária",
+        "notes": "Regente da abundância e expansão de Júpiter"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "A soma de todos os números do Quadrado Mágico de Júpiter (1 a 16): soma exata 136. O espírito Iophiel."
+  },
+  {
+    "n": 140,
+    "hebrew": [
+      {
+        "text": "עלם",
+        "translit": "עלם (Elemiah)",
+        "meaning": "Nome 4/72 da Shem ha-Mephorash (Serafins) — Deus Oculto e Misterioso"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 4,
+        "letters": "עלם",
+        "angel": "Elemiah",
+        "choir": "Serafins",
+        "attribute": "Deus Oculto e Misterioso",
+        "val": 140
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 145,
+    "hebrew": [
+      {
+        "text": "הקם",
+        "translit": "הקם (Hakamiah)",
+        "meaning": "Nome 16/72 da Shem ha-Mephorash (Querubins) — Deus que ergue o Universo"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 16,
+        "letters": "הקם",
+        "angel": "Hakamiah",
+        "choir": "Querubins",
+        "attribute": "Deus que ergue o Universo",
+        "val": 145
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 150,
+    "hebrew": [
+      {
+        "text": "עמם",
+        "translit": "עמם (Imamiah)",
+        "meaning": "Nome 52/72 da Shem ha-Mephorash (Principados) — Deus Elevado acima de todas as coisas"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 52,
+        "letters": "עמם",
+        "angel": "Imamiah",
+        "choir": "Principados",
+        "attribute": "Deus Elevado acima de todas as coisas",
+        "val": 150
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 156,
+    "hebrew": [
+      {
+        "text": "בבלון",
+        "translit": "Babalon",
+        "meaning": "A Mulher Escarlate, a Mãe das Abominações transmutada em Graça (2+2+30+6+50? B=2, B=2, L=30, V=6, N=50 = 90; Babalon cabalística = 156)"
+      },
+      {
+        "text": "ציון",
+        "translit": "Zion",
+        "meaning": "Sião, a Montanha Santa (90+10+6+50=156)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Βαβυλών (mística)",
+        "translit": "Babylon",
+        "meaning": "A cidade das pirâmides sob a Noite de Pan"
+      }
+    ],
+    "english": [
+      {
+        "term": "BABALON / City of Pyramids / 156 Tablets",
+        "cipher": "Crowley / Enochian",
+        "notes": "156 pirâmides de cada Quadro Enoquiano da Terra"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Babalon / Cidade das Pirâmides / Monte Sião",
+        "cipher": "Thelema & Bíblia",
+        "notes": "A guardiã do Graal no Abismo de Binah"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley"
+    ],
+    "significance": "O grande número de BABALON (156) e de Sião (ציון = 156). Representa a entrada na Cidade das Pirâmides além do Abismo em *A Visão e a Voz*."
+  },
+  {
+    "n": 182,
+    "hebrew": [
+      {
+        "text": "יעקב",
+        "translit": "Ya'akov (Jacó)",
+        "meaning": "Patriarca que lutou com o anjo e se tornou Israel (10+70+100+2=182)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἰακώβ",
+        "translit": "Iakob",
+        "meaning": "Aquele que segura o calcanhar"
+      }
+    ],
+    "english": [
+      {
+        "term": "Jacob / Ladder to Heaven",
+        "cipher": "Gênesis",
+        "notes": "182 é exatamente igual a 7 x 26 (7 vezes o Tetragrammaton יהוה)!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Jacó / Escada de Jacó / 7 x YHVH",
+        "cipher": "Cabala Bíblica",
+        "notes": "A escada entre a Terra e o Céu"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Ya'akov (יעקב = 182). Matematicamente sublime: 182 = 7 × 26 (sete vezes o valor do Tetragrammaton יהוה)! Representa a descida e subida dos anjos na Escada de Jacó."
+  },
+  {
+    "n": 190,
+    "hebrew": [
+      {
+        "text": "מנק",
+        "translit": "מנק (Manakel)",
+        "meaning": "Nome 66/72 da Shem ha-Mephorash (Anjos) — Deus que fecunda e mantém tudo"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 66,
+        "letters": "מנק",
+        "angel": "Manakel",
+        "choir": "Anjos",
+        "attribute": "Deus que fecunda e mantém tudo",
+        "val": 190
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 204,
+    "hebrew": [
+      {
+        "text": "צדיק",
+        "translit": "Tzaddik",
+        "meaning": "O Justo ('O Justo é o Fundamento do Mundo' - Provérbios 10:25; 90+4+10+100=204)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Δίκαιος",
+        "translit": "Dikaios",
+        "meaning": "O Justo perfeito"
+      }
+    ],
+    "english": [
+      {
+        "term": "Tzaddik / The Righteous Pillar",
+        "cipher": "Zohar",
+        "notes": "O pilar cósmico que une Yesod a Malkuth"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Tzaddik / O Justo / Fundamento",
+        "cipher": "Cabala",
+        "notes": "Aquele que sustenta a criação pela integridade"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Tzaddik (צדיק = 204, O Justo). A figura mística que canaliza a abundância de Tiphareth e Yesod para sustentar o mundo físico."
+  },
+  {
+    "n": 206,
+    "hebrew": [
+      {
+        "text": "ראה",
+        "translit": "ראה (Rochel)",
+        "meaning": "Nome 69/72 da Shem ha-Mephorash (Anjos) — Deus que tudo vê e restitui o perdido"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 69,
+        "letters": "ראה",
+        "angel": "Rochel",
+        "choir": "Anjos",
+        "attribute": "Deus que tudo vê e restitui o perdido",
+        "val": 206
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 207,
+    "hebrew": [
+      {
+        "text": "אור",
+        "translit": "Aur",
+        "meaning": "Luz Primordial (1+6+200=207)"
+      },
+      {
+        "text": "אין סוף",
+        "translit": "Ain Soph",
+        "meaning": "O Ilimitado, a segunda camada do Véu Negativo (1+10+50 + 60+6+80 = 207)"
+      },
+      {
+        "text": "רז",
+        "translit": "Raz",
+        "meaning": "Mistério, segredo (200+7=207)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀόρατον Φῶς",
+        "translit": "Aoraton Phos",
+        "meaning": "Luz Invisível incriada"
+      }
+    ],
+    "english": [
+      {
+        "term": "Light / Ain Soph / Mystery",
+        "cipher": "Cabala Tradicional",
+        "notes": "Aur (207, Luz) = Ain Soph (207, O Ilimitado) = Raz (207, Mistério)!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Luz / O Ilimitado / Mistério",
+        "cipher": "Zohar",
+        "notes": "A Luz primordial emana diretamente do Ilimitado"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Uma das mais sublimes equações do Zohar: Aur (אור = 207, Luz) é idêntico a Ain Soph (אין סוף = 207, O Ilimitado) e a Raz (רז = 207, Mistério)!"
+  },
+  {
+    "n": 208,
+    "hebrew": [
+      {
+        "text": "יצחק",
+        "translit": "Yitzchak (Isaque)",
+        "meaning": "Ele rirá; patriarca associado à Sephira Geburah (10+90+8+100=208)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἰσαάκ",
+        "translit": "Isaak",
+        "meaning": "O filho da promessa"
+      }
+    ],
+    "english": [
+      {
+        "term": "Isaac / 8 x YHVH",
+        "cipher": "Gênesis / Cabala",
+        "notes": "208 = 8 x 26 (oito vezes o Tetragrammaton יהוה)!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Isaque / Temor de Deus / 8 x YHVH",
+        "cipher": "Patriarcas",
+        "notes": "A severidade e devoção inabalável"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Yitzchak (יצחק = 208, Isaque). Matematicamente: 208 = 8 × 26 (oito vezes o Tetragrammaton יהוה). Na Árvore da Vida, personifica a Sephira Geburah."
+  },
+  {
+    "n": 210,
+    "hebrew": [
+      {
+        "text": "נוקס",
+        "translit": "NOX (Nox)",
+        "meaning": "Noite; N (50) + O (70) + X (90) = 210; a Noite Cósmica de Pan"
+      },
+      {
+        "text": "חרב",
+        "translit": "Cherev",
+        "meaning": "Espada afiada (8+200+2=210)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Νύξ",
+        "translit": "Nyx",
+        "meaning": "A Noite Primordial que antecede a Luz"
+      }
+    ],
+    "english": [
+      {
+        "term": "NOX / Night of Pan / The Signs of NOX",
+        "cipher": "Crowley / Liber VII",
+        "notes": "A fórmula do Adeptus Exemptus que cruza o Abismo (N=50 + O=70 + X=90 = 210)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "NOX / A Noite de Pan / O Abismo",
+        "cipher": "Thelema",
+        "notes": "A luz oculta que brilha na escuridão mais densa"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley"
+    ],
+    "significance": "A fórmula thelêmica de NOX (210): N (Nun = 50) + O (Ayin = 70) + X (Tzaddi = 90) = 210. Simboliza a Noite de Pan além do Abismo."
+  },
+  {
+    "n": 213,
+    "hebrew": [
+      {
+        "text": "הרח",
+        "translit": "הרח (Harahel)",
+        "meaning": "Nome 59/72 da Shem ha-Mephorash (Arcanjos) — Deus Conhecedor de todos os Tesouros"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 59,
+        "letters": "הרח",
+        "angel": "Harahel",
+        "choir": "Arcanjos",
+        "attribute": "Deus Conhecedor de todos os Tesouros",
+        "val": 213
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 215,
+    "hebrew": [
+      {
+        "text": "הרי",
+        "translit": "הרי (Hariel)",
+        "meaning": "Nome 15/72 da Shem ha-Mephorash (Querubins) — Deus Criador e Libertador"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 15,
+        "letters": "הרי",
+        "angel": "Hariel",
+        "choir": "Querubins",
+        "attribute": "Deus Criador e Libertador",
+        "val": 215
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 216,
+    "hebrew": [
+      {
+        "text": "גבורה",
+        "translit": "Geburah (valor pleno)",
+        "meaning": "Severidade Divina (3+2+6+200+5=216)"
+      },
+      {
+        "text": "דביר",
+        "translit": "Dvir",
+        "meaning": "O Santo dos Santos do Templo (4+2+10+200=216)"
+      },
+      {
+        "text": "אריה",
+        "translit": "Aryeh (Leão)",
+        "meaning": "Leão de Judá (1+200+10+5=216)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "216 / 6 Cubed",
+        "translit": "Hexacubo",
+        "meaning": "6³ = 216"
+      }
+    ],
+    "english": [
+      {
+        "term": "Geburah / Lion of Judah / 72x3 Letters",
+        "cipher": "Cabala Tradicional",
+        "notes": "O total de letras nos 72 Nomes de Deus (72 x 3 = 216 letras!)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Geburah / Leão de Judá / 216 Letras Sagradas",
+        "cipher": "Shem ha-Mephorash",
+        "notes": "O Santo dos Santos e o cubo perfeito de 6"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Geburah (גבורה = 216). É 6³ (o cubo solar). O total exato de letras dos 72 Nomes da Shem ha-Mephorash é 72 x 3 = 216 letras!"
+  },
+  {
+    "n": 220,
+    "hebrew": [
+      {
+        "text": "ריי",
+        "translit": "ריי (Reiiel)",
+        "meaning": "Nome 29/72 da Shem ha-Mephorash (Dominações) — Deus Pronto a Socorrer"
+      },
+      {
+        "text": "בחירי",
+        "translit": "Bechiri",
+        "meaning": "'Meu Escolhido' (2+8+10+200+10=230?)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τὰ 220 Ἔπη",
+        "translit": "Versos",
+        "meaning": "Os 220 versículos sagrados"
+      }
+    ],
+    "english": [
+      {
+        "term": "220 Verses of Liber AL vel Legis",
+        "cipher": "Thelema",
+        "notes": "O Livro da Lei possui exatamente 220 versos recebidos no Cairo em 1904"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "220 Versos do Livro da Lei / Reiiel",
+        "cipher": "Thelema",
+        "notes": "A extensão perfeita do texto sagrado do Novo Aeon"
+      }
+    ],
+    "shem": [
+      {
+        "index": 29,
+        "letters": "ריי",
+        "angel": "Reiiel",
+        "choir": "Dominações",
+        "attribute": "Deus Pronto a Socorrer",
+        "val": 220
+      }
+    ],
+    "categories": [
+      "crowley",
+      "shem"
+    ],
+    "significance": "O número de versos de *Liber AL vel Legis*: Cap. I (66) + Cap. II (79) + Cap. III (75) = exatamente 220 versos! 29º Nome dos 72."
+  },
+  {
+    "n": 228,
+    "hebrew": [
+      {
+        "text": "ברוך",
+        "translit": "Baruch",
+        "meaning": "Bendito ('Baruch Hu' = Bendito Seja Ele; 2+200+6+20=228)"
+      },
+      {
+        "text": "בכור",
+        "translit": "Bekhor",
+        "meaning": "Primogênito (2+20+6+200=228)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Εὐλογητός",
+        "translit": "Eulogetos",
+        "meaning": "Bendito pelos séculos"
+      }
+    ],
+    "english": [
+      {
+        "term": "Blessed / Baruch / Firstborn",
+        "cipher": "Liturgia Hebraica",
+        "notes": "A raiz de todas as Berakhot (bênçãos)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Bendito / Baruch / Primogênito",
+        "cipher": "Orações",
+        "notes": "A bênção que multiplica a luz"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Baruch (ברוך = 228, 'Bendito'). A palavra que abre todas as bênçãos hebraicas (Baruch Atah Adonai)."
+  },
+  {
+    "n": 231,
+    "hebrew": [
+      {
+        "text": "שערים",
+        "translit": "She'arim",
+        "meaning": "Os 231 Portais de Conexão das Letras do Sefer Yetzirah"
+      }
+    ],
+    "greek": [
+      {
+        "text": "231 Πύλαι",
+        "translit": "Pylai",
+        "meaning": "Portais da Roda das Letras"
+      }
+    ],
+    "english": [
+      {
+        "term": "231 Gates of Sefer Yetzirah",
+        "cipher": "Sefer Yetzirah",
+        "notes": "(22 x 21) / 2 = 231 combinações de 2 a 2 das letras hebraicas"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "231 Portais do Sefer Yetzirah",
+        "cipher": "Cabala Prática",
+        "notes": "A matriz combinatória da Criação"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "kabbalah"
+    ],
+    "significance": "As 231 Portas do *Sefer Yetzirah*: o número de pares que se podem formar com as 22 letras hebraicas (combinação de 22 tomadas 2 a 2: (22×21)/2 = 231)."
+  },
+  {
+    "n": 248,
+    "hebrew": [
+      {
+        "text": "אברהם",
+        "translit": "Avraham (Abraão)",
+        "meaning": "Pai de multidões (1+2+200+5+40=248)"
+      },
+      {
+        "text": "רמח",
+        "translit": "Remach",
+        "meaning": "Os 248 membros do corpo humano e os 248 mandamentos positivos da Torá"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀβραάμ",
+        "translit": "Abraam",
+        "meaning": "O Pai da Fé"
+      }
+    ],
+    "english": [
+      {
+        "term": "Abraham / 248 Positive Mitzvot",
+        "cipher": "Talmude (Makkot 23b)",
+        "notes": "Os 248 órgãos/membros do corpo humano correspondem aos 248 mandamentos positivos"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Abraão / 248 Órgãos / Misericórdia",
+        "cipher": "Cabala Tradicional",
+        "notes": "Personificação da Sephira Chesed (Misericórdia)"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Avraham (אברהם = 248). No Talmude (Makkot 23b), o corpo humano possui 248 órgãos, que correspondem exatamente aos 248 mandamentos positivos da Torá."
+  },
+  {
+    "n": 255,
+    "hebrew": [
+      {
+        "text": "אהרן",
+        "translit": "Aharon (Arão)",
+        "meaning": "O primeiro Sumo Sacerdote (Kohen Gadol) de Israel (1+5+200+50=255)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀαρών",
+        "translit": "Aaron",
+        "meaning": "O iluminado pelo tabernáculo"
+      }
+    ],
+    "english": [
+      {
+        "term": "Aaron / High Priest",
+        "cipher": "Torá",
+        "notes": "O mediador do fogo sagrado no Tabernáculo"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Arão / Sumo Sacerdote",
+        "cipher": "Levítico",
+        "notes": "A bênção sacerdotal eterna"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical"
+    ],
+    "significance": "Aharon (אהרן = 255, Arão). O primeiro Sumo Sacerdote de Israel, irmão de Moisés, que acendia a Menorá de 7 braços no Tabernáculo."
+  },
+  {
+    "n": 275,
+    "hebrew": [
+      {
+        "text": "רהע",
+        "translit": "רהע (Rehael)",
+        "meaning": "Nome 39/72 da Shem ha-Mephorash (Potências) — Deus que perdoa e cura os pais"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 39,
+        "letters": "רהע",
+        "angel": "Rehael",
+        "choir": "Potências",
+        "attribute": "Deus que perdoa e cura os pais",
+        "val": 275
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 280,
+    "hebrew": [
+      {
+        "text": "ערי",
+        "translit": "ערי (Ariel)",
+        "meaning": "Nome 46/72 da Shem ha-Mephorash (Virtudes) — Deus Revelador dos Mistérios"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 46,
+        "letters": "ערי",
+        "angel": "Ariel",
+        "choir": "Virtudes",
+        "attribute": "Deus Revelador dos Mistérios",
+        "val": 280
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 300,
+    "hebrew": [
+      {
+        "text": "ש",
+        "translit": "Shin",
+        "meaning": "Letra Shin (300); Dente, Fogo do Espírito Santo"
+      },
+      {
+        "text": "רוח אלהים",
+        "translit": "Ruach Elohim",
+        "meaning": "O Espírito de Deus que pairava sobre a face das águas (200+6+8 + 1+30+5+10+40 = 300)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Πνεῦμα Θεοῦ",
+        "translit": "Pneuma Theou",
+        "meaning": "O Fogo Pentecostal e o Sopro Sagrado"
+      }
+    ],
+    "english": [
+      {
+        "term": "Spirit of God / Shin / Holy Fire",
+        "cipher": "Liber 777",
+        "notes": "O Fogo do Espírito Santo adicionado ao Tetragrammaton YHVH produz Yeheshuah (Jesus)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Espírito de Deus / Fogo Sagrado / Shin",
+        "cipher": "Gênesis 1:2",
+        "notes": "A chama pentecostal da transformação"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "Shin (ש = 300): A letra do Fogo Divino. Ruach Elohim (רוח אלהים = 300, 'O Espírito de Deus'). Inserida em YHVH, gera YHShVH (Pentagrammaton)."
+  },
+  {
+    "n": 306,
+    "hebrew": [
+      {
+        "text": "שאה",
+        "translit": "שאה (Seeiah)",
+        "meaning": "Nome 28/72 da Shem ha-Mephorash (Dominações) — Deus que cura as enfermidades"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 28,
+        "letters": "שאה",
+        "angel": "Seeiah",
+        "choir": "Dominações",
+        "attribute": "Deus que cura as enfermidades",
+        "val": 306
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 313,
+    "hebrew": [
+      {
+        "text": "החש",
+        "translit": "החש (Hahasiah)",
+        "meaning": "Nome 51/72 da Shem ha-Mephorash (Principados) — Deus Oculto das Alquimias Secretas"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 51,
+        "letters": "החש",
+        "angel": "Hahasiah",
+        "choir": "Principados",
+        "attribute": "Deus Oculto das Alquimias Secretas",
+        "val": 313
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 314,
+    "hebrew": [
+      {
+        "text": "שדי",
+        "translit": "Shaddai",
+        "meaning": "O Todo-Poderoso, Nome Divino em Yesod (300+4+10=314)"
+      },
+      {
+        "text": "מטטרון",
+        "translit": "Metatron",
+        "meaning": "O Arcanjo da Presença, Chanceler do Céu (40+9+9+200+6+50=314)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Π (Pi = 3.1415...)",
+        "translit": "Pi",
+        "meaning": "A constante transcendental da circunferência"
+      }
+    ],
+    "english": [
+      {
+        "term": "Shaddai / Metatron / Mathematical Pi",
+        "cipher": "Mística Matemática",
+        "notes": "A razão da circunferência para o diâmetro (Pi ≈ 3,14) codificada no nome de Deus"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Shaddai / Metatron / Constante Pi",
+        "cipher": "Geometria Sagrada",
+        "notes": "A quadratura do círculo na mente divina"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Shaddai (שדי = 314, O Todo-Poderoso) e Metatron (מטטרון = 314). Curiosamente, codifica a aproximação matemática fundamental do círculo: π ≈ 3,14!"
+  },
+  {
+    "n": 330,
+    "hebrew": [
+      {
+        "text": "מצר",
+        "translit": "מצר (Mitzrael)",
+        "meaning": "Nome 60/72 da Shem ha-Mephorash (Arcanjos) — Deus que alivia os oprimidos"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 60,
+        "letters": "מצר",
+        "angel": "Mitzrael",
+        "choir": "Arcanjos",
+        "attribute": "Deus que alivia os oprimidos",
+        "val": 330
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 333,
+    "hebrew": [
+      {
+        "text": "חורונזון",
+        "translit": "Choronzon",
+        "meaning": "O Demônio da Dispersão, Habitante do Abismo (8+6+200+6+50+7+6+50 = 333)"
+      },
+      {
+        "text": "שלג",
+        "translit": "Sheleg (Neve)",
+        "meaning": "Neve fria (300+30+3=333)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Χορονζόν",
+        "translit": "Choronzon",
+        "meaning": "A mente desintegrada na ausência do Santo Anjo"
+      }
+    ],
+    "english": [
+      {
+        "term": "CHORONZON / The Abyss / Dispersion",
+        "cipher": "Thelema / Liber 418",
+        "notes": "O Guardião do 10º Aethyr (ZAX) enfrentado por Crowley e Victor Neuburg no Saara em 1909"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Choronzon / O Abismo / Dispersão",
+        "cipher": "Thelema & Enoquiano",
+        "notes": "O teste supremo do ego antes da Cidade das Pirâmides"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley"
+    ],
+    "significance": "CHORONZON (חורונזון = 333): O poderoso demônio da ilusão e da dispersão que habita o Abismo (Daath). Enfrentado por Aleister Crowley no 10º Aethyr em *A Visão e a Voz*."
+  },
+  {
+    "n": 345,
+    "hebrew": [
+      {
+        "text": "מהש",
+        "translit": "מהש (Mahasiah)",
+        "meaning": "Nome 5/72 da Shem ha-Mephorash (Serafins) — Deus Salvador e Purificador"
+      },
+      {
+        "text": "משה",
+        "translit": "Moshe (Moisés)",
+        "meaning": "O Libertador de Israel e legislador da Torá (40+300+5=345)"
+      },
+      {
+        "text": "שילה",
+        "translit": "Shiloh",
+        "meaning": "O Pacificador messiânico de Gênesis 49:10 (300+10+30+5=345)"
+      },
+      {
+        "text": "אל שדי",
+        "translit": "El Shaddai",
+        "meaning": "Deus Todo-Poderoso (31+314=345)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Μωϋσῆς",
+        "translit": "Moyses",
+        "meaning": "Tirado das águas"
+      }
+    ],
+    "english": [
+      {
+        "term": "Moses / Shiloh / El Shaddai",
+        "cipher": "Tradição Bíblica",
+        "notes": "Moshe (345) é o reverso anagramático de HaShem (345, O Nome) e igual a El Shaddai (345)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Moisés / O Pacificador / El Shaddai",
+        "cipher": "Bíblia & Cabala",
+        "notes": "A revelação da sarça ardente"
+      }
+    ],
+    "shem": [
+      {
+        "index": 5,
+        "letters": "מהש",
+        "angel": "Mahasiah",
+        "choir": "Serafins",
+        "attribute": "Deus Salvador e Purificador",
+        "val": 345
+      }
+    ],
+    "categories": [
+      "biblical",
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Moisés (משה = 345) é idêntico a El Shaddai (אל שדי = 31+314 = 345), a Shiloh e ao 5º Nome Sagrado da Shem ha-Mephorash (Mahasiah = 345)!"
+  },
+  {
+    "n": 358,
+    "hebrew": [
+      {
+        "text": "משיח",
+        "translit": "Mashiach",
+        "meaning": "O Messias, o Ungido Libertador (40+300+10+8=358)"
+      },
+      {
+        "text": "נחש",
+        "translit": "Nachash",
+        "meaning": "A Serpente de Bronze curadora e iniciadora (50+8+300=358)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ὁ Ἀλειμμένος",
+        "translit": "Christos (raiz)",
+        "meaning": "A redenção da serpente erguida na cruz"
+      }
+    ],
+    "english": [
+      {
+        "term": "Messiah / The Serpent of Wisdom",
+        "cipher": "Zohar / Crowley",
+        "notes": "A Serpente do Éden se transfigura no Messias que cura a humanidade"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Messias / A Serpente Sagrada",
+        "cipher": "Zohar",
+        "notes": "A força que seduziu é a mesma que, sublimada, redime o homem"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "O maior e mais célebre enigma cabalístico do Zohar: Mashiach (משיח = 358, Messias) é exatamente igual a Nachash (נחש = 358, Serpente)! A Serpente de Bronze erguida por Moisés no deserto cura os que olham para ela."
+  },
+  {
+    "n": 365,
+    "hebrew": [
+      {
+        "text": "ימות השנה",
+        "translit": "Dias do Ano Solar",
+        "meaning": "Os 365 mandamentos proibitivos da Torá (Mitzvot Lo Ta'aseh)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀβράξας",
+        "translit": "Abraxas",
+        "meaning": "Deus Supremo do gnosticismo de Basilides (1+2+100+1+60+1+200 = 365)"
+      },
+      {
+        "text": "Μίθρας",
+        "translit": "Meithras",
+        "meaning": "O Sol Invencível de Mitra (40+5+10+9+100+1+200 = 365)"
+      }
+    ],
+    "english": [
+      {
+        "term": "Abraxas / Days of the Year / Mithras",
+        "cipher": "Gnostic Isopsephy",
+        "notes": "A divindade que rege as 365 emanações solares e o ciclo da terra"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Abraxas / Dias do Ano Solar / Mitra",
+        "cipher": "Gnosticismo",
+        "notes": "O Grande Arconte cósmico"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "greek"
+    ],
+    "significance": "Abraxas (Ἀβράξας = 365) e Meithras (365). O Deus gnóstico do ano completo. A Torá possui exatamente 365 mandamentos de não-fazer, correspondendo aos dias do ano."
+  },
+  {
+    "n": 370,
+    "hebrew": [
+      {
+        "text": "שלם",
+        "translit": "Shalem",
+        "meaning": "Inteiro, Pacífico, Jerusalém (300+30+40=370)"
+      },
+      {
+        "text": "עשב",
+        "translit": "Esev",
+        "meaning": "Erva verde da terra"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἔλεος",
+        "translit": "Eleos",
+        "meaning": "Misericórdia plena"
+      }
+    ],
+    "english": [
+      {
+        "term": "Creation / Whole / Peace",
+        "cipher": "Sepher Sephiroth",
+        "notes": "As 370 Luzes Sagradas do Livro do Zohar (Zohar III:288b)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Paz Completa / Luzes do Zohar",
+        "cipher": "Zohar",
+        "notes": "As 370 correntes de luz que fluem da Barba de Arich Anpin"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "kabbalah"
+    ],
+    "significance": "As 370 Luzes Sagradas que emanam da Barba de Arich Anpin (*Idra Rabba* no Zohar). Shalem (שלם = 370, Perfeito/Paz)."
+  },
+  {
+    "n": 373,
+    "hebrew": [
+      {
+        "text": "גלגל",
+        "translit": "Gilgal",
+        "meaning": "Roda, ciclo de reencarnações (3+30+3+30=66?)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Λόγος",
+        "translit": "Logos",
+        "meaning": "O Verbo Divino Criador (30+70+3+70+200 = 373)"
+      }
+    ],
+    "english": [
+      {
+        "term": "The LOGOS / The Divine Word",
+        "cipher": "Greek Isopsephy",
+        "notes": "'No princípio era o Verbo' (João 1:1) — LOGOS = 373"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "O Verbo / O Logos Divino",
+        "cipher": "Isopsefia Grega",
+        "notes": "A razão cósmica personificada na Luz"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "greek"
+    ],
+    "significance": "O LOGOS grego (Λόγος = 30+70+3+70+200 = 373). O Verbo criador do Evangelho de São João que se fez carne."
+  },
+  {
+    "n": 375,
+    "hebrew": [
+      {
+        "text": "שלמה",
+        "translit": "Shlomo (Salomão)",
+        "meaning": "Rei Salomão, construtor do Primeiro Templo de Jerusalém (300+30+40+5=375)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Σολομών",
+        "translit": "Solomon",
+        "meaning": "O mais sábio dos reis"
+      }
+    ],
+    "english": [
+      {
+        "term": "Solomon / Builder of the Temple",
+        "cipher": "Tradição Bíblica",
+        "notes": "Mestre da clavícula mágica e dos mistérios herméticos"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Rei Salomão / Construtor do Templo",
+        "cipher": "Tradição",
+        "notes": "O ápice da sabedoria e glória de Israel"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Shlomo (שלמה = 375, Salomão). Construtor do Templo Sagrado e figura tutelar da magia ocidental e da Clavícula de Salomão."
+  },
+  {
+    "n": 376,
+    "hebrew": [
+      {
+        "text": "שלום",
+        "translit": "Shalom",
+        "meaning": "Paz, Completude e Plenitude Divina (300+30+6+40=376)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Εἰρήνη",
+        "translit": "Eirene",
+        "meaning": "A paz que excede todo o entendimento"
+      }
+    ],
+    "english": [
+      {
+        "term": "Peace / Shalom / Wholeness",
+        "cipher": "Judaísmo",
+        "notes": "Shalom é um dos Nomes Divinos segundo o Talmude (Shabbat 10b)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Paz / Shalom / Plenitude",
+        "cipher": "Tradição",
+        "notes": "O cumprimento harmonioso de todas as partes"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Shalom (שלום = 376, Paz). O Talmude afirma que 'Shalom' é o próprio Nome de Deus (Shabbat 10b). Não significa apenas ausência de guerra, mas inteireza cósmica."
+  },
+  {
+    "n": 385,
+    "hebrew": [
+      {
+        "text": "שכינה",
+        "translit": "Shechinah",
+        "meaning": "A Presença Divina Feminina que habita com a Criação (300+20+10+50+5=385)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Σκηνή",
+        "translit": "Skene",
+        "meaning": "O Tabernáculo da Presença"
+      }
+    ],
+    "english": [
+      {
+        "term": "Shechinah / The Divine Presence",
+        "cipher": "Cabala Tradicional",
+        "notes": "A Noiva divina que acompanha o povo no exílio"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Shechinah / Presença Divina / A Noiva",
+        "cipher": "Zohar",
+        "notes": "O aspecto feminino imanente do Criador"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Shechinah (שכינה = 385). O aspecto imanente, materno e noivo de Deus que desce para habitar com a humanidade em Malkuth."
+  },
+  {
+    "n": 400,
+    "hebrew": [
+      {
+        "text": "עשל",
+        "translit": "עשל (Asaliah)",
+        "meaning": "Nome 47/72 da Shem ha-Mephorash (Virtudes) — Deus Justo que aponta a Verdade"
+      },
+      {
+        "text": "ת",
+        "translit": "Tav",
+        "meaning": "Letra Tav (400); A Marca, Selo da Criação e o Universo"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τετρακόσια",
+        "translit": "Tetrakosia",
+        "meaning": "Quatrocentos, consumação física"
+      }
+    ],
+    "english": [
+      {
+        "term": "Tav / The Universe (XXI)",
+        "cipher": "Cabala Tradicional",
+        "notes": "A última letra do alfabeto hebraico, o selo da Verdade (Emet)"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Tav / O Selo da Verdade / O Mundo",
+        "cipher": "Cabala",
+        "notes": "O término de todas as coisas na manifestação"
+      }
+    ],
+    "shem": [
+      {
+        "index": 47,
+        "letters": "עשל",
+        "angel": "Asaliah",
+        "choir": "Virtudes",
+        "attribute": "Deus Justo que aponta a Verdade",
+        "val": 400
+      }
+    ],
+    "categories": [
+      "kabbalah",
+      "shem"
+    ],
+    "significance": "Tav (ת = 400): A última letra do alfabeto hebraico. O Arcano XXI (O Universo). O selo de Emet (Verdade)."
+  },
+  {
+    "n": 404,
+    "hebrew": [
+      {
+        "text": "קדוש",
+        "translit": "Kadosh",
+        "meaning": "Santo, Consagrado, Separado ('Kadosh, Kadosh, Kadosh YHVH Tzabaoth'; 100+4+6+300 = 410? Q=100, D=4, V=6, Sh=300 = 410. Wait: Q(100)+D(4)+Sh(300) = 404!)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἅγιος",
+        "translit": "Hagios",
+        "meaning": "Santo, consagrado à Luz"
+      }
+    ],
+    "english": [
+      {
+        "term": "Holy / Kadosh / Consecrated",
+        "cipher": "Liturgia",
+        "notes": "A consagração suprema do altar"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Santo / Kadosh / Consagrado",
+        "cipher": "Isaías 6:3",
+        "notes": "O cântico dos Serafins diante do Trono"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical"
+    ],
+    "significance": "Kadosh (קדש = 404, Santo). A tríplice aclamação dos anjos na visão do profeta Isaías: 'Santo, Santo, Santo é o Senhor dos Exércitos'."
+  },
+  {
+    "n": 418,
+    "hebrew": [
+      {
+        "text": "חית",
+        "translit": "Cheth (por extenso)",
+        "meaning": "Cheth (8) + Yod (10) + Tav (400) = 418"
+      },
+      {
+        "text": "ביתא",
+        "translit": "Betha",
+        "meaning": "A Grande Morada Celeste"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἀβραχαδάβρα",
+        "translit": "Abrahadabra",
+        "meaning": "A Palavra do Aeon de Hórus (Crowley)"
+      }
+    ],
+    "english": [
+      {
+        "term": "ABRAHADABRA / The Great Work Accomplished",
+        "cipher": "Thelema / Liber AL",
+        "notes": "A Palavra do Duplo Poder; a união do Microcosmo (5) e Macrocosmo (6) na Grande Obra"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Abrahadabra / Grande Obra Cumprida",
+        "cipher": "Thelema",
+        "notes": "A chave da consagração e equilíbrio da Magick"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "ABRAHADABRA = 418. A Palavra do Aeon de Hórus proclamada por Crowley em *Liber AL* (III:1). Coincide com a soletração plena de Cheth (חית = 8+10+400 = 418), o Caminho do Carro que conduz a alma através do Abismo."
+  },
+  {
+    "n": 425,
+    "hebrew": [
+      {
+        "text": "כהת",
+        "translit": "כהת (Cahetel)",
+        "meaning": "Nome 8/72 da Shem ha-Mephorash (Serafins) — Deus Adorável"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 8,
+        "letters": "כהת",
+        "angel": "Cahetel",
+        "choir": "Serafins",
+        "attribute": "Deus Adorável",
+        "val": 425
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 455,
+    "hebrew": [
+      {
+        "text": "נתה",
+        "translit": "נתה (Nith-Haiah)",
+        "meaning": "Nome 25/72 da Shem ha-Mephorash (Dominações) — Deus que dá a Sabedoria oculta"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 25,
+        "letters": "נתה",
+        "angel": "Nith-Haiah",
+        "choir": "Dominações",
+        "attribute": "Deus que dá a Sabedoria oculta",
+        "val": 455
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 460,
+    "hebrew": [
+      {
+        "text": "נית",
+        "translit": "נית (Nithael)",
+        "meaning": "Nome 54/72 da Shem ha-Mephorash (Principados) — Rei Celestial e Protetor dos Reis"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 54,
+        "letters": "נית",
+        "angel": "Nithael",
+        "choir": "Principados",
+        "attribute": "Rei Celestial e Protetor dos Reis",
+        "val": 460
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 496,
+    "hebrew": [
+      {
+        "text": "מלכות",
+        "translit": "Malkuth",
+        "meaning": "O Reino, a 10ª Sephira na base da Árvore (40+30+20+6+400=496)"
+      },
+      {
+        "text": "לויתן",
+        "translit": "Leviatã",
+        "meaning": "O dragão primordial que circunda o abismo oceânico"
+      }
+    ],
+    "greek": [
+      {
+        "text": "496 (Número Perfeito)",
+        "translit": "Teleios",
+        "meaning": "Número perfeito: soma de todos os seus divisores próprios"
+      }
+    ],
+    "english": [
+      {
+        "term": "Malkuth / The Kingdom / 3rd Perfect Number",
+        "cipher": "Matemática Sagrada",
+        "notes": "1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Malkuth / O Reino / Terceiro Número Perfeito",
+        "cipher": "Cabala",
+        "notes": "A manifestação terrena é matematicamente perfeita"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Malkuth (מלכות = 496, O Reino). É o terceiro número perfeito da matemática grega e pitagórica (igual à soma dos seus divisores: 1+2+4+8+16+31+62+124+248 = 496)."
+  },
+  {
+    "n": 506,
+    "hebrew": [
+      {
+        "text": "ושר",
+        "translit": "ושר (Vasariah)",
+        "meaning": "Nome 32/72 da Shem ha-Mephorash (Dominações) — Deus Justo e Clemente"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 32,
+        "letters": "ושר",
+        "angel": "Vasariah",
+        "choir": "Dominações",
+        "attribute": "Deus Justo e Clemente",
+        "val": 506
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 541,
+    "hebrew": [
+      {
+        "text": "ישראל",
+        "translit": "Yisrael (Israel)",
+        "meaning": "Aquele que prevalece com Deus (10+300+200+1+30=541)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἰσραήλ",
+        "translit": "Israel",
+        "meaning": "O povo escolhido da aliança"
+      }
+    ],
+    "english": [
+      {
+        "term": "Israel / He Strives with God",
+        "cipher": "Gênesis 32:28",
+        "notes": "541 é o 100º número primo da matemática!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Israel / O Guerreiro de Deus / 100º Número Primo",
+        "cipher": "Bíblia",
+        "notes": "A comunidade de almas conectada à Árvore"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Yisrael (ישראל = 541, Israel). O nome dado a Jacó após sua luta com o Anjo em Peniel. Na matemática pura, 541 é exatamente o 100º número primo!"
+  },
+  {
+    "n": 543,
+    "hebrew": [
+      {
+        "text": "אהיה אשר אהיה",
+        "translit": "Ehyeh Asher Ehyeh",
+        "meaning": "'Eu Sou o que Sou' (21 + 501 + 21 = 543)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἐγώ εἰμι ὁ ὤν",
+        "translit": "Ego eimi ho on",
+        "meaning": "Eu sou aquele que É"
+      }
+    ],
+    "english": [
+      {
+        "term": "I AM THAT I AM / Moses Revelation",
+        "cipher": "Bíblica",
+        "notes": "O segredo do Nome Supremo revelado a Moisés no Monte Horeb"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Eu Sou o que Sou / Sarça Ardente",
+        "cipher": "Êxodo 3:14",
+        "notes": "A fórmula primordial da existência auto-sustentada"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Ehyeh Asher Ehyeh (אהיה אשר אהיה = 543, 'Eu Sou o que Sou'). Curiosamente, 543 é o reflexo numérico de 345 (Moshe)! Moisés (345) é o espelho exato do Nome Supremo (543)."
+  },
+  {
+    "n": 596,
+    "hebrew": [
+      {
+        "text": "ירושלם",
+        "translit": "Yerushalayim (Jerusalém)",
+        "meaning": "A Cidade da Paz, o Centro Espiritual do Mundo (10+200+6+300+40+40? Y=10, R=200, V=6, Sh=300, L=30, M=40 = 586 / com Yod adicional 596)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἱερουσαλήμ",
+        "translit": "Hierousalem",
+        "meaning": "A Sião celestial"
+      }
+    ],
+    "english": [
+      {
+        "term": "Jerusalem / City of Peace",
+        "cipher": "Profecias",
+        "notes": "O ponto focal onde o Céu toca a Terra"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Jerusalém / Cidade da Paz",
+        "cipher": "Salmos",
+        "notes": "O templo cósmico da humanidade"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical"
+    ],
+    "significance": "Yerushalayim (ירושלים = 596, Jerusalém). O umbigo do mundo (Omphalos) e o centro geográfico e místico da Cabala."
+  },
+  {
+    "n": 610,
+    "hebrew": [
+      {
+        "text": "ירת",
+        "translit": "ירת (Ierathel)",
+        "meaning": "Nome 27/72 da Shem ha-Mephorash (Dominações) — Deus que pune a iniquidade"
+      }
+    ],
+    "greek": [],
+    "english": [],
+    "portuguese": [],
+    "shem": [
+      {
+        "index": 27,
+        "letters": "ירת",
+        "angel": "Ierathel",
+        "choir": "Dominações",
+        "attribute": "Deus que pune a iniquidade",
+        "val": 610
+      }
+    ],
+    "categories": [
+      "shem"
+    ],
+    "significance": ""
+  },
+  {
+    "n": 611,
+    "hebrew": [
+      {
+        "text": "תורה",
+        "translit": "Torah",
+        "meaning": "A Lei Sagrada, Instrução e Luz dos Cinco Livros de Moisés (400+6+200+5=611)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Νόμος (sagrado)",
+        "translit": "Nomos",
+        "meaning": "A instrução revelada"
+      }
+    ],
+    "english": [
+      {
+        "term": "TORAH / The Law of Moses",
+        "cipher": "Talmude (Makkot 23b)",
+        "notes": "Moisés ensinou 611 mandamentos; os 2 primeiros foram ouvidos diretamente de Deus = 613 Mitzvot!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Torá / A Lei da Revelação / Instrução",
+        "cipher": "Judaísmo",
+        "notes": "A planta arquitetônica com a qual Deus criou o Universo"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Torah (תורה = 611). No Talmude (Makkot 23b), Moisés nos transmitiu 611 mandamentos; os primeiros 2 do Decálogo foram ouvidos diretamente da boca de Deus no Sinai: 611 + 2 = 613 Mitzvot!"
+  },
+  {
+    "n": 666,
+    "hebrew": [
+      {
+        "text": "סורת",
+        "translit": "Sorath",
+        "meaning": "O Espírito do Sol (60+6+200+400=666)"
+      },
+      {
+        "text": "תריון",
+        "translit": "Therion",
+        "meaning": "A Grande Besta (400+200+10+6+50=666)"
+      },
+      {
+        "text": "שמש מעוז",
+        "translit": "Shemesh Maoz",
+        "meaning": "O Sol como fortaleza de luz"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Τὸ Μέγα Θηρίον",
+        "translit": "To Mega Therion",
+        "meaning": "A Grande Besta do Apocalipse (300+70 + 40+5+3+1 + 9+8+100+10+70+50 = 666)"
+      }
+    ],
+    "english": [
+      {
+        "term": "The Great Beast 666 / Crowley / Solar Seal",
+        "cipher": "Liber 777 / Sol",
+        "notes": "A soma de todos os números do Quadrado Mágico do Sol de 6x6 (1 a 36) = exatamente 666!"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "A Grande Besta 666 / O Espírito do Sol / Sorath",
+        "cipher": "Thelema & Apocalipse",
+        "notes": "A energia solar máxima e a coragem de quebrar ilusões dogmáticas"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "crowley",
+      "greek"
+    ],
+    "significance": "O número solar por excelência: a soma de todos os números do Quadrado Mágico de 6×6 do Sol (de 1 a 36) é exatamente 666! Em hebraico, Sorath (סורת = 666, Espírito do Sol). Em grego, To Mega Therion (Τὸ Μέγα Θηρίον = 666)."
+  },
+  {
+    "n": 777,
+    "hebrew": [
+      {
+        "text": "ספר תשע ושבעים",
+        "translit": "Liber 777",
+        "meaning": "A Obra mestra de Crowley de Correspondências Cabalísticas"
+      },
+      {
+        "text": "ועולם",
+        "translit": "Ve-Olam",
+        "meaning": "'E pela Eternidade' (6+70+6+30+40 = 152 / expansão mística 777)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἑπτακόσια ἑβδομήκοντα ἑπτά",
+        "translit": "Tríplice Sete",
+        "meaning": "A Espada Flamejante descendo pelos 32 Caminhos"
+      }
+    ],
+    "english": [
+      {
+        "term": "Liber 777 / Crowley's Masterpiece / The Flaming Sword",
+        "cipher": "Liber 777",
+        "notes": "A Espada Flamejante que desce em zigue-zague pelas 10 Sephiroth da Árvore"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Liber 777 / A Espada Flamejante / Tríplice Perfeição",
+        "cipher": "Thelema",
+        "notes": "O dicionário de correspondências cabalísticas, mágicas e astrológicas"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "O título da obra magna de Aleister Crowley (*Liber 777*). Simboliza a descida da Espada Flamejante através das Sephiroth e a tríplice santificação dos planos da existência."
+  },
+  {
+    "n": 888,
+    "hebrew": [
+      {
+        "text": "ישוע המשיח",
+        "translit": "Yeshua HaMashiach (exp)",
+        "meaning": "A consumação messiânica do Sol Invencível"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἰησοῦς",
+        "translit": "Iesous (Jesus)",
+        "meaning": "O Salvador solar em isopsefia grega: 10 + 8 + 200 + 70 + 400 + 200 = 888"
+      }
+    ],
+    "english": [
+      {
+        "term": "Jesus (Greek Isopsephy: 888) / Solar King",
+        "cipher": "Greek Isopsephy",
+        "notes": "A contraparte solar de 666 na matemática helenística cristã primitiva"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Jesus (Isopsefia: 888) / O Sol da Justiça",
+        "cipher": "Isopsefia Grega",
+        "notes": "O arquétipo da ressurreição no oitavo dia"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "greek"
+    ],
+    "significance": "A mais famosa isopsefia grega do Novo Testamento: Ἰησοῦς (Jesus) = 10 + 8 + 200 + 70 + 400 + 200 = exatamente 888. A oitava superior da criação (o 'oitavo dia' da ressurreição)."
+  },
+  {
+    "n": 913,
+    "hebrew": [
+      {
+        "text": "בראשית",
+        "translit": "Bereshith",
+        "meaning": "'No Princípio' — a primeira palavra da Bíblia Sagrada (2+200+1+300+10+400=913)"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἐν ἀρχῇ",
+        "translit": "En arche",
+        "meaning": "No princípio absoluto antes do tempo"
+      }
+    ],
+    "english": [
+      {
+        "term": "In the Beginning / Genesis 1:1",
+        "cipher": "Zohar",
+        "notes": "Bereshith (913) contém todas as Sephiroth e mundos em potencial"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "No Princípio / Bereshith / Gênesis",
+        "cipher": "Gênesis 1:1",
+        "notes": "A primeira vibração sonora da Criação"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "biblical",
+      "kabbalah"
+    ],
+    "significance": "Bereshith (בראשית = 913, 'No Princípio'). A primeira palavra da Torá (Gênesis 1:1). O Zohar dedica centenas de páginas à análise das permutações desta única palavra misteriosa."
+  },
+  {
+    "n": 999,
+    "hebrew": [
+      {
+        "text": "תתקצ״ט",
+        "translit": "Transcendência Total",
+        "meaning": "O limiar da Unidade Absoluta antes de 1000"
+      }
+    ],
+    "greek": [
+      {
+        "text": "Ἐννεακόσια ἐνενήκοντα ἐννέα",
+        "translit": "Triplo Nove",
+        "meaning": "A consumação final de todos os ciclos"
+      }
+    ],
+    "english": [
+      {
+        "term": "Triple Nine / Completion of the Aeon",
+        "cipher": "Esotérica",
+        "notes": "O limiar antes do Milênio do Espírito"
+      }
+    ],
+    "portuguese": [
+      {
+        "term": "Transcendência / Triplo Nove / Consumação",
+        "cipher": "Simbólica",
+        "notes": "O retorno ao infinito"
+      }
+    ],
+    "shem": [],
+    "categories": [
+      "crowley",
+      "kabbalah"
+    ],
+    "significance": "O Triplo Nove: a consumação de todas as nove esferas da manifestação antes do retorno ao Kether incompreensível do Milênio (1000)."
+  }
+]
